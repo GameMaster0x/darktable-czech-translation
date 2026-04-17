@@ -22,5 +22,12 @@ Našim cílem je kvalitní překlad GUI RAW editoru darktable. Tento repozitář
 - Samotný proces překladu je jednoduchý. Vycházíme z oficiální dokumentace překladu dostupné [zde](https://github.com/darktable-org/darktable/blob/master/doc/TRANSLATORS.md). Abychom mohli řešit změny společně jako česká komunita, změny se dějí v tomto repozitáři a teprve poté jsou formou pull requestu předány do  [master repozitáře darktable. ](https://github.com/darktable-org/darktable/tree/master)
 - Každý z překladatelů může mít vlastní představu o správné formě představu, není zde však mnoho prostoru pro vlastní invenci, chceme se držet co nejblíže oficiální terminologii. Pokud narazíte na nepřesný překlad, vytvořte Issue, ať nad změnami můžeme diskutovat.  
 
+# Jak na to
+1. Naklonujte si tento repozitář. (obsahuje cs.po & darktable.pot, nechť jsou v jedné složce)
+2. Otevřete soubor cs.po v překladačském softwaru, například POEDIT.
+3. V POEDIT: [Catalog] -> [Update from POT file...] a vyberte soubor darktable.pot.
+4. Překládejte řetězce.
+5. Vytvořte pull request.
+6. Pokud bude vše ok, změny se propíšou.
 
 
