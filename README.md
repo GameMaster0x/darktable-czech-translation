@@ -2,6 +2,13 @@
 Tento repozitář je v procesu tvorby, další informace budou postupně přidávány. 
 
 Našim cílem je kvalitní překlad GUI RAW editoru darktable. Tento repozitář slouží ke komunitnímu překladu, korekci chyb, návrhům a trackování změn tak, aby panoval konsenzus, terminologie byla přesná a překlad nebyl strojový. Díky kvalitnímu překladu mohou dakrtable 
+
+## Proč je překlad důležitý
+- zpřístupňuje neanglicky mluvícím uživatelům software, který by byl normálně za jazykovou bariérou
+- snižuje chybovost používání, uživatel se rychleji učí fungování a workflow
+- dělá software uživatelsky přívětivější
+- rozšiřuje super komunitu
+- podporuje open-source prostředí a mindset
 ## Stav překladu 
 - Momentální stav překladu vychází především z práce Jana Šmucra a Petra Stasiaka. Většina překladu je ovšem strojová s nízkou mírou konzistence terminologie, mnoho překladů je zcela doslovných a neodpovídají současným nárokům odborného překladu
  - Aktuálně probíhá rozsáhlá práce na korekcích a překladech doposud nepřeložených řetězců. 
