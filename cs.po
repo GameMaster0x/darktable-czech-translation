@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-11 11:40+0200\n"
-"PO-Revision-Date: 2026-04-19 22:45+0200\n"
+"PO-Revision-Date: 2026-04-19 22:53+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr <jan.smucr@gmail.com>, Petr Stasiak "
 "<petr@stasiak.cz>\n"
@@ -417,16 +417,14 @@ msgid "high"
 msgstr "vysoký"
 
 #: ../build/bin/conf_gen.h:1933 ../build/bin/preferences_gen.h:3170
-#, fuzzy
 msgctxt "preferences"
 msgid "false color"
-msgstr "nepravá barva"
+msgstr "nepravé barvy"
 
 #: ../build/bin/conf_gen.h:1934
-#, fuzzy
 msgctxt "preferences"
 msgid "grayscale"
-msgstr "odstíny šedi"
+msgstr "stupně šedi"
 
 #: ../build/bin/conf_gen.h:1953
 #, fuzzy
@@ -611,37 +609,31 @@ msgid "histogram"
 msgstr "histogram"
 
 #: ../build/bin/conf_gen.h:4049
-#, fuzzy
 msgctxt "preferences"
 msgid "left"
 msgstr "levý"
 
 #: ../build/bin/conf_gen.h:4050 ../build/bin/preferences_gen.h:4483
-#, fuzzy
 msgctxt "preferences"
 msgid "right"
 msgstr "pravý"
 
 #: ../build/bin/conf_gen.h:4069 ../build/bin/conf_gen.h:4114
-#, fuzzy
 msgctxt "preferences"
 msgid "logarithmic"
 msgstr "logaritmický"
 
 #: ../build/bin/conf_gen.h:4070 ../build/bin/conf_gen.h:4115
-#, fuzzy
 msgctxt "preferences"
 msgid "linear"
 msgstr "lineární"
 
 #: ../build/bin/conf_gen.h:4080
-#, fuzzy
 msgctxt "preferences"
 msgid "horizontal"
 msgstr "horizontální"
 
 #: ../build/bin/conf_gen.h:4081
-#, fuzzy
 msgctxt "preferences"
 msgid "vertical"
 msgstr "vertikální"
@@ -710,31 +702,26 @@ msgid "dyad"
 msgstr "dyáda"
 
 #: ../build/bin/conf_gen.h:4168
-#, fuzzy
 msgctxt "preferences"
 msgid "triad"
 msgstr "triáda"
 
 #: ../build/bin/conf_gen.h:4169
-#, fuzzy
 msgctxt "preferences"
 msgid "tetrad"
 msgstr "tetráda"
 
 #: ../build/bin/conf_gen.h:4170
-#, fuzzy
 msgctxt "preferences"
 msgid "square"
 msgstr "čtverec"
 
 #: ../build/bin/conf_gen.h:4189
-#, fuzzy
 msgctxt "preferences"
 msgid "normal"
 msgstr "normální"
 
 #: ../build/bin/conf_gen.h:4191
-#, fuzzy
 msgctxt "preferences"
 msgid "narrow"
 msgstr "úzký"
@@ -6626,12 +6613,10 @@ msgid "not that many buttons"
 msgstr "ne tolik tlačítek"
 
 #: ../src/bauhaus/bauhaus.c:4037 ../src/gui/accelerators.c:392
-#, fuzzy
 msgid "value"
 msgstr "hodnota"
 
 #: ../src/bauhaus/bauhaus.c:4038 ../src/bauhaus/bauhaus.c:4044 ../src/gui/accelerators.c:371
-#, fuzzy
 msgid "button"
 msgstr "tlačítko"
 
@@ -7379,38 +7364,31 @@ msgid "orange red"
 msgstr "oranžovo červená"
 
 #: ../src/common/color_vocabulary.c:243
-#, fuzzy
 msgid "coral"
 msgstr "korálová"
 
 #: ../src/common/color_vocabulary.c:244 ../src/common/color_vocabulary.c:261
-#, fuzzy
 msgid "khaki"
 msgstr "khaki"
 
 #. 72° - orange
 #: ../src/common/color_vocabulary.c:249
-#, fuzzy
 msgid "brown"
 msgstr "hnědá"
 
 #: ../src/common/color_vocabulary.c:250
-#, fuzzy
 msgid "chocolate"
 msgstr "čokoládová"
 
 #: ../src/common/color_vocabulary.c:251
-#, fuzzy
 msgid "dark gold"
 msgstr "tmavě zlatá"
 
 #: ../src/common/color_vocabulary.c:252
-#, fuzzy
 msgid "gold"
 msgstr "zlatá"
 
 #: ../src/common/color_vocabulary.c:253
-#, fuzzy
 msgid "sandy brown"
 msgstr "pískově hnědá"
 
@@ -7419,7 +7397,6 @@ msgstr "pískově hnědá"
 #. 144° - blueish green
 #: ../src/common/color_vocabulary.c:258 ../src/common/color_vocabulary.c:267
 #: ../src/common/color_vocabulary.c:276
-#, fuzzy
 msgid "dark green"
 msgstr "tmavě zelená"
 
@@ -7429,14 +7406,12 @@ msgid "dark olive green"
 msgstr "tmavě olivově zelená"
 
 #: ../src/common/color_vocabulary.c:260
-#, fuzzy
 msgid "olive"
 msgstr "olivová"
 
 #: ../src/common/color_vocabulary.c:262
-#, fuzzy
 msgid "beige"
-msgstr "béžový"
+msgstr "béžová"
 
 #: ../src/common/color_vocabulary.c:268 ../src/common/color_vocabulary.c:278
 #, fuzzy
@@ -7572,12 +7547,10 @@ msgid "blue violet"
 msgstr "modrá fialová"
 
 #: ../src/common/color_vocabulary.c:334 ../src/common/color_vocabulary.c:342
-#, fuzzy
 msgid "violet"
 msgstr "fialová"
 
 #: ../src/common/color_vocabulary.c:335
-#, fuzzy
 msgid "plum"
 msgstr "švestková"
 
@@ -7726,27 +7699,22 @@ msgid "alternate color matrix"
 msgstr "alternativní barevná matice"
 
 #: ../src/common/colorspaces.c:1772
-#, fuzzy
 msgid "BRG (experimental)"
 msgstr "BRG (experimentální)"
 
 #: ../src/common/colorspaces.c:1786
-#, fuzzy
 msgid "PQ Rec2020"
 msgstr "PQ Rec2020"
 
 #: ../src/common/colorspaces.c:1788
-#, fuzzy
 msgid "HLG Rec2020"
 msgstr "HLG Rec2020"
 
 #: ../src/common/colorspaces.c:1790
-#, fuzzy
 msgid "PQ P3"
 msgstr "PQ P3"
 
 #: ../src/common/colorspaces.c:1792
-#, fuzzy
 msgid "HLG P3"
 msgstr "HLG P3"
 
@@ -8083,12 +8051,10 @@ msgstr ""
 " 'micro_nap' 'pinned_memory' 'eventhandles' 'async' 'disabled' 'advantage' 'unified_fraction'"
 
 #: ../src/common/database.c:3236
-#, fuzzy
 msgid "creator"
 msgstr "tvůrce"
 
 #: ../src/common/database.c:3237
-#, fuzzy
 msgid "publisher"
 msgstr "vydavatel"
 
@@ -8104,7 +8070,6 @@ msgstr "nadpis"
 
 #: ../src/common/database.c:3239 ../src/gui/preferences_ai.c:1364 ../src/gui/styles_dialog.c:578
 #: ../src/libs/filtering.c:61
-#, fuzzy
 msgid "description"
 msgstr "popis"
 
@@ -8713,22 +8678,18 @@ msgid "legacy"
 msgstr "starší"
 
 #: ../src/common/iop_order.c:58
-#, fuzzy
 msgid "v3.0 RAW"
 msgstr "v3.0 RAW"
 
 #: ../src/common/iop_order.c:59
-#, fuzzy
 msgid "v3.0 JPEG"
 msgstr "v3.0 JPEG"
 
 #: ../src/common/iop_order.c:60
-#, fuzzy
 msgid "v5.0 RAW"
 msgstr "v5.0 RAW"
 
 #: ../src/common/iop_order.c:61
-#, fuzzy
 msgid "v5.0 JPEG"
 msgstr "v5.0 JPEG"
 
@@ -10094,7 +10055,6 @@ msgid "set date/time of %d images"
 msgstr "nastavit datum/čas %d obrázků"
 
 #: ../src/control/jobs/control_jobs.c:2767
-#, fuzzy
 msgid "time offset"
 msgstr "časový posun"
 
@@ -10381,19 +10341,16 @@ msgid "default"
 msgstr "výchozí"
 
 #: ../src/develop/blend_gui.c:142
-#, fuzzy
 msgid "RAW"
 msgstr "RAW"
 
 #: ../src/develop/blend_gui.c:146 ../src/develop/blend_gui.c:2067
-#, fuzzy
 msgid "RGB (display)"
-msgstr "RGB (displej)"
+msgstr "RGB (display)"
 
 #: ../src/develop/blend_gui.c:148 ../src/develop/blend_gui.c:2080
-#, fuzzy
 msgid "RGB (scene)"
-msgstr "RGB (scéna)"
+msgstr "RGB (scene)"
 
 #. DEVELOP_MASK_ENABLED
 #: ../src/develop/blend_gui.c:155 ../src/develop/blend_gui.c:3439
@@ -12110,13 +12067,11 @@ msgstr "vybrané"
 
 #: ../src/dtgtk/range.c:627 ../src/dtgtk/range.c:1740 ../src/dtgtk/range.c:1791
 #: ../src/libs/colorpicker.c:54
-#, fuzzy
 msgid "min"
 msgstr "min"
 
 #: ../src/dtgtk/range.c:633 ../src/dtgtk/range.c:1752 ../src/dtgtk/range.c:1803
 #: ../src/libs/colorpicker.c:54 ../src/libs/filters/rating_range.c:309
-#, fuzzy
 msgid "max"
 msgstr "max"
 
@@ -21753,10 +21708,9 @@ msgstr ""
 "Podržte Ctrl a klikněte pro výběr barvy."
 
 #: ../src/iop/colorbalancergb.c:1877
-#, fuzzy
 msgctxt "section"
 msgid "global offset"
-msgstr "globální offset"
+msgstr "globální posun"
 
 #: ../src/iop/colorbalancergb.c:1884
 #, fuzzy
@@ -21884,7 +21838,6 @@ msgid "weights of highlights over the whole tonal range"
 msgstr "Váha světel v celém tonálním rozsahu"
 
 #: ../src/iop/colorbalancergb.c:1996
-#, fuzzy
 msgctxt "section"
 msgid "threshold"
 msgstr "práh"
@@ -27312,7 +27265,6 @@ msgid "wavelet decompose"
 msgstr "rozklad vlnek"
 
 #: ../src/iop/retouch.c:2696
-#, fuzzy
 msgctxt "section"
 msgid "shapes"
 msgstr "tvary"
@@ -27771,13 +27723,11 @@ msgid "select tone color"
 msgstr "vyberte barvu tónu"
 
 #: ../src/iop/splittoning.c:503
-#, fuzzy
 msgctxt "section"
 msgid "shadows"
 msgstr "stíny"
 
 #: ../src/iop/splittoning.c:509
-#, fuzzy
 msgctxt "section"
 msgid "highlights"
 msgstr "světla"
@@ -33157,7 +33107,6 @@ msgstr ""
 "vracet."
 
 #: ../src/libs/snapshots.c:156
-#, fuzzy
 msgctxt "snapshot sign"
 msgid "S"
 msgstr "S"
