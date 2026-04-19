@@ -12,7 +12,6 @@ Našim cílem je kvalitní překlad GUI RAW editoru darktable. Tento repozitář
 ## Stav překladu 
 - Momentální stav překladu vychází především z práce Jana Šmucra a Petra Stasiaka. Většina překladu je ovšem strojová s nízkou mírou konzistence terminologie, mnoho překladů je zcela doslovných a neodpovídají současným nárokům odborného překladu
  - Aktuálně probíhá rozsáhlá práce na korekcích a překladech doposud nepřeložených řetězců. 
- - Přeloženo a zkontrolováno je přibližně 13 % řetězců. (celkový počet řetězců je necelých 6000)
 
 ## Jak přispět
  - umíte dobře anglicky, znáte terminologii, jste zodpovědní: pomozte s překladem řetězcům (viz návod)
