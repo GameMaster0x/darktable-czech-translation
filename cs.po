@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-11 11:40+0200\n"
-"PO-Revision-Date: 2026-04-19 20:26+0200\n"
+"PO-Revision-Date: 2026-04-19 22:45+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr <jan.smucr@gmail.com>, Petr Stasiak "
 "<petr@stasiak.cz>\n"
@@ -141,10 +141,9 @@ msgid "import time"
 msgstr "čas importu"
 
 #: ../build/bin/conf_gen.h:1016
-#, fuzzy
 msgctxt "preferences"
 msgid "folder name"
-msgstr "jméno složky"
+msgstr "název složky"
 
 #: ../build/bin/conf_gen.h:1017
 #, fuzzy
@@ -746,25 +745,21 @@ msgid "line"
 msgstr "čára"
 
 #: ../build/bin/conf_gen.h:4490
-#, fuzzy
 msgctxt "preferences"
 msgid "mm"
 msgstr "mm"
 
 #: ../build/bin/conf_gen.h:4491
-#, fuzzy
 msgctxt "preferences"
 msgid "cm"
 msgstr "cm"
 
 #: ../build/bin/conf_gen.h:4492
-#, fuzzy
 msgctxt "preferences"
 msgid "inch"
 msgstr "palec"
 
 #: ../build/bin/conf_gen.h:4547 ../build/bin/preferences_gen.h:4501
-#, fuzzy
 msgctxt "preferences"
 msgid "all"
 msgstr "vše"
@@ -9251,10 +9246,9 @@ msgid "storage"
 msgstr "úložiště"
 
 #: ../src/control/control.c:161
-#, fuzzy
 msgctxt "accel"
 msgid "processing modules"
-msgstr "kreativní moduly"
+msgstr "processing modules"
 
 #: ../src/control/control.c:168
 #, fuzzy
@@ -10257,10 +10251,9 @@ msgid "vividlight"
 msgstr "jasné světlo"
 
 #: ../src/develop/blend_gui.c:84
-#, fuzzy
 msgctxt "blendmode"
 msgid "linearlight"
-msgstr "lieární světlo"
+msgstr "lineární světlo"
 
 #: ../src/develop/blend_gui.c:86
 msgctxt "blendmode"
@@ -10286,13 +10279,11 @@ msgid "Lab lightness"
 msgstr "Lab světlost"
 
 #: ../src/develop/blend_gui.c:96
-#, fuzzy
 msgctxt "blendmode"
 msgid "Lab a-channel"
 msgstr "Lab kanál a"
 
 #: ../src/develop/blend_gui.c:98
-#, fuzzy
 msgctxt "blendmode"
 msgid "Lab b-channel"
 msgstr "Lab kanál b"
@@ -10321,13 +10312,11 @@ msgid "RGB blue channel"
 msgstr "RGB modrý kanál"
 
 #: ../src/develop/blend_gui.c:109
-#, fuzzy
 msgctxt "blendmode"
 msgid "HSV value"
 msgstr "HSV hodnota"
 
 #: ../src/develop/blend_gui.c:111
-#, fuzzy
 msgctxt "blendmode"
 msgid "HSV color"
 msgstr "HSV barva"
@@ -10375,16 +10364,14 @@ msgid "Lab L-channel (deprecated)"
 msgstr "Lab L-kanál (zastaralé)"
 
 #: ../src/develop/blend_gui.c:135
-#, fuzzy
 msgctxt "blendoperation"
 msgid "normal"
 msgstr "normální"
 
 #: ../src/develop/blend_gui.c:136
-#, fuzzy
 msgctxt "blendoperation"
 msgid "reverse"
-msgstr "opačný"
+msgstr "obrácený"
 
 #. add default workspace
 #: ../src/develop/blend_gui.c:140 ../src/gui/workspace.c:98 ../src/gui/workspace.c:194
@@ -20217,7 +20204,6 @@ msgid "destination"
 msgstr "cíl"
 
 #: ../src/iop/channelmixer.c:613
-#, fuzzy
 msgctxt "channelmixer"
 msgid "gray"
 msgstr "šedá"
@@ -21412,10 +21398,9 @@ msgid "neutralize colors"
 msgstr "neutralizovat barvy"
 
 #: ../src/iop/colorbalance.c:1727
-#, fuzzy
 msgctxt "color"
 msgid "offset"
-msgstr "offset"
+msgstr "posun"
 
 #: ../src/iop/colorbalance.c:1727
 #, fuzzy
@@ -21424,16 +21409,14 @@ msgid "power"
 msgstr "výkon"
 
 #: ../src/iop/colorbalance.c:1727
-#, fuzzy
 msgctxt "color"
 msgid "slope"
 msgstr "sklon"
 
 #: ../src/iop/colorbalance.c:1728
-#, fuzzy
 msgctxt "color"
 msgid "lift"
-msgstr "zvednout"
+msgstr "zvýšit"
 
 #: ../src/iop/colorbalance.c:1728
 msgctxt "color"
@@ -22782,7 +22765,6 @@ msgstr "relativní kolorimetrické"
 
 #: ../src/iop/colorout.c:842 ../src/libs/export.c:1638 ../src/libs/print_settings.c:2577
 #: ../src/libs/print_settings.c:2926 ../src/views/darkroom.c:3142 ../src/views/lighttable.c:1348
-#, fuzzy
 msgctxt "rendering intent"
 msgid "saturation"
 msgstr "sytost"
@@ -24556,7 +24538,7 @@ msgid "EV scene"
 msgstr "EV scéna"
 
 #: ../src/iop/filmicrgb.c:3834
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "% camera"
 msgstr "% fotoaparát"
 
@@ -24580,7 +24562,6 @@ msgstr "scéna"
 
 #. axis legend
 #: ../src/iop/filmicrgb.c:3897
-#, fuzzy
 msgid "(EV)"
 msgstr "(EV)"
 
@@ -27043,9 +27024,8 @@ msgid "fill-shadow -0.25EV with 4 zones"
 msgstr "vyplnit-stín  -0.25EV se 4 zónami"
 
 #: ../src/iop/relight.c:83
-#, fuzzy
 msgid "fill light"
-msgstr "vyplnit světlo"
+msgstr "vyplnit světla"
 
 #: ../src/iop/relight.c:93 ../src/iop/zonesystem.c:104
 #, fuzzy
@@ -27156,7 +27136,6 @@ msgstr "zobrazovat a upravovat tvary v omezeném režimu"
 
 #. algorithm toolbar
 #: ../src/iop/retouch.c:2466
-#, fuzzy
 msgid "algorithms:"
 msgstr "algoritmy:"
 
@@ -27251,7 +27230,6 @@ msgid "adjust preview levels"
 msgstr "upravit úrovně náhledu"
 
 #: ../src/iop/retouch.c:2613 ../src/iop/rgblevels.c:1082
-#, fuzzy
 msgid "auto levels"
 msgstr "automatické úrovně"
 
@@ -30045,7 +30023,6 @@ msgstr ""
 "toto nelze změnit, protože pravidlo je připnuto na panel nástrojů"
 
 #: ../src/libs/filtering.c:1089
-#, fuzzy
 msgctxt "quickfilter"
 msgid "filter"
 msgstr "filtr"
@@ -31235,7 +31212,6 @@ msgstr ""
 "lze definovat masky pro přejmenování obrázků a určit cílové složky"
 
 #: ../src/libs/import.c:2415
-#, fuzzy
 msgid "parameters"
 msgstr "parametery"
 
@@ -31375,25 +31351,21 @@ msgid "saturate"
 msgstr "saturovat"
 
 #: ../src/libs/live_view.c:405
-#, fuzzy
 msgctxt "blendmode"
 msgid "color dodge"
-msgstr "vyhnout se barvě"
+msgstr "ztmavit barvy"
 
 #: ../src/libs/live_view.c:406
-#, fuzzy
 msgctxt "blendmode"
 msgid "color burn"
-msgstr "vypálit barvu"
+msgstr "zesvětlit barvy"
 
 #: ../src/libs/live_view.c:407
-#, fuzzy
 msgctxt "blendmode"
 msgid "hard light"
 msgstr "tvrdé světlo"
 
 #: ../src/libs/live_view.c:408
-#, fuzzy
 msgctxt "blendmode"
 msgid "soft light"
 msgstr "měkké světlo"
@@ -32138,17 +32110,14 @@ msgstr "minulá konfigurace s novým rozvržením"
 
 #: ../src/libs/modulegroups.c:2015 ../src/libs/modulegroups.c:2542
 #: ../src/libs/modulegroups.c:2555
-#, fuzzy
 msgid "remove this widget"
 msgstr "odstranit tento widget"
 
 #: ../src/libs/modulegroups.c:2137 ../src/libs/modulegroups.c:2401
-#, fuzzy
 msgid "remove this module"
 msgstr "odstranit tento modul"
 
 #: ../src/libs/modulegroups.c:2365
-#, fuzzy
 msgid "base"
 msgstr "základní"
 
@@ -32157,14 +32126,12 @@ msgid "tone"
 msgstr "tón"
 
 #: ../src/libs/modulegroups.c:2375
-#, fuzzy
 msgid "technical"
 msgstr "technický"
 
 #: ../src/libs/modulegroups.c:2377
-#, fuzzy
 msgid "grading"
-msgstr "korekce"
+msgstr "grading"
 
 #: ../src/libs/modulegroups.c:2383 ../src/libs/modulegroups.c:2391
 #, fuzzy
@@ -32178,12 +32145,10 @@ msgid "all available modules"
 msgstr "všechny dostupné moduly"
 
 #: ../src/libs/modulegroups.c:2421
-#, fuzzy
 msgid "add module"
 msgstr "přidat modul"
 
 #: ../src/libs/modulegroups.c:2426
-#, fuzzy
 msgid "remove module"
 msgstr "odstranit modul"
 
@@ -32193,22 +32158,18 @@ msgid "header needed for other widgets"
 msgstr "záhlaví potřebné pro další widgety"
 
 #: ../src/libs/modulegroups.c:2565 ../src/libs/modulegroups.c:2572
-#, fuzzy
 msgid "add this widget"
 msgstr "přidat tento widget"
 
 #: ../src/libs/modulegroups.c:2585
-#, fuzzy
 msgid "currently invisible"
 msgstr "momentálně neviditelné"
 
 #: ../src/libs/modulegroups.c:2618
-#, fuzzy
 msgid "add widget"
 msgstr "přidat widget"
 
 #: ../src/libs/modulegroups.c:2623
-#, fuzzy
 msgid "remove widget"
 msgstr "odstranit widget"
 
@@ -32370,12 +32331,10 @@ msgid "add widget to the quick access panel"
 msgstr "přidat widget na panel rychlého přístupu"
 
 #: ../src/libs/modulegroups.c:3467
-#, fuzzy
 msgid "group icon"
 msgstr "ikona skupiny"
 
 #: ../src/libs/modulegroups.c:3477
-#, fuzzy
 msgid "group name"
 msgstr "název skupiny"
 
@@ -32420,22 +32379,18 @@ msgid "new preset name:"
 msgstr "nový název presetu:"
 
 #: ../src/libs/modulegroups.c:4072
-#, fuzzy
 msgid "preset: "
 msgstr "preset: "
 
 #: ../src/libs/modulegroups.c:4082
-#, fuzzy
 msgid "remove the preset"
 msgstr "odstranit preset"
 
 #: ../src/libs/modulegroups.c:4086
-#, fuzzy
 msgid "duplicate the preset"
 msgstr "duplikovat preset"
 
 #: ../src/libs/modulegroups.c:4090
-#, fuzzy
 msgid "rename the preset"
 msgstr "přejmenovat preset"
 
@@ -32445,12 +32400,10 @@ msgid "create a new empty preset"
 msgstr "vytvořit nový prázdný preset"
 
 #: ../src/libs/modulegroups.c:4102
-#, fuzzy
 msgid "show search line"
 msgstr "zobrazit řádek pro vyhledávání"
 
 #: ../src/libs/modulegroups.c:4106
-#, fuzzy
 msgid "show quick access panel"
 msgstr "zobrazit panel rychlého přístupu"
 
@@ -33109,9 +33062,8 @@ msgid "cycle color harmonies"
 msgstr "cyklus harmonie barev"
 
 #: ../src/libs/scopes/waveform.c:55
-#, fuzzy
 msgid "waveform"
-msgstr "průběh"
+msgstr "waveform"
 
 #: ../src/libs/scopes/waveform.c:308
 #, fuzzy
@@ -33359,7 +33311,6 @@ msgid "append"
 msgstr "připojit"
 
 #: ../src/libs/styles.c:918
-#, fuzzy
 msgid "create..."
 msgstr "vytvořit..."
 
@@ -33481,9 +33432,9 @@ msgstr[2] ""
 "<u>%d</u> obrázků je tímto tagem označeno!"
 
 #: ../src/libs/tagging.c:1717
-#, fuzzy, c-format
+#, c-format
 msgid "tag %s removed"
-msgstr "tag %s odebrán"
+msgstr "tag %s odstraněn"
 
 #: ../src/libs/tagging.c:1757
 #, fuzzy
@@ -33601,7 +33552,6 @@ msgid "change path..."
 msgstr "změnit cestu..."
 
 #: ../src/libs/tagging.c:2549
-#, fuzzy
 msgid "set as a tag"
 msgstr "nastavit jako tag"
 
@@ -33703,7 +33653,6 @@ msgid "toggle list with / without hierarchy"
 msgstr "přepnout seznam s / bez hierarchie"
 
 #: ../src/libs/tagging.c:3531
-#, fuzzy
 msgid "hide"
 msgstr "skrýt"
 
@@ -33787,7 +33736,6 @@ msgid "toggle list / tree view"
 msgstr "přepnout zobrazení seznam / strom"
 
 #: ../src/libs/tagging.c:3698
-#, fuzzy
 msgid "tree"
 msgstr "strom"
 
@@ -33906,22 +33854,18 @@ msgid "gamepad"
 msgstr "gamepad"
 
 #: ../src/libs/tools/gamepad.c:60
-#, fuzzy
 msgid "button a"
 msgstr "tlačítko a"
 
 #: ../src/libs/tools/gamepad.c:60
-#, fuzzy
 msgid "button b"
 msgstr "tlačítko b"
 
 #: ../src/libs/tools/gamepad.c:60
-#, fuzzy
 msgid "button x"
 msgstr "tlačítko x"
 
 #: ../src/libs/tools/gamepad.c:60
-#, fuzzy
 msgid "button y"
 msgstr "tlačítko y"
 
@@ -34359,7 +34303,6 @@ msgid "exit current layout"
 msgstr "opustit aktuální rozložení"
 
 #: ../src/libs/tools/midi.c:41
-#, fuzzy
 msgid "midi"
 msgstr "midi"
 
@@ -34395,7 +34338,6 @@ msgid "set star rating for selected images"
 msgstr "zapsat hodnocení * pro vybrané obrázky"
 
 #: ../src/libs/tools/timeline.c:102
-#, fuzzy
 msgid "timeline"
 msgstr "časová osa"
 
@@ -34530,10 +34472,10 @@ msgstr ""
 "na https://github.com/darktable-org/darktable"
 
 #: ../src/views/darkroom.c:674
-#, fuzzy, c-format
+#, c-format
 msgctxt "darkroom"
 msgid "loading `%s' ..."
-msgstr "načítám `%s' ..."
+msgstr "načítání `%s' ..."
 
 #: ../src/views/darkroom.c:904 ../src/views/darkroom.c:3115
 #, fuzzy
@@ -34825,7 +34767,6 @@ msgid "mark with solid color"
 msgstr "označit plnou barvou"
 
 #: ../src/views/darkroom.c:2981
-#, fuzzy
 msgid "false color"
 msgstr "nepravá barva"
 
@@ -34903,7 +34844,6 @@ msgid "full gamut"
 msgstr "plný rozsah"
 
 #: ../src/views/darkroom.c:3050
-#, fuzzy
 msgid "any RGB channel"
 msgstr "jakýkoli RGB kanál"
 
@@ -34923,12 +34863,10 @@ msgid "select colors to indicate clipping"
 msgstr "vyberte barvy pro označení oříznutí"
 
 #: ../src/views/darkroom.c:3061
-#, fuzzy
 msgid "red & blue"
 msgstr "červená a modrá"
 
 #: ../src/views/darkroom.c:3062
-#, fuzzy
 msgid "purple & green"
 msgstr "fialová a zelená"
 
