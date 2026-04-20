@@ -1,4 +1,4 @@
-# Překlad darktable (WIP)
+# Překlad darktable
 Tento repozitář je v procesu tvorby, další informace budou postupně přidávány. 
 
 Našim cílem je kvalitní překlad GUI RAW editoru darktable. Tento repozitář slouží ke komunitnímu překladu, korekci chyb, návrhům a trackování změn tak, aby panoval konsenzus, terminologie byla přesná a překlad nebyl strojový. Pro konzistenci české terminologie vycházíme mj. z české lokalizace Adobe Photoshop 2026 a dalších.
@@ -10,12 +10,11 @@ Našim cílem je kvalitní překlad GUI RAW editoru darktable. Tento repozitář
 - rozšiřuje super komunitu
 - podporuje open-source prostředí a mindset
 ## Stav překladu 
-- Momentální stav překladu vychází především z práce Jana Šmucra a Petra Stasiaka. Většina překladu je ovšem strojová s nízkou mírou konzistence terminologie, mnoho překladů je zcela doslovných a neodpovídají současným nárokům odborného překladu
+- Momentální stav překladu vychází především z práce Jana Šmucra a Petra Stasiaka. Většina překladu je ovšem strojová s nízkou mírou konzistence terminologie, mnoho překladů je zcela doslovných a neodpovídajích současným nárokům odborného překladu.
  - Aktuálně probíhá rozsáhlá práce na korekcích a překladech doposud nepřeložených řetězců. 
- - Přeloženo a zkontrolováno je přibližně 13 % řetězců. (celkový počet řetězců je necelých 6000)
 
 ## Jak přispět
- - umíte dobře anglicky, znáte terminologii, jste zodpovědní: pomozte s překladem řetězcům (viz návod)
+ - umíte dobře anglicky, znáte terminologii, jste zodpovědní: pomozte s překladem řetězcům
  - jste uživatel a našel jste nepřesný či nevhodný překlad: nahlaste problém (Issue)
  
 ##  Chci překládat
