@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-11 11:40+0200\n"
-"PO-Revision-Date: 2026-04-20 18:15+0200\n"
+"PO-Revision-Date: 2026-04-20 18:27+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr <jan.smucr@gmail.com>, Petr Stasiak "
 "<petr@stasiak.cz>\n"
@@ -1408,7 +1408,6 @@ msgstr ""
 "Jinak se zobrazí pouze informační zpráva."
 
 #: ../build/bin/preferences_gen.h:3153
-#, fuzzy
 msgid "modules"
 msgstr "moduly"
 
@@ -1786,9 +1785,8 @@ msgid ""
 msgstr ""
 
 #: ../build/bin/preferences_gen.h:3630
-#, fuzzy
 msgid "OpenCL scheduling profile"
-msgstr "plánovací profil OpenCL"
+msgstr "OpenCL scheduling profile"
 
 #: ../build/bin/preferences_gen.h:3639
 #, fuzzy
@@ -1820,12 +1818,10 @@ msgstr ""
 "bezpečnostní rezervy pro každé z nich (600 MB ve výchozím nastavení)."
 
 #: ../build/bin/preferences_gen.h:3670
-#, fuzzy
 msgid "OpenCL drivers"
 msgstr "OpenCL ovladače"
 
 #: ../build/bin/preferences_gen.h:3680
-#, fuzzy
 msgid "Intel GPU"
 msgstr "Intel GPU"
 
@@ -1972,17 +1968,14 @@ msgstr ""
 "nebo vymazání snímků."
 
 #: ../build/bin/preferences_gen.h:3958
-#, fuzzy
 msgid "ask before deleting a tag"
 msgstr "zeptat se před smazáním tagu"
 
 #: ../build/bin/preferences_gen.h:3974
-#, fuzzy
 msgid "ask before deleting a style"
 msgstr "zeptat se před smazáním stylu"
 
 #: ../build/bin/preferences_gen.h:3990
-#, fuzzy
 msgid "ask before deleting a preset"
 msgstr "zeptat se před smazáním presetu"
 
@@ -2116,7 +2109,6 @@ msgid "XMP sidecar files"
 msgstr "XMP pomocné soubory"
 
 #: ../build/bin/preferences_gen.h:4181
-#, fuzzy
 msgid "create XMP files"
 msgstr "vytvořit XMP soubory"
 
@@ -2137,7 +2129,6 @@ msgid ""
 msgstr ""
 
 #: ../build/bin/preferences_gen.h:4199
-#, fuzzy
 msgid "store XMP tags in compressed format"
 msgstr "ukládat XMP tagy v komprimovaném formátu"
 
@@ -2153,7 +2144,6 @@ msgstr ""
 "Tato možnost umožňuje XMP tagy komprimovat a šetřit místo."
 
 #: ../build/bin/preferences_gen.h:4217
-#, fuzzy
 msgid "auto-save interval"
 msgstr "interval automatického ukládání"
 
@@ -2734,7 +2724,6 @@ msgstr "extrémní sytost"
 
 #. cubic spline
 #: ../build/bin/styles_string.h:23 ../src/iop/filmic.c:1568
-#, fuzzy
 msgid "faded"
 msgstr "vybledlé"
 
@@ -2750,7 +2739,6 @@ msgstr "mlha"
 
 #: ../build/bin/styles_string.h:26 ../build/lib/darktable/plugins/introspection_ashift.c:361
 #: ../build/lib/darktable/plugins/introspection_highlights.c:311
-#, fuzzy
 msgid "generic"
 msgstr "obecný"
 
@@ -2771,7 +2759,6 @@ msgstr "obecný"
 #: ../src/iop/colorzones.c:2488 ../src/iop/temperature.c:1979 ../src/iop/temperature.c:1997
 #: ../src/iop/temperature.c:2183 ../src/libs/collect.c:2023 ../src/libs/filters/colors.c:262
 #: ../src/libs/histogram.c:46
-#, fuzzy
 msgid "green"
 msgstr "zelená"
 
@@ -2783,7 +2770,6 @@ msgstr "zelená"
 #: ../build/lib/darktable/plugins/introspection_colorequal.c:567
 #: ../src/common/color_vocabulary.c:341 ../src/gui/guides.c:856 ../src/iop/colorequal.c:2929
 #: ../src/iop/colorzones.c:2492 ../src/iop/temperature.c:1981
-#, fuzzy
 msgid "magenta"
 msgstr "purpurová"
 
@@ -3207,13 +3193,11 @@ msgstr "sRGB"
 
 #: ../build/lib/darktable/plugins/introspection_ashift.c:130
 #: ../build/lib/darktable/plugins/introspection_ashift.c:279
-#, fuzzy
 msgid "lens shift (vertical)"
 msgstr "posun objektivu (vertikální)"
 
 #: ../build/lib/darktable/plugins/introspection_ashift.c:136
 #: ../build/lib/darktable/plugins/introspection_ashift.c:283
-#, fuzzy
 msgid "lens shift (horizontal)"
 msgstr "posun objektivu (horizontální)"
 
@@ -3274,17 +3258,14 @@ msgstr "specifický"
 #: ../src/develop/blend_gui.c:182 ../src/develop/blend_gui.c:3431 ../src/gui/accelerators.c:153
 #: ../src/gui/accelerators.c:163 ../src/gui/accelerators.c:246 ../src/imageio/format/avif.c:973
 #: ../src/imageio/format/j2k.c:713 ../src/libs/live_view.c:424
-#, fuzzy
 msgid "off"
 msgstr "vyp."
 
 #: ../build/lib/darktable/plugins/introspection_ashift.c:367
-#, fuzzy
 msgid "largest area"
 msgstr "největší oblast"
 
 #: ../build/lib/darktable/plugins/introspection_ashift.c:368
-#, fuzzy
 msgid "original format"
 msgstr "původní formát"
 
@@ -3351,7 +3332,6 @@ msgstr "žádný"
 #: ../build/lib/darktable/plugins/introspection_rgblevels.c:154
 #: ../build/lib/darktable/plugins/introspection_tonecurve.c:271 ../src/develop/blend_gui.c:2416
 #: ../src/develop/blend_gui.c:2450
-#, fuzzy
 msgid "luminance"
 msgstr "jas"
 
@@ -3600,15 +3580,13 @@ msgstr "auto"
 
 #: ../build/lib/darktable/plugins/introspection_borders.c:350 ../src/imageio/format/pdf.c:621
 #: ../src/libs/filtering.c:321 ../src/libs/filters/ratio.c:120 ../src/libs/print_settings.c:2619
-#, fuzzy
 msgid "portrait"
-msgstr "portrét (na výšku)"
+msgstr "na výšku"
 
 #: ../build/lib/darktable/plugins/introspection_borders.c:351 ../src/imageio/format/pdf.c:621
 #: ../src/libs/filtering.c:317 ../src/libs/filters/ratio.c:122 ../src/libs/print_settings.c:2619
-#, fuzzy
 msgid "landscape"
-msgstr "krajina (na šířku)"
+msgstr "na šířku"
 
 #: ../build/lib/darktable/plugins/introspection_borders.c:356 ../src/iop/relight.c:264
 #: ../src/libs/export.c:1516 ../src/libs/metadata_view.c:163 ../src/libs/print_settings.c:2637
@@ -3905,30 +3883,37 @@ msgid "F12 (Tuned RGB 3000 K) – low CRI"
 msgstr "F12 (Vyladěné RGB 3000 K) – nízké CRI"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:538
+#, fuzzy
 msgid "B1 (Blue 2733 K)"
 msgstr "B1 (Modrá 2733 K)"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:539
+#, fuzzy
 msgid "B2 (Blue 2998 K)"
 msgstr "B2 (Modrá 2998 K)"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:540
+#, fuzzy
 msgid "B3 (Blue 4103 K)"
 msgstr "B3 (Modrá 4103 K)"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:541
+#, fuzzy
 msgid "B4 (Blue 5109 K)"
 msgstr "B4 (Modrá 5109 K)"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:542
+#, fuzzy
 msgid "B5 (Blue 6598 K)"
 msgstr "B5 (Modrá 6598 K)"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:543
+#, fuzzy
 msgid "BH1 (Blue-Red hybrid 2851 K)"
 msgstr "BH1 (Blue-Red hybrid 2851 K)"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:544
+#, fuzzy
 msgid "RGB1 (RGB 2840 K)"
 msgstr "RGB1 (RGB 2840 K)"
 
@@ -3948,7 +3933,6 @@ msgid "linear Bradford (ICC v4)"
 msgstr "lineární Bradford (ICC v4)"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:552
-#, fuzzy
 msgid "CAT16 (CIECAM16)"
 msgstr "CAT16 (CIECAM16)"
 
@@ -3967,17 +3951,14 @@ msgid "none (bypass)"
 msgstr "není (bypass)"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:560
-#, fuzzy
 msgid "version 1 (2020)"
 msgstr "verze 1 (2020)"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:561
-#, fuzzy
 msgid "version 2 (2021)"
 msgstr "verze 2 (2021)"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:562
-#, fuzzy
 msgid "version 3 (Apr 2021)"
 msgstr "verze 3 (Apr 2021)"
 
@@ -4087,7 +4068,6 @@ msgstr "chroma"
 #: ../src/iop/channelmixerrgb.c:4507 ../src/iop/channelmixerrgb.c:4594
 #: ../src/iop/colorbalance.c:1937 ../src/iop/colorequal.c:3030 ../src/iop/colorize.c:345
 #: ../src/iop/colorreconstruction.c:1226 ../src/iop/colorzones.c:2627
-#, fuzzy
 msgid "hue"
 msgstr "odstín"
 
@@ -4119,7 +4099,6 @@ msgstr "spád světel"
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:298 ../src/iop/bilat.c:475
 #: ../src/iop/colorbalance.c:1994 ../src/iop/negadoctor.c:912 ../src/iop/shadhi.c:679
 #: ../src/iop/splittoning.c:488
-#, fuzzy
 msgid "shadows"
 msgstr "stíny"
 
@@ -4133,7 +4112,6 @@ msgstr "stíny"
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:314 ../src/iop/bilat.c:469
 #: ../src/iop/colorbalance.c:1996 ../src/iop/monochrome.c:573 ../src/iop/shadhi.c:680
 #: ../src/iop/splittoning.c:494
-#, fuzzy
 msgid "highlights"
 msgstr "světla"
 
@@ -5026,7 +5004,6 @@ msgstr "bílá"
 
 #: ../build/lib/darktable/plugins/introspection_exposure.c:84
 #: ../build/lib/darktable/plugins/introspection_exposure.c:157
-#, fuzzy
 msgid "percentile"
 msgstr "percentil"
 
@@ -5542,7 +5519,6 @@ msgstr "korekční metoda"
 #. Page CORRECTIONS
 #: ../build/lib/darktable/plugins/introspection_lens.cc:196
 #: ../build/lib/darktable/plugins/introspection_lens.cc:405 ../src/iop/negadoctor.c:902
-#, fuzzy
 msgid "corrections"
 msgstr "korekce"
 
@@ -5559,7 +5535,6 @@ msgstr "korekce"
 #: ../src/iop/exposure.c:1250 ../src/iop/levels.c:688 ../src/iop/profile_gamma.c:649
 #: ../src/libs/export.c:1645 ../src/libs/image.c:646 ../src/libs/print_settings.c:2956
 #: ../src/libs/styles.c:910 ../src/views/darkroom.c:2976
-#, fuzzy
 msgid "mode"
 msgstr "režim"
 
@@ -5593,13 +5568,11 @@ msgstr "TCA modrá"
 
 #: ../build/lib/darktable/plugins/introspection_lens.cc:286
 #: ../build/lib/darktable/plugins/introspection_lens.cc:465
-#, fuzzy
 msgid "distortion"
 msgstr "zkreslení"
 
 #: ../build/lib/darktable/plugins/introspection_lens.cc:292
 #: ../build/lib/darktable/plugins/introspection_lens.cc:469 ../src/iop/vignette.c:111
-#, fuzzy
 msgid "vignetting"
 msgstr "vinětace"
 
@@ -6256,9 +6229,8 @@ msgstr "kanál po kanálu"
 
 # dropdown
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:304
-#, fuzzy
 msgid "RGB ratio"
-msgstr "poměr RGB"
+msgstr "RGB poměr"
 
 #: ../build/lib/darktable/plugins/introspection_tonecurve.c:135
 #: ../build/lib/darktable/plugins/introspection_tonecurve.c:232
@@ -6650,7 +6622,6 @@ msgstr "rozevírací seznam"
 #: ../src/libs/styles.c:1019 ../src/libs/tagging.c:1670 ../src/libs/tagging.c:1759
 #: ../src/libs/tagging.c:1851 ../src/libs/tagging.c:1980 ../src/libs/tagging.c:2289
 #: ../src/libs/tagging.c:2804 ../src/libs/tagging.c:2846 ../src/libs/tagging.c:3944
-#, fuzzy
 msgid "_cancel"
 msgstr "_zrušit"
 
@@ -6659,7 +6630,6 @@ msgstr "_zrušit"
 #: ../src/libs/metadata_view.c:1465 ../src/libs/recentcollect.c:233 ../src/libs/styles.c:457
 #: ../src/libs/styles.c:1020 ../src/libs/tagging.c:1852 ../src/libs/tagging.c:1981
 #: ../src/libs/tagging.c:2290 ../src/libs/tagging.c:3945
-#, fuzzy
 msgid "_save"
 msgstr "_uložit"
 
@@ -6835,7 +6805,7 @@ msgid "failed to get parameters from storage module, aborting export ..."
 msgstr "nepodařilo se získat parametry z modulu úložiště, export se ruší..."
 
 #: ../src/cli/main.c:787
-#, fuzzy, c-format
+#, c-format
 msgid "unknown extension '.%s'"
 msgstr "neznámá přípona '.%s'"
 
@@ -6845,7 +6815,7 @@ msgid "failed to get parameters from format module, aborting export ..."
 msgstr "nepodařilo se získat parametry z modulu formátování, export se ruší..."
 
 #: ../src/common/ai_models.c:194
-#, fuzzy, c-format
+#, c-format
 msgid "network error: %s"
 msgstr "chyba sítě: %s"
 
@@ -6861,21 +6831,19 @@ msgid "GitHub API rate limit exceeded, try again later"
 msgstr "Byl překročen limit počtu volání API služby GitHub, zkuste to prosím později"
 
 #: ../src/common/ai_models.c:200
-#, fuzzy, c-format
+#, c-format
 msgid "GitHub API error (HTTP %ld)"
 msgstr "GitHub API error (HTTP %ld)"
 
 #: ../src/common/ai_models.c:1231 ../src/common/ai_models.c:1260
-#, fuzzy
-#| msgid "invalid crop parameters"
 msgid "invalid parameters"
-msgstr "neplatné parametry ořezu"
+msgstr "neplatné parametry"
 
 #: ../src/common/ai_models.c:1234
-#, fuzzy, c-format
+#, c-format
 #| msgid "file not found"
 msgid "file not found: %s"
-msgstr "soubor nenalezen"
+msgstr "soubor nenalezen: %s"
 
 #: ../src/common/ai_models.c:1237
 msgid "failed to extract model archive"
@@ -6935,15 +6903,13 @@ msgid "failed to initialize download"
 msgstr "Nezdařilo se stáhnout skripty."
 
 #: ../src/common/ai_models.c:1436
-#, fuzzy
 msgid "download cancelled"
 msgstr "stahování přerušeno"
 
 #: ../src/common/ai_models.c:1438
-#, fuzzy, c-format
-#| msgid "loader: %s"
+#, c-format
 msgid "download failed: %s"
-msgstr "zavaděč: %s"
+msgstr "stahování selhalo: %s"
 
 #: ../src/common/ai_models.c:1449
 #, c-format
@@ -7223,7 +7189,6 @@ msgstr[2] "Vybráno <b>%d</b> obrázků z <b>%d</b>"
 #: ../src/common/color_vocabulary.c:38 ../src/develop/blend_gui.c:2377
 #: ../src/develop/blend_gui.c:2425 ../src/gui/guides.c:851 ../src/iop/channelmixerrgb.c:4656
 #: ../src/iop/levels.c:675 ../src/iop/rgblevels.c:963 ../src/iop/rgblevels.c:1078
-#, fuzzy
 msgid "gray"
 msgstr "šedá"
 
@@ -7259,21 +7224,18 @@ msgstr "Mexický"
 
 #: ../src/common/color_vocabulary.c:100 ../src/common/color_vocabulary.c:105
 #: ../src/common/color_vocabulary.c:110 ../src/common/color_vocabulary.c:115
-#, fuzzy
 msgid "forearm"
 msgstr "předloktí"
 
 #: ../src/common/color_vocabulary.c:120 ../src/common/color_vocabulary.c:125
 #: ../src/common/color_vocabulary.c:130 ../src/common/color_vocabulary.c:135
 #: ../src/common/color_vocabulary.c:140 ../src/common/color_vocabulary.c:145
-#, fuzzy
 msgid "forehead"
 msgstr "čelo"
 
 #: ../src/common/color_vocabulary.c:150 ../src/common/color_vocabulary.c:155
 #: ../src/common/color_vocabulary.c:160 ../src/common/color_vocabulary.c:165
 #: ../src/common/color_vocabulary.c:170 ../src/common/color_vocabulary.c:175
-#, fuzzy
 msgid "cheek"
 msgstr "tvář"
 
@@ -7284,13 +7246,11 @@ msgstr "průměrný tón pleti %s\n"
 
 #. 0° - pinkish red
 #: ../src/common/color_vocabulary.c:222
-#, fuzzy
 msgid "deep purple"
 msgstr "tmavě fialová"
 
 #. L = 10 %
 #: ../src/common/color_vocabulary.c:223
-#, fuzzy
 msgid "fuchsia"
 msgstr "fuchsiová"
 
@@ -7314,38 +7274,31 @@ msgstr "švestková fialová"
 
 #. 24° - red
 #: ../src/common/color_vocabulary.c:231
-#, fuzzy
 msgid "dark red"
 msgstr "tmavě červená"
 
 #: ../src/common/color_vocabulary.c:233
-#, fuzzy
 msgid "crimson"
-msgstr "karmínový"
+msgstr "karmínová"
 
 #: ../src/common/color_vocabulary.c:234
-#, fuzzy
 msgid "salmon"
 msgstr "lososová"
 
 #: ../src/common/color_vocabulary.c:235
-#, fuzzy
 msgid "pink"
 msgstr "růžová"
 
 #. 48° - orangy red
 #: ../src/common/color_vocabulary.c:240
-#, fuzzy
 msgid "maroon"
 msgstr "kaštanová"
 
 #: ../src/common/color_vocabulary.c:241
-#, fuzzy
 msgid "dark orange red"
 msgstr "tmavě oranžovo červená"
 
 #: ../src/common/color_vocabulary.c:242
-#, fuzzy
 msgid "orange red"
 msgstr "oranžovo červená"
 
@@ -7387,7 +7340,6 @@ msgid "dark green"
 msgstr "tmavě zelená"
 
 #: ../src/common/color_vocabulary.c:259
-#, fuzzy
 msgid "dark olive green"
 msgstr "tmavě olivově zelená"
 
@@ -7436,7 +7388,6 @@ msgid "sea green"
 msgstr "oceánově zelená"
 
 #: ../src/common/color_vocabulary.c:287 ../src/common/color_vocabulary.c:304
-#, fuzzy
 msgid "teal"
 msgstr "modrozelená"
 
@@ -7446,7 +7397,6 @@ msgid "light sea green"
 msgstr "světle oceánově zelená"
 
 #: ../src/common/color_vocabulary.c:289
-#, fuzzy
 msgid "turquoise"
 msgstr "tyrkysová"
 
@@ -7468,9 +7418,8 @@ msgstr "tmavě azurová"
 
 #: ../src/common/color_vocabulary.c:297 ../src/common/color_vocabulary.c:317
 #: ../src/iop/colorzones.c:2489
-#, fuzzy
 msgid "aqua"
-msgstr "vodní"
+msgstr "aqua"
 
 #. 216° - medium blue
 #: ../src/common/color_vocabulary.c:303
@@ -7518,17 +7467,14 @@ msgstr "světle modrá"
 
 #. 312° - violet
 #: ../src/common/color_vocabulary.c:331
-#, fuzzy
 msgid "indigo"
 msgstr "indigová"
 
 #: ../src/common/color_vocabulary.c:332
-#, fuzzy
 msgid "dark violet"
 msgstr "tmavě fialová"
 
 #: ../src/common/color_vocabulary.c:333
-#, fuzzy
 msgid "blue violet"
 msgstr "modrá fialová"
 
@@ -7567,7 +7513,6 @@ msgid "clear"
 msgstr "vymazat"
 
 #: ../src/common/colorspaces.c:1421 ../src/common/colorspaces.c:1778
-#, fuzzy
 msgid "work profile"
 msgstr "pracovní profil"
 
@@ -7588,49 +7533,40 @@ msgid "system display profile (second window)"
 msgstr "systémový barevný profil (druhé okno)"
 
 #: ../src/common/colorspaces.c:1459
-#, fuzzy
 msgid "sRGB (web-safe)"
 msgstr "sRGB (web-safe)"
 
 #: ../src/common/colorspaces.c:1479 ../src/common/colorspaces.c:1782
-#, fuzzy
 msgid "Rec709 RGB"
 msgstr "Rec709 RGB"
 
 #: ../src/common/colorspaces.c:1494
-#, fuzzy
 msgid "PQ Rec2020 RGB"
 msgstr "PQ Rec2020 RGB"
 
 #: ../src/common/colorspaces.c:1502
-#, fuzzy
 msgid "HLG Rec2020 RGB"
 msgstr "HLG Rec2020 RGB"
 
 #: ../src/common/colorspaces.c:1509
-#, fuzzy
 msgid "PQ P3 RGB"
 msgstr "PQ P3 RGB"
 
 #: ../src/common/colorspaces.c:1515
-#, fuzzy
 msgid "HLG P3 RGB"
 msgstr "HLG P3 RGB"
 
 #: ../src/common/colorspaces.c:1522
-#, fuzzy
 msgid "Display P3 RGB"
 msgstr "Display P3 RGB"
 
 #: ../src/common/colorspaces.c:1537 ../src/common/colorspaces.c:1752
-#, fuzzy
 msgid "linear XYZ"
 msgstr "lineární XYZ"
 
 #: ../src/common/colorspaces.c:1544 ../src/common/colorspaces.c:1754
 #: ../src/develop/blend_gui.c:144 ../src/develop/blend_gui.c:2053 ../src/libs/colorpicker.c:52
 #: ../src/libs/colorpicker.c:369
-#, fuzzy
 msgid "Lab"
 msgstr "Lab"
 
@@ -7640,7 +7576,6 @@ msgid "linear infrared BGR"
 msgstr "lineární infračervené BGR"
 
 #: ../src/common/colorspaces.c:1557
-#, fuzzy
 msgid "BRG (for testing)"
 msgstr "BRG (pro testování)"
 
@@ -7650,9 +7585,8 @@ msgid "profile `%s' not usable as histogram profile. it has been replaced by sRG
 msgstr "profil `%s' nelze použít jako profil histogramu. byl nahrazen sRGB!"
 
 #: ../src/common/colorspaces.c:1742
-#, fuzzy
 msgid "no filename"
-msgstr "žádné jméno souboru"
+msgstr "žádný název souboru"
 
 #: ../src/common/colorspaces.c:1760
 #, fuzzy
@@ -7715,17 +7649,17 @@ msgid "failed to create temporary file for printing options"
 msgstr "nepodařilo se vytvořit dočasný soubor pro možnosti tisku"
 
 #: ../src/common/cups_print.c:530
-#, fuzzy, c-format
+#, c-format
 msgid "printing on `%s' cancelled"
 msgstr "tisk na `%s' zrušen"
 
 #: ../src/common/cups_print.c:626
-#, fuzzy, c-format
+#, c-format
 msgid "error while printing `%s' on `%s'"
 msgstr "chyba při tisku `%s' na `%s'"
 
 #: ../src/common/cups_print.c:628
-#, fuzzy, c-format
+#, c-format
 msgid "printing `%s' on `%s'"
 msgstr "tisk `%s' na `%s'"
 
@@ -7751,7 +7685,7 @@ msgstr "soubor `%s' má neznámý formát!"
 
 #: ../src/common/darktable.c:483 ../src/control/jobs/control_jobs.c:2877
 #: ../src/control/jobs/control_jobs.c:2932
-#, fuzzy, c-format
+#, c-format
 msgid "error loading file `%s'"
 msgstr "chyba při načítání souboru `%s'"
 
@@ -8060,17 +7994,14 @@ msgid "description"
 msgstr "popis"
 
 #: ../src/common/database.c:3240
-#, fuzzy
 msgid "rights"
 msgstr "práva"
 
 #: ../src/common/database.c:3241
-#, fuzzy
 msgid "notes"
 msgstr "poznámky"
 
 #: ../src/common/database.c:3242
-#, fuzzy
 msgid "version name"
 msgstr "název verze"
 
@@ -8138,7 +8069,6 @@ msgstr ""
 "jinak riskujete vznik vážných nekonzistencí ve vaší databázi.</i>\n"
 
 #: ../src/common/database.c:3881
-#, fuzzy
 msgid "error starting darktable"
 msgstr "chyba při spouštění darktable"
 
@@ -8148,7 +8078,6 @@ msgid "_delete database lock files"
 msgstr "_vymazat soubory zámků databáze"
 
 #: ../src/common/database.c:3890
-#, fuzzy
 msgid "are you sure?"
 msgstr "Opravdu?"
 
@@ -8162,17 +8091,14 @@ msgstr ""
 "Opravdu chcete vymazat soubory zámků databáze?\n"
 
 #: ../src/common/database.c:3891 ../src/gui/gtk.c:3393
-#, fuzzy
 msgid "_no"
 msgstr "_ne"
 
 #: ../src/common/database.c:3891 ../src/gui/gtk.c:3392
-#, fuzzy
 msgid "_yes"
 msgstr "_ano"
 
 #: ../src/common/database.c:3907
-#, fuzzy
 msgid "done"
 msgstr "hotovo"
 
@@ -8190,12 +8116,10 @@ msgstr ""
 #: ../src/common/database.c:3909 ../src/common/database.c:3916 ../src/gui/accelerators.c:2617
 #: ../src/gui/accelerators.c:2689 ../src/gui/accelerators.c:2798 ../src/gui/hist_dialog.c:237
 #: ../src/gui/presets.c:576
-#, fuzzy
 msgid "_ok"
 msgstr "_ok"
 
 #: ../src/common/database.c:3912 ../src/gui/preferences_ai.c:165
-#, fuzzy
 msgid "error"
 msgstr "chyba"
 
@@ -8275,12 +8199,10 @@ msgstr "darktable - migrace schématu"
 
 #: ../src/common/database.c:4162 ../src/common/database.c:4520 ../src/common/database.c:4535
 #: ../src/common/database.c:4694 ../src/common/database.c:4709
-#, fuzzy
 msgid "_close darktable"
 msgstr "_zavřít darktable"
 
 #: ../src/common/database.c:4162
-#, fuzzy
 msgid "_upgrade database"
 msgstr "_upgrade databáze"
 
@@ -8414,7 +8336,6 @@ msgstr[2] "odstranit prázdných složek?"
 
 #: ../src/common/film.c:361 ../src/gui/preferences.c:949 ../src/gui/preferences_ai.c:1336
 #: ../src/gui/styles_dialog.c:571 ../src/libs/geotagging.c:846 ../src/libs/import.c:1863
-#, fuzzy
 msgid "name"
 msgstr "název"
 
