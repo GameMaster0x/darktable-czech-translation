@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-11 11:40+0200\n"
-"PO-Revision-Date: 2026-04-19 22:53+0200\n"
+"PO-Revision-Date: 2026-04-20 18:15+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr <jan.smucr@gmail.com>, Petr Stasiak "
 "<petr@stasiak.cz>\n"
@@ -127,7 +127,7 @@ msgstr "necitlivý"
 #: ../build/bin/conf_gen.h:545
 msgctxt "preferences"
 msgid "multiple GPUs"
-msgstr "vícero GPU"
+msgstr "více GPU"
 
 #: ../build/bin/conf_gen.h:546
 msgctxt "preferences"
@@ -427,31 +427,26 @@ msgid "grayscale"
 msgstr "stupně šedi"
 
 #: ../build/bin/conf_gen.h:1953
-#, fuzzy
 msgctxt "preferences"
 msgid "top left"
 msgstr "nahoře vlevo"
 
 #: ../build/bin/conf_gen.h:1954
-#, fuzzy
 msgctxt "preferences"
 msgid "top right"
 msgstr "nahoře vpravo"
 
 #: ../build/bin/conf_gen.h:1955
-#, fuzzy
 msgctxt "preferences"
 msgid "top center"
 msgstr "nahoře uprostřed"
 
 #: ../build/bin/conf_gen.h:1956 ../build/bin/preferences_gen.h:3085
-#, fuzzy
 msgctxt "preferences"
 msgid "bottom"
 msgstr "dole"
 
 #: ../build/bin/conf_gen.h:1957
-#, fuzzy
 msgctxt "preferences"
 msgid "hidden"
 msgstr "skrytý"
@@ -666,10 +661,9 @@ msgid "RYB"
 msgstr "RYB"
 
 #: ../build/bin/conf_gen.h:4162
-#, fuzzy
 msgctxt "preferences"
 msgid "monochromatic"
-msgstr "monochromatický"
+msgstr "černobílý"
 
 #: ../build/bin/conf_gen.h:4163
 #, fuzzy
@@ -1742,9 +1736,8 @@ msgid "CPU / memory"
 msgstr "CPU / paměť"
 
 #: ../build/bin/preferences_gen.h:3562
-#, fuzzy
 msgid "darktable resources"
-msgstr "zdroje darktable"
+msgstr "využití systémových prostředků"
 
 #: ../build/bin/preferences_gen.h:3572
 #, fuzzy, no-c-format
@@ -1769,19 +1762,17 @@ msgid "OpenCL GPU acceleration"
 msgstr "OpenCL GPU akcelerace"
 
 #: ../build/bin/preferences_gen.h:3588
-#, fuzzy
 msgid "activate OpenCL support"
 msgstr "aktivovat podporu OpenCL"
 
 #: ../build/bin/preferences_gen.h:3596
-#, fuzzy
 msgid ""
 "if found, use OpenCL runtime on your system to speed up processing by using your graphics "
 "card(s).\n"
 "can be switched on and off at any time."
 msgstr ""
-"Pokud je k dispozici OpenCL, Darktable jej využije pro urychlení zpracování.\n"
-"Lze kdykoli zapnout a vypnout."
+"Je-li k dispozici, Darktable využije OpenCL pro urychlení zpracování.\n"
+"Lze kdykoli aktivovat či deaktivovat."
 
 #: ../build/bin/preferences_gen.h:3609
 #| msgid "lens model"
@@ -1848,7 +1839,6 @@ msgid "Nvidia CUDA"
 msgstr "Nvidia CUDA"
 
 #: ../build/bin/preferences_gen.h:3709
-#, fuzzy
 msgid "Nvidia CUDA based OpenCL (vendor provided)"
 msgstr "OpenCL založené na Nvidia CUDA (od výrobce)"
 
@@ -1857,7 +1847,6 @@ msgid "AMD ROCm"
 msgstr "AMD ROCm"
 
 #: ../build/bin/preferences_gen.h:3730
-#, fuzzy
 msgid "AMD Accelerated Parallel Processing (vendor provided)"
 msgstr "AMD Accelerated Parallel Processing (od výrobce)"
 
@@ -1866,9 +1855,10 @@ msgid "RustiCL"
 msgstr "RustiCL"
 
 #: ../build/bin/preferences_gen.h:3751
-#, fuzzy
 msgid "RustiCL Mesa OpenCL. if you want to use this, you should disable the vendor driver"
-msgstr "RustiCL Mesa OpenCL. Pokud jej chcete používat, měli byste vypnout ovladač od výrobce."
+msgstr ""
+"RustiCL Mesa OpenCL \n"
+"pokud jej chcete využívat, měli byste deaktivovat ovladač od výrobce"
 
 #: ../build/bin/preferences_gen.h:3764
 msgid "Apple"
@@ -2192,12 +2182,10 @@ msgstr ""
 "neaktualizoval"
 
 #: ../build/bin/preferences_gen.h:4262
-#, fuzzy
 msgid "miscellaneous"
 msgstr "různé"
 
 #: ../build/bin/preferences_gen.h:4267
-#, fuzzy
 msgid "interface"
 msgstr "rozhraní"
 
@@ -4491,7 +4479,6 @@ msgstr "režim zpracování"
 #: ../src/iop/channelmixer.c:609 ../src/iop/channelmixerrgb.c:4586
 #: ../src/iop/colorchecker.c:1567 ../src/iop/colorize.c:364 ../src/iop/colorzones.c:2625
 #: ../src/iop/exposure.c:1315
-#, fuzzy
 msgid "lightness"
 msgstr "světlost"
 
@@ -6403,7 +6390,6 @@ msgid "RGB average"
 msgstr "RGB průměr"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:381
-#, fuzzy
 msgid "HSL lightness"
 msgstr "HSL světlost"
 
@@ -10221,7 +10207,6 @@ msgid "pinlight"
 msgstr "bodové světlo"
 
 #: ../src/develop/blend_gui.c:89
-#, fuzzy
 msgctxt "blendmode"
 msgid "lightness"
 msgstr "světlost"
@@ -10233,7 +10218,6 @@ msgid "chromaticity"
 msgstr "chromatičnost"
 
 #: ../src/develop/blend_gui.c:94
-#, fuzzy
 msgctxt "blendmode"
 msgid "Lab lightness"
 msgstr "Lab světlost"
@@ -10254,19 +10238,16 @@ msgid "Lab color"
 msgstr "barvy lab"
 
 #: ../src/develop/blend_gui.c:103
-#, fuzzy
 msgctxt "blendmode"
 msgid "RGB red channel"
 msgstr "RGB červený kanál"
 
 #: ../src/develop/blend_gui.c:105
-#, fuzzy
 msgctxt "blendmode"
 msgid "RGB green channel"
 msgstr "RGB zelený kanál"
 
 #: ../src/develop/blend_gui.c:107
-#, fuzzy
 msgctxt "blendmode"
 msgid "RGB blue channel"
 msgstr "RGB modrý kanál"
@@ -10965,9 +10946,8 @@ msgstr "Upraví opěrný bod používaný některými operacemi maskování."
 #. Add opacity/scale sliders to table
 #: ../src/develop/blend_gui.c:3570 ../src/iop/overlay.c:1110 ../src/iop/watermark.c:1469
 #: ../src/libs/masks.c:109
-#, fuzzy
 msgid "opacity"
-msgstr "neprůhlednost"
+msgstr "krytí"
 
 #: ../src/develop/blend_gui.c:3573
 #, fuzzy
@@ -11001,9 +10981,8 @@ msgstr ""
 "* záporné hodnoty maskují hladké plochy"
 
 #: ../src/develop/blend_gui.c:3599 ../src/libs/history.c:955
-#, fuzzy
 msgid "feathering guide"
-msgstr "vodítko hran masky"
+msgstr "vodítko prolnutí masky"
 
 #: ../src/develop/blend_gui.c:3602
 #, fuzzy
@@ -11015,9 +10994,8 @@ msgstr ""
 "nebo výstupu, a zda před nebo až po rozostření okrajů."
 
 #: ../src/develop/blend_gui.c:3608 ../src/libs/history.c:954
-#, fuzzy
 msgid "feathering radius"
-msgstr "poloměr ohraničení"
+msgstr "poloměr prolnutí"
 
 #: ../src/develop/blend_gui.c:3609 ../src/develop/blend_gui.c:3618
 #: ../src/iop/colorbalancergb.c:2022 ../src/iop/colorequal.c:3112 ../src/iop/colorequal.c:3139
@@ -11027,9 +11005,8 @@ msgid " px"
 msgstr " px"
 
 #: ../src/develop/blend_gui.c:3611
-#, fuzzy
 msgid "spatial radius of feathering"
-msgstr "poloměr ohraničení masky"
+msgstr "poloměr prolnutí masky"
 
 #: ../src/develop/blend_gui.c:3617
 #, fuzzy
@@ -11151,27 +11128,25 @@ msgstr "přesun níž"
 #. delete button label and tooltip will be updated based on trash pref
 #: ../src/develop/imageop.c:1032 ../src/develop/imageop.c:4140 ../src/gui/accelerators.c:178
 #: ../src/libs/image.c:307 ../src/libs/image.c:522
-#, fuzzy
 msgid "delete"
 msgstr "vymazat"
 
 #: ../src/develop/imageop.c:1040 ../src/develop/imageop.c:4141 ../src/libs/modulegroups.c:4088
-#, fuzzy
 msgid "rename"
 msgstr "přejmenovat"
 
 #: ../src/develop/imageop.c:1152 ../src/develop/imageop.c:3030
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is switched on"
 msgstr "'%s' je zapnutý"
 
 #: ../src/develop/imageop.c:1152 ../src/develop/imageop.c:3030
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is switched off"
 msgstr "'%s' je vypnutý"
 
 #: ../src/develop/imageop.c:1718 ../src/libs/lib.c:885
-#, fuzzy, c-format
+#, c-format
 msgid "%s: %s"
 msgstr "%s: %s"
 
@@ -11206,13 +11181,11 @@ msgid "click to display (module must be activated first)"
 msgstr "kliknutím zobrazíte (modul musí být nejprve aktivován)"
 
 #: ../src/develop/imageop.c:2982
-#, fuzzy
 msgid "purpose"
 msgstr "účel"
 
 #. process button
 #: ../src/develop/imageop.c:2982 ../src/libs/neural_restore.c:2183
-#, fuzzy
 msgid "process"
 msgstr "proces"
 
@@ -11248,7 +11221,6 @@ msgid "ERROR"
 msgstr "CHYBA"
 
 #: ../src/develop/imageop.c:3993
-#, fuzzy
 msgid "unsupported input"
 msgstr "nepodporovaný vstup"
 
@@ -11292,7 +11264,6 @@ msgstr "presety"
 
 #. global <focused> shortcuts
 #: ../src/develop/imageop.c:4149 ../src/views/darkroom.c:2874
-#, fuzzy
 msgid "enable"
 msgstr "povolit"
 
@@ -11362,7 +11333,7 @@ msgstr[1] "%s byly importovány"
 msgstr[2] "%s bylo importováno"
 
 #: ../src/develop/masks/brush.c:1341 ../src/develop/masks/brush.c:1395
-#, fuzzy, c-format
+#, c-format
 msgid "hardness: %3.2f%%"
 msgstr "tvrdost: %3.2f%%"
 
@@ -11370,7 +11341,7 @@ msgstr "tvrdost: %3.2f%%"
 #: ../src/develop/masks/circle.c:147 ../src/develop/masks/circle.c:192
 #: ../src/develop/masks/ellipse.c:479 ../src/develop/masks/ellipse.c:540
 #: ../src/develop/masks/path.c:1886
-#, fuzzy, c-format
+#, c-format
 msgid "size: %3.2f%%"
 msgstr "velikost: %3.2f%%"
 
@@ -11411,9 +11382,9 @@ msgstr "<b>velikost</b>: posuv"
 #: ../src/develop/masks/circle.c:136 ../src/develop/masks/circle.c:180
 #: ../src/develop/masks/ellipse.c:465 ../src/develop/masks/ellipse.c:525
 #: ../src/develop/masks/path.c:1820
-#, fuzzy, c-format
+#, c-format
 msgid "feather size: %3.2f%%"
-msgstr "velikost okraje: %3.2f%%"
+msgstr "velikost prolnutí: %3.2f%%"
 
 #: ../src/develop/masks/circle.c:1393
 #, fuzzy
@@ -11421,9 +11392,8 @@ msgid "[CIRCLE] change size"
 msgstr "[KRUŽNICE] změna velikosti"
 
 #: ../src/develop/masks/circle.c:1395
-#, fuzzy
 msgid "[CIRCLE] change feather size"
-msgstr "[KRUŽNICE] změnit velikost okraje"
+msgstr "[KRUŽNICE] změnit velikost prolnutí"
 
 #: ../src/develop/masks/circle.c:1397
 #, fuzzy
@@ -11431,17 +11401,17 @@ msgid "[CIRCLE] change opacity"
 msgstr "[KRUŽNICE] změna neprůhlednosti"
 
 #: ../src/develop/masks/circle.c:1410
-#, fuzzy, c-format
+#, c-format
 msgid "circle #%d"
 msgstr "kruh #%d"
 
 #: ../src/develop/masks/circle.c:1421 ../src/develop/masks/path.c:4012
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "<b>size</b>: scroll, <b>feather size</b>: shift+scroll\n"
 "<b>opacity</b>: ctrl+scroll (%d%%)"
 msgstr ""
-"<b>velikost</b>: posouvání, <b>velikost ohraničení</b>: Shift+rolování\n"
+"<b>velikost</b>: posouvání, <b>velikost prolnutí</b>: Shift+rolování\n"
 "<b>neprůhlednost</b>: Ctrl+scroll (%d%%)"
 
 #: ../src/develop/masks/ellipse.c:451 ../src/develop/masks/ellipse.c:509
@@ -11455,9 +11425,8 @@ msgid "[ELLIPSE] change size"
 msgstr "[ELIPSA] změna velikosti"
 
 #: ../src/develop/masks/ellipse.c:1958
-#, fuzzy
 msgid "[ELLIPSE] change feather size"
-msgstr "[ELIPSA] změnit velikost okraje"
+msgstr "[ELIPSA] změnit velikost prolnutí"
 
 #: ../src/develop/masks/ellipse.c:1961 ../src/develop/masks/ellipse.c:1970
 #, fuzzy
@@ -11470,12 +11439,11 @@ msgid "[ELLIPSE] change opacity"
 msgstr "[ELIPSA] změna neprůhlednosti"
 
 #: ../src/develop/masks/ellipse.c:1967
-#, fuzzy
 msgid "[ELLIPSE] switch feathering mode"
-msgstr "[ELIPSA] přepne režim ohraničení"
+msgstr "[ELIPSA] přepne režim prolnutí"
 
 #: ../src/develop/masks/ellipse.c:1977
-#, fuzzy, c-format
+#, c-format
 msgid "ellipse #%d"
 msgstr "elipsa #%d"
 
@@ -11519,17 +11487,17 @@ msgstr "zakřivení: %3.2f%%"
 #: ../src/develop/masks/gradient.c:1418
 #, fuzzy
 msgid "[GRADIENT on pivot] rotate shape"
-msgstr "[GRADIENT na středu] rotace tvaru"
+msgstr "[PŘECHOD na středu] rotace tvaru"
 
 #: ../src/develop/masks/gradient.c:1420
 #, fuzzy
 msgid "[GRADIENT creation] set rotation"
-msgstr "[vytvoření GRADIENTU] nastavit rotaci"
+msgstr "[vytvoření PŘECHODU] nastavit rotaci"
 
 #: ../src/develop/masks/gradient.c:1422
 #, fuzzy
 msgid "[GRADIENT] change curvature"
-msgstr "[GRADIENT] změna zakřivení"
+msgstr "[PŘECHOD] změna zakřivení"
 
 #: ../src/develop/masks/gradient.c:1424
 #, fuzzy
@@ -11537,14 +11505,13 @@ msgid "[GRADIENT] change compression"
 msgstr "[GRADIENT] změna komprese"
 
 #: ../src/develop/masks/gradient.c:1426
-#, fuzzy
 msgid "[GRADIENT] change opacity"
-msgstr "[GRADIENT] změna neprůhlenosti"
+msgstr "[PŘECHOD] změnit krytí"
 
 #: ../src/develop/masks/gradient.c:1439
-#, fuzzy, c-format
+#, c-format
 msgid "gradient #%d"
-msgstr "gradient #%d"
+msgstr "přechod #%d"
 
 #: ../src/develop/masks/gradient.c:1450
 #, fuzzy, c-format
@@ -11553,7 +11520,7 @@ msgid ""
 "<b>rotation</b>: click+drag, <b>opacity</b>: ctrl+scroll (%d%%)"
 msgstr ""
 "<b>zakřivení</b>: rolování, <b>komprese</b>: Shift+scroll\n"
-"<b>rotace</b>: klik+tažení, <b>neprůhlednost</b>: Ctrl+posun (%d%%)"
+"<b>rotace</b>: klik+tažení, <b>krytí</b>: Ctrl+posun (%d%%)"
 
 #: ../src/develop/masks/gradient.c:1455
 #, fuzzy, c-format
@@ -11562,10 +11529,9 @@ msgid ""
 "<b>opacity</b>: ctrl+scroll (%d%%)"
 msgstr ""
 "<b>zakřivení</b>: rolování, <b>komprese</b>: Shift+scroll\n"
-"<b>neprůhlednost</b>: Ctrl+scroll (%d%%)"
+"<b>krytí</b>: Ctrl+scroll (%d%%)"
 
 #: ../src/develop/masks/gradient.c:1458
-#, fuzzy
 msgid "<b>rotate</b>: drag"
 msgstr "<b>rotace</b>: přetáhnout"
 
@@ -11575,12 +11541,12 @@ msgid "[SHAPE] remove shape"
 msgstr "[TVAR] odstranit tvar"
 
 #: ../src/develop/masks/masks.c:300
-#, fuzzy, c-format
+#, c-format
 msgid "group `%s'"
 msgstr "skupina `%s'"
 
 #: ../src/develop/masks/masks.c:432
-#, fuzzy, c-format
+#, c-format
 msgid "copy of `%s'"
 msgstr "kopie %s'"
 
@@ -11590,9 +11556,9 @@ msgid "%s: mask version mismatch: %d != %d"
 msgstr "%s: Neshoda verze masky: %d <> %d"
 
 #: ../src/develop/masks/masks.c:1263 ../src/develop/masks/masks.c:1923
-#, fuzzy, c-format
+#, c-format
 msgid "opacity: %.0f%%"
-msgstr "neprůhlednost: %.0f%%"
+msgstr "krytí: %.0f%%"
 
 #: ../src/develop/masks/masks.c:1669 ../src/libs/masks.c:1092
 #, fuzzy
@@ -11638,12 +11604,10 @@ msgid "no mask extracted from AI segmentation"
 msgstr ""
 
 #: ../src/develop/masks/object.c:1004
-#, fuzzy
 msgid "ai object group"
 msgstr "skupina ai objektů"
 
 #: ../src/develop/masks/object.c:1005
-#, fuzzy
 msgid "ai object"
 msgstr "ai objekt"
 
@@ -11659,10 +11623,9 @@ msgid "cleanup: %d"
 msgstr ""
 
 #: ../src/develop/masks/object.c:1155
-#, fuzzy, c-format
-#| msgid "opacity: %.0f%%"
+#, c-format
 msgid "opacity: %d%%"
-msgstr "neprůhlednost: %.0f%%"
+msgstr "krytí: %d%%"
 
 #: ../src/develop/masks/object.c:1278
 #, fuzzy, c-format
@@ -11716,9 +11679,8 @@ msgstr "[GRADIENT] změna zakřivení"
 
 #: ../src/develop/masks/object.c:1814
 #, fuzzy
-#| msgid "[PATH] change opacity"
 msgid "[OBJECT] change opacity"
-msgstr "[CESTA] změnit neprůhlednost"
+msgstr "[CESTA] změnit krytí"
 
 #: ../src/develop/masks/object.c:1821
 #, c-format
@@ -11957,12 +11919,11 @@ msgid "zooming is limited to %d images"
 msgstr "zvětšení je limitováno na %d obrázků"
 
 #: ../src/dtgtk/range.c:218 ../src/dtgtk/range.c:223
-#, fuzzy
 msgid "invalid"
 msgstr "neplatný"
 
 #: ../src/dtgtk/range.c:331
-#, fuzzy, c-format
+#, c-format
 msgid "year %s"
 msgstr "rok %s"
 
@@ -12076,13 +12037,11 @@ msgid "max"
 msgstr "max"
 
 #: ../src/dtgtk/range.c:939
-#, fuzzy
 msgid "date type"
 msgstr "formát data"
 
 #. the date section
 #: ../src/dtgtk/range.c:948 ../src/libs/geotagging.c:1545
-#, fuzzy
 msgid "date"
 msgstr "datum"
 
@@ -12096,28 +12055,23 @@ msgstr ""
 "dvojklik pro přímé použití data"
 
 #: ../src/dtgtk/range.c:963
-#, fuzzy
 msgid "years: "
 msgstr "roky: "
 
 #: ../src/dtgtk/range.c:971
-#, fuzzy
 msgid "months: "
-msgstr "měsíců: "
+msgstr "měsíce: "
 
 #: ../src/dtgtk/range.c:979
-#, fuzzy
 msgid "days: "
-msgstr "dní: "
+msgstr "dny: "
 
 #. the time section
 #: ../src/dtgtk/range.c:991 ../src/libs/geotagging.c:1545
-#, fuzzy
 msgid "time"
 msgstr "čas"
 
 #: ../src/dtgtk/range.c:1025 ../src/dtgtk/range.c:1759 ../src/dtgtk/range.c:1810
-#, fuzzy
 msgid "now"
 msgstr "nyní"
 
@@ -12128,7 +12082,6 @@ msgstr "nastavte hodnotu tak, aby vždy odpovídala aktuálnímu datu a času"
 
 #: ../src/dtgtk/range.c:1029 ../src/gui/accelerators.c:185 ../src/libs/metadata.c:1142
 #: ../src/libs/styles.c:948
-#, fuzzy
 msgid "apply"
 msgstr "použít"
 
@@ -12150,7 +12103,6 @@ msgstr "dvojklik pro reset"
 #. loop through the tabke of path preferences and populate the widgets
 #: ../src/dtgtk/thumbnail.c:162 ../src/dtgtk/thumbnail.c:195
 #: ../src/external/lua-scripts/tools/executable_manager.lua:218
-#, fuzzy
 msgid "current"
 msgstr "aktuální"
 
@@ -12182,7 +12134,6 @@ msgid "fit"
 msgstr "přizpůsobit"
 
 #: ../src/dtgtk/thumbtable.c:1265
-#, fuzzy
 msgid "here"
 msgstr "zde"
 
@@ -12334,7 +12285,6 @@ msgstr "zneplatnění miniatur uložených v mezipaměti"
 
 #. setup history key accelerators
 #: ../src/dtgtk/thumbtable.c:3081
-#, fuzzy
 msgid "copy history"
 msgstr "historie kopírování"
 
@@ -13488,7 +13438,6 @@ msgstr ""
 "hodnota: 0,5"
 
 #: ../src/external/lua-scripts/official/enfuse.lua:157
-#, fuzzy
 msgid "depth"
 msgstr "hloubka"
 
@@ -14443,15 +14392,13 @@ msgstr "Pro použití správné verze Lua skriptů je potřeba restartovat darkt
 #. - - - - - - - - - - - - - - - - - - - - - - -
 #. update the scripts
 #: ../src/external/lua-scripts/tools/script_manager.lua:1336
-#, fuzzy
 msgid "scripts to update"
-msgstr "Lua skripty k aktualizaci"
+msgstr "skripty k aktualizaci"
 
 # tooltip
 #: ../src/external/lua-scripts/tools/script_manager.lua:1337
-#, fuzzy
 msgid "select the scripts installation to update"
-msgstr "Vyberte skripty k aktualizaci."
+msgstr "vyberte skripty k aktualizaci"
 
 # button/label
 #: ../src/external/lua-scripts/tools/script_manager.lua:1346
@@ -14540,7 +14487,6 @@ msgstr "strana"
 
 #. configure options
 #: ../src/external/lua-scripts/tools/script_manager.lua:1501
-#, fuzzy
 msgid "scripts per page"
 msgstr "počet skriptů na stránku"
 
@@ -14550,7 +14496,6 @@ msgid "select number of start/stop buttons to display"
 msgstr "Vyberte, kolik tlačítek pro spuštění/zastavení skriptů se má zobrazovat."
 
 #: ../src/external/lua-scripts/tools/script_manager.lua:1513
-#, fuzzy
 msgid "change number of buttons"
 msgstr "změnit počet tlačítek"
 
@@ -14846,7 +14791,6 @@ msgid "right-on"
 msgstr "pravé-zap"
 
 #: ../src/gui/accelerators.c:168 ../src/gui/gtk.c:3975
-#, fuzzy
 msgid "activate"
 msgstr "aktivovat"
 
@@ -14882,12 +14826,10 @@ msgid "apply on new instance"
 msgstr "použít na novou instanci"
 
 #: ../src/gui/accelerators.c:191
-#, fuzzy
 msgid "start"
 msgstr "začátek"
 
 #: ../src/gui/accelerators.c:192
-#, fuzzy
 msgid "end"
 msgstr "konec"
 
@@ -14932,7 +14874,6 @@ msgid "triple-press"
 msgstr "trojstisk"
 
 #: ../src/gui/accelerators.c:762
-#, fuzzy
 msgid "press"
 msgstr "stisk"
 
@@ -14967,7 +14908,6 @@ msgid "triple-click"
 msgstr "trojklik"
 
 #: ../src/gui/accelerators.c:772
-#, fuzzy
 msgid "click"
 msgstr "klik"
 
@@ -14987,7 +14927,6 @@ msgid "relative instance"
 msgstr "relativní instance"
 
 #: ../src/gui/accelerators.c:821 ../src/gui/accelerators.c:2947 ../src/gui/accelerators.c:3910
-#, fuzzy
 msgid "speed"
 msgstr "rychlost"
 
@@ -15103,7 +15042,6 @@ msgid "right-click to exit mapping mode"
 msgstr "pro opuštění režimu mapování klikněte pravým tlačítkem"
 
 #: ../src/gui/accelerators.c:1191
-#, fuzzy
 msgid "ctrl+v"
 msgstr "Ctrl+v"
 
@@ -15186,7 +15124,6 @@ msgid "preferred"
 msgstr "přednostně"
 
 #: ../src/gui/accelerators.c:1611
-#, fuzzy
 msgid "second"
 msgstr "druhý"
 
@@ -15242,7 +15179,6 @@ msgid "remove the selected shortcut?"
 msgstr "odstranit vybranou zkratku?"
 
 #: ../src/gui/accelerators.c:2149
-#, fuzzy
 msgid "command"
 msgstr "příkaz"
 
@@ -15295,7 +15231,6 @@ msgstr ""
 
 #: ../src/gui/accelerators.c:2604 ../src/gui/preferences.c:1062
 #: ../src/libs/tools/global_toolbox.c:487 ../src/libs/tools/global_toolbox.c:662
-#, fuzzy
 msgid "shortcuts"
 msgstr "zkratky"
 
@@ -15314,12 +15249,10 @@ msgstr ""
 "nebo jen pro jedno vybrané zařízení\n"
 
 #: ../src/gui/accelerators.c:2627 ../src/gui/accelerators.c:2699
-#, fuzzy
 msgid "keyboard"
 msgstr "klávesnice"
 
 #: ../src/gui/accelerators.c:2640
-#, fuzzy
 msgid "device id"
 msgstr "id zařízení"
 
@@ -15329,7 +15262,6 @@ msgid "select file to export"
 msgstr "vyberte soubor pro export"
 
 #: ../src/gui/accelerators.c:2659 ../src/libs/tagging.c:2846
-#, fuzzy
 msgid "_export"
 msgstr "_export"
 
@@ -15488,7 +15420,6 @@ msgid "import extended default shortcuts"
 msgstr "Importovat rozšířenou výchozí sadu zkratek"
 
 #: ../src/gui/accelerators.c:3080 ../src/libs/styles.c:936 ../src/libs/tagging.c:3682
-#, fuzzy
 msgid "import..."
 msgstr "import..."
 
@@ -15498,7 +15429,6 @@ msgid "fully or partially import shortcuts from file"
 msgstr "zcela nebo částečně importovat zkratky ze souboru"
 
 #: ../src/gui/accelerators.c:3084 ../src/libs/styles.c:942 ../src/libs/tagging.c:3689
-#, fuzzy
 msgid "export..."
 msgstr "export..."
 
@@ -15619,7 +15549,6 @@ msgstr ""
 
 #. add a memory workspace just after default one
 #: ../src/gui/workspace.c:103 ../src/gui/workspace.c:196
-#, fuzzy
 msgid "memory"
 msgstr "paměť"
 
@@ -15759,9 +15688,8 @@ msgid "map"
 msgstr "mapa"
 
 #: ../src/gui/gtk.c:1598 ../src/views/slideshow.c:394
-#, fuzzy
 msgid "slideshow"
-msgstr "slideshow"
+msgstr "prezentace"
 
 #. Print button
 #: ../src/gui/gtk.c:1600 ../src/libs/print_settings.c:2969
@@ -15786,7 +15714,6 @@ msgstr "sbalovací ovládací prvky"
 
 #. specific top/bottom toggles
 #: ../src/gui/gtk.c:1619
-#, fuzzy
 msgid "header"
 msgstr "hlavička"
 
@@ -15837,7 +15764,6 @@ msgstr "přepnout ladění zaostření"
 
 #: ../src/gui/gtk.c:2021 ../src/gui/gtk.c:4082 ../src/gui/gtk.c:4087 ../src/gui/gtk.c:4092
 #: ../src/gui/gtk.c:4097
-#, fuzzy
 msgid "tabs"
 msgstr "záložky"
 
@@ -15881,9 +15807,8 @@ msgid "right-click to show/hide modules"
 msgstr "Klikněte pravým tlačítkem pro skrytí/zobrazení modulů."
 
 #: ../src/gui/gtk.c:2668
-#, fuzzy
 msgid "show/hide modules"
-msgstr "skrýt/zobrazit moduly"
+msgstr "zobrazit/skrýt moduly"
 
 #. ask the user if darktable.org may be accessed
 #: ../src/gui/gtk.c:3509
@@ -16174,14 +16099,12 @@ msgid "set the contrast between the lightest and darkest part of the guide overl
 msgstr "nastavit kontrast mezi nejsvětlejší a nejtmavší částí vodítka překryvů"
 
 #: ../src/gui/guides.c:983 ../src/gui/guides.c:1032
-#, fuzzy
 msgid "show guides"
 msgstr "zobrazit vodítka"
 
 #: ../src/gui/guides.c:1041
-#, fuzzy
 msgid "show guide overlay when this module has focus"
-msgstr "zobrazit vodítka překrytí, když je tento modul aktivní"
+msgstr "zobrazit vodítka, když je tento modul aktivní"
 
 #: ../src/gui/guides.c:1044
 #, fuzzy
@@ -16200,12 +16123,10 @@ msgid "select parts to copy"
 msgstr "vyberte části ke kopírování"
 
 #: ../src/gui/hist_dialog.c:234 ../src/gui/hist_dialog.c:246 ../src/gui/styles_dialog.c:552
-#, fuzzy
 msgid "select _all"
 msgstr "vybrat _vše"
 
 #: ../src/gui/hist_dialog.c:235 ../src/gui/hist_dialog.c:247 ../src/gui/styles_dialog.c:553
-#, fuzzy
 msgid "select _none"
 msgstr "zrušit _výběr"
 
@@ -16215,27 +16136,22 @@ msgid "select parts to paste"
 msgstr "vyberte části k vložení"
 
 #: ../src/gui/hist_dialog.c:249 ../src/libs/styles.c:505 ../src/libs/styles.c:658
-#, fuzzy
 msgid "_overwrite"
 msgstr "_přepsat"
 
 #: ../src/gui/hist_dialog.c:250
-#, fuzzy
 msgid "appen_d"
 msgstr "při_dat"
 
 #: ../src/gui/hist_dialog.c:280 ../src/gui/styles_dialog.c:619 ../src/gui/styles_dialog.c:641
-#, fuzzy
 msgid "include"
 msgstr "zahrnout"
 
 #: ../src/gui/hist_dialog.c:308 ../src/gui/styles_dialog.c:695 ../src/gui/styles_dialog.c:701
-#, fuzzy
 msgid "item"
 msgstr "položka"
 
 #: ../src/gui/hist_dialog.c:314 ../src/gui/styles_dialog.c:708 ../src/gui/styles_dialog.c:717
-#, fuzzy
 msgid "mask"
 msgstr "maska"
 
@@ -16262,7 +16178,6 @@ msgstr ""
 "Poklepáním na 'preset' vymažete všechny položky."
 
 #: ../src/gui/import_metadata.c:498
-#, fuzzy
 msgid "from XMP"
 msgstr "z XMP"
 
@@ -16290,22 +16205,18 @@ msgid "comma separated list of tags"
 msgstr "seznam tagů oddělený čárkami"
 
 #: ../src/gui/metadata_tags.c:93
-#, fuzzy
 msgid "select tag"
 msgstr "vybrat tag"
 
 #: ../src/gui/metadata_tags.c:95
-#, fuzzy
 msgid "_add"
 msgstr "_přidat"
 
 #: ../src/gui/metadata_tags.c:96 ../src/libs/geotagging.c:833
-#, fuzzy
 msgid "_done"
 msgstr "_hotovo"
 
 #: ../src/gui/metadata_tags.c:106
-#, fuzzy
 msgid "list filter"
 msgstr "seznam filtrů"
 
@@ -16337,7 +16248,6 @@ msgstr ""
 
 #. language
 #: ../src/gui/preferences.c:348
-#, fuzzy
 msgid "interface language"
 msgstr "jazyk rozhraní"
 
@@ -16356,29 +16266,24 @@ msgstr ""
 "(vyžadován restart)"
 
 #: ../src/gui/preferences.c:383
-#, fuzzy
 msgid "theme"
-msgstr "téma vzhledu"
+msgstr "téma"
 
 #: ../src/gui/preferences.c:414
-#, fuzzy
 msgid "set the theme for the user interface"
 msgstr "nastavit téma uživatelského rozhraní (UI)"
 
 #: ../src/gui/preferences.c:429 ../src/gui/preferences.c:436
-#, fuzzy
 msgid "use system font size"
 msgstr "použít systémovou velikost písma"
 
 #: ../src/gui/preferences.c:452 ../src/gui/preferences.c:459
-#, fuzzy
 msgid "font size in points"
 msgstr "velikost písma v bodech"
 
 #: ../src/gui/preferences.c:465
-#, fuzzy
 msgid "GUI controls and text DPI"
-msgstr "DPI textu GUI a ovladačů"
+msgstr "DPI textu a GUI"
 
 #: ../src/gui/preferences.c:475
 #, fuzzy
@@ -16438,7 +16343,6 @@ msgstr "otevřít stránku nápovědy pro úpravy CSS"
 
 #. load default text with some pointers
 #: ../src/gui/preferences.c:561
-#, fuzzy
 msgid "ERROR Loading user.css"
 msgstr "CHYBA při načítání user.css"
 
@@ -16449,9 +16353,8 @@ msgid "Enter CSS theme tweaks here"
 msgstr "Sem zadejte úpravy vzhledu rozhraní ve formátu CSS "
 
 #: ../src/gui/preferences.c:585
-#, fuzzy
 msgid "darktable preferences"
-msgstr "nastavení darktable"
+msgstr "předvolby darktable"
 
 #: ../src/gui/preferences.c:648
 #, fuzzy
@@ -16460,12 +16363,10 @@ msgstr "Aby se změny projevily, bude potřeba darktable restartovat."
 
 #. exif
 #: ../src/gui/preferences.c:955 ../src/gui/presets.c:657 ../src/libs/metadata_view.c:147
-#, fuzzy
 msgid "model"
 msgstr "model"
 
 #: ../src/gui/preferences.c:961 ../src/gui/presets.c:665 ../src/libs/metadata_view.c:148
-#, fuzzy
 msgid "maker"
 msgstr "výrobce"
 
@@ -16486,13 +16387,11 @@ msgstr ""
 "Šipkami nahoru nebo dolů procházejte výsledky hledání."
 
 #: ../src/gui/preferences.c:1020
-#, fuzzy
 msgctxt "preferences"
 msgid "import..."
 msgstr "import..."
 
 #: ../src/gui/preferences.c:1025
-#, fuzzy
 msgctxt "preferences"
 msgid "export..."
 msgstr "export..."
@@ -16511,71 +16410,58 @@ msgstr "vybrat preset(y) pro import"
 #: ../src/gui/preferences_ai.c:1035 ../src/gui/welcome.c:160 ../src/libs/collect.c:463
 #: ../src/libs/copy_history.c:114 ../src/libs/geotagging.c:953 ../src/libs/import.c:1815
 #: ../src/libs/import.c:1927 ../src/libs/styles.c:595
-#, fuzzy
 msgid "_open"
 msgstr "_otevřít"
 
 #: ../src/gui/preferences.c:1230
-#, fuzzy
 msgid "darktable preset files"
-msgstr "soubory s darktable presety"
+msgstr "darktable preset soubory"
 
 #: ../src/gui/preferences.c:1235 ../src/gui/preferences_ai.c:1050 ../src/iop/lut3d.c:1606
 #: ../src/libs/copy_history.c:153 ../src/libs/geotagging.c:969 ../src/libs/styles.c:609
-#, fuzzy
 msgid "all files"
 msgstr "všechny soubory"
 
 #: ../src/gui/preferences_ai.c:157
-#, fuzzy
 msgid "downloaded"
 msgstr "stažené"
 
 #: ../src/gui/preferences_ai.c:159
-#, fuzzy
 msgid "update available"
-msgstr "dostupná aktualizace"
+msgstr "aktualizace je dostupná"
 
 #: ../src/gui/preferences_ai.c:161
-#, fuzzy
 msgid "update required"
-msgstr "aktualizace "
+msgstr "je vyžadována aktualizace"
 
 #: ../src/gui/preferences_ai.c:163
-#, fuzzy
 msgid "downloading..."
 msgstr "stahuji…"
 
 #: ../src/gui/preferences_ai.c:167
-#, fuzzy
-#| msgid "id when loaded"
 msgid "not downloaded"
-msgstr "id při načtení"
+msgstr "není staženo"
 
 #: ../src/gui/preferences_ai.c:346
 msgid "<i>not available, will fall back to CPU</i>"
-msgstr ""
+msgstr "<i>není k dispozici, bude použito CPU</i>"
 
 #: ../src/gui/preferences_ai.c:605
-#, fuzzy
-#| msgid "loading utility modules"
 msgid "downloading AI model"
-msgstr "načítám nástrojové moduly ..."
+msgstr "stahuji AI model"
 
 #: ../src/gui/preferences_ai.c:620
-#, fuzzy, c-format
+#, c-format
 msgid "downloading: %s"
 msgstr "stahuji `%s' ..."
 
 #: ../src/gui/preferences_ai.c:781
-#, fuzzy
-#| msgid "fill mode"
 msgid "install AI model"
-msgstr "režim vyplnění"
+msgstr "instalovat AI model"
 
 #: ../src/gui/preferences_ai.c:789
 msgid "AI model packages (*.dtmodel)"
-msgstr ""
+msgstr "balíček AI modelu (*.dtmodel)"
 
 # dialog title
 #: ../src/gui/preferences_ai.c:862
@@ -16624,7 +16510,6 @@ msgstr ""
 
 #: ../src/gui/preferences_ai.c:948 ../src/iop/lut3d.c:1575 ../src/iop/rasterfile.c:379
 #: ../src/libs/neural_restore.c:2084
-#, fuzzy
 msgid "_select"
 msgstr "_vybrat"
 
@@ -16634,15 +16519,14 @@ msgstr ""
 
 #: ../src/gui/preferences_ai.c:1041
 msgid "ONNX Runtime (onnxruntime*.dll)"
-msgstr ""
+msgstr "ONNX Runtime (onnxruntime*.dll)"
 
 #: ../src/gui/preferences_ai.c:1044
 msgid "ONNX Runtime (libonnxruntime.so*)"
-msgstr ""
+msgstr "ONNX Runtime (libonnxruntime.so*)"
 
 #. enable AI toggle
 #: ../src/gui/preferences_ai.c:1097
-#, fuzzy
 msgid "enable AI features"
 msgstr "povolit AI funkce"
 
@@ -16660,15 +16544,15 @@ msgstr ""
 
 #: ../src/gui/preferences_ai.c:1197
 msgid "ONNX Runtime library"
-msgstr ""
+msgstr "ONNX Runtime library"
 
 #: ../src/gui/preferences_ai.c:1211
 msgid "bundled (DirectML)"
-msgstr ""
+msgstr "bundled (DirectML)"
 
 #: ../src/gui/preferences_ai.c:1214
 msgid "bundled (CPU only)"
-msgstr ""
+msgstr "bundled (pouze CPU)"
 
 #: ../src/gui/preferences_ai.c:1217
 msgid ""
@@ -16682,82 +16566,66 @@ msgid "select a custom ONNX Runtime shared library"
 msgstr ""
 
 #: ../src/gui/preferences_ai.c:1228
-#, fuzzy
 msgid "detect"
 msgstr "detekovat"
 
 #: ../src/gui/preferences_ai.c:1230
 msgid "search for a system-installed ONNX Runtime library"
-msgstr ""
+msgstr "hledat nainstalovanou ONNX Runtime library"
 
 #: ../src/gui/preferences_ai.c:1265
-#, fuzzy
 msgid "models"
 msgstr "modely"
 
 #: ../src/gui/preferences_ai.c:1312
-#, fuzzy
-#| msgid "select all"
 msgid "select/deselect all"
-msgstr "vybrat vše"
+msgstr "vybrat/odznačit vše"
 
 #: ../src/gui/preferences_ai.c:1346 ../src/libs/metadata_view.c:137
-#, fuzzy
 msgid "version"
 msgstr "verze"
 
 #: ../src/gui/preferences_ai.c:1355
-#, fuzzy
 msgid "task"
 msgstr "úloha"
 
 #: ../src/gui/preferences_ai.c:1380
-#, fuzzy
 msgid "enabled"
 msgstr "povoleno"
 
 #: ../src/gui/preferences_ai.c:1390
-#, fuzzy
 msgid "status"
 msgstr "stav"
 
 #. download selected button
 #: ../src/gui/preferences_ai.c:1426
-#, fuzzy
 msgid "download selected"
 msgstr "stáhnout vybrané"
 
 #: ../src/gui/preferences_ai.c:1428
-#, fuzzy
-#| msgid "overlay metadata on the selected image(s)"
 msgid "download or update the selected models"
-msgstr "Do vybraných obrázků vykreslí text s metadaty."
+msgstr "stáhnout či aktializovat vybrané modely"
 
 #. download default button
 #: ../src/gui/preferences_ai.c:1437
-#, fuzzy
 msgid "download default"
 msgstr "stáhnout výchozí"
 
 #: ../src/gui/preferences_ai.c:1439
-#, fuzzy
 msgid "download or update all default models"
 msgstr "stáhnout či aktualizovat všechny výchozí modely"
 
 #. download all button
 #: ../src/gui/preferences_ai.c:1448
-#, fuzzy
 msgid "download all"
 msgstr "stáhnout vše"
 
 #: ../src/gui/preferences_ai.c:1450
-#, fuzzy
 msgid "download or update all available models"
 msgstr "stáhnout či aktualizovat všechny dostupné modely"
 
 #. install model button
 #: ../src/gui/preferences_ai.c:1456
-#, fuzzy
 msgid "install model"
 msgstr "instalovat model"
 
@@ -16840,9 +16708,8 @@ msgstr "nepojmenovaný preset"
 
 # dialog title
 #: ../src/gui/presets.c:249
-#, fuzzy
 msgid "overwrite preset?"
-msgstr "nahradit preset?"
+msgstr "přepsat preset?"
 
 # dialog text
 #: ../src/gui/presets.c:250
@@ -16932,7 +16799,6 @@ msgid "string to match lens (use % as wildcard)"
 msgstr "řetězec odpovídající objektivu (použijte % jako zástupný znak)"
 
 #: ../src/gui/presets.c:682
-#, fuzzy
 msgid "minimum ISO value"
 msgstr "minimální hodnota ISO"
 
@@ -16946,38 +16812,31 @@ msgstr ""
 "pokud je ponecháno prázdné, není horní limit"
 
 #: ../src/gui/presets.c:701
-#, fuzzy
 msgid "minimum exposure time"
 msgstr "minimální doba expozice"
 
 #: ../src/gui/presets.c:702
-#, fuzzy
 msgid "maximum exposure time"
 msgstr "maximální doba expozice"
 
 #: ../src/gui/presets.c:718
-#, fuzzy
 msgid "minimum aperture value"
 msgstr "minimální clonové číslo"
 
 #: ../src/gui/presets.c:719
-#, fuzzy
 msgid "maximum aperture value"
 msgstr "maximální clonové číslo"
 
 #: ../src/gui/presets.c:737
-#, fuzzy
 msgid "minimum focal length"
 msgstr "minimální ohnisková vzdálenost"
 
 #: ../src/gui/presets.c:738
-#, fuzzy
 msgid "maximum focal length"
 msgstr "maximální ohnisková vzdálenost"
 
 #. raw/hdr/ldr/mono/color
 #: ../src/gui/presets.c:746
-#, fuzzy
 msgid "format"
 msgstr "formát"
 
@@ -16987,12 +16846,10 @@ msgid "select image types you want this preset to be available for"
 msgstr "vyberte typy obrázků, pro které má být tento preset dostupný"
 
 #: ../src/gui/presets.c:764 ../src/libs/filtering.c:1257
-#, fuzzy
 msgid "and"
 msgstr "a"
 
 #: ../src/gui/presets.c:808 ../src/gui/presets.c:860
-#, fuzzy
 msgid "∞"
 msgstr "∞"
 
@@ -17003,7 +16860,6 @@ msgstr "preset `%s' je chráněn proti zápisu! nelze jej upravit!"
 
 # dialog title
 #: ../src/gui/presets.c:1005 ../src/libs/lib.c:157
-#, fuzzy
 msgid "update preset?"
 msgstr "aktualizovat preset?"
 
@@ -17152,18 +17008,15 @@ msgid "can't create style out of unaltered image"
 msgstr "nelze vytvořit styl z nezměněného obrazu"
 
 #: ../src/gui/welcome.c:611 ../src/gui/welcome.c:631
-#, fuzzy
 msgid "Welcome to darktable!"
 msgstr "Vítejte v darktable!"
 
 #. Navigation buttons (right-aligned)
 #: ../src/gui/welcome.c:681
-#, fuzzy
 msgid "_prev"
 msgstr "_předchozí"
 
 #: ../src/gui/welcome.c:684
-#, fuzzy
 msgid "_next"
 msgstr "_další"
 
@@ -17226,27 +17079,22 @@ msgstr "Přejeme příjemnou práci v darktable!"
 #: ../src/imageio/format/pdf.c:80 ../src/imageio/format/png.c:690
 #: ../src/imageio/format/tiff.c:884 ../src/imageio/format/xcf.c:361
 #: ../src/libs/neural_restore.c:2216
-#, fuzzy
 msgid "8 bit"
 msgstr "8 bitů"
 
 #: ../src/imageio/format/avif.c:99 ../src/imageio/format/jxl.c:587
-#, fuzzy
 msgid "10 bit"
 msgstr "10 bitů"
 
 #: ../src/imageio/format/avif.c:103 ../src/imageio/format/jxl.c:587
-#, fuzzy
 msgid "12 bit"
 msgstr "12 bitů"
 
 #: ../src/imageio/format/avif.c:116 ../src/imageio/format/webp.c:411
-#, fuzzy
 msgid "lossless"
 msgstr "bezztrátová"
 
 #: ../src/imageio/format/avif.c:118 ../src/imageio/format/webp.c:411
-#, fuzzy
 msgid "lossy"
 msgstr "ztrátová"
 
@@ -17255,7 +17103,6 @@ msgstr "ztrátová"
 #: ../src/imageio/format/jxl.c:585 ../src/imageio/format/pdf.c:678
 #: ../src/imageio/format/png.c:688 ../src/imageio/format/tiff.c:880
 #: ../src/imageio/format/xcf.c:358 ../src/libs/neural_restore.c:2213
-#, fuzzy
 msgid "bit depth"
 msgstr "bitová hloubka"
 
@@ -17400,9 +17247,8 @@ msgstr "32 bitů (float)"
 
 #: ../src/imageio/format/exr.cc:601 ../src/imageio/format/pdf.c:699
 #: ../src/imageio/format/tiff.c:901
-#, fuzzy
 msgid "uncompressed"
-msgstr "nekomprimováno"
+msgstr "bezkompresní"
 
 #: ../src/imageio/format/exr.cc:602
 msgid "RLE"
@@ -17446,27 +17292,22 @@ msgid "unable to attach output profile to JP2"
 msgstr "Nezdařilo se připojit výstupní profil k JP2."
 
 #: ../src/imageio/format/j2k.c:677
-#, fuzzy
 msgid "JPEG 2000 (12-bit)"
 msgstr "JPEG 2000 (12-bitů)"
 
 #: ../src/imageio/format/j2k.c:711
-#, fuzzy
 msgid "DCP mode"
 msgstr "DCP režim"
 
 #: ../src/imageio/format/j2k.c:714
-#, fuzzy
 msgid "Cinema2K, 24FPS"
 msgstr "Cinema2K, 24FPS"
 
 #: ../src/imageio/format/j2k.c:715
-#, fuzzy
 msgid "Cinema2K, 48FPS"
 msgstr "Cinema2K, 48FPS"
 
 #: ../src/imageio/format/j2k.c:716
-#, fuzzy
 msgid "Cinema4K, 24FPS"
 msgstr "Cinema4K, 24FPS"
 
@@ -17492,14 +17333,12 @@ msgstr ""
 "4:2:0 - vzorkovací frekvence barev snížena na polovinu horizontálně a vertikálně"
 
 #: ../src/imageio/format/jpeg.c:597
-#, fuzzy
 msgid "4:4:0"
 msgstr "4:4:0"
 
 #: ../src/imageio/format/jxl.c:588 ../src/imageio/format/pdf.c:81
 #: ../src/imageio/format/png.c:690 ../src/imageio/format/tiff.c:884
 #: ../src/imageio/format/xcf.c:361 ../src/libs/neural_restore.c:2216
-#, fuzzy
 msgid "16 bit"
 msgstr "16 bitů"
 
@@ -17558,19 +17397,17 @@ msgid "the preferred decoding speed with some sacrifice of quality"
 msgstr "Preferovaná rychlost dekódování s trošku horší kvalitou výstupu"
 
 #: ../src/imageio/format/pdf.c:200 ../src/imageio/format/pdf.c:497
-#, fuzzy
 msgid "invalid paper size"
 msgstr "neplatná velikost papíru"
 
 #: ../src/imageio/format/pdf.c:207
-#, fuzzy
 msgid "invalid border size, using 0"
 msgstr "neplatná velikost okraje, použito 0"
 
 #: ../src/imageio/format/pdf.c:257 ../src/imageio/storage/disk.c:538
 #: ../src/imageio/storage/email.c:188 ../src/imageio/storage/gallery.c:406
 #: ../src/imageio/storage/gallery.c:448 ../src/imageio/storage/piwigo.c:1366
-#, fuzzy, c-format
+#, c-format
 msgid "could not export to file `%s'!"
 msgstr "nebylo možné exportovat do souboru `%s'!"
 
@@ -17579,14 +17416,12 @@ msgid "PDF"
 msgstr "PDF"
 
 #: ../src/imageio/format/pdf.c:594
-#, fuzzy
 msgid "enter the title of the PDF"
 msgstr "zadejte název PDF"
 
 #. paper size
 #. // papers
 #: ../src/imageio/format/pdf.c:602 ../src/libs/print_settings.c:2610
-#, fuzzy
 msgid "paper size"
 msgstr "velikost papíru"
 
@@ -17603,7 +17438,6 @@ msgstr ""
 
 #. orientation
 #: ../src/imageio/format/pdf.c:617
-#, fuzzy
 msgid "page orientation"
 msgstr "orientace stránky"
 
@@ -17614,7 +17448,6 @@ msgstr "orientaci papíru PDF"
 
 #. border
 #: ../src/imageio/format/pdf.c:626 ../src/imageio/format/pdf.c:628
-#, fuzzy
 msgid "border"
 msgstr "okraj"
 
@@ -17635,7 +17468,6 @@ msgid "dpi"
 msgstr "dpi"
 
 #: ../src/imageio/format/pdf.c:642
-#, fuzzy
 msgid "dpi of the images inside the PDF"
 msgstr "dpi obrázků uvnitř PDF"
 
@@ -17653,7 +17485,6 @@ msgstr ""
 
 #. pages all|single images|contact sheet
 #: ../src/imageio/format/pdf.c:658
-#, fuzzy
 msgid "TODO: pages"
 msgstr "TODO: stránky"
 
@@ -17663,7 +17494,6 @@ msgid "what pages should be added to the PDF"
 msgstr "jaké stránky by měly být přidány do PDF"
 
 #: ../src/imageio/format/pdf.c:662
-#, fuzzy
 msgid "single images"
 msgstr "jednotlivé obrázky"
 
@@ -17701,15 +17531,13 @@ msgstr ""
 "deflate -- menší soubory, ale pomalejší"
 
 #: ../src/imageio/format/pdf.c:699 ../src/imageio/format/tiff.c:901
-#, fuzzy
 msgid "deflate"
 msgstr "deflate"
 
 #. image mode normal|draft|debug
 #: ../src/imageio/format/pdf.c:704
-#, fuzzy
 msgid "image mode"
-msgstr "režim obrázku"
+msgstr "režim obrázu"
 
 #: ../src/imageio/format/pdf.c:705
 #, fuzzy
@@ -17724,19 +17552,16 @@ msgstr ""
 
 #: ../src/imageio/format/pdf.c:710 ../src/libs/tools/lighttable.c:413
 #: ../src/libs/tools/lighttable.c:425
-#, fuzzy
 msgid "normal"
 msgstr "normální"
 
 #: ../src/imageio/format/pdf.c:710
-#, fuzzy
 msgid "draft"
 msgstr "koncept"
 
 #: ../src/imageio/format/pdf.c:710
-#, fuzzy
 msgid "debug"
-msgstr "zkouška"
+msgstr "debug"
 
 #: ../src/imageio/format/ppm.c:111
 msgid "PPM (16-bit)"
@@ -17748,7 +17573,6 @@ msgid "deflate with predictor"
 msgstr "deflate s predikcí"
 
 #: ../src/imageio/format/tiff.c:911
-#, fuzzy
 msgid "compression level"
 msgstr "úroveň komprese"
 
@@ -17782,22 +17606,18 @@ msgstr ""
 "grafika: diskrétní tónový obrázek (graf, mapová dlaždice atd.)"
 
 #: ../src/imageio/format/webp.c:435
-#, fuzzy
 msgid "picture"
 msgstr "obrázek"
 
 #: ../src/imageio/format/webp.c:435
-#, fuzzy
 msgid "photo"
 msgstr "fotografie"
 
 #: ../src/imageio/format/webp.c:435
-#, fuzzy
 msgid "graphic"
 msgstr "grafika"
 
 #: ../src/imageio/format/xcf.c:320
-#, fuzzy
 msgid "XCF"
 msgstr "XCF"
 
@@ -17861,44 +17681,39 @@ msgstr ""
 "zadejte '$ (' pro aktivaci automatického dokončování a podívejte se na seznam proměnných"
 
 #: ../src/imageio/storage/disk.c:288 ../src/imageio/storage/piwigo.c:1172
-#, fuzzy
 msgid "on conflict"
 msgstr "při konfliktu"
 
 #: ../src/imageio/storage/disk.c:291
-#, fuzzy
 msgid "create unique filename"
-msgstr "vytvořit unikátní název"
+msgstr "vytvořit unikátní název souboru"
 
 #: ../src/imageio/storage/disk.c:292 ../src/imageio/storage/piwigo.c:1176
 #: ../src/libs/image.c:650 ../src/libs/styles.c:914
-#, fuzzy
 msgid "overwrite"
 msgstr "přepsat"
 
 #: ../src/imageio/storage/disk.c:293
-#, fuzzy
 msgid "overwrite if changed"
 msgstr "v případě změny přepsat"
 
 #: ../src/imageio/storage/disk.c:294 ../src/imageio/storage/piwigo.c:1174
-#, fuzzy
 msgid "skip"
 msgstr "přeskočit"
 
 #: ../src/imageio/storage/disk.c:421 ../src/imageio/storage/gallery.c:320
 #: ../src/imageio/storage/latex.c:279
-#, fuzzy, c-format
+#, c-format
 msgid "could not create directory `%s'!"
 msgstr "nelze vytvořit složku `%s'!"
 
 #: ../src/imageio/storage/disk.c:432
-#, fuzzy, c-format
+#, c-format
 msgid "could not write to directory `%s'!"
 msgstr "nelze zapisovat do složky `%s'!"
 
 #: ../src/imageio/storage/disk.c:469
-#, fuzzy, c-format
+#, c-format
 msgid "%d/%d skipping `%s'"
 msgid_plural "%d/%d skipping `%s'"
 msgstr[0] "%d/%d přeskakuji `%s'"
@@ -17934,19 +17749,16 @@ msgstr ""
 "opravdu chcete pokračovat?"
 
 #: ../src/imageio/storage/email.c:57
-#, fuzzy
 msgid "send as email"
 msgstr "poslat jako email"
 
 #. Unlikely in normal Windows installations, but let's notify the user if it happens
 #: ../src/imageio/storage/email.c:264
-#, fuzzy
 msgid "could not open mapi32.dll"
 msgstr "nelze otevřít mapi32.dll"
 
 #. Even more unlikely
 #: ../src/imageio/storage/email.c:274
-#, fuzzy
 msgid "could not get SendMail function"
 msgstr "nelze získat funkci SendMail"
 
@@ -17961,7 +17773,6 @@ msgid "could not launch email client!"
 msgstr "nelze spustit e-mailového klienta!"
 
 #: ../src/imageio/storage/gallery.c:76
-#, fuzzy
 msgid "website gallery"
 msgstr "webová galerie"
 
@@ -17971,9 +17782,8 @@ msgid "enter the title of the website"
 msgstr "zadejte název webové stránky"
 
 #: ../src/imageio/storage/latex.c:72
-#, fuzzy
 msgid "LaTeX book template"
-msgstr "Šablona knihy LaTeX"
+msgstr "šablona knihy LaTeX"
 
 #: ../src/imageio/storage/latex.c:197
 #, fuzzy
@@ -18012,17 +17822,14 @@ msgid "cannot refresh albums"
 msgstr "nelze obnovit alba"
 
 #: ../src/imageio/storage/piwigo.c:1024
-#, fuzzy
 msgid "Piwigo"
 msgstr "Piwigo"
 
 #: ../src/imageio/storage/piwigo.c:1051
-#, fuzzy
 msgid "accounts"
-msgstr "uživatelé"
+msgstr "účty"
 
 #: ../src/imageio/storage/piwigo.c:1068 ../src/imageio/storage/piwigo.c:1183
-#, fuzzy
 msgid "server"
 msgstr "server"
 
@@ -18038,18 +17845,15 @@ msgstr ""
 "specifikujte explicitně nezabezpečený protokol http://, pokud je tento protokol vyžadován"
 
 #: ../src/imageio/storage/piwigo.c:1083 ../src/imageio/storage/piwigo.c:1184
-#, fuzzy
 msgid "user"
 msgstr "uživatel"
 
 #: ../src/imageio/storage/piwigo.c:1094 ../src/imageio/storage/piwigo.c:1185
-#, fuzzy
 msgid "password"
 msgstr "heslo"
 
 #. login button
 #: ../src/imageio/storage/piwigo.c:1101
-#, fuzzy
 msgid "login"
 msgstr "login"
 
@@ -18065,34 +17869,28 @@ msgid "visible to"
 msgstr "viditelné pro"
 
 #: ../src/imageio/storage/piwigo.c:1118
-#, fuzzy
 msgid "everyone"
 msgstr "všichni"
 
 #: ../src/imageio/storage/piwigo.c:1119
-#, fuzzy
 msgid "contacts"
 msgstr "kontakty"
 
 #: ../src/imageio/storage/piwigo.c:1120
-#, fuzzy
 msgid "friends"
 msgstr "přátelé"
 
 #: ../src/imageio/storage/piwigo.c:1121
-#, fuzzy
 msgid "family"
 msgstr "rodina"
 
 #: ../src/imageio/storage/piwigo.c:1122
-#, fuzzy
 msgid "you"
 msgstr "vy"
 
 #. album list
 #. Available albums
 #: ../src/imageio/storage/piwigo.c:1126
-#, fuzzy
 msgid "album"
 msgstr "album"
 
@@ -18102,13 +17900,11 @@ msgid "refresh album list"
 msgstr "aktualizovat seznam alb"
 
 #: ../src/imageio/storage/piwigo.c:1140
-#, fuzzy
 msgid "new album"
 msgstr "nové album"
 
 #. Available albums
 #: ../src/imageio/storage/piwigo.c:1146
-#, fuzzy
 msgid "parent album"
 msgstr "nadřazené album"
 
@@ -18136,12 +17932,10 @@ msgstr ""
 "a podívejte se na seznam dostupných proměnných."
 
 #: ../src/imageio/storage/piwigo.c:1173
-#, fuzzy
 msgid "don't check"
 msgstr "nekontrolovat"
 
 #: ../src/imageio/storage/piwigo.c:1175
-#, fuzzy
 msgid "update metadata"
 msgstr "aktualizovat metadata"
 
@@ -18161,12 +17955,11 @@ msgid "could not update to Piwigo!"
 msgstr "nelze aktualizovat na Piwigo!"
 
 #: ../src/imageio/storage/piwigo.c:1419
-#, fuzzy
 msgid "could not upload to Piwigo!"
 msgstr "nelze nahrát na Piwigo!"
 
 #: ../src/imageio/storage/piwigo.c:1448
-#, fuzzy, c-format
+#, c-format
 msgid "%d/%d skipped (already exists)"
 msgstr "%d/%d přeskočeno (již existuje)"
 
@@ -18179,7 +17972,6 @@ msgstr[1] "%d/%d exportovány do alba Piwigo"
 msgstr[2] "%d/%d exportováno do alba Piwigo"
 
 #: ../src/iop/agx.c:45
-#, fuzzy
 msgid "AgX"
 msgstr "AgX"
 
@@ -18379,7 +18171,6 @@ msgid "look"
 msgstr "vzhled"
 
 #: ../src/iop/agx.c:1950
-#, fuzzy
 msgid "show curve"
 msgstr "zobrazit křivku"
 
@@ -18387,7 +18178,6 @@ msgstr "zobrazit křivku"
 #: ../src/iop/colorequal.c:2981 ../src/iop/colorzones.c:2708 ../src/iop/denoiseprofile.c:3644
 #: ../src/iop/filmicrgb.c:4352 ../src/iop/lowlight.c:807 ../src/iop/rawdenoise.c:910
 #: ../src/iop/toneequal.c:3284
-#, fuzzy
 msgid "graph"
 msgstr "graf"
 
@@ -18700,7 +18490,6 @@ msgstr "Zvrátí barevný posun modré."
 #: ../src/iop/agx.c:2463 ../src/iop/temperature.c:2077 ../src/iop/temperature.c:2090
 #: ../src/iop/temperature.c:2097 ../src/iop/temperature.c:2103 ../src/iop/temperature.c:2111
 #: ../src/iop/temperature.c:2130
-#, fuzzy
 msgid "settings"
 msgstr "nastavení"
 
@@ -18970,7 +18759,6 @@ msgid "manually draw structure lines"
 msgstr "ručně nakreslete čáry struktury"
 
 #: ../src/iop/ashift.c:6141
-#, fuzzy
 msgid "rectangle"
 msgstr "obdélník"
 
@@ -19586,7 +19374,6 @@ msgstr "Aplikuje rozostření respektující okraje určené k odšumění nebo 
 #: ../src/iop/exposure.c:132 ../src/iop/overlay.c:157 ../src/iop/primaries.c:75
 #: ../src/iop/scalepixels.c:87 ../src/iop/soften.c:101 ../src/iop/splittoning.c:104
 #: ../src/iop/velvia.c:99
-#, fuzzy
 msgid "linear, RGB"
 msgstr "lineární, RGB"
 
@@ -19836,7 +19623,6 @@ msgid "5:4 (8x10)"
 msgstr "5:4 (8x10)"
 
 #: ../src/iop/borders.c:955
-#, fuzzy
 msgid "constant border"
 msgstr "konstantní okraj"
 
@@ -20180,11 +19966,11 @@ msgstr "množství modrého kanálu ve výstupním kanálu"
 
 #: ../src/iop/channelmixer.c:642
 msgid "swap R and B"
-msgstr "vyměnit R a B"
+msgstr "zaměnit R a B"
 
 #: ../src/iop/channelmixer.c:648
 msgid "swap G and B"
-msgstr "vyměnit G a B"
+msgstr "zaměnit G a B"
 
 #: ../src/iop/channelmixer.c:654
 #, fuzzy
@@ -20596,7 +20382,6 @@ msgstr ""
 
 #. Page CAT
 #: ../src/iop/channelmixerrgb.c:4457
-#, fuzzy
 msgid "CAT"
 msgstr "CAT"
 
@@ -20948,19 +20733,17 @@ msgid "accept the computed profile and set it in the module"
 msgstr "přijmout vypočítaný profil a nastavit jej v modulu"
 
 #: ../src/iop/channelmixerrgb.c:4730
-#, fuzzy
 msgid "recompute"
 msgstr "přepočítat"
 
 #: ../src/iop/channelmixerrgb.c:4734
-#, fuzzy
 msgid "recompute the profile"
 msgstr "přepočítat profil"
 
 #: ../src/iop/channelmixerrgb.c:4737
 #, fuzzy
 msgid "validate"
-msgstr "ověřit"
+msgstr "validovat"
 
 #: ../src/iop/channelmixerrgb.c:4741
 #, fuzzy
@@ -21038,12 +20821,10 @@ msgid "invalid ratio format. it should be a positive number"
 msgstr "neplatný formát poměru. mělo by to být kladné číslo"
 
 #: ../src/iop/clipping.c:1920 ../src/iop/clipping.c:2117
-#, fuzzy
 msgid "full"
 msgstr "plný"
 
 #: ../src/iop/clipping.c:1921
-#, fuzzy
 msgid "old system"
 msgstr "starý systém"
 
@@ -21053,7 +20834,6 @@ msgid "correction applied"
 msgstr "korekce aplikovány"
 
 #: ../src/iop/clipping.c:2095
-#, fuzzy
 msgid "main"
 msgstr "hlavní"
 
@@ -21063,7 +20843,6 @@ msgid "mirror image horizontally and/or vertically"
 msgstr "zrcadlový obraz vodorovně a/nebo svisle"
 
 #: ../src/iop/clipping.c:2107
-#, fuzzy
 msgid "angle"
 msgstr "úhel"
 
@@ -21088,82 +20867,66 @@ msgid "freehand"
 msgstr "volná ruka"
 
 #: ../src/iop/clipping.c:2128 ../src/iop/crop.c:1273
-#, fuzzy
 msgid "10:8 in print"
 msgstr "10:8 v tisku"
 
 #: ../src/iop/clipping.c:2129 ../src/iop/crop.c:1274
-#, fuzzy
 msgid "5:4, 4x5, 8x10"
 msgstr "5:4, 4x5, 8x10"
 
 #: ../src/iop/clipping.c:2130 ../src/iop/crop.c:1275
-#, fuzzy
 msgid "11x14"
 msgstr "11x14"
 
 #: ../src/iop/clipping.c:2131 ../src/iop/crop.c:1277
-#, fuzzy
 msgid "8.5x11, letter"
-msgstr "8.5x11, dopis"
+msgstr "8.5x11, letter"
 
 #: ../src/iop/clipping.c:2132 ../src/iop/crop.c:1278
-#, fuzzy
 msgid "4:3, VGA, TV"
 msgstr "4:3, VGA, TV"
 
 #: ../src/iop/clipping.c:2133 ../src/iop/crop.c:1279
-#, fuzzy
 msgid "5x7"
 msgstr "5x7"
 
 #: ../src/iop/clipping.c:2134 ../src/iop/crop.c:1280
-#, fuzzy
 msgid "ISO 216, DIN 476, A4"
 msgstr "ISO 216, DIN 476, A4"
 
 #: ../src/iop/clipping.c:2135 ../src/iop/crop.c:1281
-#, fuzzy
 msgid "3:2, 4x6, 35mm"
 msgstr "3:2, 4x6, 35mm"
 
 #: ../src/iop/clipping.c:2136 ../src/iop/crop.c:1282
-#, fuzzy
 msgid "16:10, 8x5"
 msgstr "16:10, 8x5"
 
 #: ../src/iop/clipping.c:2138 ../src/iop/crop.c:1284
-#, fuzzy
 msgid "16:9, HDTV"
 msgstr "16:9, HDTV"
 
 #: ../src/iop/clipping.c:2139 ../src/iop/crop.c:1285
-#, fuzzy
 msgid "widescreen"
 msgstr "širokoúhlý"
 
 #: ../src/iop/clipping.c:2140
-#, fuzzy
 msgid "2:1, univisium"
 msgstr "2:1, Univisium"
 
 #: ../src/iop/clipping.c:2141
-#, fuzzy
 msgid "cinemascope"
 msgstr "cinemascope"
 
 #: ../src/iop/clipping.c:2142 ../src/iop/crop.c:1288
-#, fuzzy
 msgid "21:9"
 msgstr "21:9"
 
 #: ../src/iop/clipping.c:2143 ../src/iop/crop.c:1289
-#, fuzzy
 msgid "anamorphic"
 msgstr "anamorfický"
 
 #: ../src/iop/clipping.c:2144 ../src/iop/crop.c:1291
-#, fuzzy
 msgid "3:1, panorama"
 msgstr "3:1, panoramatický"
 
@@ -21186,7 +20949,6 @@ msgstr ""
 "nebo v desítkové soustavě"
 
 #: ../src/iop/clipping.c:2242 ../src/iop/crop.c:1407
-#, fuzzy
 msgid "margins"
 msgstr "okraje"
 
@@ -21455,19 +21217,16 @@ msgid "click to cycle layout"
 msgstr "klik pro přepínání rozvržení"
 
 #: ../src/iop/colorbalance.c:1932
-#, fuzzy
 msgid "factor"
 msgstr "faktor"
 
 #: ../src/iop/colorbalance.c:1946
-#, fuzzy
 msgid "select the hue"
-msgstr "vyberte odstín"
+msgstr "vybrat odstín"
 
 #: ../src/iop/colorbalance.c:1957
-#, fuzzy
 msgid "select the saturation"
-msgstr "vyberte sytost"
+msgstr "vybrat sytost"
 
 #: ../src/iop/colorbalance.c:1977
 #, fuzzy
@@ -21802,7 +21561,6 @@ msgstr "Chroma korekce středních tónů"
 
 #. Page masks
 #: ../src/iop/colorbalancergb.c:1962
-#, fuzzy
 msgid "masks"
 msgstr "masky"
 
@@ -21968,7 +21726,6 @@ msgstr ""
 "anebo po výběru cílové barvy podržte Shift a kliknutím políčko nahraďte."
 
 #: ../src/iop/colorchecker.c:1550
-#, fuzzy
 msgid "patch"
 msgstr "patch"
 
@@ -22288,19 +22045,19 @@ msgstr ""
 
 #: ../src/iop/colorharmonizer.c:1608
 msgid "hue 1"
-msgstr ""
+msgstr "hue 1"
 
 #: ../src/iop/colorharmonizer.c:1608
 msgid "hue 2"
-msgstr ""
+msgstr "hue 2"
 
 #: ../src/iop/colorharmonizer.c:1608
 msgid "hue 3"
-msgstr ""
+msgstr "hue 3"
 
 #: ../src/iop/colorharmonizer.c:1608
 msgid "hue 4"
-msgstr ""
+msgstr "hue 4"
 
 #: ../src/iop/colorharmonizer.c:1620
 msgid ""
@@ -22354,9 +22111,8 @@ msgid "Kodak Portra 400 like"
 msgstr "Jako Kodak Portra 400"
 
 #: ../src/iop/colorequal.c:2230
-#, fuzzy
 msgid "teal & orange"
-msgstr "tyrkysová a pomerančová"
+msgstr "teal & orange"
 
 #. Page OPTIONS
 #: ../src/iop/colorequal.c:2886 ../src/iop/colorequal.c:3089 ../src/iop/filmicrgb.c:4552
@@ -22497,7 +22253,6 @@ msgstr ""
 
 #: ../src/iop/colorin.c:127 ../src/iop/colorout.c:86 ../src/iop/demosaic.c:318
 #: ../src/iop/rawprepare.c:170
-#, fuzzy
 msgid "mandatory"
 msgstr "povinné"
 
@@ -22589,7 +22344,6 @@ msgid "select the saturation shadow tone"
 msgstr "vyberte sytost tónu stínů"
 
 #: ../src/iop/colorize.c:366
-#, fuzzy
 msgid "lightness of color"
 msgstr "světlost barvy"
 
@@ -22729,7 +22483,6 @@ msgid "absolute colorimetric"
 msgstr "absolutní kolorimetrické"
 
 #: ../src/iop/colorout.c:859
-#, fuzzy
 msgid "export ICC profiles"
 msgstr "exportovat ICC profily"
 
@@ -22762,7 +22515,6 @@ msgid "spatial"
 msgstr "prostorový"
 
 #: ../src/iop/colorreconstruction.c:1224
-#, fuzzy
 msgid "range"
 msgstr "rozsah"
 
@@ -22838,27 +22590,22 @@ msgid "selectively shift hues, chroma and lightness of pixels"
 msgstr "selektivně posouvat odstíny, sytost a jas pixelů"
 
 #: ../src/iop/colorzones.c:668
-#, fuzzy
 msgid "B&W: with red"
 msgstr "ČB: s červenou"
 
 #: ../src/iop/colorzones.c:691
-#, fuzzy
 msgid "B&W: with skin tones"
 msgstr "ČB: s pleťovými tóny"
 
 #: ../src/iop/colorzones.c:716
-#, fuzzy
 msgid "polarizing filter"
 msgstr "polarizační filtr"
 
 #: ../src/iop/colorzones.c:737
-#, fuzzy
 msgid "natural skin tones"
 msgstr "přirozené tóny pleti"
 
 #: ../src/iop/colorzones.c:768
-#, fuzzy
 msgid "B&W: film"
 msgstr "ČB: film"
 
@@ -22881,7 +22628,6 @@ msgstr ""
 "Shift+tažením vytvoříte zápornou křivku"
 
 #: ../src/iop/colorzones.c:2656 ../src/iop/rgbcurve.c:1518
-#, fuzzy
 msgid "create curve"
 msgstr "vytvořit křivku"
 
@@ -22926,7 +22672,6 @@ msgstr ""
 "- monotónní je lepší pro přesnost čistě analytických funkcí (log, gama, exp)"
 
 #: ../src/iop/crop.c:122
-#, fuzzy
 msgid "crop"
 msgstr "oříznutí"
 
@@ -22936,27 +22681,22 @@ msgid "reframe|distortion"
 msgstr "přerámovat|zkreslit"
 
 #: ../src/iop/crop.c:133
-#, fuzzy
 msgid "change the framing"
 msgstr "změnit rámování"
 
 #: ../src/iop/crop.c:1276
-#, fuzzy
 msgid "45x35, portrait"
-msgstr "45x35, portréit"
+msgstr "45x35, portrét"
 
 #: ../src/iop/crop.c:1286
-#, fuzzy
 msgid "2:1, Univisium"
 msgstr "2:1, Univisium"
 
 #: ../src/iop/crop.c:1287
-#, fuzzy
 msgid "CinemaScope"
 msgstr "CinemaScope"
 
 #: ../src/iop/crop.c:1290
-#, fuzzy
 msgid "65:24, XPan"
 msgstr "65:24, XPan"
 
@@ -23263,12 +23003,10 @@ msgid "interpolated ISO %d"
 msgstr "interpolace ISO %d"
 
 #: ../src/iop/denoiseprofile.c:3622
-#, fuzzy
 msgid "Y0"
 msgstr "Y0"
 
 #: ../src/iop/denoiseprofile.c:3623
-#, fuzzy
 msgid "U0V0"
 msgstr "U0V0"
 
@@ -23315,7 +23053,6 @@ msgstr "rozptyl modré: "
 
 #: ../src/iop/denoiseprofile.c:3689 ../src/libs/export.c:1599 ../src/libs/print_settings.c:2518
 #: ../src/libs/print_settings.c:2874
-#, fuzzy
 msgid "profile"
 msgstr "profil"
 
@@ -23610,20 +23347,17 @@ msgstr "malovat světla"
 
 #. fast presets for slow hardware
 #: ../src/iop/diffuse.c:674
-#, fuzzy
 msgid "sharpness | fast"
-msgstr "zaostření | rychlé"
+msgstr "zostření | rychlé"
 
 #. two more sharpness (standard & strong)
 #: ../src/iop/diffuse.c:701
-#, fuzzy
 msgid "sharpness | normal"
-msgstr "zaostření | normální"
+msgstr "zoostření | normální"
 
 #: ../src/iop/diffuse.c:726
-#, fuzzy
 msgid "sharpness | strong"
-msgstr "zaostření | silné"
+msgstr "zostření | silné"
 
 #: ../src/iop/diffuse.c:751
 #, fuzzy
@@ -23761,7 +23495,6 @@ msgstr ""
 "nula nedělá nic."
 
 #: ../src/iop/diffuse.c:1836
-#, fuzzy
 msgctxt "section"
 msgid "direction"
 msgstr "směr"
@@ -23912,7 +23645,6 @@ msgstr "korektivní, umělecké"
 
 #. add the preset.
 #: ../src/iop/dither.c:174
-#, fuzzy
 msgid "dither"
 msgstr "dither"
 
@@ -24015,12 +23747,12 @@ msgstr "Metoda rekonstrukce světel (%.1f EV)"
 
 #. Write report in GUI
 #: ../src/iop/exposure.c:894
-#, fuzzy, c-format
+#, c-format
 msgid "L : \t%.1f %%"
 msgstr "L : \t%.1f %%"
 
 #: ../src/iop/exposure.c:1034 ../src/libs/history.c:949
-#, fuzzy, c-format
+#, c-format
 msgid "%.2f EV"
 msgstr "%.2f EV"
 
@@ -24124,9 +23856,8 @@ msgstr ""
 "kompenzaci expozice a lze ji použít k definování cíle."
 
 #: ../src/iop/exposure.c:1300
-#, fuzzy
 msgid "L : \tN/A"
-msgstr "L : \tN/A"
+msgstr "L : \tnení dostupné"
 
 #: ../src/iop/exposure.c:1310
 #, fuzzy
@@ -24318,13 +24049,11 @@ msgid "intent"
 msgstr "záměr"
 
 #: ../src/iop/filmic.c:1567
-#, fuzzy
 msgid "contrasted"
 msgstr "kontrastní"
 
 #. centripetal spline
 #: ../src/iop/filmic.c:1569 ../src/iop/profile_gamma.c:602
-#, fuzzy
 msgid "linear"
 msgstr "lineární"
 
@@ -24385,7 +24114,6 @@ msgstr ""
 "kromě případů, kdy chcete vybledlý vzhled"
 
 #: ../src/iop/filmic.c:1608
-#, fuzzy
 msgid "target gamma"
 msgstr "cílová gama"
 
@@ -24476,7 +24204,7 @@ msgid "dynamic range mapping"
 msgstr "mapování dynamického rozsahu"
 
 #: ../src/iop/filmicrgb.c:3802
-#, fuzzy, c-format
+#, c-format
 msgid "(%.0f %%)"
 msgstr "(%.0f %%)"
 
@@ -24486,9 +24214,8 @@ msgid "% display"
 msgstr "% displej"
 
 #: ../src/iop/filmicrgb.c:3830
-#, fuzzy
 msgid "EV scene"
-msgstr "EV scéna"
+msgstr "EV scény"
 
 #: ../src/iop/filmicrgb.c:3834
 #, no-c-format
@@ -24503,7 +24230,6 @@ msgstr "displej"
 
 #. axis legend
 #: ../src/iop/filmicrgb.c:3879
-#, fuzzy
 msgid "(%)"
 msgstr "(%)"
 
@@ -24872,37 +24598,30 @@ msgid "flip or rotate image by step of 90 degrees"
 msgstr "převrátit nebo otočit obrázek o 90 stupňů"
 
 #: ../src/iop/flip.c:465
-#, fuzzy
 msgid "rotate by -90 degrees"
 msgstr "otočit o -90 stupňů"
 
 #: ../src/iop/flip.c:469
-#, fuzzy
 msgid "rotate by  90 degrees"
 msgstr "otočit o 90 stupňů"
 
 #: ../src/iop/flip.c:473
-#, fuzzy
 msgid "rotate by 180 degrees"
 msgstr "otočit o 180 stupňů"
 
 #: ../src/iop/flip.c:601
-#, fuzzy
 msgid "transform"
 msgstr "transformace"
 
 #: ../src/iop/flip.c:605 ../src/libs/live_view.c:334
-#, fuzzy
 msgid "rotate 90 degrees CCW"
 msgstr "otočit o 90 stupňů proti směru hodinových ručiček"
 
 #: ../src/iop/flip.c:609 ../src/libs/live_view.c:336
-#, fuzzy
 msgid "rotate 90 degrees CW"
 msgstr "otočit o 90 stupňů po směru hodinových ručiček"
 
 #: ../src/iop/gamma.c:41
-#, fuzzy
 msgctxt "modulename"
 msgid "display encoding"
 msgstr "zobrazit kódování"
@@ -25062,17 +24781,14 @@ msgid "[%s on line] change hardness"
 msgstr "[%s na řádku] změnit tvrdost"
 
 #: ../src/iop/grain.c:385
-#, fuzzy
 msgid "grain"
 msgstr "zrno"
 
 #: ../src/iop/grain.c:390
-#, fuzzy
 msgid "simulate silver grains from film"
 msgstr "simulovat stříbrná zrna z filmu"
 
 #: ../src/iop/grain.c:543
-#, fuzzy
 msgid "the grain size (~ISO of the film)"
 msgstr "velikost zrna (~ISO filmu)"
 
@@ -25112,7 +24828,6 @@ msgid "amount of haze reduction"
 msgstr "snížení množství zákalu"
 
 #: ../src/iop/hazeremoval.c:275 ../src/iop/lens.cc:4423
-#, fuzzy
 msgid "distance"
 msgstr "vzdálenost"
 
@@ -25275,7 +24990,6 @@ msgid "this module does not work with monochrome RAW files"
 msgstr "tento modul nepracuje s monochromatickými RAW soubory"
 
 #: ../src/iop/highpass.c:69
-#, fuzzy
 msgid "highpass"
 msgstr "horní propust"
 
@@ -25290,7 +25004,6 @@ msgid "linear or non-linear, Lab, scene-referred"
 msgstr "lineární nebo nelineární, Lab, scene-referred"
 
 #: ../src/iop/highpass.c:77 ../src/iop/lowpass.c:105 ../src/iop/sharpen.c:95
-#, fuzzy
 msgid "frequential, Lab"
 msgstr "frekvenční, Lab"
 
@@ -25310,7 +25023,6 @@ msgid "the contrast of highpass filter"
 msgstr "kontrast horní propusti"
 
 #: ../src/iop/hotpixels.c:66
-#, fuzzy
 msgid "hot pixels"
 msgstr "horké pixely"
 
@@ -25355,7 +25067,6 @@ msgid "`%s' color matrix not found for 4bayer image"
 msgstr "Barevná matice `%s' nebyla nalezena pro 4bayer obrázek"
 
 #: ../src/iop/invert.c:120
-#, fuzzy
 msgid "invert"
 msgstr "invertovat"
 
@@ -25417,7 +25128,7 @@ msgid "geometric and reconstruction, RGB"
 msgstr "geometrické a rekonstrukce, RGB"
 
 #: ../src/iop/lens.cc:3761
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "maker:\t\t%s\n"
 "model:\t\t%s%s\n"
@@ -25430,7 +25141,7 @@ msgstr ""
 "crop factor: \t%.1f"
 
 #: ../src/iop/lens.cc:4003
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "maker:\t\t%s\n"
 "model:\t\t%s\n"
@@ -25449,12 +25160,10 @@ msgstr ""
 "montáž: \t%s"
 
 #: ../src/iop/lens.cc:4076
-#, fuzzy
 msgid "f/"
 msgstr "f/"
 
 #: ../src/iop/lens.cc:4091
-#, fuzzy
 msgid "d"
 msgstr "d"
 
@@ -25482,27 +25191,22 @@ msgid "camera model"
 msgstr "model fotoaparátu"
 
 #: ../src/iop/lens.cc:4389
-#, fuzzy
 msgid "find camera"
 msgstr "najít fotoaparát"
 
 #: ../src/iop/lens.cc:4401
-#, fuzzy
 msgid "find lens"
 msgstr "najít objektiv"
 
 #: ../src/iop/lens.cc:4410
-#, fuzzy
 msgid "focal length (mm)"
 msgstr "ohnisková vzdálenost (mm)"
 
 #: ../src/iop/lens.cc:4417
-#, fuzzy
 msgid "f-number (aperture)"
 msgstr "clonové číslo"
 
 #: ../src/iop/lens.cc:4424
-#, fuzzy
 msgid "distance to subject"
 msgstr "vzdálenost k předmětu"
 
@@ -25510,12 +25214,10 @@ msgstr "vzdálenost k předmětu"
 #. upscale page: scale factor selector
 #: ../src/iop/lens.cc:4459 ../src/iop/overlay.c:1121 ../src/iop/vignette.c:1043
 #: ../src/iop/watermark.c:1480 ../src/libs/export.c:1557 ../src/libs/neural_restore.c:2140
-#, fuzzy
 msgid "scale"
 msgstr "měřítko"
 
 #: ../src/iop/lens.cc:4461
-#, fuzzy
 msgid "auto scale"
 msgstr "automatické měřítko"
 
@@ -25636,7 +25338,6 @@ msgid "additional manually controlled optical vignetting correction"
 msgstr "přídavná ručně řízená optická korekce vinětace"
 
 #: ../src/iop/lens.cc:4584
-#, fuzzy
 msgid "vignette"
 msgstr "vinětace"
 
@@ -25667,7 +25368,6 @@ msgstr "tento modul je zastaralý. místo toho použijte modul úrovní RGB."
 
 #: ../src/iop/levels.c:114 ../src/iop/levels.c:636 ../src/iop/rgblevels.c:1018
 #: ../src/iop/rgblevels.c:1050
-#, fuzzy
 msgid "levels"
 msgstr "úrovně"
 
@@ -25783,7 +25483,6 @@ msgstr "upravovat, přidávat a mazat uzly"
 #: ../src/iop/spots.c:886 ../src/libs/masks.c:1818 ../src/libs/masks.c:1826
 #: ../src/libs/masks.c:1834 ../src/libs/masks.c:1842 ../src/libs/masks.c:1850
 #: ../src/libs/masks.c:1859
-#, fuzzy
 msgid "shapes"
 msgstr "tvary"
 
@@ -25878,7 +25577,6 @@ msgid "simulate human night vision"
 msgstr "simulovat lidské noční vidění"
 
 #: ../src/iop/lowlight.c:91
-#, fuzzy
 msgid "linear, XYZ"
 msgstr "lineární, XYZ"
 
@@ -26122,9 +25820,8 @@ msgid "LUT root folder not defined"
 msgstr "kořenová složka pro LUT není definována"
 
 #: ../src/iop/lut3d.c:1574
-#, fuzzy
 msgid "select LUT file"
-msgstr "výběr LUT souboru"
+msgstr "vybrat soubor LUT"
 
 #: ../src/iop/lut3d.c:1595
 #, fuzzy
@@ -26412,9 +26109,8 @@ msgstr "zisk modrého světla"
 
 #. Page PRINT PROPERTIES
 #: ../src/iop/negadoctor.c:973
-#, fuzzy
 msgid "print properties"
-msgstr "vlastnosti tisku"
+msgstr "předvolby tisku"
 
 #. print corrections
 #: ../src/iop/negadoctor.c:976
@@ -26878,7 +26574,6 @@ msgid "raw overexposed"
 msgstr "přeexponovaný raw"
 
 #: ../src/iop/rawprepare.c:96
-#, fuzzy
 msgctxt "modulename"
 msgid "raw black/white point"
 msgstr "raw černý/bílý bod"
@@ -26932,7 +26627,6 @@ msgid "raw flat field correction to compensate for lens shading"
 msgstr "Korekce plochého pole v RAWu pro kompenzaci vinětace objektivu"
 
 #: ../src/iop/rawprepare.c:911
-#, fuzzy
 msgctxt "section"
 msgid "crop"
 msgstr "oříznutí"
@@ -27128,12 +26822,10 @@ msgid "scales:"
 msgstr "měřítka:"
 
 #: ../src/iop/retouch.c:2509
-#, fuzzy
 msgid "current:"
 msgstr "aktuální:"
 
 #: ../src/iop/retouch.c:2516
-#, fuzzy
 msgid "merge from:"
 msgstr "sloučit z:"
 
@@ -27275,7 +26967,6 @@ msgid "max scale is %i for this image size"
 msgstr "maximální měřítko je %i pro tuto velikost obrázku"
 
 #: ../src/iop/rgbcurve.c:118
-#, fuzzy
 msgid "rgb curve"
 msgstr "RGB křivka"
 
@@ -27350,7 +27041,6 @@ msgid "curve nodes for b channel"
 msgstr "uzly křivky kanálu b"
 
 #: ../src/iop/rgblevels.c:98
-#, fuzzy
 msgid "rgb levels"
 msgstr "RGB úrovně"
 
@@ -27650,9 +27340,8 @@ msgstr ""
 "lze kreativně použít pro vybledlý vzhled nebo dřívější přepal bílé."
 
 #: ../src/iop/soften.c:76
-#, fuzzy
 msgid "soften"
-msgstr "změkčit"
+msgstr "změkčení"
 
 #: ../src/iop/soften.c:98
 #, fuzzy
@@ -27693,7 +27382,6 @@ msgid ""
 msgstr "Umožňuje odděleně tónovat světla a stíny."
 
 #: ../src/iop/splittoning.c:117
-#, fuzzy
 msgid "authentic sepia"
 msgstr "autentická sépie"
 
@@ -27708,7 +27396,6 @@ msgid "authentic platinotype"
 msgstr "autentická platinotypie"
 
 #: ../src/iop/splittoning.c:144
-#, fuzzy
 msgid "chocolate brown"
 msgstr "čokoládově hnědá"
 
@@ -27977,7 +27664,6 @@ msgid "color temperature (in Kelvin)"
 msgstr "barevná teplota (v Kelvinech)"
 
 #: ../src/iop/temperature.c:2162
-#, fuzzy
 msgid "tint"
 msgstr "odstín"
 
@@ -28002,7 +27688,6 @@ msgid "white balance disabled for camera"
 msgstr "vyvážení bílé je pro fotoaparát zakázáno"
 
 #: ../src/iop/tonecurve.c:156
-#, fuzzy
 msgid "tone curve"
 msgstr "tónová křivka"
 
@@ -28042,7 +27727,6 @@ msgid "gamma 0.5"
 msgstr "gama 0.5"
 
 #: ../src/iop/tonecurve.c:675
-#, fuzzy
 msgid "logarithm (base 2)"
 msgstr "logaritmus (základ 2)"
 
@@ -28078,7 +27762,6 @@ msgid "tonecurve for b channel"
 msgstr "tónová křivka pro kanál b"
 
 #: ../src/iop/tonecurve.c:1281 ../src/iop/watermark.c:1459 ../src/libs/colorpicker.c:783
-#, fuzzy
 msgid "pick color"
 msgstr "vybrat barvu"
 
@@ -28192,7 +27875,7 @@ msgid "some parameters are out-of-bounds"
 msgstr "některé parametry jsou mimo rozsah"
 
 #: ../src/iop/toneequal.c:2462
-#, fuzzy, c-format
+#, c-format
 msgid "%+.1f EV"
 msgstr "%+.1f EV"
 
@@ -28221,47 +27904,38 @@ msgid "simple"
 msgstr "jednoduchý"
 
 #: ../src/iop/toneequal.c:3266
-#, fuzzy
 msgid "-8 EV"
 msgstr "-8 EV"
 
 #: ../src/iop/toneequal.c:3267
-#, fuzzy
 msgid "-7 EV"
 msgstr "-7 EV"
 
 #: ../src/iop/toneequal.c:3268
-#, fuzzy
 msgid "-6 EV"
 msgstr "-6 EV"
 
 #: ../src/iop/toneequal.c:3269
-#, fuzzy
 msgid "-5 EV"
 msgstr "-5 EV"
 
 #: ../src/iop/toneequal.c:3270
-#, fuzzy
 msgid "-4 EV"
 msgstr "-4 EV"
 
 #: ../src/iop/toneequal.c:3271
-#, fuzzy
 msgid "-3 EV"
 msgstr "-3 EV"
 
 #: ../src/iop/toneequal.c:3272
-#, fuzzy
 msgid "-2 EV"
 msgstr "-2 EV"
 
 #: ../src/iop/toneequal.c:3273
-#, fuzzy
 msgid "-1 EV"
 msgstr "-1 EV"
 
 #: ../src/iop/toneequal.c:3274
-#, fuzzy
 msgid "+0 EV"
 msgstr "+0 EV"
 
@@ -31321,10 +30995,9 @@ msgid "soft light"
 msgstr "měkké světlo"
 
 #: ../src/libs/live_view.c:410
-#, fuzzy
 msgctxt "blendmode"
 msgid "exclusion"
-msgstr "vyloučení"
+msgstr "vyloučit"
 
 #: ../src/libs/live_view.c:411
 msgctxt "blendmode"
@@ -31489,9 +31162,8 @@ msgstr ""
 "v kreativních modulech."
 
 #: ../src/libs/masks.c:112
-#, fuzzy
 msgid "feather"
-msgstr "okraj"
+msgstr "prolnutí"
 
 #: ../src/libs/masks.c:116
 #, fuzzy
@@ -31555,9 +31227,8 @@ msgid "mode: sum"
 msgstr "režim: součet"
 
 #: ../src/libs/masks.c:1150
-#, fuzzy
 msgid "mode: exclusion"
-msgstr "režim : vyloučení"
+msgstr "režim : vyloučit"
 
 #: ../src/libs/masks.c:1166
 #, fuzzy
@@ -34717,7 +34388,7 @@ msgstr "označit plnou barvou"
 
 #: ../src/views/darkroom.c:2981
 msgid "false color"
-msgstr "nepravá barva"
+msgstr "nepravé barvy"
 
 #: ../src/views/darkroom.c:2986 ../src/views/darkroom.c:3056
 #, fuzzy
