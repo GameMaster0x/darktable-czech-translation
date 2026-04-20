@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-11 11:40+0200\n"
-"PO-Revision-Date: 2026-04-20 18:27+0200\n"
+"PO-Revision-Date: 2026-04-20 21:05+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr <jan.smucr@gmail.com>, Petr Stasiak "
 "<petr@stasiak.cz>\n"
@@ -2644,7 +2644,6 @@ msgid "blue LED lighting fix (strong)"
 msgstr "oprava modrého LED osvětlení (silná)"
 
 #: ../build/bin/styles_string.h:9
-#, fuzzy
 msgid "camera styles"
 msgstr "styly fotoaparátu"
 
@@ -2662,7 +2661,6 @@ msgstr ""
 "(8,5 x 11 palců/US Letter/ANSI A) bez okraje"
 
 #: ../build/bin/styles_string.h:12
-#, fuzzy
 msgid "contrast and sharpness"
 msgstr "kontrast a ostrost"
 
@@ -3489,7 +3487,6 @@ msgid "lens"
 msgstr "objektiv"
 
 #: ../build/lib/darktable/plugins/introspection_blurs.c:221
-#, fuzzy
 msgid "motion"
 msgstr "pohyb"
 
@@ -3514,7 +3511,6 @@ msgstr "barva okraje"
 #: ../build/lib/darktable/plugins/introspection_borders.c:124
 #: ../build/lib/darktable/plugins/introspection_borders.c:271 ../src/common/collection.c:650
 #: ../src/libs/filtering.c:50
-#, fuzzy
 msgid "aspect ratio"
 msgstr "poměr stran"
 
@@ -3813,9 +3809,8 @@ msgstr "Planckian (černé tělo)"
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:514
 #: ../build/lib/darktable/plugins/introspection_colorharmonizer.c:256
 #: ../src/common/iop_order.c:56
-#, fuzzy
 msgid "custom"
-msgstr "uživatelský"
+msgstr "vlastní"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:515
 #, fuzzy
@@ -6589,7 +6584,6 @@ msgid "zoom"
 msgstr "zvětšení"
 
 #: ../src/bauhaus/bauhaus.c:4043 ../src/libs/select.c:40
-#, fuzzy
 msgid "selection"
 msgstr "výběr"
 
@@ -7179,7 +7173,7 @@ msgid "<b>%d</b> image (#<b>%d</b>) selected of <b>%d</b>"
 msgstr "<b>%d</b> obrázek (#<b>%d</b>) vybraný z <b>%d</b>"
 
 #: ../src/common/collection.c:2926
-#, fuzzy, c-format
+#, c-format
 msgid "<b>%d</b> image selected of <b>%d</b>"
 msgid_plural "<b>%d</b> images selected of <b>%d</b>"
 msgstr[0] "Vybrán <b>%d</b> obrázek z <b>%d</b>"
@@ -7262,15 +7256,13 @@ msgstr "střední purpurová"
 
 #. L = 50 %
 #: ../src/common/color_vocabulary.c:225
-#, fuzzy
 msgid "violet pink"
-msgstr "fialově růžová"
+msgstr "fialovorůžová"
 
 #. L = 70 %
 #: ../src/common/color_vocabulary.c:226
-#, fuzzy
 msgid "plum violet"
-msgstr "švestková fialová"
+msgstr "švestkově fialová"
 
 #. 24° - red
 #: ../src/common/color_vocabulary.c:231
@@ -7787,20 +7779,16 @@ msgid "initializing camera control"
 msgstr "nahrávám ovladač fotoaparátu ..."
 
 #: ../src/common/darktable.c:1925
-#, fuzzy
 msgid "initializing GUI"
-msgstr "nahrávám uživatelské rozhraní ..."
+msgstr "inicializuji GUI"
 
 #: ../src/common/darktable.c:1942
-#, fuzzy
-#| msgid "original format"
 msgid "loading image formats"
-msgstr "původní formát"
+msgstr "nahčítám formáty obrázků"
 
 #: ../src/common/darktable.c:1947 ../src/develop/imageop.c:1719
-#, fuzzy
 msgid "loading processing modules"
-msgstr "nahrávám kreativní moduly ..."
+msgstr "načítám kreativní moduly ..."
 
 #: ../src/common/darktable.c:1979
 #, fuzzy
@@ -7824,7 +7812,6 @@ msgid "importing image"
 msgstr "importuji obrázek ..."
 
 #: ../src/common/darktable.c:2038
-#, fuzzy
 msgid "configuration information"
 msgstr "informace o konfiguraci"
 
@@ -7984,9 +7971,8 @@ msgstr "vydavatel"
 #: ../src/imageio/storage/gallery.c:212 ../src/imageio/storage/gallery.c:219
 #: ../src/imageio/storage/latex.c:202 ../src/imageio/storage/piwigo.c:1150
 #: ../src/libs/filtering.c:60
-#, fuzzy
 msgid "title"
-msgstr "nadpis"
+msgstr "název"
 
 #: ../src/common/database.c:3239 ../src/gui/preferences_ai.c:1364 ../src/gui/styles_dialog.c:578
 #: ../src/libs/filtering.c:61
@@ -8006,7 +7992,6 @@ msgid "version name"
 msgstr "název verze"
 
 #: ../src/common/database.c:3244
-#, fuzzy
 msgid "preserved filename"
 msgstr "zachovaný název souboru"
 
@@ -8580,9 +8565,8 @@ msgid "requested session path not available. device not mounted?"
 msgstr "Požadovaná cesta relace není k dispozici. Je zařízení připojené?"
 
 #: ../src/common/iop_order.c:57 ../src/libs/ioporder.c:192
-#, fuzzy
 msgid "legacy"
-msgstr "starší"
+msgstr "zastaralý"
 
 #: ../src/common/iop_order.c:58
 msgid "v3.0 RAW"
@@ -8846,7 +8830,6 @@ msgid "style with name '%s' already exists"
 msgstr "styl s názvem '%s' již existuje"
 
 #: ../src/common/styles.c:282 ../src/common/styles.c:1724 ../src/libs/styles.c:53
-#, fuzzy
 msgid "styles"
 msgstr "styly"
 
@@ -9256,22 +9239,18 @@ msgid "path"
 msgstr "cesta"
 
 #: ../src/control/crawler.c:772
-#, fuzzy
 msgid "XMP timestamp"
 msgstr "časové razítko XMP"
 
 #: ../src/control/crawler.c:777
-#, fuzzy
 msgid "database timestamp"
 msgstr "časové razítko databáze"
 
 #: ../src/control/crawler.c:782
-#, fuzzy
 msgid "newest"
 msgstr "nejnovější"
 
 #: ../src/control/crawler.c:788
-#, fuzzy
 msgid "time difference"
 msgstr "časový rozdíl"
 
@@ -9281,7 +9260,6 @@ msgid "updated XMP sidecar files found"
 msgstr "byly nalezeny aktualizované soubory XMP"
 
 #: ../src/control/crawler.c:801 ../src/gui/welcome.c:687
-#, fuzzy
 msgid "_close"
 msgstr "_zavřít"
 
@@ -9289,18 +9267,15 @@ msgstr "_zavřít"
 #. action-box
 #: ../src/control/crawler.c:811 ../src/dtgtk/thumbtable.c:3098 ../src/libs/import.c:2037
 #: ../src/libs/select.c:142
-#, fuzzy
 msgid "select all"
 msgstr "vybrat vše"
 
 #: ../src/control/crawler.c:812 ../src/dtgtk/thumbtable.c:3100 ../src/libs/import.c:2041
 #: ../src/libs/select.c:146
-#, fuzzy
 msgid "select none"
 msgstr "zrušit výběr"
 
 #: ../src/control/crawler.c:813 ../src/dtgtk/thumbtable.c:3102 ../src/libs/select.c:150
-#, fuzzy
 msgid "invert selection"
 msgstr "invertovat výběr"
 
@@ -9506,12 +9481,10 @@ msgid "_remove from library"
 msgstr "_odstranit z knihovny"
 
 #: ../src/control/jobs/control_jobs.c:1083 ../src/libs/styles.c:504 ../src/libs/styles.c:657
-#, fuzzy
 msgid "_skip"
 msgstr "_přeskočit"
 
 #: ../src/control/jobs/control_jobs.c:1084
-#, fuzzy
 msgid "abort"
 msgstr "přerušit"
 
@@ -9710,37 +9683,28 @@ msgid "set monochrome images"
 msgstr "nastavit monochromatické obrázky"
 
 #: ../src/control/jobs/control_jobs.c:2092
-#, fuzzy
 msgid "remove images"
 msgstr "odstranit obrázky"
 
 #: ../src/control/jobs/control_jobs.c:2105
-#, fuzzy
 msgid "remove image?"
-msgstr "odstranit obrázek?"
+msgstr "Odstranit obrázek?"
 
 #: ../src/control/jobs/control_jobs.c:2105
-#, fuzzy
 msgid "remove images?"
-msgstr "odstranit obrázky?"
+msgstr "Odstranit obrázky?"
 
 #: ../src/control/jobs/control_jobs.c:2106
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "do you really want to remove %d image from darktable\n"
 "(without deleting file on disk)?"
 msgid_plural ""
 "do you really want to remove %d images from darktable\n"
 "(without deleting files on disk)?"
-msgstr[0] ""
-"opravdu chcete odstranit %d obrázek z darktable\n"
-"(bez smazání z disku)?"
-msgstr[1] ""
-"opravdu odstranit %d obrázky z darktable\n"
-"(bez smazání z disku)?"
-msgstr[2] ""
-"opravdu odstranit %d obrázků z darktable\n"
-"(bez smazání z disku)?"
+msgstr[0] "Opravdu chcete odstranit %d obrázek z darktable (bez smazání z disku)?"
+msgstr[1] "Opravdu chcete odstranit %d obrázky z darktable (bez smazání z disku)?"
+msgstr[2] "Opravdu chcete odstranit %d obrázků z darktable (bez smazání z disku)?"
 
 #: ../src/control/jobs/control_jobs.c:2122
 #, fuzzy
@@ -11177,7 +11141,7 @@ msgstr "duplikovat"
 #: ../src/gui/styles_dialog.c:651 ../src/iop/atrous.c:1567 ../src/libs/lib.c:1650
 #: ../src/libs/modulegroups.c:4168
 msgid "reset"
-msgstr "reset"
+msgstr "resetovat"
 
 #: ../src/develop/imageop.c:4148 ../src/gui/preferences.c:1053 ../src/libs/lib.c:1651
 msgid "presets"
@@ -11549,8 +11513,7 @@ msgid "opacity: %d%%"
 msgstr "krytí: %d%%"
 
 #: ../src/develop/masks/object.c:1278
-#, fuzzy, c-format
-#| msgid "group `%s'"
+#, c-format
 msgid "group '%s'"
 msgstr "skupina `%s'"
 
@@ -11684,7 +11647,7 @@ msgid "[PATH] change opacity"
 msgstr "[CESTA] změnit neprůhlednost"
 
 #: ../src/develop/masks/path.c:3975
-#, fuzzy, c-format
+#, c-format
 msgid "path #%d"
 msgstr "cesta #%d"
 
@@ -11943,7 +11906,6 @@ msgid "relative"
 msgstr "relativní"
 
 #: ../src/dtgtk/range.c:581
-#, fuzzy
 msgid "selected"
 msgstr "vybrané"
 
@@ -12059,9 +12021,8 @@ msgid "here"
 msgstr "zde"
 
 #: ../src/dtgtk/thumbtable.c:1266 ../src/views/slideshow.c:426
-#, fuzzy
 msgid "there are no images in this collection"
-msgstr "V této kolekci nejsou žádné obrázky."
+msgstr "v této sbírce nejsou žádné obrázky"
 
 #: ../src/dtgtk/thumbtable.c:1268
 #, fuzzy
@@ -12069,9 +12030,8 @@ msgid "need help?"
 msgstr "Potřebujete pomoci?"
 
 #: ../src/dtgtk/thumbtable.c:1269
-#, fuzzy
 msgid "if you have not imported any images yet"
-msgstr "Pokud jste ještě žádné obrázky nenaimportovali,"
+msgstr "pokud jste ještě žádné obrázky nenaimportovali,"
 
 #: ../src/dtgtk/thumbtable.c:1270
 #, fuzzy
@@ -12079,9 +12039,8 @@ msgid "click on <b>?</b> then an on-screen item to open manual page"
 msgstr "Pro otevření nápovědy klikněte na <b>?</b> a pak na ovládací prvek."
 
 #: ../src/dtgtk/thumbtable.c:1271
-#, fuzzy
 msgid "you can do so in the import module"
-msgstr "můžete tak učinit v modulu pro import."
+msgstr "můžete tak učinit v modulu pro import"
 
 #: ../src/dtgtk/thumbtable.c:1272
 #, fuzzy
@@ -12109,9 +12068,8 @@ msgid "personalize darktable"
 msgstr "Přizpůsobte si darktable"
 
 #: ../src/dtgtk/thumbtable.c:1277
-#, fuzzy
 msgid "click on the gear icon for global preferences"
-msgstr "Pro globální nastavení klikněte na ikonu ozubeného kola."
+msgstr "Pro globální předvolby klikněte na ikonu ozubeného kolečka."
 
 #: ../src/dtgtk/thumbtable.c:1279
 #, fuzzy
@@ -12230,12 +12188,10 @@ msgid "duplicate image virgin"
 msgstr "panenský duplikát obrázku"
 
 #: ../src/dtgtk/thumbtable.c:3104 ../src/libs/select.c:154
-#, fuzzy
 msgid "select film roll"
 msgstr "vybrat filmový pás"
 
 #: ../src/dtgtk/thumbtable.c:3106 ../src/libs/select.c:158
-#, fuzzy
 msgid "select untouched"
 msgstr "vybrat nedotčené"
 
@@ -13068,7 +13024,6 @@ msgstr "aplikovat styl fotoaparátu z darktable na vybrané obrázky"
 #.
 #. return data structure for script_manager
 #: ../src/external/lua-scripts/official/check_for_updates.lua:48
-#, fuzzy
 msgid "check for updates"
 msgstr "vyhledat aktualizace"
 
@@ -13146,7 +13101,6 @@ msgstr "Vyhledat novější verzi darktable."
 #.
 #. return data structure for script_manager
 #: ../src/external/lua-scripts/official/copy_paste_metadata.lua:43
-#, fuzzy
 msgid "copy paste metadata"
 msgstr "kopírovat a vložit metadata"
 
@@ -13163,14 +13117,12 @@ msgstr "Přidá klávesové zkratky a tlačítka pro kopírování metadat mezi 
 #. (title, description, creator, publisher and rights) that are already set
 #: ../src/external/lua-scripts/official/copy_paste_metadata.lua:136
 #: ../src/external/lua-scripts/official/copy_paste_metadata.lua:154
-#, fuzzy
 msgid "copy metadata"
 msgstr "kopírovat metadata"
 
 #: ../src/external/lua-scripts/official/copy_paste_metadata.lua:138
-#, fuzzy
 msgid "copy metadata of the first selected image"
-msgstr "Kopírovat metadata prvního vybraného obrázku."
+msgstr "kopírovat metadata prvního vybraného obrázku"
 
 #: ../src/external/lua-scripts/official/copy_paste_metadata.lua:144
 #: ../src/external/lua-scripts/official/copy_paste_metadata.lua:160
@@ -13260,7 +13212,6 @@ msgstr "Odstraní všechny tagy delší než nastavená hodnota"
 #. return data structure for script_manager
 #: ../src/external/lua-scripts/official/delete_unused_tags.lua:51
 #: ../src/external/lua-scripts/official/delete_unused_tags.lua:52
-#, fuzzy
 msgid "delete unused tags"
 msgstr "odstranit nepoužité tagy"
 
@@ -13825,21 +13776,18 @@ msgstr "prohodit výběr s dočasným bufferem"
 #.
 #. return data structure for script_manager
 #: ../src/external/lua-scripts/official/selection_to_pdf.lua:52
-#, fuzzy
 msgid "selection to PDF"
 msgstr "výběr do PDF"
 
 #: ../src/external/lua-scripts/official/selection_to_pdf.lua:53
-#, fuzzy
 msgid "generate a pdf file of selected images"
-msgstr "Vytvoří PDF z vybraných obrázků."
+msgstr "vytvořit soubor PDF z vybraných obrázků"
 
 #. function to destory the script
 #. set to hide for libs since we can't destroy them commpletely yet
 #. how to restart the (lib) script after it's been hidden - i.e. make it visible again
 #. only required for libs since the destroy_method only hides them
 #: ../src/external/lua-scripts/official/selection_to_pdf.lua:65
-#, fuzzy
 msgid "a pdf viewer"
 msgstr "prohlížeč PDF"
 
@@ -13849,7 +13797,6 @@ msgid "can be an absolute pathname or the tool may be in the PATH"
 msgstr "Může být buďto absolutní cesta nebo příkaz dostupný na PATH."
 
 #: ../src/external/lua-scripts/official/selection_to_pdf.lua:74
-#, fuzzy
 msgid "thumbs per line"
 msgstr "náhledů na řádek"
 
@@ -13859,9 +13806,8 @@ msgstr "náhledů na řádek"
 #. The hard maximum value for the slider, the user can't manually enter a value beyond this point
 #. The current value of the slider
 #: ../src/external/lua-scripts/official/selection_to_pdf.lua:83
-#, fuzzy
 msgid "title:"
-msgstr "nadpis:"
+msgstr "název:"
 
 #: ../src/external/lua-scripts/official/selection_to_pdf.lua:85
 #, fuzzy
@@ -13878,14 +13824,12 @@ msgstr "export náhledů do PDF"
 
 #. convert to PDF
 #: ../src/external/lua-scripts/official/selection_to_pdf.lua:179
-#, fuzzy
 msgid "problem running pdflatex"
 msgstr "Došlo k problému se spuštěním pdflatex."
 
 #. this one is probably usefull to the user
 #. open the PDF
 #: ../src/external/lua-scripts/official/selection_to_pdf.lua:189
-#, fuzzy
 msgid "problem running pdf viewer"
 msgstr "Došlo k problému se spuštěním PDF prohlížeče."
 
@@ -13924,12 +13868,10 @@ msgstr "Došlo k problému se spuštěním PDF prohlížeče."
 #.
 #. return data structure for script_manager
 #: ../src/external/lua-scripts/tools/executable_manager.lua:49
-#, fuzzy
 msgid "executable manager"
 msgstr "správce spustitelných souborů"
 
 #: ../src/external/lua-scripts/tools/executable_manager.lua:50
-#, fuzzy
 msgid "manage the list of external executables used by the lua scripts"
 msgstr "spravovat seznam externích spustitelných souborů používaných Lua skripty"
 
@@ -13946,7 +13888,6 @@ msgstr "spravovat seznam externích spustitelných souborů používaných Lua s
 #. use grep and just return the answers
 #. Module name
 #: ../src/external/lua-scripts/tools/executable_manager.lua:118
-#, fuzzy
 msgid "executables"
 msgstr "spustitelné soubory"
 
@@ -13970,19 +13911,16 @@ msgstr "Nebyly nalezeny žádné spustitelné soubory, končím …"
 #. build a table of the path preferences
 #. preferences are stored with forward slashes
 #: ../src/external/lua-scripts/tools/executable_manager.lua:173
-#, fuzzy
 msgid "select an executable"
 msgstr "vyberte spustitelný soubor"
 
 #: ../src/external/lua-scripts/tools/executable_manager.lua:173
-#, fuzzy
 msgid "search path for executable"
 msgstr "kde hledat spustitelné soubory"
 
 #. create a stack widget to hold the executable path widgets
 #. create a combobox to for indexing into the stack of widgets
 #: ../src/external/lua-scripts/tools/executable_manager.lua:202
-#, fuzzy
 msgid "executable"
 msgstr "spustitelný soubor"
 
@@ -13994,9 +13932,9 @@ msgstr "Vyberte spustitelný soubor k úpravě."
 
 # tooltip
 #: ../src/external/lua-scripts/tools/executable_manager.lua:225
-#, fuzzy, lua-format
+#, lua-format
 msgid "clear path for %s"
-msgstr "Odstranit cestu k '%s'."
+msgstr "odstranit cestu k '%s'"
 
 #. register the lib
 #.
@@ -14178,7 +14116,6 @@ msgstr "Automaticky aktualizovat skripty na novou verzi."
 #. script handling
 #. ----------------
 #: ../src/external/lua-scripts/tools/script_manager.lua:409
-#, fuzzy
 msgid "contributed"
 msgstr "od přispěvatelů"
 
@@ -14324,7 +14261,6 @@ msgstr "vyberte skripty k aktualizaci"
 # button/label
 #: ../src/external/lua-scripts/tools/script_manager.lua:1346
 #: ../src/external/lua-scripts/tools/script_manager.lua:1408
-#, fuzzy
 msgid "update scripts"
 msgstr "aktualizovat skripty"
 
@@ -14341,9 +14277,8 @@ msgstr "Zadejte URL Git repozitáře se skripty, které chcete přidat."
 
 # placeholder
 #: ../src/external/lua-scripts/tools/script_manager.lua:1363
-#, fuzzy
 msgid "name of new folder"
-msgstr "název nového adresáře"
+msgstr "název nové složky"
 
 # tooltip
 #: ../src/external/lua-scripts/tools/script_manager.lua:1364
@@ -14352,9 +14287,8 @@ msgid "enter a folder name for the additional scripts"
 msgstr "Název adresáře pro umístění skriptů"
 
 #: ../src/external/lua-scripts/tools/script_manager.lua:1369
-#, fuzzy
 msgid "URL to download additional scripts from"
-msgstr "URL, odkud se mají další skripty stahovat"
+msgstr "URL, odkud se mají stáhnout další skripty"
 
 #: ../src/external/lua-scripts/tools/script_manager.lua:1371
 #, fuzzy
@@ -14374,7 +14308,6 @@ msgstr "povolit tlačítko \"zakázat skripty\""
 
 #: ../src/external/lua-scripts/tools/script_manager.lua:1394
 #: ../src/external/lua-scripts/tools/script_manager.lua:1419
-#, fuzzy
 msgid "disable scripts"
 msgstr "zakázat skripty"
 
@@ -14503,7 +14436,7 @@ msgid "creating complete lighttable thumbnail cache\n"
 msgstr "vytvářím kompletní mezipaměť náhledů\n"
 
 #: ../src/gui/about.c:34
-#, fuzzy, c-format
+#, c-format
 msgid "copyright (c) the authors 2009-%s"
 msgstr "copyright (c) autoři 2009-%s"
 
@@ -14641,21 +14574,16 @@ msgstr "nastav"
 #: ../src/gui/accelerators.c:359 ../src/libs/filters/rating_range.c:295
 #: ../src/libs/modulegroups.c:2939 ../src/libs/tagging.c:3520 ../src/views/darkroom.c:2952
 #: ../src/views/darkroom.c:3018 ../src/views/darkroom.c:3294
-#, fuzzy
 msgid "toggle"
 msgstr "přepnout"
 
 #: ../src/gui/accelerators.c:137
-#, fuzzy
-#| msgid "previous layout"
 msgid "previous module"
-msgstr "minulé rozvržení"
+msgstr "předchozí modul"
 
 #: ../src/gui/accelerators.c:138
-#, fuzzy
-#| msgid "module"
 msgid "next module"
-msgstr "modul"
+msgstr "následující modul"
 
 #: ../src/gui/accelerators.c:138
 #, fuzzy
@@ -15054,7 +14982,6 @@ msgid "last but one"
 msgstr "předposlední"
 
 #: ../src/gui/accelerators.c:1775 ../src/gui/accelerators.c:1840
-#, fuzzy
 msgid "(unchanged)"
 msgstr "(nezměněný)"
 
@@ -15104,7 +15031,6 @@ msgid "command"
 msgstr "příkaz"
 
 #: ../src/gui/accelerators.c:2150
-#, fuzzy
 msgid "preset"
 msgstr "preset"
 
@@ -15114,17 +15040,14 @@ msgid "restore shortcuts"
 msgstr "obnovit zkratky"
 
 #: ../src/gui/accelerators.c:2534
-#, fuzzy
 msgid "_defaults"
 msgstr "_výchozí"
 
 #: ../src/gui/accelerators.c:2535
-#, fuzzy
 msgid "_startup"
 msgstr "_spuštění"
 
 #: ../src/gui/accelerators.c:2536
-#, fuzzy
 msgid "_edits"
 msgstr "_úpravy"
 
@@ -15201,12 +15124,10 @@ msgstr ""
 "nebo jen pro jedno vybrané zařízení\n"
 
 #: ../src/gui/accelerators.c:2710
-#, fuzzy
 msgid "id in file"
 msgstr "id v souboru"
 
 #: ../src/gui/accelerators.c:2716
-#, fuzzy
 msgid "id when loaded"
 msgstr "id při načtení"
 
@@ -15221,7 +15142,6 @@ msgid "select file to import"
 msgstr "vyberte soubor k importu"
 
 #: ../src/gui/accelerators.c:2745 ../src/libs/tagging.c:2804
-#, fuzzy
 msgid "_import"
 msgstr "_import"
 
@@ -15269,17 +15189,14 @@ msgstr ""
 "stisknutím kláves nahoru nebo dolů procházejte nalezené"
 
 #: ../src/gui/accelerators.c:2919 ../src/views/view.c:1670
-#, fuzzy
 msgid "shortcut"
 msgstr "zkratka"
 
 #: ../src/gui/accelerators.c:2932
-#, fuzzy
 msgid "element"
 msgstr "element"
 
 #: ../src/gui/accelerators.c:2940
-#, fuzzy
 msgid "effect"
 msgstr "efekt"
 
@@ -15321,7 +15238,6 @@ msgid "open help page for shortcuts"
 msgstr "otevřít stránku nápovědy pro zkratky"
 
 #: ../src/gui/accelerators.c:3072
-#, fuzzy
 msgid "restore..."
 msgstr "obnovit..."
 
@@ -15342,7 +15258,7 @@ msgstr "Importovat rozšířenou výchozí sadu zkratek"
 
 #: ../src/gui/accelerators.c:3080 ../src/libs/styles.c:936 ../src/libs/tagging.c:3682
 msgid "import..."
-msgstr "import..."
+msgstr "importovat…"
 
 #: ../src/gui/accelerators.c:3081
 #, fuzzy
@@ -15351,7 +15267,7 @@ msgstr "zcela nebo částečně importovat zkratky ze souboru"
 
 #: ../src/gui/accelerators.c:3084 ../src/libs/styles.c:942 ../src/libs/tagging.c:3689
 msgid "export..."
-msgstr "export..."
+msgstr "exportovat…"
 
 #: ../src/gui/accelerators.c:3085
 #, fuzzy
@@ -16052,9 +15968,8 @@ msgid "select _none"
 msgstr "zrušit _výběr"
 
 #: ../src/gui/hist_dialog.c:244
-#, fuzzy
 msgid "select parts to paste"
-msgstr "vyberte části k vložení"
+msgstr "vyberte části ke vložení"
 
 #: ../src/gui/hist_dialog.c:249 ../src/libs/styles.c:505 ../src/libs/styles.c:658
 msgid "_overwrite"
@@ -16083,7 +15998,6 @@ msgstr "nelze zkopírovat historii z nezměněného obrázku"
 
 #. grid headers
 #: ../src/gui/import_metadata.c:485
-#, fuzzy
 msgid "metadata presets"
 msgstr "presety metadat"
 
@@ -16115,7 +16029,6 @@ msgstr ""
 
 #. tags
 #: ../src/gui/import_metadata.c:512
-#, fuzzy
 msgid "tag presets"
 msgstr "presety tagů"
 
@@ -16310,12 +16223,12 @@ msgstr ""
 #: ../src/gui/preferences.c:1020
 msgctxt "preferences"
 msgid "import..."
-msgstr "import..."
+msgstr "importovat…"
 
 #: ../src/gui/preferences.c:1025
 msgctxt "preferences"
 msgid "export..."
-msgstr "export..."
+msgstr "exportovat…"
 
 #: ../src/gui/preferences.c:1208
 #, fuzzy, c-format
@@ -28444,9 +28357,8 @@ msgid "WB"
 msgstr "ČB"
 
 #: ../src/libs/collect.c:192
-#, fuzzy
 msgid "collections"
-msgstr "kolekce"
+msgstr "sbírky"
 
 #: ../src/libs/collect.c:197
 #, fuzzy
@@ -28619,20 +28531,17 @@ msgstr "metadata"
 
 #: ../src/libs/collect.c:3489 ../src/libs/filtering.c:902 ../src/libs/filtering.c:963
 #: ../src/libs/filtering.c:1957
-#, fuzzy
 msgid "times"
-msgstr "časy"
+msgstr "čas"
 
 #: ../src/libs/collect.c:3498 ../src/libs/filtering.c:911 ../src/libs/filtering.c:972
 #: ../src/libs/filtering.c:1637
-#, fuzzy
 msgid "capture details"
 msgstr "zachytit detaily"
 
 #: ../src/libs/collect.c:3527
-#, fuzzy
 msgid "collections settings"
-msgstr "nastavení kolekcí"
+msgstr "nastavení sbírek"
 
 #: ../src/libs/collect.c:3549 ../src/libs/export.c:1427 ../src/libs/metadata.c:1123
 #: ../src/libs/metadata_view.c:1576 ../src/libs/recentcollect.c:297 ../src/libs/styles.c:1048
@@ -28641,12 +28550,10 @@ msgid "preferences..."
 msgstr "předvolby..."
 
 #: ../src/libs/collect.c:3673 ../src/libs/filtering.c:1491
-#, fuzzy
 msgid "AND"
 msgstr "A (AND)"
 
 #: ../src/libs/collect.c:3678 ../src/libs/filtering.c:1496
-#, fuzzy
 msgid "OR"
 msgstr "NEBO (OR)"
 
@@ -28666,9 +28573,8 @@ msgid "revert to a previous set of rules"
 msgstr "vrátit se k předchozí sadě pravidel"
 
 #: ../src/libs/collect.c:3941
-#, fuzzy
 msgid "jump back to previous collection"
-msgstr "jdi zpět na předešlou kolekci"
+msgstr "jít na předcházející sbírku"
 
 #: ../src/libs/collect.h:32
 msgid "January"
@@ -29469,7 +29375,6 @@ msgid "delete metadata tag"
 msgstr "odstranit tag metadat"
 
 #: ../src/libs/export_metadata.c:295
-#, fuzzy
 msgid "general settings"
 msgstr "obecná nastavení"
 
@@ -29479,29 +29384,24 @@ msgid "per metadata settings"
 msgstr "podle nastavení metadat"
 
 #: ../src/libs/filtering.c:49 ../src/libs/metadata_view.c:138
-#, fuzzy
 msgid "full path"
-msgstr "úplná cesta"
+msgstr "celá cesta"
 
 #: ../src/libs/filtering.c:64 ../src/libs/live_view.c:371
-#, fuzzy
 msgid "id"
 msgstr "id"
 
 #: ../src/libs/filtering.c:65
-#, fuzzy
 msgid "custom sort"
 msgstr "vlastní třídění"
 
 #: ../src/libs/filtering.c:66
-#, fuzzy
 msgid "shuffle"
 msgstr "zamíchat"
 
 #: ../src/libs/filtering.c:268
-#, fuzzy
 msgid "collection filters"
-msgstr "filtry kolekce"
+msgstr "filtry sbírky"
 
 #: ../src/libs/filtering.c:273
 #, fuzzy
@@ -29514,7 +29414,6 @@ msgstr ""
 "Filtry lze připnout na horní panel nástrojů a pak budou vidět i v editoru."
 
 #: ../src/libs/filtering.c:308
-#, fuzzy
 msgid "initial setting"
 msgstr "výchozí nastavení"
 
@@ -29778,7 +29677,6 @@ msgstr ""
 #: ../src/libs/filters/rating_range.c:59 ../src/libs/filters/rating_range.c:83
 #: ../src/libs/filters/rating_range.c:131 ../src/libs/filters/ratio.c:70
 #: ../src/libs/filters/ratio.c:83
-#, fuzzy
 msgid "all images"
 msgstr "všechny obrázky"
 
@@ -29979,22 +29877,18 @@ msgid "GPX file track segments"
 msgstr "Segmenty stopy souboru GPX"
 
 #: ../src/libs/geotagging.c:847 ../src/libs/geotagging.c:1929
-#, fuzzy
 msgid "start time"
 msgstr "čas startu"
 
 #: ../src/libs/geotagging.c:848
-#, fuzzy
 msgid "end time"
 msgstr "čas konce"
 
 #: ../src/libs/geotagging.c:849 ../src/libs/geotagging.c:1931
-#, fuzzy
 msgid "points"
 msgstr "body"
 
 #: ../src/libs/geotagging.c:850 ../src/libs/geotagging.c:1933 ../src/libs/image.c:503
-#, fuzzy
 msgid "images"
 msgstr "obrázky"
 
@@ -30185,22 +30079,19 @@ msgid "drag to change exposure"
 msgstr "tažením změníte expozici"
 
 #: ../src/libs/histogram.c:698 ../src/libs/scopes/histogram.c:50
-#, fuzzy
 msgid "histogram"
 msgstr "histogram"
 
 #: ../src/libs/histogram.c:704 ../src/libs/histogram.c:800
-#, fuzzy
 msgid "hide histogram"
 msgstr "skrýt histogram"
 
 #: ../src/libs/histogram.c:812
-#, fuzzy, c-format
+#, c-format
 msgid "toggle %s channel"
 msgstr "přepnout %s kanál"
 
 #: ../src/libs/histogram.c:820
-#, fuzzy
 msgid "toggle colors"
 msgstr "přepnout barvy"
 
@@ -30266,7 +30157,6 @@ msgid "colorspace"
 msgstr "barevný prostor"
 
 #: ../src/libs/history.c:943
-#, fuzzy
 msgid "mask mode"
 msgstr "režim masky"
 
@@ -30296,12 +30186,10 @@ msgid "raster mask instance"
 msgstr "instance rastrové masky"
 
 #: ../src/libs/history.c:961
-#, fuzzy
 msgid "raster mask id"
 msgstr "id rastrové masky"
 
 #: ../src/libs/history.c:962
-#, fuzzy
 msgid "invert mask"
 msgstr "invertovat masku"
 
@@ -30346,7 +30234,6 @@ msgid "do you really want to clear history of current image?"
 msgstr "opravdu chcete vymazat historii aktuálního obrázku?"
 
 #: ../src/libs/image.c:74
-#, fuzzy
 msgid "actions on selection"
 msgstr "akce nad výběrem"
 
@@ -30369,7 +30256,6 @@ msgid "remove"
 msgstr "odstranit"
 
 #: ../src/libs/image.c:517
-#, fuzzy
 msgid "remove images from the image library, without deleting"
 msgstr "odstranit obrázky z knihovny bez odstranění z disku"
 
@@ -30378,7 +30264,6 @@ msgid "move..."
 msgstr "přesunout…"
 
 #: ../src/libs/image.c:528
-#, fuzzy
 msgid "move to other folder"
 msgstr "přesunout do jiné složky"
 
@@ -30387,7 +30272,6 @@ msgid "copy..."
 msgstr "kopírovat…"
 
 #: ../src/libs/image.c:533
-#, fuzzy
 msgid "copy to other folder"
 msgstr "kopírovat do jiné složky"
 
@@ -30408,19 +30292,16 @@ msgid "add a duplicate to the image library, including its history stack"
 msgstr "Přidat duplikát do knihovny obrázků, včetně historie úprav."
 
 #: ../src/libs/image.c:551 ../src/libs/image.c:556
-#, fuzzy
 msgid "rotate selected images 90 degrees CCW"
 msgstr "otočit vybrané snímky o 90 stupňů proti směru hodinových ručiček"
 
 #: ../src/libs/image.c:562 ../src/libs/image.c:567
-#, fuzzy
 msgid "rotate selected images 90 degrees CW"
 msgstr "otočit vybrané snímky o 90 stupňů po směru hodinových ručiček"
 
 #: ../src/libs/image.c:570
-#, fuzzy
 msgid "reset rotation"
-msgstr "reset rotace"
+msgstr "reset natočení"
 
 #: ../src/libs/image.c:572
 #, fuzzy
@@ -30428,19 +30309,16 @@ msgid "reset rotation to EXIF data"
 msgstr "resetovat rotaci do EXIF dat"
 
 #: ../src/libs/image.c:575
-#, fuzzy
 msgid "copy locally"
 msgstr "místní kopie"
 
 #: ../src/libs/image.c:577
-#, fuzzy
 msgid "copy the image locally"
 msgstr "kopírovat obrázek lokálně"
 
 #: ../src/libs/image.c:581
-#, fuzzy
 msgid "resync local copy"
-msgstr "znovu synchronizovat místní kopii"
+msgstr "resynchronizovat místní kopii"
 
 #: ../src/libs/image.c:583
 #, fuzzy
@@ -30458,7 +30336,6 @@ msgid "add selected images to expanded group or create a new one"
 msgstr "přidat vybrané obrázky do skupiny nebo založit novou"
 
 #: ../src/libs/image.c:593
-#, fuzzy
 msgid "ungroup"
 msgstr "zrušit seskupení"
 
@@ -30595,7 +30472,6 @@ msgid "tethering and importing is disabled for this camera"
 msgstr "tethering a import jsou pro tento fotoaparát zakázány"
 
 #: ../src/libs/import.c:338 ../src/libs/import.c:2408
-#, fuzzy
 msgid "mount camera"
 msgstr "připojit fotoaparát"
 
@@ -30613,7 +30489,6 @@ msgid "choose the root of the folder tree below"
 msgstr "níže vyberte kořen stromu složek"
 
 #: ../src/libs/import.c:1422
-#, fuzzy
 msgid "places"
 msgstr "místa"
 
@@ -30645,17 +30520,14 @@ msgid "select a folder to see the content"
 msgstr "vyberte složky, pro zobrazení obsahu"
 
 #: ../src/libs/import.c:1483
-#, fuzzy
 msgid "folders"
 msgstr "složky"
 
 #: ../src/libs/import.c:1559
-#, fuzzy
 msgid "home"
 msgstr "domů"
 
 #: ../src/libs/import.c:1573
-#, fuzzy
 msgid "pictures"
 msgstr "obrázky"
 
@@ -30733,19 +30605,16 @@ msgstr "_rozumím a hotovo"
 
 #. add import buttons
 #: ../src/libs/import.c:2382
-#, fuzzy
 msgid "add to library..."
-msgstr "přidat do knihovny..."
+msgstr "přidat do knihovny…"
 
 #: ../src/libs/import.c:2384
-#, fuzzy
 msgid "add existing images to the library"
 msgstr "přidat existující obrázky do knihovny"
 
 #: ../src/libs/import.c:2390
-#, fuzzy
 msgid "copy & import..."
-msgstr "kopírování a import..."
+msgstr "kopírování a importovat…"
 
 #: ../src/libs/import.c:2392
 #, fuzzy
@@ -30786,9 +30655,8 @@ msgid "deleting preset for obsolete module"
 msgstr "smazání presetu pro zastaralý modulu"
 
 #: ../src/libs/lib.c:541
-#, fuzzy
 msgid "manage presets..."
-msgstr "správa presetů..."
+msgstr "spravovat presety…"
 
 #: ../src/libs/lib.c:566
 #, fuzzy
@@ -30796,14 +30664,12 @@ msgid "nothing to save"
 msgstr "nic pro uložení"
 
 #: ../src/libs/lib.c:1275
-#, fuzzy
 msgid "show module"
 msgstr "zobrazit modul"
 
 #: ../src/libs/lib.c:1300
-#, fuzzy
 msgid "presets and preferences"
-msgstr "nastavení"
+msgstr "presety a předvolby"
 
 #: ../src/libs/lib.c:1665
 #, fuzzy
@@ -30811,7 +30677,6 @@ msgid "utility module"
 msgstr "modul nástrojů"
 
 #: ../src/libs/live_view.c:122
-#, fuzzy
 msgid "live view"
 msgstr "živý náhled"
 
@@ -31278,173 +31143,139 @@ msgid "write metadata for selected images"
 msgstr "zapsat metadata pro vybrané obrázky"
 
 #: ../src/libs/metadata.c:1144
-#, fuzzy
 msgid "cancel"
 msgstr "zrušit"
 
 #: ../src/libs/metadata.c:1145
-#, fuzzy
 msgid "ignore changed metadata"
 msgstr "ignorovat změněná metadata"
 
 #: ../src/libs/metadata.c:1206
-#, fuzzy
 msgid "CC BY"
 msgstr "CC BY"
 
 #: ../src/libs/metadata.c:1207
-#, fuzzy
 msgid "Creative Commons Attribution (CC BY)"
 msgstr "Creative Commons Attribution (CC BY)"
 
 #: ../src/libs/metadata.c:1208
-#, fuzzy
 msgid "CC BY-SA"
 msgstr "CC BY-SA"
 
 #: ../src/libs/metadata.c:1209
-#, fuzzy
 msgid "Creative Commons Attribution-ShareAlike (CC BY-SA)"
 msgstr "Creative Commons Attribution-ShareAlike (CC BY-SA)"
 
 #: ../src/libs/metadata.c:1210
-#, fuzzy
 msgid "CC BY-ND"
 msgstr "CC BY-ND"
 
 #: ../src/libs/metadata.c:1211
-#, fuzzy
 msgid "Creative Commons Attribution-NoDerivs (CC BY-ND)"
 msgstr "Creative Commons Attribution-NoDerivs (CC BY-ND)"
 
 #: ../src/libs/metadata.c:1212
-#, fuzzy
 msgid "CC BY-NC"
 msgstr "CC BY-NC"
 
 #: ../src/libs/metadata.c:1213
-#, fuzzy
 msgid "Creative Commons Attribution-NonCommercial (CC BY-NC)"
 msgstr "Creative Commons Attribution-NonCommercial (CC BY-NC)"
 
 #: ../src/libs/metadata.c:1214
-#, fuzzy
 msgid "CC BY-NC-SA"
 msgstr "CC BY-NC-SA"
 
 #: ../src/libs/metadata.c:1215
-#, fuzzy
 msgid "Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)"
 msgstr "Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)"
 
 #: ../src/libs/metadata.c:1216
-#, fuzzy
 msgid "CC BY-NC-ND"
 msgstr "CC BY-NC-ND"
 
 #: ../src/libs/metadata.c:1217
-#, fuzzy
 msgid "Creative Commons Attribution-NonCommercial-NoDerivs (CC BY-NC-ND)"
 msgstr "Creative Commons Attribution-NonCommercial-NoDerivs (CC BY-NC-ND)"
 
 #: ../src/libs/metadata.c:1218 ../src/libs/metadata.c:1219
-#, fuzzy
 msgid "all rights reserved"
 msgstr "všechna práva vyhrazena"
 
 #. internal
 #: ../src/libs/metadata_view.c:133
-#, fuzzy
 msgid "filmroll"
 msgstr "filmový pás"
 
 #: ../src/libs/metadata_view.c:135
-#, fuzzy
 msgid "group id"
 msgstr "id skupiny"
 
 #: ../src/libs/metadata_view.c:140
-#, fuzzy
 msgid "import timestamp"
-msgstr "čas importu"
+msgstr "časové razítko importu"
 
 #: ../src/libs/metadata_view.c:141
-#, fuzzy
 msgid "change timestamp"
-msgstr "čas změny"
+msgstr "časové razítko změny"
 
 #: ../src/libs/metadata_view.c:142
-#, fuzzy
 msgid "export timestamp"
-msgstr "čas exportu"
+msgstr "časové razítko exportu"
 
 #: ../src/libs/metadata_view.c:143
-#, fuzzy
 msgid "print timestamp"
-msgstr "čas tisku"
+msgstr "časové razítko tisku"
 
 #: ../src/libs/metadata_view.c:158
-#, fuzzy
 msgid "35mm equiv focal length"
 msgstr "35mm ekvivalentní ohnisková vzdálenost"
 
 #: ../src/libs/metadata_view.c:160
-#, fuzzy
 msgid "focus distance"
-msgstr "zaostřovací vzdálenost"
+msgstr "ohnisková vzdálenost"
 
 #: ../src/libs/metadata_view.c:162
-#, fuzzy
 msgid "datetime"
-msgstr "datum čas"
+msgstr "datum a čas"
 
 #: ../src/libs/metadata_view.c:165
-#, fuzzy
 msgid "export width"
 msgstr "šířka exportu"
 
 #: ../src/libs/metadata_view.c:166
-#, fuzzy
 msgid "export height"
 msgstr "výška exportu"
 
 #: ../src/libs/metadata_view.c:170
-#, fuzzy
 msgid "longitude"
 msgstr "zeměpisná délka"
 
 #: ../src/libs/metadata_view.c:171
-#, fuzzy
 msgid "elevation"
 msgstr "nadmořská výška"
 
 #: ../src/libs/metadata_view.c:175
-#, fuzzy
 msgid "categories"
 msgstr "kategorie"
 
 #: ../src/libs/metadata_view.c:183
-#, fuzzy
 msgid "image information"
 msgstr "informace o obrázku"
 
 #: ../src/libs/metadata_view.c:375
-#, fuzzy
 msgid "unused/deprecated"
 msgstr "nepoužívané/zastaralé"
 
 #: ../src/libs/metadata_view.c:376
-#, fuzzy
 msgid "LDR"
 msgstr "LDR"
 
 #: ../src/libs/metadata_view.c:379
-#, fuzzy
 msgid "marked for deletion"
-msgstr "označen pro vymazání"
+msgstr "označeno pro vymazání"
 
 #: ../src/libs/metadata_view.c:380
-#, fuzzy
 msgid "auto-applying presets applied"
 msgstr "automatické presety aplikovány"
 
@@ -32757,17 +32588,15 @@ msgid ""
 msgstr "spravuje a aplikuje styly na aktuálně vybrané obrázky"
 
 #: ../src/libs/styles.c:255
-#, fuzzy
 msgid "no images selected"
 msgstr "není vybrán žádný obrázek"
 
 #: ../src/libs/styles.c:401
-#, fuzzy
 msgid "remove style?"
 msgid_plural "remove styles?"
 msgstr[0] "odstranit styl?"
 msgstr[1] "odstranit styly?"
-msgstr[2] "odstranit stylů?"
+msgstr[2] "odstranit styly?"
 
 #: ../src/libs/styles.c:402
 #, fuzzy, c-format
@@ -32803,21 +32632,18 @@ msgid "select style"
 msgstr "výběr stylu"
 
 #: ../src/libs/styles.c:604
-#, fuzzy
 msgid "darktable style files"
-msgstr "soubory stylu darktable"
+msgstr "soubory darktable stylu"
 
 #: ../src/libs/styles.c:876
-#, fuzzy
 msgid ""
 "available styles,\n"
 "double-click to apply"
 msgstr ""
 "dostupné styly,\n"
-"dvojklik pro použití"
+"aplikujte dvojitým kliknutím"
 
 #: ../src/libs/styles.c:884 ../src/libs/styles.c:885
-#, fuzzy
 msgid "filter style names"
 msgstr "filtrovat styly dle názvu"
 
@@ -32832,14 +32658,12 @@ msgid "hide preview of style on tooltip"
 msgstr "skrýt náhled stylu v popisku"
 
 #: ../src/libs/styles.c:899 ../src/libs/styles.c:900
-#, fuzzy
 msgid "create duplicate"
 msgstr "duplikovat"
 
 #: ../src/libs/styles.c:907
-#, fuzzy
 msgid "creates a duplicate of the image before applying style"
-msgstr "vytvoří duplikát obrázku před použitím stylu"
+msgstr "vytvoří duplikát obrázku před aplikováním stylu"
 
 #: ../src/libs/styles.c:911
 #, fuzzy
@@ -32861,7 +32685,6 @@ msgid "create styles from history stack of selected images"
 msgstr "vytvořit styl z historie úprav vybraných obrázků"
 
 #: ../src/libs/styles.c:924 ../src/libs/tagging.c:2530
-#, fuzzy
 msgid "edit..."
 msgstr "editovat…"
 
@@ -33715,7 +33538,6 @@ msgstr ""
 "Pravým tlačítkem myši režim mapování vypněte."
 
 #: ../src/libs/tools/global_toolbox.c:513
-#, fuzzy
 msgid "show global preferences"
 msgstr "zobrazit globální předvolby"
 
