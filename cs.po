@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-20 20:53+0200\n"
-"PO-Revision-Date: 2026-04-21 13:24+0200\n"
+"PO-Revision-Date: 2026-04-21 14:00+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -783,7 +783,6 @@ msgid "display-referred (legacy)"
 msgstr "display-referred (starší)"
 
 #: ../build/bin/conf_gen.h:4826
-#, fuzzy
 msgid "camera time zone"
 msgstr "časové pásmo fotoaparátu"
 
@@ -869,9 +868,8 @@ msgstr "klouzavé"
 
 #: ../build/bin/preferences_gen.h:80 ../build/bin/preferences_gen.h:120
 #: ../src/gui/preferences_ai.c:47 ../src/gui/preferences_ai.c:61
-#, fuzzy
 msgid "this setting has been modified"
-msgstr "tato nastavení byla změněna"
+msgstr "tato nastavení bylo změněno"
 
 #: ../build/bin/preferences_gen.h:95 ../src/gui/accelerators.c:3067
 #: ../src/gui/gtk.c:3442 ../src/gui/preferences.c:538
@@ -1027,9 +1025,8 @@ msgstr "maska pojmenování souborů použitá pro import"
 #: ../build/bin/preferences_gen.h:2653 ../src/gui/gtk.c:1592
 #: ../src/gui/preferences.c:631 ../src/libs/tools/lighttable.c:64
 #: ../src/views/lighttable.c:91
-#, fuzzy
 msgid "lighttable"
-msgstr "katalog"
+msgstr "lighttable"
 
 #: ../build/bin/preferences_gen.h:2658 ../build/bin/preferences_gen.h:3009
 #: ../build/bin/preferences_gen.h:3829 ../src/gui/preferences.c:344
@@ -1347,9 +1344,8 @@ msgstr "maska pro nápovědu k miniatuře (pro deaktivaci nechte prázdné)"
 
 #: ../build/bin/preferences_gen.h:3004 ../src/gui/gtk.c:1594
 #: ../src/gui/preferences.c:630 ../src/views/darkroom.c:93
-#, fuzzy
 msgid "darkroom"
-msgstr "editor"
+msgstr "darkroom"
 
 #: ../build/bin/preferences_gen.h:3019
 #, fuzzy
@@ -1884,7 +1880,6 @@ msgid "Intel GPU"
 msgstr "Intel GPU"
 
 #: ../build/bin/preferences_gen.h:3688
-#, fuzzy
 msgid "Intel(R) OpenCL Graphics for all supported platforms (vendor provided)"
 msgstr "Intel(R) OpenCL Graphics pro všechny podporované platformy (od výrobce)"
 
@@ -9819,12 +9814,12 @@ msgstr[1] "neodstranění obrázku '%s' použitého jako překryv v %d obrázcí
 msgstr[2] "neodstranění obrázku '%s' použitého jako překryv v %d obrázcích"
 
 #: ../src/control/jobs/control_jobs.c:1413
-#, fuzzy, c-format
+#, c-format
 msgid "setting GPS information"
 msgid_plural "setting GPS information for %u images"
-msgstr[0] "Nastavuji GPS informace pro %u obrázek..."
-msgstr[1] "Nastavuji GPS informace pro %u obrázky..."
-msgstr[2] "Nastavuji GPS informace pro %u obrázků..."
+msgstr[0] "nastavuji GPS informace pro %u obrázek..."
+msgstr[1] "nastavuji GPS informace pro %u obrázky..."
+msgstr[2] "nastavuji GPS informace pro %u obrázků..."
 
 #: ../src/control/jobs/control_jobs.c:1458
 #, fuzzy, c-format
@@ -9835,22 +9830,22 @@ msgstr[1] "odpovídající umístění GPX použito na %d obrázky"
 msgstr[2] "odpovídající umístění GPX použito na %d obrázků"
 
 #: ../src/control/jobs/control_jobs.c:1476
-#, fuzzy, c-format
+#, c-format
 msgid "moving %d image"
 msgstr "přesun %d obrázku"
 
 #: ../src/control/jobs/control_jobs.c:1477
-#, fuzzy, c-format
+#, c-format
 msgid "moving %d images"
 msgstr "přesun %d obrázků"
 
 #: ../src/control/jobs/control_jobs.c:1484
-#, fuzzy, c-format
+#, c-format
 msgid "copying %d image"
 msgstr "kopírování %d obrázku"
 
 #: ../src/control/jobs/control_jobs.c:1485
-#, fuzzy, c-format
+#, c-format
 msgid "copying %d images"
 msgstr "kopírování %d obrázků"
 
@@ -16201,9 +16196,8 @@ msgstr ""
 
 # menu item
 #: ../src/gui/gtk.c:2575
-#, fuzzy
 msgid "restore defaults"
-msgstr "vrátit výchozí"
+msgstr "obnovit výchozí"
 
 # tooltip
 #: ../src/gui/gtk.c:2576
@@ -24433,7 +24427,6 @@ msgid "what exposure correction has actually been used"
 msgstr "jaká korekce expozice byla skutečně použita"
 
 #: ../src/iop/exposure.c:1244
-#, fuzzy
 msgid "computed EC: "
 msgstr "vypočítané EC: "
 
@@ -29817,17 +29810,16 @@ msgid "invalid storage for export selected"
 msgstr "vybráno neplatné úložiště pro export"
 
 #: ../src/libs/export.c:358
-#, fuzzy
 msgid "export to disk"
 msgstr "exportovat na disk"
 
 #: ../src/libs/export.c:461
-#, fuzzy, c-format
+#, c-format
 msgid "could not login to storage `%s'!"
 msgstr "Přihlášení do úložiště \"%s\" se nezdařilo!"
 
 #: ../src/libs/export.c:633
-#, fuzzy, c-format
+#, c-format
 msgid "which is equal to %s × %s px"
 msgstr "což se rovná %s × %s px"
 
@@ -29853,12 +29845,10 @@ msgid "no styles have been created yet"
 msgstr "zatím nebyly vytvořeny žádné styly"
 
 #: ../src/libs/export.c:1442
-#, fuzzy
 msgid "target storage"
 msgstr "cílové úložiště"
 
 #: ../src/libs/export.c:1466
-#, fuzzy
 msgid "file format"
 msgstr "formát souboru"
 
@@ -29884,7 +29874,6 @@ msgstr ""
 "v nastavení modulu pro export."
 
 #: ../src/libs/export.c:1489
-#, fuzzy
 msgid "set size"
 msgstr "nastavit velikost"
 
@@ -29894,27 +29883,22 @@ msgid "choose a method for setting the output size"
 msgstr "zvolte způsob nastavení výstupní velikosti"
 
 #: ../src/libs/export.c:1493
-#, fuzzy
 msgid "in pixels (for file)"
 msgstr "v bodech (pro soubor)"
 
 #: ../src/libs/export.c:1494
-#, fuzzy
 msgid "in cm (for print)"
 msgstr "v cm (pro tisk)"
 
 #: ../src/libs/export.c:1495
-#, fuzzy
 msgid "in inch (for print)"
 msgstr "v palcích (pro tisk)"
 
 #: ../src/libs/export.c:1496
-#, fuzzy
 msgid "by scale (for file)"
 msgstr "podle měřítka (pro soubor)"
 
 #: ../src/libs/export.c:1499
-#, fuzzy
 msgid "print width"
 msgstr "šířka tisku"
 
@@ -30043,12 +30027,10 @@ msgid ""
 msgstr "zda jsou položky stylu připojeny k historii nebo nahrazují historii"
 
 #: ../src/libs/export.c:1649 ../src/libs/print_settings.c:2959
-#, fuzzy
 msgid "replace history"
 msgstr "nahradit historii"
 
 #: ../src/libs/export.c:1649 ../src/libs/print_settings.c:2959
-#, fuzzy
 msgid "append history"
 msgstr "připojit historii"
 
@@ -30064,7 +30046,6 @@ msgid "temporary style to use while exporting"
 msgstr "dočasný styl pro použití při exportu"
 
 #: ../src/libs/export.c:1660 ../src/libs/print_settings.c:2940
-#, fuzzy
 msgid "style"
 msgstr "styl"
 
@@ -30074,32 +30055,27 @@ msgid "start export"
 msgstr "spustit export"
 
 #: ../src/libs/export.c:1686
-#, fuzzy
 msgctxt "section"
 msgid "storage options"
-msgstr "nastavení úložiště"
+msgstr "volby úložiště"
 
 #: ../src/libs/export.c:1688
-#, fuzzy
 msgctxt "section"
 msgid "format options"
-msgstr "nastavení formátu"
+msgstr "volby formátu"
 
 #: ../src/libs/export.c:1690
-#, fuzzy
 msgctxt "section"
 msgid "global options"
-msgstr "globální nastavení"
+msgstr "globální předvolby"
 
 #: ../src/libs/export.c:1700
-#, fuzzy
 msgid "multi-preset export"
 msgstr "export více presetů"
 
 #: ../src/libs/export.c:1703
-#, fuzzy
 msgid "export the selected images with multiple presets"
-msgstr "Exportovat vybrané obrázky s vícero presety"
+msgstr "exportovat vybrané obrázky s vícero presety"
 
 #: ../src/libs/export.c:1729
 msgctxt "actionbutton"
@@ -30107,7 +30083,6 @@ msgid "start batch export"
 msgstr "spustit dávkový export"
 
 #: ../src/libs/export_metadata.c:164
-#, fuzzy
 msgid "edit metadata exportation"
 msgstr "upravit export metadat"
 
@@ -30257,9 +30232,8 @@ msgid "add an output metadata tag"
 msgstr "přidat výstupní tag metadat"
 
 #: ../src/libs/export_metadata.c:284 ../src/libs/metadata.c:940
-#, fuzzy
 msgid "delete metadata tag"
-msgstr "odstranit tag metadat"
+msgstr "odstranit metadata tag"
 
 #: ../src/libs/export_metadata.c:295
 msgid "general settings"
@@ -30412,7 +30386,6 @@ msgid " (off)"
 msgstr " (vyp)"
 
 #: ../src/libs/filtering.c:1716
-#, fuzzy
 msgid "you can't add more rules."
 msgstr "nemůžete přidat další pravidla."
 
@@ -33241,9 +33214,8 @@ msgid "print with current settings"
 msgstr "tisk s aktuálním nastavením"
 
 #: ../src/libs/recentcollect.c:68
-#, fuzzy
 msgid "recently used collections"
-msgstr "nedávno použité kolekce"
+msgstr "nedávno použité sbírky"
 
 # module description
 #: ../src/libs/recentcollect.c:73
@@ -33953,9 +33925,8 @@ msgid "toggle show or not darktable tags"
 msgstr "přepnout zobrazení darktable tagů"
 
 #: ../src/libs/tagging.c:3537
-#, fuzzy
 msgid "dttags"
-msgstr "dttags"
+msgstr "dttagy"
 
 #: ../src/libs/tagging.c:3554
 #, fuzzy
@@ -34082,7 +34053,6 @@ msgid "enter a description of how you use this color label"
 msgstr "Popište význam této barevné značky."
 
 #: ../src/libs/tools/filmstrip.c:46
-#, fuzzy
 msgid "filmstrip"
 msgstr "filmový pás"
 
@@ -34125,7 +34095,6 @@ msgid "filter"
 msgstr "filtr"
 
 #: ../src/libs/tools/filter.c:104
-#, fuzzy
 msgid "filter preferences"
 msgstr "předvolby filtru"
 
