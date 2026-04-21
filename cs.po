@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-20 20:53+0200\n"
-"PO-Revision-Date: 2026-04-21 14:07+0200\n"
+"PO-Revision-Date: 2026-04-21 21:47+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -265,11 +265,11 @@ msgstr "importovat tagy z XMP"
 
 #: ../build/bin/conf_gen.h:1496
 msgid "initial rating"
-msgstr "počáteční hodnocení"
+msgstr "výchozí hodnocení"
 
 #: ../build/bin/conf_gen.h:1497
 msgid "initial star rating for all images when importing a filmroll"
-msgstr "počáteční hodnocení hvězdičkami pro všechny importované snímky"
+msgstr "výchozí hodnocení hvězdičkami pro všechny importované snímky"
 
 #: ../build/bin/conf_gen.h:1505
 msgid "ignore EXIF rating"
@@ -281,7 +281,7 @@ msgid ""
 "'initial rating'"
 msgstr ""
 "ignorovat EXIF hodnocení\n"
-"pokud není aktivováno a je nalezeno hodnocení EXIF, přepíše „počáteční "
+"pokud není aktivováno a je nalezeno hodnocení EXIF, přepíše „výchozí "
 "hodnocení“"
 
 #: ../build/bin/conf_gen.h:1514
@@ -7316,24 +7316,20 @@ msgid "flash"
 msgstr "blesk"
 
 #: ../src/common/collection.c:676 ../src/libs/metadata_view.c:153
-#, fuzzy
 msgid "exposure program"
 msgstr "expoziční program"
 
 #: ../src/common/collection.c:678 ../src/libs/metadata_view.c:156
-#, fuzzy
 msgid "metering mode"
 msgstr "režim měření"
 
 #: ../src/common/collection.c:1503 ../src/libs/collect.c:1964
 #: ../src/libs/filters/history.c:38
-#, fuzzy
 msgid "auto applied"
 msgstr "automaticky použito"
 
 #: ../src/common/collection.c:1509 ../src/libs/collect.c:1964
 #: ../src/libs/filters/history.c:38
-#, fuzzy
 msgid "altered"
 msgstr "změněno"
 
@@ -7341,42 +7337,35 @@ msgstr "změněno"
 #: ../src/libs/collect.c:1306 ../src/libs/collect.c:1497
 #: ../src/libs/collect.c:1523 ../src/libs/collect.c:1689
 #: ../src/libs/collect.c:2945
-#, fuzzy
 msgid "not tagged"
 msgstr "neotagováno"
 
 #: ../src/common/collection.c:1528 ../src/libs/collect.c:1523
 #: ../src/libs/map_locations.c:740
-#, fuzzy
 msgid "tagged"
 msgstr "otagováno"
 
 #: ../src/common/collection.c:1529
-#, fuzzy
 msgid "tagged*"
 msgstr "otagováno*"
 
 #. local copy
 #: ../src/common/collection.c:1563 ../src/libs/collect.c:1986
 #: ../src/libs/filters/local_copy.c:38
-#, fuzzy
 msgid "not copied locally"
-msgstr "nezkopírován lokálně"
+msgstr "nezkopírováno lokálně"
 
 #: ../src/common/collection.c:1568 ../src/libs/collect.c:1985
 #: ../src/libs/filters/local_copy.c:38
-#, fuzzy
 msgid "copied locally"
-msgstr "zkopírován lokálně"
+msgstr "zkopírováno lokálně"
 
 #. duplicates
 #: ../src/common/collection.c:1580 ../src/libs/filters/duplicates.c:38
-#, fuzzy
 msgid "images with duplicates"
 msgstr "obrázky s duplikáty"
 
 #: ../src/common/collection.c:1596 ../src/libs/filters/duplicates.c:38
-#, fuzzy
 msgid "duplicates only"
 msgstr "pouze duplikáty"
 
@@ -7386,12 +7375,10 @@ msgstr "pouze duplikáty"
 #: ../src/common/collection.c:1832 ../src/common/collection.c:1858
 #: ../src/common/collection.c:2769 ../src/libs/collect.c:2411
 #: ../src/libs/collect.c:2412
-#, fuzzy
 msgid "unnamed"
 msgstr "bezejmenný"
 
 #: ../src/common/collection.c:2375 ../src/libs/collect.c:2286
-#, fuzzy
 msgid "not defined"
 msgstr "nedefinováno"
 
@@ -7406,7 +7393,7 @@ msgid "<b>%d</b> image selected of <b>%d</b>"
 msgid_plural "<b>%d</b> images selected of <b>%d</b>"
 msgstr[0] "vybrán <b>%d</b> obrázek z <b>%d</b>"
 msgstr[1] "vybrány <b>%d</b> obrázky z <b>%d</b>"
-msgstr[2] "vybráno <b>%d</b> <b>%d</b>"
+msgstr[2] "vybráno <b>%d</b> obrázků z <b>%d</b>"
 
 #: ../src/common/color_vocabulary.c:38 ../src/develop/blend_gui.c:2377
 #: ../src/develop/blend_gui.c:2425 ../src/gui/guides.c:851
@@ -7463,7 +7450,7 @@ msgid "cheek"
 msgstr "tvář"
 
 #: ../src/common/color_vocabulary.c:202
-#, fuzzy, c-format
+#, c-format
 msgid "average %s skin tone\n"
 msgstr "průměrný tón pleti %s\n"
 
@@ -7479,7 +7466,6 @@ msgstr "fuchsiová"
 
 #. L = 30 %
 #: ../src/common/color_vocabulary.c:224
-#, fuzzy
 msgid "medium magenta"
 msgstr "střední purpurová"
 
@@ -7573,9 +7559,8 @@ msgid "beige"
 msgstr "béžová"
 
 #: ../src/common/color_vocabulary.c:268 ../src/common/color_vocabulary.c:278
-#, fuzzy
 msgid "forest green"
-msgstr "fialová a zelená"
+msgstr "lesní zelená"
 
 #: ../src/common/color_vocabulary.c:269
 #, fuzzy
@@ -7583,28 +7568,23 @@ msgid "olive drab"
 msgstr "olivová fádní"
 
 #: ../src/common/color_vocabulary.c:270
-#, fuzzy
 msgid "yellow green"
-msgstr "žluto zelená"
+msgstr "žlutozelená"
 
 #: ../src/common/color_vocabulary.c:271 ../src/common/color_vocabulary.c:280
-#, fuzzy
 msgid "pale green"
 msgstr "světle zelená"
 
 #: ../src/common/color_vocabulary.c:279
-#, fuzzy
 msgid "lime green"
 msgstr "limetková zelená"
 
 #. 168° - greenish cyian
 #: ../src/common/color_vocabulary.c:285
-#, fuzzy
 msgid "dark sea green"
 msgstr "tmavě oceánově zelená"
 
 #: ../src/common/color_vocabulary.c:286
-#, fuzzy
 msgid "sea green"
 msgstr "oceánově zelená"
 
@@ -7613,7 +7593,6 @@ msgid "teal"
 msgstr "modrozelená"
 
 #: ../src/common/color_vocabulary.c:288
-#, fuzzy
 msgid "light sea green"
 msgstr "světle oceánově zelená"
 
@@ -7623,17 +7602,14 @@ msgstr "tyrkysová"
 
 #. 192° - cyan
 #: ../src/common/color_vocabulary.c:294
-#, fuzzy
 msgid "dark slate gray"
-msgstr "tmavá břidlicově šedá"
+msgstr "tmavě břidlicově šedá"
 
 #: ../src/common/color_vocabulary.c:295
-#, fuzzy
 msgid "light slate gray"
 msgstr "světle břidlicová šedá"
 
 #: ../src/common/color_vocabulary.c:296 ../src/common/color_vocabulary.c:305
-#, fuzzy
 msgid "dark cyan"
 msgstr "tmavě azurová"
 
@@ -7644,17 +7620,14 @@ msgstr "aqua"
 
 #. 216° - medium blue
 #: ../src/common/color_vocabulary.c:303
-#, fuzzy
 msgid "navy blue"
 msgstr "námořnická modrá"
 
 #: ../src/common/color_vocabulary.c:306 ../src/common/color_vocabulary.c:316
-#, fuzzy
 msgid "deep sky blue"
 msgstr "tmavě modrá obloha"
 
 #: ../src/common/color_vocabulary.c:307
-#, fuzzy
 msgid "aquamarine blue"
 msgstr "akvamarínová modrá"
 
@@ -7662,27 +7635,22 @@ msgstr "akvamarínová modrá"
 #. these are collapsed because CIE Lab 1976 sucks for blues
 #. 288° - more blue
 #: ../src/common/color_vocabulary.c:313 ../src/common/color_vocabulary.c:322
-#, fuzzy
 msgid "dark blue"
 msgstr "tmavě modrá"
 
 #: ../src/common/color_vocabulary.c:314 ../src/common/color_vocabulary.c:323
-#, fuzzy
 msgid "medium blue"
 msgstr "střední modrá"
 
 #: ../src/common/color_vocabulary.c:315
-#, fuzzy
 msgid "azure blue"
 msgstr "azurová modrá"
 
 #: ../src/common/color_vocabulary.c:325
-#, fuzzy
 msgid "light sky blue"
 msgstr "světle modrá obloha"
 
 #: ../src/common/color_vocabulary.c:326
-#, fuzzy
 msgid "light blue"
 msgstr "světle modrá"
 
@@ -7708,29 +7676,25 @@ msgid "plum"
 msgstr "švestková"
 
 #: ../src/common/color_vocabulary.c:340
-#, fuzzy
 msgid "dark magenta"
 msgstr "tmavě purpurová"
 
 #: ../src/common/color_vocabulary.c:346
-#, fuzzy
 msgid "color not found"
 msgstr "barva nebyla nalezena"
 
 #: ../src/common/colorlabels.c:357
-#, fuzzy, c-format
+#, c-format
 msgid "colorlabels set to %s"
 msgstr "barevné značky nastaveny na %s"
 
 #: ../src/common/colorlabels.c:359
-#, fuzzy
 msgid "all colorlabels removed"
 msgstr "všechny barevné značky odstraněny"
 
 #: ../src/common/colorlabels.c:380
 #: ../src/external/lua-scripts/tools/executable_manager.lua:224
 #: ../src/gui/accelerators.c:193 ../src/libs/image.c:640
-#, fuzzy
 msgid "clear"
 msgstr "vymazat"
 
@@ -7793,7 +7757,6 @@ msgid "Lab"
 msgstr "Lab"
 
 #: ../src/common/colorspaces.c:1552 ../src/common/colorspaces.c:1756
-#, fuzzy
 msgid "linear infrared BGR"
 msgstr "lineární infračervené BGR"
 
@@ -7964,20 +7927,17 @@ msgid "initializing signals and control"
 msgstr "inicializuji signals and control"
 
 #: ../src/common/darktable.c:1753
-#, fuzzy
 msgid "importing default styles"
-msgstr "importuji výchozí styly …"
+msgstr "importuji výchozí styly"
 
 #: ../src/common/darktable.c:1855
-#, fuzzy
 msgid "initializing GraphicsMagick"
-msgstr "nahrávám GraphicsMagick ..."
+msgstr "inicializuji GraphicsMagick"
 
 #. ImageMagick init
 #: ../src/common/darktable.c:1867
-#, fuzzy
 msgid "initializing ImageMagick"
-msgstr "nahrávám ImageMagick ..."
+msgstr "inicializuji ImageMagick"
 
 #: ../src/common/darktable.c:1872
 msgid "initializing libheif"
@@ -7999,9 +7959,8 @@ msgstr "synchronizuji lokální kopie"
 #. gui can react to the signal sent but before switching to
 #. lighttable!
 #: ../src/common/darktable.c:1912
-#, fuzzy
 msgid "initializing camera control"
-msgstr "nahrávám ovladač fotoaparátu ..."
+msgstr "inicializuji ovládání fotoaparátu"
 
 #: ../src/common/darktable.c:1925
 msgid "initializing GUI"
@@ -8009,16 +7968,15 @@ msgstr "inicializuji GUI"
 
 #: ../src/common/darktable.c:1942
 msgid "loading image formats"
-msgstr "nahčítám formáty obrázků"
+msgstr "načítám formáty obrázků"
 
 #: ../src/common/darktable.c:1947 ../src/develop/imageop.c:1719
 msgid "loading processing modules"
 msgstr "načítám kreativní moduly ..."
 
 #: ../src/common/darktable.c:1979
-#, fuzzy
 msgid "loading views"
-msgstr "načítám obrazovky ..."
+msgstr "načítám zobrazení"
 
 #: ../src/common/darktable.c:1983 ../src/libs/lib.c:886
 #, fuzzy
@@ -8026,22 +7984,19 @@ msgid "loading utility modules"
 msgstr "načítám nástrojové moduly ..."
 
 #: ../src/common/darktable.c:1990
-#, fuzzy
 msgid "initializing Lua"
-msgstr "nahrávám Lua skripty ..."
+msgstr "načítám Lua"
 
 #. If only one image is listed, attempt to load it in darkroom
 #: ../src/common/darktable.c:2019
-#, fuzzy
 msgid "importing image"
-msgstr "importuji obrázek ..."
+msgstr "importuji obrázek"
 
 #: ../src/common/darktable.c:2038
 msgid "configuration information"
 msgstr "informace o konfiguraci"
 
 #: ../src/common/darktable.c:2040
-#, fuzzy
 msgid "_show this message again"
 msgstr "_zobrazit tuto zprávu znovu"
 
@@ -8563,12 +8518,12 @@ msgstr ""
 "zkontrolujte nastavení paměti RAM"
 
 #: ../src/common/exif.cc:6045
-#, fuzzy, c-format
+#, c-format
 msgid "cannot read XMP file '%s': '%s'"
 msgstr "nelze číst XMP soubor '%s': '%s'"
 
 #: ../src/common/exif.cc:6104
-#, fuzzy, c-format
+#, c-format
 msgid "cannot write XMP file '%s': '%s'"
 msgstr "nelze zapsat XMP soubor '%s': '%s'"
 
@@ -10589,36 +10544,32 @@ msgstr "vstup po rozostření"
 #: ../src/develop/blend_gui.c:183 ../src/gui/accelerators.c:152
 #: ../src/gui/accelerators.c:162 ../src/gui/accelerators.c:246
 #: ../src/imageio/format/avif.c:973 ../src/libs/live_view.c:425
-#, fuzzy
 msgid "on"
 msgstr "zap."
 
 #: ../src/develop/blend_gui.c:1018 ../src/develop/blend_gui.c:2627
 #: ../src/develop/imageop.c:2982
-#, fuzzy
 msgid "input"
 msgstr "vstup"
 
 #: ../src/develop/blend_gui.c:1018 ../src/develop/blend_gui.c:2627
 #: ../src/develop/imageop.c:2982
-#, fuzzy
 msgid "output"
 msgstr "výstup"
 
 #: ../src/develop/blend_gui.c:1032
-#, fuzzy
 msgid " (zoom)"
 msgstr " (zvětšení)"
 
 #: ../src/develop/blend_gui.c:1040
-#, fuzzy
 msgid " (log)"
 msgstr " (log)"
 
 #: ../src/develop/blend_gui.c:1632 ../src/libs/masks.c:329
-#, fuzzy
 msgid "AI model is not available. Check preferences > AI"
-msgstr "AI model není dostupný. Zkontrolujte Nastavení > AI"
+msgstr ""
+"AI model není dostupný. \n"
+"Zkontrolujte Předvolby > AI"
 
 #: ../src/develop/blend_gui.c:2041
 #, fuzzy
@@ -10952,12 +10903,10 @@ msgstr ""
 
 # label
 #: ../src/develop/blend_gui.c:2798 ../src/libs/masks.c:1859
-#, fuzzy
 msgid "add object"
 msgstr "přidat objekt"
 
 #: ../src/develop/blend_gui.c:2799 ../src/libs/masks.c:1863
-#, fuzzy
 msgid "add AI object"
 msgstr "přidat AI objekt"
 
@@ -10975,33 +10924,28 @@ msgstr "přidat více gradientů"
 #: ../src/develop/blend_gui.c:2815 ../src/iop/retouch.c:2451
 #: ../src/iop/spots.c:877 ../src/libs/masks.c:1017 ../src/libs/masks.c:1826
 #: ../src/libs/masks.c:1830
-#, fuzzy
 msgid "add path"
 msgstr "přidat cestu"
 
 #: ../src/develop/blend_gui.c:2816 ../src/iop/retouch.c:2451
 #: ../src/iop/spots.c:877
-#, fuzzy
 msgid "add multiple paths"
 msgstr "přidat více cest"
 
 #: ../src/develop/blend_gui.c:2823 ../src/iop/retouch.c:2456
 #: ../src/iop/spots.c:882 ../src/libs/masks.c:1012 ../src/libs/masks.c:1834
 #: ../src/libs/masks.c:1838
-#, fuzzy
 msgid "add ellipse"
 msgstr "přidat elipsu"
 
 #: ../src/develop/blend_gui.c:2824 ../src/iop/retouch.c:2456
 #: ../src/iop/spots.c:882
-#, fuzzy
 msgid "add multiple ellipses"
 msgstr "přidat více elips"
 
 #: ../src/develop/blend_gui.c:2831 ../src/iop/retouch.c:2461
 #: ../src/iop/spots.c:887 ../src/libs/masks.c:1007 ../src/libs/masks.c:1842
 #: ../src/libs/masks.c:1846
-#, fuzzy
 msgid "add circle"
 msgstr "přidat kruh"
 
@@ -12318,7 +12262,6 @@ msgid "set the range bound with this value"
 msgstr "nastavte rozsah vázaný na tuto hodnotu"
 
 #: ../src/dtgtk/range.c:1041
-#, fuzzy
 msgid "current date: "
 msgstr "aktuální datum: "
 
@@ -12379,7 +12322,7 @@ msgstr "pokud jste ještě žádné obrázky nenaimportovali,"
 
 #: ../src/dtgtk/thumbtable.c:1270
 msgid "click on <b>?</b> then an on-screen item to open manual page"
-msgstr "pro otevření nápovědy klikněte na <b>?</b> a pak na ovládací prvek"
+msgstr "pro otevření nápovědy klikněte na <b>?</b> a následně na ovládací prvek"
 
 #: ../src/dtgtk/thumbtable.c:1271
 msgid "you can do so in the import module"
@@ -12417,7 +12360,7 @@ msgstr "pro globální předvolby klikněte na ikonu ozubeného kolečka"
 
 #: ../src/dtgtk/thumbtable.c:1279
 msgid "click on the keyboard icon to define shortcuts"
-msgstr "pro nastavení klávesových zkratek klikněte na ikonu klávesnice"
+msgstr "pro nastavení klávesových zkratek na ikonu klávesnice"
 
 #: ../src/dtgtk/thumbtable.c:1281
 msgid "try the 'no-click' workflow"
@@ -12425,7 +12368,7 @@ msgstr "vyzkoušejte workflow bez klikání"
 
 #: ../src/dtgtk/thumbtable.c:1282
 msgid "set module-specific preferences through module's menu"
-msgstr "předvolby specifické pro každý modul upravte v menu modulu."
+msgstr "předvolby specifické pro každý modul upravte v menu modulu"
 
 #: ../src/dtgtk/thumbtable.c:1283
 msgid "hover over an image and use keyboard shortcuts"
@@ -12442,8 +12385,7 @@ msgstr "přibližte výsledky originálním souborům"
 
 #: ../src/dtgtk/thumbtable.c:1286
 msgid "hover over any button for its description and shortcuts"
-msgstr ""
-"najeďte myší nad libovolné tlačítko pro zobrazení popisu a klávesových zkratek"
+msgstr "najeďte myší nad libovolné tlačítko pro zobrazení popisu a zkratek"
 
 #: ../src/dtgtk/thumbtable.c:1287
 #, fuzzy
@@ -15081,13 +15023,11 @@ msgstr "upravit"
 
 #: ../src/gui/accelerators.c:129 ../src/gui/accelerators.c:778
 #: ../src/gui/accelerators.c:1466
-#, fuzzy
 msgid "up"
 msgstr "nahoru"
 
 #: ../src/gui/accelerators.c:130 ../src/gui/accelerators.c:778
 #: ../src/gui/accelerators.c:1466
-#, fuzzy
 msgid "down"
 msgstr "dolů"
 
