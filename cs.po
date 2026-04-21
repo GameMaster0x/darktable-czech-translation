@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-20 20:53+0200\n"
-"PO-Revision-Date: 2026-04-21 11:42+0200\n"
+"PO-Revision-Date: 2026-04-21 13:24+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -7946,9 +7946,8 @@ msgstr "_ukončit darktable"
 
 #. initialize the database
 #: ../src/common/darktable.c:1683
-#, fuzzy
 msgid "opening image library"
-msgstr "otevírám knihovnu obrázků ..."
+msgstr "otevírám knihovnu obrázků"
 
 #: ../src/common/darktable.c:1696
 #, fuzzy
@@ -7956,21 +7955,19 @@ msgid "forwarding image(s) to running instance"
 msgstr "přeposílám obrázky běžící instanci ..."
 
 #: ../src/common/darktable.c:1727
-#, fuzzy
 msgid "preparing database"
-msgstr "připravuji databázi ..."
+msgstr "připravuji databázi"
 
 #. init darktable tags table
 #: ../src/common/darktable.c:1731
-#, fuzzy
 msgid "setting up tags table"
-msgstr "Sestavuji tabulku tagů …"
+msgstr "nastavuji tabulku tagů"
 
 #. Initialize the signal system
 #: ../src/common/darktable.c:1735
 #, fuzzy
 msgid "initializing signals and control"
-msgstr "Inicializace signálů a řízení …"
+msgstr "inicializuji signals and control"
 
 #: ../src/common/darktable.c:1753
 #, fuzzy
@@ -7989,24 +7986,20 @@ msgid "initializing ImageMagick"
 msgstr "nahrávám ImageMagick ..."
 
 #: ../src/common/darktable.c:1872
-#, fuzzy
 msgid "initializing libheif"
-msgstr "nahrávám libheif ..."
+msgstr "inicializuji libheif"
 
 #: ../src/common/darktable.c:1876
-#, fuzzy
 msgid "starting OpenCL"
-msgstr "spouštím OpenCL ..."
+msgstr "spouštím OpenCL"
 
 #: ../src/common/darktable.c:1888
-#, fuzzy
 msgid "loading noise profiles"
-msgstr "nahrávám profily šumu ..."
+msgstr "nahrávám profily šumu"
 
 #: ../src/common/darktable.c:1905
-#, fuzzy
 msgid "synchronizing local copies"
-msgstr "synchronizuji lokální kopie ..."
+msgstr "synchronizuji lokální kopie"
 
 #. Initialize the camera control.  this is done late so that the
 #. gui can react to the signal sent but before switching to
@@ -12383,18 +12376,16 @@ msgid "there are no images in this collection"
 msgstr "v této sbírce nejsou žádné obrázky"
 
 #: ../src/dtgtk/thumbtable.c:1268
-#, fuzzy
 msgid "need help?"
-msgstr "Potřebujete pomoci?"
+msgstr "potřebujete pomoci?"
 
 #: ../src/dtgtk/thumbtable.c:1269
 msgid "if you have not imported any images yet"
 msgstr "pokud jste ještě žádné obrázky nenaimportovali,"
 
 #: ../src/dtgtk/thumbtable.c:1270
-#, fuzzy
 msgid "click on <b>?</b> then an on-screen item to open manual page"
-msgstr "Pro otevření nápovědy klikněte na <b>?</b> a pak na ovládací prvek."
+msgstr "pro otevření nápovědy klikněte na <b>?</b> a pak na ovládací prvek"
 
 #: ../src/dtgtk/thumbtable.c:1271
 msgid "you can do so in the import module"
@@ -12423,27 +12414,24 @@ msgid "or add images in the collections module"
 msgstr "nebo přidejte obrázky v modulu kolekcí."
 
 #: ../src/dtgtk/thumbtable.c:1276
-#, fuzzy
 msgid "personalize darktable"
-msgstr "Přizpůsobte si darktable"
+msgstr "přizpůsobte si darktable"
 
 #: ../src/dtgtk/thumbtable.c:1277
 msgid "click on the gear icon for global preferences"
-msgstr "Pro globální předvolby klikněte na ikonu ozubeného kolečka."
+msgstr "pro globální předvolby klikněte na ikonu ozubeného kolečka"
 
 #: ../src/dtgtk/thumbtable.c:1279
-#, fuzzy
 msgid "click on the keyboard icon to define shortcuts"
-msgstr "Pro nastavení klávesových zkratek klikněte na ikonu klávesnice."
+msgstr "pro nastavení klávesových zkratek klikněte na ikonu klávesnice"
 
 #: ../src/dtgtk/thumbtable.c:1281
 msgid "try the 'no-click' workflow"
 msgstr "vyzkoušejte workflow bez klikání"
 
 #: ../src/dtgtk/thumbtable.c:1282
-#, fuzzy
 msgid "set module-specific preferences through module's menu"
-msgstr "Nastavení specifická pro každý modul upravte v menu modulu."
+msgstr "předvolby specifické pro každý modul upravte v menu modulu."
 
 #: ../src/dtgtk/thumbtable.c:1283
 msgid "hover over an image and use keyboard shortcuts"
@@ -12456,7 +12444,7 @@ msgstr "pro hodnocení, barvy, aplikování stylů atd."
 #: ../src/dtgtk/thumbtable.c:1285
 #, fuzzy
 msgid "make default raw development look more like your"
-msgstr "Přibližte výsledky originálním souborům"
+msgstr "přibližte výsledky originálním souborům"
 
 #: ../src/dtgtk/thumbtable.c:1286
 msgid "hover over any button for its description and shortcuts"
@@ -12535,7 +12523,6 @@ msgid "paste history parts"
 msgstr "vložit části historie"
 
 #: ../src/dtgtk/thumbtable.c:3092
-#, fuzzy
 msgid "duplicate image"
 msgstr "duplikovat obrázek"
 
@@ -12878,7 +12865,6 @@ msgstr "$(FILE.EXTENSION) - přípona vstupního obrázku"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:935
 #: ../src/gui/gtkentry.c:111
-#, fuzzy
 msgid "$(ID) - image ID"
 msgstr "$(ID) - ID obrázku"
 
@@ -13853,7 +13839,7 @@ msgstr "převádím RAW soubor '%s' na TIFF …"
 
 #. other images will be skipped
 #: ../src/external/lua-scripts/official/enfuse.lua:225
-#, fuzzy, lua-format
+#, lua-format
 msgid "skipping %s..."
 msgstr "přeskakuji '%s'..."
 
@@ -13864,9 +13850,9 @@ msgid "no suitable images selected, nothing to do for enfuse"
 msgstr "Nebyly vybrány obrázky vhodné pro Enfuse."
 
 #: ../src/external/lua-scripts/official/enfuse.lua:238
-#, fuzzy, lua-format
+#, lua-format
 msgid "%d image(s) skipped"
-msgstr "%d obrázků přeskočeno."
+msgstr "%d obrázků přeskočeno"
 
 #. call enfuse on the response file
 #. TODO: find something nicer
@@ -14852,12 +14838,10 @@ msgstr "Při příštím startu darktable nebudou Lua skripty aktivovány."
 
 # label
 #: ../src/external/lua-scripts/tools/script_manager.lua:1486
-#, fuzzy
 msgid "add more scripts"
-msgstr "přidat další skripty"
+msgstr "Přidat další skripty"
 
 #: ../src/external/lua-scripts/tools/script_manager.lua:1502
-#, fuzzy
 msgid "select the script folder"
 msgstr "vybrat adresář se skripty"
 
@@ -14984,14 +14968,13 @@ msgid "copyright (c) the authors 2009-%s"
 msgstr "copyright (c) autoři 2009-%s"
 
 #: ../src/gui/about.c:39
-#, fuzzy
 msgid "organize and develop images from digital cameras"
 msgstr "organizujte a zpracovávejte snímky z digitálních fotoaparátů"
 
 #: ../src/gui/about.c:51
 #, fuzzy
 msgid "all those of you that made previous releases possible"
-msgstr "všichni ti z vás, kteří umožnili předchozí vydání"
+msgstr "všichni ti z vás, kdo umožnili předchozí vydání"
 
 #: ../src/gui/about.c:56
 msgid "and..."
@@ -16010,32 +15993,26 @@ msgid "darktable - darkroom preview"
 msgstr "darktable - náhled v editoru"
 
 #: ../src/gui/gtk.c:203
-#, fuzzy
 msgid "tooltips off"
-msgstr "vypnout tooltipy"
+msgstr "vypnout tipy"
 
 #: ../src/gui/gtk.c:203
-#, fuzzy
 msgid "tooltips on"
-msgstr "zapnout tooltipy"
+msgstr "zapnout tipy"
 
 #: ../src/gui/gtk.c:937
-#, fuzzy
 msgid "closing darktable..."
 msgstr "zavírám darktable..."
 
 #: ../src/gui/gtk.c:967
-#, fuzzy
 msgid "exporting to GIMP"
 msgstr "exportuji do GIMPu"
 
 #: ../src/gui/gtk.c:1248
-#, fuzzy
 msgid "URL opened in web browser"
-msgstr "Adresa URL otevřena ve webovém prohlížeči"
+msgstr "adresa URL otevřena ve webovém prohlížeči"
 
 #: ../src/gui/gtk.c:1252
-#, fuzzy
 msgid "error while opening URL in web browser"
 msgstr "chyba při otevírání adresy URL ve webovém prohlížeči"
 
@@ -16112,7 +16089,6 @@ msgid "switch views"
 msgstr "přepnout pohledy"
 
 #: ../src/gui/gtk.c:1590 ../src/views/tethering.c:104
-#, fuzzy
 msgid "tethering"
 msgstr "tethering"
 
@@ -17117,7 +17093,7 @@ msgstr "instalovat model"
 
 #: ../src/gui/preferences_ai.c:1628
 msgid "install a model from a local .dtmodel file"
-msgstr ""
+msgstr "instalovat model z lokálního .dtmodel souboru"
 
 #. delete selected button
 #: ../src/gui/preferences_ai.c:1633
@@ -17184,9 +17160,8 @@ msgid "new preset"
 msgstr "nový preset"
 
 #: ../src/gui/presets.c:215
-#, fuzzy
 msgid "please give preset a name"
-msgstr "prosím zadejte název presetu"
+msgstr "zadejte název presetu"
 
 #: ../src/gui/presets.c:220
 msgid "unnamed preset"
@@ -17195,17 +17170,17 @@ msgstr "nepojmenovaný preset"
 # dialog title
 #: ../src/gui/presets.c:249
 msgid "overwrite preset?"
-msgstr "přepsat preset?"
+msgstr "Přepsat preset?"
 
 # dialog text
 #: ../src/gui/presets.c:250
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "preset `%s' already exists.\n"
 "do you want to overwrite?"
 msgstr ""
 "Preset `%s' již existuje.\n"
-"Chcete jej nahradit?"
+"Chcete jej přepsat?"
 
 #: ../src/gui/presets.c:430 ../src/imageio/storage/disk.c:200
 #: ../src/imageio/storage/gallery.c:149 ../src/imageio/storage/latex.c:145
@@ -17398,19 +17373,16 @@ msgid "disabled: wrong module version"
 msgstr "zakázáno: špatná verze modulu"
 
 #: ../src/gui/presets.c:1792 ../src/libs/lib.c:550
-#, fuzzy
 msgid "edit this preset.."
-msgstr "upravit tento preset…"
+msgstr "upravit tento preset"
 
 #: ../src/gui/presets.c:1797 ../src/libs/lib.c:554
-#, fuzzy
 msgid "delete this preset"
-msgstr "smazat tento preset"
+msgstr "odstranit tento preset"
 
 #: ../src/gui/presets.c:1804 ../src/libs/lib.c:562
-#, fuzzy
 msgid "store new preset.."
-msgstr "uložit nový preset…"
+msgstr "uložit nový preset"
 
 #: ../src/gui/presets.c:1814 ../src/libs/lib.c:576
 msgid "update preset"
@@ -17430,51 +17402,44 @@ msgstr "Software pro práci a zpracování RAW fotografií"
 # dialog title
 #: ../src/gui/styles_dialog.c:234 ../src/libs/styles.c:501
 #: ../src/libs/styles.c:654
-#, fuzzy
 msgid "overwrite style?"
-msgstr "Nahradit styl?"
+msgstr "Přepsat styl?"
 
 #: ../src/gui/styles_dialog.c:235
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "style `%s' already exists.\n"
 "do you want to overwrite?"
 msgstr ""
-"Styl `%s' existuje.\n"
+"Styl `%s' již existuje.\n"
 "Chcete jej nahradit?"
 
 #: ../src/gui/styles_dialog.c:264 ../src/gui/styles_dialog.c:343
-#, fuzzy
 msgid "please give style a name"
-msgstr "prosím zadejte název stylu"
+msgstr "zadejte název stylu"
 
 #: ../src/gui/styles_dialog.c:268 ../src/gui/styles_dialog.c:347
-#, fuzzy
 msgid "unnamed style"
 msgstr "bezejmenný styl"
 
 #: ../src/gui/styles_dialog.c:332
-#, fuzzy, c-format
+#, c-format
 msgid "style %s was successfully saved"
 msgstr "styl %s byl uložen"
 
 #: ../src/gui/styles_dialog.c:538
-#, fuzzy
 msgid "edit style"
-msgstr "úprava stylu"
+msgstr "upravit styl"
 
 #: ../src/gui/styles_dialog.c:539
-#, fuzzy
 msgid "duplicate style"
 msgstr "duplikovat styl"
 
 #: ../src/gui/styles_dialog.c:542
-#, fuzzy
 msgid "creates a duplicate of the style before applying changes"
 msgstr "vytvoří duplikát stylu před použitím změn"
 
 #: ../src/gui/styles_dialog.c:546
-#, fuzzy
 msgid "create new style"
 msgstr "vytvořit nový styl"
 
@@ -17650,12 +17615,10 @@ msgstr ""
 #: ../src/imageio/format/pdf.c:693 ../src/imageio/format/png.c:702
 #: ../src/imageio/format/tiff.c:900 ../src/imageio/format/webp.c:409
 #: ../src/libs/masks.c:115
-#, fuzzy
 msgid "compression"
 msgstr "komprese"
 
 #: ../src/imageio/format/avif.c:989
-#, fuzzy
 msgid "the compression for the image"
 msgstr "komprese pro obrázek"
 
@@ -17667,7 +17630,6 @@ msgstr "komprese pro obrázek"
 #: ../src/imageio/format/avif.c:1003 ../src/imageio/format/j2k.c:707
 #: ../src/imageio/format/jpeg.c:578 ../src/imageio/format/jxl.c:611
 #: ../src/imageio/format/webp.c:419 ../src/libs/camera.c:588
-#, fuzzy
 msgid "quality"
 msgstr "kvalita"
 
@@ -17789,7 +17751,6 @@ msgid "DWAB"
 msgstr "DWAB"
 
 #: ../src/imageio/format/j2k.c:448
-#, fuzzy
 msgid "unable to attach output profile to JP2"
 msgstr "Nezdařilo se připojit výstupní profil k JP2."
 
@@ -17945,7 +17906,6 @@ msgid "page orientation"
 msgstr "orientace stránky"
 
 #: ../src/imageio/format/pdf.c:618
-#, fuzzy
 msgid "paper orientation of the PDF"
 msgstr "orientaci papíru PDF"
 
@@ -18241,7 +18201,7 @@ msgstr[2] "%d/%d přeskakočeno (nezměněno od exportu) „%s“"
 
 #: ../src/imageio/storage/disk.c:543 ../src/imageio/storage/email.c:195
 #: ../src/imageio/storage/gallery.c:456 ../src/imageio/storage/latex.c:371
-#, fuzzy, c-format
+#, c-format
 msgid "%d/%d exported to `%s'"
 msgid_plural "%d/%d exported to `%s'"
 msgstr[0] "%d/%d exportován do `%s'"
@@ -18281,16 +18241,14 @@ msgid "images exported from darktable"
 msgstr "obrázky exportované z darktable"
 
 #: ../src/imageio/storage/email.c:386 ../src/imageio/storage/email.c:464
-#, fuzzy
 msgid "could not launch email client!"
-msgstr "nelze spustit e-mailového klienta!"
+msgstr "Nepodařilo se spustit e-mailového klienta!"
 
 #: ../src/imageio/storage/gallery.c:76
 msgid "website gallery"
 msgstr "webová galerie"
 
 #: ../src/imageio/storage/gallery.c:214
-#, fuzzy
 msgid "enter the title of the website"
 msgstr "zadejte název webové stránky"
 
@@ -18299,7 +18257,6 @@ msgid "LaTeX book template"
 msgstr "šablona knihy LaTeX"
 
 #: ../src/imageio/storage/latex.c:197
-#, fuzzy
 msgid "enter the title of the book"
 msgstr "zadejte název knihy"
 
@@ -18320,12 +18277,10 @@ msgid "not authenticated, cannot reach server"
 msgstr "není ověřeno, nelze se připojit k serveru"
 
 #: ../src/imageio/storage/piwigo.c:683 ../src/imageio/storage/piwigo.c:749
-#, fuzzy
 msgid "create new album"
 msgstr "vytvořit nové album"
 
 #: ../src/imageio/storage/piwigo.c:750
-#, fuzzy
 msgid "---"
 msgstr "---"
 
@@ -18372,13 +18327,11 @@ msgid "login"
 msgstr "login"
 
 #: ../src/imageio/storage/piwigo.c:1102
-#, fuzzy
 msgid "Piwigo login"
-msgstr "Piwigo uživatelské jméno"
+msgstr "Piwigo login"
 
 #. permissions list
 #: ../src/imageio/storage/piwigo.c:1116
-#, fuzzy
 msgid "visible to"
 msgstr "viditelné pro"
 
@@ -19153,24 +19106,21 @@ msgstr "otočení upraveno o %3.2f° až %3.2f°"
 
 #: ../src/iop/ashift.c:5704 ../src/iop/ashift.c:5706 ../src/iop/ashift.c:5810
 #: ../src/iop/ashift.c:5812
-#, fuzzy, c-format
+#, c-format
 msgid "lens shift (%s)"
 msgstr "posun objektivu (%s)"
 
 #: ../src/iop/ashift.c:5981
-#, fuzzy
 msgid "manual perspective"
 msgstr "manuální perspektiva"
 
 #: ../src/iop/ashift.c:6027
-#, fuzzy
 msgctxt "section"
 msgid "perspective"
-msgstr "perspektivní"
+msgstr "perspektiva"
 
 #: ../src/iop/ashift.c:6033 ../src/iop/ashift.c:6140 ../src/iop/ashift.c:6142
 #: ../src/iop/ashift.c:6144
-#, fuzzy
 msgid "structure"
 msgstr "struktura"
 
@@ -20999,7 +20949,6 @@ msgstr ""
 "tato barva se adaptací změní na čistě bílou."
 
 #: ../src/iop/channelmixerrgb.c:4487
-#, fuzzy
 msgid "picker"
 msgstr "kapátko"
 
@@ -21035,7 +20984,6 @@ msgstr ""
 #: ../src/iop/channelmixerrgb.c:4544 ../src/iop/channelmixerrgb.c:4557
 #: ../src/iop/channelmixerrgb.c:4586 ../src/iop/channelmixerrgb.c:4594
 #: ../src/iop/channelmixerrgb.c:4601
-#, fuzzy
 msgid "mapping"
 msgstr "mapování"
 
@@ -21058,7 +21006,6 @@ msgstr ""
 "a lze jej použít k vzorkování cíle."
 
 #: ../src/iop/channelmixerrgb.c:4550 ../src/iop/exposure.c:1287
-#, fuzzy
 msgid "correction"
 msgstr "korekce"
 
@@ -21267,12 +21214,10 @@ msgid "sky and water colors"
 msgstr "barvy oblohy a vody"
 
 #: ../src/iop/channelmixerrgb.c:4704
-#, fuzzy
 msgid "average delta E"
 msgstr "průměrná delta E"
 
 #: ../src/iop/channelmixerrgb.c:4705
-#, fuzzy
 msgid "maximum delta E"
 msgstr "maximální delta E"
 
@@ -29630,7 +29575,6 @@ msgid "mean"
 msgstr "střední"
 
 #: ../src/libs/colorpicker.c:73
-#, fuzzy
 msgid "color picker"
 msgstr "kapátko"
 
@@ -29711,7 +29655,6 @@ msgid "live samples"
 msgstr "živé vzorky"
 
 #: ../src/libs/copy_history.c:53
-#, fuzzy
 msgid "history stack"
 msgstr "historie úprav"
 
@@ -29759,14 +29702,12 @@ msgstr "vyberte, které moduly chcete zkopírovat ze zdrojového obrázku"
 
 # tooltip
 #: ../src/libs/copy_history.c:306
-#, fuzzy
 msgid ""
 "copy history stack of\n"
 "first selected image"
-msgstr "Zkopírovat historii úprav z prvního vybraného obrázku."
+msgstr "zkopírovat historii úprav z prvního vybraného obrázku"
 
 #: ../src/libs/copy_history.c:311
-#, fuzzy
 msgid "selective paste..."
 msgstr "selektivní vložení..."
 
@@ -29781,19 +29722,17 @@ msgstr "vložit"
 
 # tooltip
 #: ../src/libs/copy_history.c:318
-#, fuzzy
 msgid ""
 "paste history stack to\n"
 "all selected images"
-msgstr "Použít historii úprav na všechny vybrané obrázky."
+msgstr "použít historii úprav na všechny vybrané obrázky"
 
 # tooltip
 #: ../src/libs/copy_history.c:325
-#, fuzzy
 msgid ""
 "compress history stack of\n"
 "all selected images"
-msgstr "Komprimovat historii úprav všech vybraných obrázků."
+msgstr "komprimovat historii úprav všech vybraných obrázků"
 
 # tooltip
 #: ../src/libs/copy_history.c:330
@@ -30002,7 +29941,6 @@ msgstr ""
 "kliknutím prostředním tlačítkem myši resetujte na 0."
 
 #: ../src/libs/export.c:1513
-#, fuzzy
 msgid "resolution in dot per inch"
 msgstr "rozlišení v bodech na palec (DPI)"
 
@@ -30179,7 +30117,6 @@ msgid "EXIF data"
 msgstr "EXIF data"
 
 #: ../src/libs/export_metadata.c:177
-#, fuzzy
 msgid "export EXIF metadata"
 msgstr "exportovat EXIF metadata"
 
@@ -30216,22 +30153,18 @@ msgid "geo tags"
 msgstr "geo tagy"
 
 #: ../src/libs/export_metadata.c:194
-#, fuzzy
 msgid "export geo tags"
 msgstr "export geo tags"
 
 #: ../src/libs/export_metadata.c:197
-#, fuzzy
 msgid "export tags (to Xmp.dc.Subject)"
 msgstr "exportovat tagy (do Xmp.dc.Subject)"
 
 #: ../src/libs/export_metadata.c:200
-#, fuzzy
 msgid "private tags"
 msgstr "soukromé tagy"
 
 #: ../src/libs/export_metadata.c:201
-#, fuzzy
 msgid "export private tags"
 msgstr "exportovat soukromé tagy"
 
@@ -32983,16 +32916,12 @@ msgid "process selected images"
 msgstr "vybraný obrázek"
 
 #: ../src/libs/neural_restore.c:2346
-#, fuzzy
-#| msgid "parameters"
 msgid "output parameters"
-msgstr "parametery"
+msgstr "výstupní parametry"
 
 #: ../src/libs/neural_restore.c:2357
-#, fuzzy
-#| msgid "output intent"
 msgid "output TIFF bit depth"
-msgstr "výstupní záměr"
+msgstr "výstupní bitová hloubka TIFF"
 
 #: ../src/libs/neural_restore.c:2399
 msgid "color profile embedded in the output TIFF"
@@ -33011,7 +32940,6 @@ msgid ""
 msgstr ""
 
 #: ../src/libs/neural_restore.c:2425
-#, fuzzy
 msgid "add to catalog"
 msgstr "přidat do katalogu"
 
@@ -33089,12 +33017,12 @@ msgstr "%3.2f (dpi:%d)"
 
 # tooltip
 #: ../src/libs/print_settings.c:1197
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "style to be applied on print:\n"
 "<b>%s</b>"
 msgstr ""
-"Styl aplikovaný při tisku:\n"
+"styl použitý při tisku:\n"
 "<b>%s</b>"
 
 #: ../src/libs/print_settings.c:2496
@@ -33117,7 +33045,6 @@ msgid "color management in printer driver"
 msgstr "správa barev v ovladači tiskárny"
 
 #: ../src/libs/print_settings.c:2563
-#, fuzzy
 msgid "printer ICC profiles"
 msgstr "ICC profily tiskárny"
 
@@ -33138,17 +33065,14 @@ msgid "page"
 msgstr "strana"
 
 #: ../src/libs/print_settings.c:2626
-#, fuzzy
 msgid "measurement units"
-msgstr "jednotka měření"
+msgstr "jednotky měření"
 
 #: ../src/libs/print_settings.c:2634
-#, fuzzy
 msgid "image width/height"
 msgstr "šířka/výška obrázku"
 
 #: ../src/libs/print_settings.c:2639
-#, fuzzy
 msgid " x "
 msgstr " x "
 
@@ -33540,7 +33464,7 @@ msgid "snapshots for removed image have been deleted"
 msgstr "uložené stavy pro odstraněný obrázek byly smazány"
 
 #: ../src/libs/snapshots.c:760
-#, fuzzy, c-format
+#, c-format
 msgid "↗ %s '%s'"
 msgstr "↗ %s '%s'"
 
@@ -33622,14 +33546,13 @@ msgid "apply this option to all existing styles"
 msgstr "použít tuto volbu na všechny existující styly"
 
 #: ../src/libs/styles.c:576
-#, fuzzy, c-format
+#, c-format
 msgid "style %s was successfully exported"
 msgstr "styl %s byl úspěšně exportován"
 
 #: ../src/libs/styles.c:594
-#, fuzzy
 msgid "select style"
-msgstr "výběr stylu"
+msgstr "vyberte styl"
 
 #: ../src/libs/styles.c:604
 msgid "darktable style files"
@@ -33648,7 +33571,6 @@ msgid "filter style names"
 msgstr "filtrovat styly dle názvu"
 
 #: ../src/libs/styles.c:889 ../src/libs/styles.c:890
-#, fuzzy
 msgid "hide preview"
 msgstr "skrýt náhled"
 
@@ -33671,7 +33593,6 @@ msgid "how to handle existing history"
 msgstr "jak zacházet se stávající historií"
 
 #: ../src/libs/styles.c:914
-#, fuzzy
 msgid "append"
 msgstr "připojit"
 
@@ -33719,7 +33640,6 @@ msgid "style preview settings"
 msgstr "nastavení náhledu stylu"
 
 #: ../src/libs/styles.c:1025
-#, fuzzy
 msgid "preview size"
 msgstr "velikost náhledu"
 
@@ -33729,12 +33649,10 @@ msgid "change size of preview on tooltip of style"
 msgstr "změnit velikost náhledu v popisku stylu"
 
 #: ../src/libs/styles.c:1029
-#, fuzzy
 msgid "large"
 msgstr "velký"
 
 #: ../src/libs/tagging.c:110
-#, fuzzy
 msgid "tagging"
 msgstr "tagování"
 
@@ -33757,23 +33675,20 @@ msgid "detach tag"
 msgstr "odpojit tag"
 
 #: ../src/libs/tagging.c:1428
-#, fuzzy
 msgid "find tag"
 msgstr "najít tag"
 
 #: ../src/libs/tagging.c:1431 ../src/libs/tagging.c:2566
-#, fuzzy
 msgid "copy to clipboard"
 msgstr "zkopírovat do schránky"
 
 #: ../src/libs/tagging.c:1668
-#, fuzzy
 msgid "delete tag?"
 msgstr "Vymazat tag?"
 
 #: ../src/libs/tagging.c:1674 ../src/libs/tagging.c:1763
 #: ../src/libs/tagging.c:1984 ../src/libs/tagging.c:2293
-#, fuzzy, c-format
+#, c-format
 msgid "selected: %s"
 msgstr "vybráno: %s"
 
@@ -34112,7 +34027,6 @@ msgid "toggle list with / without suggestion"
 msgstr "přepnout seznam s / bez návrhu"
 
 #: ../src/libs/tagging.c:3703
-#, fuzzy
 msgid "suggestion"
 msgstr "návrh"
 
@@ -34207,7 +34121,6 @@ msgid "center on selected image"
 msgstr "vybraný obrázek"
 
 #: ../src/libs/tools/filter.c:42
-#, fuzzy
 msgid "filter"
 msgstr "filtr"
 
@@ -34217,7 +34130,6 @@ msgid "filter preferences"
 msgstr "předvolby filtru"
 
 #: ../src/libs/tools/gamepad.c:37
-#, fuzzy
 msgid "gamepad"
 msgstr "gamepad"
 
@@ -34238,17 +34150,14 @@ msgid "button y"
 msgstr "tlačítko y"
 
 #: ../src/libs/tools/gamepad.c:61
-#, fuzzy
 msgid "button back"
 msgstr "tlačítko zpět"
 
 #: ../src/libs/tools/gamepad.c:61
-#, fuzzy
 msgid "button guide"
 msgstr "tlačítko průvodce"
 
 #: ../src/libs/tools/gamepad.c:61
-#, fuzzy
 msgid "button start"
 msgstr "tlačítko start"
 
@@ -35153,7 +35062,6 @@ msgid "false color"
 msgstr "nepravé barvy"
 
 #: ../src/views/darkroom.c:2986 ../src/views/darkroom.c:3056
-#, fuzzy
 msgid "color scheme"
 msgstr "barevné schéma"
 
