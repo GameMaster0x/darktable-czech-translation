@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-20 20:53+0200\n"
-"PO-Revision-Date: 2026-04-21 10:56+0200\n"
+"PO-Revision-Date: 2026-04-21 11:42+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -202,9 +202,8 @@ msgid "max"
 msgstr "max"
 
 #: ../build/bin/conf_gen.h:1388
-#, fuzzy
 msgid "select only new images"
-msgstr "vybrat pouze nové obrázky"
+msgstr "pouze nové obrázky"
 
 #: ../build/bin/conf_gen.h:1389
 #, fuzzy
@@ -212,9 +211,8 @@ msgid "only select images that have not already been imported"
 msgstr "vybrat pouze obrázky, které ještě nebyly importovány"
 
 #: ../build/bin/conf_gen.h:1397
-#, fuzzy
 msgid "ignore non-raw images"
-msgstr "ignorovat ne-RAW obrázky"
+msgstr "ignorovat ne-RAW"
 
 #: ../build/bin/conf_gen.h:1398
 #, fuzzy
@@ -226,19 +224,16 @@ msgstr ""
 "soubory nebudou v dialogu viditelné a nebudou importovány."
 
 #: ../build/bin/conf_gen.h:1406
-#, fuzzy
 msgid "apply metadata"
 msgstr "aplikovat metadata"
 
 #: ../build/bin/conf_gen.h:1407
-#, fuzzy
 msgid "apply some metadata to all newly imported images."
-msgstr "Použít některá metadata na všechny nově importované obrázky."
+msgstr "aplikuje následující metadata na všechny nově importované obrázky"
 
 #: ../build/bin/conf_gen.h:1415
-#, fuzzy
 msgid "recursive directory"
-msgstr "procházet složku rekurzivně"
+msgstr "procházet rekurzivně"
 
 #: ../build/bin/conf_gen.h:1416
 #, fuzzy
@@ -270,39 +265,34 @@ msgstr "importovat tagy z XMP"
 
 #: ../build/bin/conf_gen.h:1496
 msgid "initial rating"
-msgstr "výchozí hodnocení"
+msgstr "počáteční hodnocení"
 
 #: ../build/bin/conf_gen.h:1497
-#, fuzzy
 msgid "initial star rating for all images when importing a filmroll"
-msgstr "Počáteční hodnocení hvězdičkami pro všechny importované snímky"
+msgstr "počáteční hodnocení hvězdičkami pro všechny importované snímky"
 
 #: ../build/bin/conf_gen.h:1505
-#, fuzzy
 msgid "ignore EXIF rating"
 msgstr "ignorovat EXIF hodnocení"
 
 #: ../build/bin/conf_gen.h:1506
-#, fuzzy
 msgid ""
 "ignore EXIF rating. if not set and EXIF rating is found, it overrides "
 "'initial rating'"
 msgstr ""
-"ignorovat EXIF hodnocení. pokud není nastaveno a je nalezeno hodnocení EXIF, "
-"přepíše „počáteční hodnocení“"
+"ignorovat EXIF hodnocení\n"
+"pokud není aktivováno a je nalezeno hodnocení EXIF, přepíše „počáteční "
+"hodnocení“"
 
 #: ../build/bin/conf_gen.h:1514
-#, fuzzy
 msgid "import job"
 msgstr "importní úloha"
 
 #: ../build/bin/conf_gen.h:1515
-#, fuzzy
 msgid "name of the import job"
 msgstr "jméno importní úlohy"
 
 #: ../build/bin/conf_gen.h:1523
-#, fuzzy
 msgid "override today's date"
 msgstr "přepsat dnešní datum"
 
@@ -320,14 +310,12 @@ msgstr ""
 "jinak nechte pole prázdné"
 
 #: ../build/bin/conf_gen.h:1532
-#, fuzzy
 msgid "keep this window open"
-msgstr "ponechat okno otevřené"
+msgstr "ponechat toto okno otevřené"
 
 #: ../build/bin/conf_gen.h:1533
-#, fuzzy
 msgid "keep this window open to run several imports"
-msgstr "ponechat okno otevřené pro spuštění více importů"
+msgstr "ponechat toto okno otevřené pro spuštění více importů"
 
 #: ../build/bin/conf_gen.h:1767 ../build/bin/conf_gen.h:1788
 #: ../build/bin/conf_gen.h:1835
@@ -7414,7 +7402,7 @@ msgid "not defined"
 msgstr "nedefinováno"
 
 #: ../src/common/collection.c:2919
-#, fuzzy, c-format
+#, c-format
 msgid "<b>%d</b> image (#<b>%d</b>) selected of <b>%d</b>"
 msgstr "<b>%d</b> obrázek (#<b>%d</b>) vybraný z <b>%d</b>"
 
@@ -7422,9 +7410,9 @@ msgstr "<b>%d</b> obrázek (#<b>%d</b>) vybraný z <b>%d</b>"
 #, c-format
 msgid "<b>%d</b> image selected of <b>%d</b>"
 msgid_plural "<b>%d</b> images selected of <b>%d</b>"
-msgstr[0] "Vybrán <b>%d</b> obrázek z <b>%d</b>"
-msgstr[1] "Vybrány <b>%d</b> obrázky z <b>%d</b>"
-msgstr[2] "Vybráno <b>%d</b> obrázků z <b>%d</b>"
+msgstr[0] "vybrán <b>%d</b> obrázek z <b>%d</b>"
+msgstr[1] "vybrány <b>%d</b> obrázky z <b>%d</b>"
+msgstr[2] "vybráno <b>%d</b> <b>%d</b>"
 
 #: ../src/common/color_vocabulary.c:38 ../src/develop/blend_gui.c:2377
 #: ../src/develop/blend_gui.c:2425 ../src/gui/guides.c:851
@@ -9149,7 +9137,6 @@ msgid "style named '%s' successfully created"
 msgstr "styl s názvem '%s' byl úspěšně vytvořen"
 
 #: ../src/common/styles.c:664 ../src/dtgtk/culling.c:1127
-#, fuzzy
 msgid "no image selected!"
 msgstr "není vybrán žádný obrázek!"
 
@@ -9190,12 +9177,10 @@ msgid "could not read file `%s'"
 msgstr "nelze číst soubor `%s'"
 
 #: ../src/common/utility.c:601
-#, fuzzy
 msgid "above sea level"
 msgstr "nad hladinou moře"
 
 #: ../src/common/utility.c:602
-#, fuzzy
 msgid "below sea level"
 msgstr "pod hladinou moře"
 
@@ -9604,22 +9589,18 @@ msgid "on the selection:"
 msgstr "ve výběru:"
 
 #: ../src/control/crawler.c:819
-#, fuzzy
 msgid "keep the XMP edit"
 msgstr "ponechat úpravu z XMP"
 
 #: ../src/control/crawler.c:820
-#, fuzzy
 msgid "keep the database edit"
 msgstr "ponechat úpravu z databáze"
 
 #: ../src/control/crawler.c:821
-#, fuzzy
 msgid "keep the newest edit"
 msgstr "ponechat novější úpravu"
 
 #: ../src/control/crawler.c:822
-#, fuzzy
 msgid "keep the oldest edit"
 msgstr "ponechat starší úpravu"
 
@@ -9787,7 +9768,6 @@ msgstr ""
 "%s"
 
 #: ../src/control/jobs/control_jobs.c:1065
-#, fuzzy
 msgid "_apply to all"
 msgstr "_aplikovat na vše"
 
@@ -12457,9 +12437,8 @@ msgid "click on the keyboard icon to define shortcuts"
 msgstr "Pro nastavení klávesových zkratek klikněte na ikonu klávesnice."
 
 #: ../src/dtgtk/thumbtable.c:1281
-#, fuzzy
 msgid "try the 'no-click' workflow"
-msgstr "Vyzkoušejte pracovat bez klikání"
+msgstr "vyzkoušejte workflow bez klikání"
 
 #: ../src/dtgtk/thumbtable.c:1282
 #, fuzzy
@@ -12467,14 +12446,12 @@ msgid "set module-specific preferences through module's menu"
 msgstr "Nastavení specifická pro každý modul upravte v menu modulu."
 
 #: ../src/dtgtk/thumbtable.c:1283
-#, fuzzy
 msgid "hover over an image and use keyboard shortcuts"
-msgstr "Najeďte nad obrázek a využijte klávesové zkrátky"
+msgstr "najeďte myší na obrázek a použijte klávesové zkratky"
 
 #: ../src/dtgtk/thumbtable.c:1284
-#, fuzzy
 msgid "to apply ratings, colors, styles, etc."
-msgstr "pro hodnocení, obarvení nebo aplikování stylů atd."
+msgstr "pro hodnocení, barvy, aplikování stylů atd."
 
 #: ../src/dtgtk/thumbtable.c:1285
 #, fuzzy
@@ -12482,9 +12459,9 @@ msgid "make default raw development look more like your"
 msgstr "Přibližte výsledky originálním souborům"
 
 #: ../src/dtgtk/thumbtable.c:1286
-#, fuzzy
 msgid "hover over any button for its description and shortcuts"
-msgstr "Najeďte myší nad libovolné tlačítko pro zobrazení popisu a zkratek."
+msgstr ""
+"najeďte myší nad libovolné tlačítko pro zobrazení popisu a klávesových zkratek"
 
 #: ../src/dtgtk/thumbtable.c:1287
 #, fuzzy
@@ -16616,14 +16593,13 @@ msgid "mask"
 msgstr "maska"
 
 #: ../src/gui/hist_dialog.c:372
-#, fuzzy
 msgid "can't copy history out of unaltered image"
 msgstr "nelze zkopírovat historii z nezměněného obrázku"
 
 #. grid headers
 #: ../src/gui/import_metadata.c:485
 msgid "metadata presets"
-msgstr "presety metadat"
+msgstr "předvolby metadat"
 
 #: ../src/gui/import_metadata.c:488
 #, fuzzy
@@ -16656,11 +16632,10 @@ msgstr ""
 #. tags
 #: ../src/gui/import_metadata.c:512
 msgid "tag presets"
-msgstr "presety tagů"
+msgstr "předvolba tagů"
 
 # tooltip
 #: ../src/gui/import_metadata.c:526
-#, fuzzy
 msgid "comma separated list of tags"
 msgstr "seznam tagů oddělený čárkami"
 
@@ -17393,7 +17368,7 @@ msgid "(last)"
 msgstr "(poslední)"
 
 #: ../src/gui/presets.c:1167
-#, fuzzy, c-format
+#, c-format
 msgid "preset '%s' %s"
 msgstr "preset '%s' %s"
 
@@ -17438,22 +17413,19 @@ msgid "store new preset.."
 msgstr "uložit nový preset…"
 
 #: ../src/gui/presets.c:1814 ../src/libs/lib.c:576
-#, fuzzy
 msgid "update preset"
 msgstr "aktualizovat preset"
 
 #: ../src/gui/splash.c:130
-#, fuzzy
 msgid "initializing"
 msgstr "načítám"
 
 # splash
 #: ../src/gui/splash.c:162 ../src/gui/splash.c:173
-#, fuzzy
 msgid ""
 "Photography workflow application\n"
 "and RAW developer"
-msgstr "Nástroj pro editaci fotografií v RAW formátech"
+msgstr "Software pro práci a zpracování RAW fotografií"
 
 # dialog title
 #: ../src/gui/styles_dialog.c:234 ../src/libs/styles.c:501
@@ -18260,7 +18232,7 @@ msgstr[1] "%d/%d přeskakuji `%s'"
 msgstr[2] "%d/%d přeskakuji `%s'"
 
 #: ../src/imageio/storage/disk.c:517
-#, fuzzy, c-format
+#, c-format
 msgid "%d/%d skipping (not modified since export) `%s'"
 msgid_plural "%d/%d skipping (not modified since export) `%s'"
 msgstr[0] "%d/%d přeskakočen (nezměněny od exportu) „%s“"
@@ -29465,17 +29437,14 @@ msgid "exclude images"
 msgstr "vyloučit obrázky"
 
 #: ../src/libs/collect.c:3427
-#, fuzzy
 msgid "change to: and"
 msgstr "změnit na: a"
 
 #: ../src/libs/collect.c:3434
-#, fuzzy
 msgid "change to: or"
 msgstr "změnit na: nebo"
 
 #: ../src/libs/collect.c:3441
-#, fuzzy
 msgid "change to: except"
 msgstr "změnit na: kromě"
 
@@ -29807,7 +29776,6 @@ msgid "choose which modules to paste to the target image(s)"
 msgstr "vyberte, které moduly chcete vložit do cílového obrázku (obrázků)"
 
 #: ../src/libs/copy_history.c:317 ../src/libs/image.c:635
-#, fuzzy
 msgid "paste"
 msgstr "vložit"
 
@@ -30021,7 +29989,6 @@ msgstr ""
 "kliknutím prostředním tlačítkem myši resetujte na 0."
 
 #: ../src/libs/export.c:1505
-#, fuzzy
 msgid "print height"
 msgstr "výška tisku"
 
@@ -30208,7 +30175,6 @@ msgstr "upravit export metadat"
 
 #. general info
 #: ../src/libs/export_metadata.c:176
-#, fuzzy
 msgid "EXIF data"
 msgstr "EXIF data"
 
@@ -30406,24 +30372,20 @@ msgid "initial setting"
 msgstr "výchozí nastavení"
 
 #: ../src/libs/filtering.c:327
-#, fuzzy
 msgid "imported: last 24h"
 msgstr "importováno: posledních 24 hod"
 
 #: ../src/libs/filtering.c:332
-#, fuzzy
 msgid "imported: last 30 days"
 msgstr "importováno: posledních 30 dní"
 
 #: ../src/libs/filtering.c:338
-#, fuzzy
 msgid "taken: last 24h"
-msgstr "získáno: posledních 24 hodin"
+msgstr "pořízeno: posledních 24 hodin"
 
 #: ../src/libs/filtering.c:342
-#, fuzzy
 msgid "taken: last 30 days"
-msgstr "získáno: posledních 30 dní"
+msgstr "pořízeno: posledních 30 dní"
 
 #: ../src/libs/filtering.c:734
 #, fuzzy
@@ -31431,17 +31393,15 @@ msgstr "panenský duplikát"
 
 #: ../src/libs/import.c:125
 msgid "add to library"
-msgstr "přidat do knihovny"
+msgstr "Přidat do knihovny"
 
 #: ../src/libs/import.c:126
-#, fuzzy
 msgid "copy & import"
 msgstr "kopírování a import"
 
 #: ../src/libs/import.c:127
-#, fuzzy
 msgid "copy & import from camera"
-msgstr "kopírovat a import z fotoaparátu"
+msgstr "kopírovat a importovat z fotoaparátu"
 
 #: ../src/libs/import.c:128
 #, fuzzy
@@ -31479,48 +31439,42 @@ msgid "mount camera"
 msgstr "připojit fotoaparát"
 
 #: ../src/libs/import.c:969
-#, fuzzy, c-format
+#, c-format
 msgid "%d image out of %d selected"
 msgid_plural "%d images out of %d selected"
-msgstr[0] "%d obrázek z %d vybrán"
-msgstr[1] "%d obrázky z %d vybrány"
-msgstr[2] "%d obrázků z %d vybráno"
+msgstr[0] "vybrán %d z %d obrázků"
+msgstr[1] "vybrány %d z %d obrázků"
+msgstr[2] "vybráno %d z %d obrázků"
 
 #: ../src/libs/import.c:1419
-#, fuzzy
 msgid "choose the root of the folder tree below"
 msgstr "níže vyberte kořen stromu složek"
 
 #: ../src/libs/import.c:1422
 msgid "places"
-msgstr "místa"
+msgstr "umístění"
 
 # tooltip
 #: ../src/libs/import.c:1430
-#, fuzzy
 msgid "restore all default places you have removed"
-msgstr "Obnovit všechna výchozí místa, která jste odstranili."
+msgstr "obnovit všechna výchozí umístění, která jste odstranili"
 
 # tooltip
 #: ../src/libs/import.c:1437
-#, fuzzy
 msgid "remove the selected custom place"
-msgstr "Odebrat vybrané vlastní umístění."
+msgstr "odebrat vybrané vlastní umístění"
 
 #: ../src/libs/import.c:1444
-#, fuzzy
 msgid "add a custom place"
 msgstr "přidat vlastní umístění"
 
 #: ../src/libs/import.c:1452
-#, fuzzy
 msgid "you can add custom places using the plus icon"
 msgstr "můžete přidat vlastní umístění kliknutím na ikonu plus"
 
 #: ../src/libs/import.c:1480
-#, fuzzy
 msgid "select a folder to see the content"
-msgstr "vyberte složky, pro zobrazení obsahu"
+msgstr "pro zobrazení obsahu vyberte složky"
 
 #: ../src/libs/import.c:1483
 msgid "folders"
@@ -31536,12 +31490,10 @@ msgstr "obrázky"
 
 # tooltip
 #: ../src/libs/import.c:1860
-#, fuzzy
 msgid "mark already imported images"
-msgstr "Označit již importované obrázky."
+msgstr "označit již importované obrázky"
 
 #: ../src/libs/import.c:1874
-#, fuzzy
 msgid "modified"
 msgstr "změněno"
 
@@ -31551,9 +31503,8 @@ msgid "file 'modified date/time', may be different from 'Exif date/time'"
 msgstr "'změněný datum/čas' souboru, se může lišit od 'Exif data/času'"
 
 #: ../src/libs/import.c:1893
-#, fuzzy
 msgid "show/hide thumbnails"
-msgstr "zobrazit/skrýt náhledy"
+msgstr "zobrazit/skrýt miniatury"
 
 #: ../src/libs/import.c:1967
 #, fuzzy
@@ -31561,7 +31512,6 @@ msgid "naming rules"
 msgstr "pravidla pojmenování"
 
 #: ../src/libs/import.c:2045
-#, fuzzy
 msgid "select new"
 msgstr "vybrat nový"
 
@@ -31618,7 +31568,7 @@ msgstr "přidat existující obrázky do knihovny"
 
 #: ../src/libs/import.c:2390
 msgid "copy & import..."
-msgstr "kopírování a importovat…"
+msgstr "kopírovat a importovat..."
 
 #: ../src/libs/import.c:2392
 #, fuzzy
@@ -32050,7 +32000,6 @@ msgid "pressure"
 msgstr "tlak"
 
 #: ../src/libs/metadata.c:65
-#, fuzzy
 msgid "metadata editor"
 msgstr "editor metadat"
 
@@ -32084,12 +32033,10 @@ msgid "<leave unchanged>"
 msgstr "<zachovat>"
 
 #: ../src/libs/metadata.c:843 ../src/libs/metadata_view.c:1461
-#, fuzzy
 msgid "metadata settings"
 msgstr "nastavení metadat"
 
 #: ../src/libs/metadata.c:886
-#, fuzzy
 msgid "XMP tag name"
 msgstr "název XMP tagu"
 
@@ -32135,12 +32082,10 @@ msgstr ""
 "obrázky)"
 
 #: ../src/libs/metadata.c:936
-#, fuzzy
 msgid "add metadata tags"
-msgstr "přidat tagy metadat"
+msgstr "přidat metadata"
 
 #: ../src/libs/metadata.c:987
-#, fuzzy
 msgid "delete metadata"
 msgstr "odstranit metadata"
 
@@ -34760,9 +34705,8 @@ msgstr "modul nástrojů"
 
 #. connect callbacks
 #: ../src/libs/tools/ratings.c:97
-#, fuzzy
 msgid "set star rating for selected images"
-msgstr "zapsat hodnocení * pro vybrané obrázky"
+msgstr "nastavit hodnocení pro vybrané obrázky"
 
 #: ../src/libs/tools/timeline.c:102
 msgid "timeline"
@@ -34796,9 +34740,8 @@ msgid "double-click to reset to `%s'"
 msgstr "dvojklik pro reset na `%s'"
 
 #: ../src/lua/preferences.c:708
-#, fuzzy
 msgid "select file"
-msgstr "vyberte soubor"
+msgstr "vybrat soubor"
 
 #: ../src/lua/preferences.c:762
 #, fuzzy, c-format
@@ -35607,12 +35550,10 @@ msgstr "[moduly] změna polohy modulu ve frontě zpracování"
 
 #. Show infos key
 #: ../src/views/lighttable.c:774 ../src/views/lighttable.c:1459
-#, fuzzy
 msgid "show infos"
 msgstr "zobrazit informace"
 
 #: ../src/views/lighttable.c:881
-#, fuzzy
 msgid "middle"
 msgstr "střed"
 
@@ -35743,12 +35684,10 @@ msgid "preview zoom fit"
 msgstr "náhled přizpůsobit velikost"
 
 #: ../src/views/lighttable.c:1486
-#, fuzzy
 msgid "zoom max"
 msgstr "maximální zvětšení"
 
 #: ../src/views/lighttable.c:1490
-#, fuzzy
 msgid "zoom min"
 msgstr "minimální zvětšení"
 
