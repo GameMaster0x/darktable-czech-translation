@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-20 20:53+0200\n"
-"PO-Revision-Date: 2026-04-21 14:00+0200\n"
+"PO-Revision-Date: 2026-04-21 14:07+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -1266,24 +1266,23 @@ msgstr ""
 "náhledu."
 
 #: ../build/bin/preferences_gen.h:2881
-#, fuzzy
 msgid "enable smooth scrolling for lighttable thumbnails"
-msgstr "povolit plynulé procházení náhledů"
+msgstr "povolit plynulý scroll při procházení miniatur"
 
 #: ../build/bin/preferences_gen.h:2889
-#, fuzzy
 msgid ""
 "if enabled, scrolling the lighttable scrolls by some number of pixels, as "
 "expected with a touch pad.\n"
 "disabled, the lighttable scrolls full rows of thumbnails, as befits a scroll "
 "wheel."
 msgstr ""
-"Pokud je vypnuto, procházení náhledů nebude plynulé, ale vždy po řádcích."
+"pokud je tato možnost povolena, posun je pouze o určitý počet pixelů, jako u "
+"touchpadu.\n"
+"pokud je tato možnost zakázána, posun je po celých řádcích miniatur"
 
 #: ../build/bin/preferences_gen.h:2898
-#, fuzzy
 msgid "generate thumbnails in background"
-msgstr "vytvářet náhledy na pozadí"
+msgstr "generovat miniatury na pozadí"
 
 #: ../build/bin/preferences_gen.h:2907
 #, fuzzy
@@ -30067,7 +30066,7 @@ msgstr "volby formátu"
 #: ../src/libs/export.c:1690
 msgctxt "section"
 msgid "global options"
-msgstr "globální předvolby"
+msgstr "globální volby"
 
 #: ../src/libs/export.c:1700
 msgid "multi-preset export"
