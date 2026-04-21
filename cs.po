@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-20 20:53+0200\n"
-"PO-Revision-Date: 2026-04-21 21:47+0200\n"
+"PO-Revision-Date: 2026-04-21 22:37+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -3523,7 +3523,6 @@ msgstr "komprese světel"
 
 #: ../build/lib/darktable/plugins/introspection_basicadj.c:128
 #: ../build/lib/darktable/plugins/introspection_basicadj.c:219
-#, fuzzy
 msgid "middle gray"
 msgstr "střední šedá"
 
@@ -5731,7 +5730,7 @@ msgstr "TCA modrá"
 #: ../build/lib/darktable/plugins/introspection_lens.cc:286
 #: ../build/lib/darktable/plugins/introspection_lens.cc:465
 msgid "distortion"
-msgstr "zkreslení"
+msgstr "deformace"
 
 #: ../build/lib/darktable/plugins/introspection_lens.cc:292
 #: ../build/lib/darktable/plugins/introspection_lens.cc:469
@@ -5788,14 +5787,12 @@ msgid "all"
 msgstr "vše"
 
 #: ../build/lib/darktable/plugins/introspection_lens.cc:535
-#, fuzzy
 msgid "distortion & TCA"
-msgstr "zkreslení a TCA"
+msgstr "deformace a TCA"
 
 #: ../build/lib/darktable/plugins/introspection_lens.cc:536
-#, fuzzy
 msgid "distortion & vignetting"
-msgstr "zkreslení a vinětace"
+msgstr "deformace a vinětace"
 
 #: ../build/lib/darktable/plugins/introspection_lens.cc:537
 #, fuzzy
@@ -5803,9 +5800,8 @@ msgid "TCA & vignetting"
 msgstr "TCA a vinětace"
 
 #: ../build/lib/darktable/plugins/introspection_lens.cc:538
-#, fuzzy
 msgid "only distortion"
-msgstr "pouze zkreslení"
+msgstr "pouze deformace"
 
 #: ../build/lib/darktable/plugins/introspection_lens.cc:539
 #, fuzzy
@@ -5885,7 +5881,6 @@ msgid "move"
 msgstr "přesun"
 
 #: ../build/lib/darktable/plugins/introspection_liquify.c:430
-#, fuzzy
 msgid "line"
 msgstr "čára"
 
@@ -6415,7 +6410,6 @@ msgstr "RGB poměr"
 
 #: ../build/lib/darktable/plugins/introspection_tonecurve.c:135
 #: ../build/lib/darktable/plugins/introspection_tonecurve.c:232
-#, fuzzy
 msgid "color space"
 msgstr "barevný prostor"
 
@@ -6436,9 +6430,8 @@ msgstr "XYZ, propojené kanály"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:145
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:290
-#, fuzzy
 msgid "blacks"
-msgstr "černá"
+msgstr "černé"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:151
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:294
@@ -6460,9 +6453,8 @@ msgstr "tmavá světla"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:187
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:318
-#, fuzzy
 msgid "whites"
-msgstr "bílá"
+msgstr "bílé"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:193
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:322
@@ -6502,7 +6494,6 @@ msgstr "kompenzace expozice masky"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:235
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:350
-#, fuzzy
 msgid "preserve details"
 msgstr "zachovat detaily"
 
@@ -6529,7 +6520,6 @@ msgid "guided filter"
 msgstr "řízený filtr"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:375
-#, fuzzy
 msgid "averaged EIGF"
 msgstr "zprůměrovaný EIGF"
 
@@ -6538,7 +6528,6 @@ msgid "EIGF"
 msgstr "EIGF"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:380
-#, fuzzy
 msgid "RGB average"
 msgstr "RGB průměr"
 
@@ -6547,17 +6536,14 @@ msgid "HSL lightness"
 msgstr "HSL světlost"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:382
-#, fuzzy
 msgid "HSV value / RGB max"
 msgstr "Hodnota HSV / RGB max"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:383
-#, fuzzy
 msgid "RGB sum"
 msgstr "RGB součet"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:386
-#, fuzzy
 msgid "RGB geometric mean"
 msgstr "RGB geometrický průměr"
 
@@ -6571,7 +6557,6 @@ msgstr "komprese kontrastu"
 #: ../build/lib/darktable/plugins/introspection_vibrance.c:33
 #: ../build/lib/darktable/plugins/introspection_vibrance.c:76
 #: ../src/iop/basicadj.c:650 ../src/iop/vibrance.c:64
-#, fuzzy
 msgid "vibrance"
 msgstr "živost"
 
@@ -6589,50 +6574,42 @@ msgstr "poloměr spádu"
 
 #: ../build/lib/darktable/plugins/introspection_vignette.c:116
 #: ../build/lib/darktable/plugins/introspection_vignette.c:217
-#, fuzzy
 msgid "horizontal center"
 msgstr "horizontální střed"
 
 #: ../build/lib/darktable/plugins/introspection_vignette.c:122
 #: ../build/lib/darktable/plugins/introspection_vignette.c:221
-#, fuzzy
 msgid "vertical center"
 msgstr "vertikální střed"
 
 #: ../build/lib/darktable/plugins/introspection_vignette.c:134
 #: ../build/lib/darktable/plugins/introspection_vignette.c:229
-#, fuzzy
 msgid "automatic ratio"
 msgstr "automatický poměr"
 
 #: ../build/lib/darktable/plugins/introspection_vignette.c:140
 #: ../build/lib/darktable/plugins/introspection_vignette.c:233
-#, fuzzy
 msgid "width/height ratio"
 msgstr "poměr šířky a výšky"
 
 #: ../build/lib/darktable/plugins/introspection_vignette.c:146
 #: ../build/lib/darktable/plugins/introspection_vignette.c:237
 #: ../src/iop/vignette.c:1052
-#, fuzzy
 msgid "shape"
 msgstr "tvar"
 
 #: ../build/lib/darktable/plugins/introspection_vignette.c:265
-#, fuzzy
 msgid "8-bit output"
 msgstr "8-bitový výstup"
 
 #: ../build/lib/darktable/plugins/introspection_vignette.c:266
-#, fuzzy
 msgid "16-bit output"
 msgstr "16-bitový výstup"
 
 #: ../build/share/darktable/org.darktable.darktable.desktop.in.h:1
 #: ../data/org.darktable.darktable.desktop.in.h:1
-#, fuzzy
 msgid "Virtual Lighttable and Darkroom"
-msgstr "Virtuální katalog a editor"
+msgstr "Virtuální Lighttable a Darkroom"
 
 #: ../build/share/darktable/org.darktable.darktable.desktop.in.h:2
 #: ../data/org.darktable.darktable.appdata.xml.in.h:1
@@ -6644,7 +6621,6 @@ msgstr "Uspořádejte a vytvářejte snímky z digitálních fotoaparátů"
 #. TRANSLATORS: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: ../build/share/darktable/org.darktable.darktable.desktop.in.h:4
 #: ../data/org.darktable.darktable.desktop.in.h:4
-#, fuzzy
 msgid "graphics;photography;raw;"
 msgstr "grafika;fotografie;RAW;"
 
@@ -6712,7 +6688,6 @@ msgid "dropdowns"
 msgstr "rozbalovací nabídky"
 
 #: ../src/bauhaus/bauhaus.c:931 ../src/bauhaus/bauhaus.c:4104
-#, fuzzy
 msgid "buttons"
 msgstr "tlačítka"
 
@@ -6742,7 +6717,6 @@ msgid "button pressed"
 msgstr "stisknuté tlačítko"
 
 #: ../src/bauhaus/bauhaus.c:3999
-#, fuzzy
 msgid "not that many sliders"
 msgstr "ne tolik posuvníků"
 
@@ -6752,7 +6726,6 @@ msgid "not that many dropdowns"
 msgstr "ne tolik rozevíracích seznamů"
 
 #: ../src/bauhaus/bauhaus.c:4032
-#, fuzzy
 msgid "not that many buttons"
 msgstr "ne tolik tlačítek"
 
@@ -6846,27 +6819,22 @@ msgstr ""
 "TODO: omlouváme se, kvůli omezením API aktuálně nemůžeme nastavit BPP na"
 
 #: ../src/cli/main.c:296
-#, fuzzy
 msgid "unknown option for --hq"
 msgstr "neznámý parametr pro --hq"
 
 #: ../src/cli/main.c:312
-#, fuzzy
 msgid "unknown option for --export_masks"
 msgstr "neznámý parametr pro --export_masks"
 
 #: ../src/cli/main.c:328
-#, fuzzy
 msgid "unknown option for --upscale"
 msgstr "neznámý parametr pro --upscale"
 
 #: ../src/cli/main.c:353
-#, fuzzy
 msgid "unknown option for --apply-custom-presets"
 msgstr "neznámý parametr pro --apply-custom-presets"
 
 #: ../src/cli/main.c:364
-#, fuzzy
 msgid "too long ext for --out-ext"
 msgstr "příliš dlouhá přípona pro --out-ext"
 
@@ -7022,16 +6990,13 @@ msgid "network error: %s"
 msgstr "chyba sítě: %s"
 
 #: ../src/common/ai_models.c:198
-#, fuzzy, c-format
-#| msgid "color not found"
+#, c-format
 msgid "model repository \"%s\" not found"
-msgstr "barva neexistuje"
+msgstr "repozitář modelu “%s” nenalezen"
 
 #: ../src/common/ai_models.c:200
-#, fuzzy
 msgid "GitHub API rate limit exceeded, try again later"
-msgstr ""
-"Byl překročen limit počtu volání API služby GitHub, zkuste to prosím později"
+msgstr "překročen limit volání GitHub API, zkuste to prosím později"
 
 #: ../src/common/ai_models.c:202
 #, c-format
@@ -8572,7 +8537,6 @@ msgid "you need to copy history from an image before you paste it onto another"
 msgstr "musíte zkopírovat historii z obrázku, než ji vložíte do jiného"
 
 #: ../src/common/image.c:346
-#, fuzzy
 msgid "orphaned image"
 msgstr "osiřelý obrázek"
 
@@ -9639,7 +9603,7 @@ msgid "wrote merged HDR `%s'"
 msgstr "sloučené HDR `%s' uloženo"
 
 #: ../src/control/jobs/control_jobs.c:744
-#, fuzzy, c-format
+#, c-format
 msgid "duplicating %d image"
 msgid_plural "duplicating %d images"
 msgstr[0] "duplikuji %d obrázek"
@@ -9647,12 +9611,12 @@ msgstr[1] "duplikuji %d obrázky"
 msgstr[2] "duplikuji %d obrázků"
 
 #: ../src/control/jobs/control_jobs.c:786
-#, fuzzy, c-format
+#, c-format
 msgid "flipping %d image"
 msgid_plural "flipping %d images"
-msgstr[0] "překlápím %d obrázek"
-msgstr[1] "překlápím %d obrázky"
-msgstr[2] "překlápím %d obrázků"
+msgstr[0] "převracím %d obrázek"
+msgstr[1] "převracím %d obrázky"
+msgstr[2] "převracím %d obrázků"
 
 #: ../src/control/jobs/control_jobs.c:818
 #, fuzzy, c-format
@@ -9714,13 +9678,11 @@ msgid "_apply to all"
 msgstr "_aplikovat na vše"
 
 #: ../src/control/jobs/control_jobs.c:1073
-#, fuzzy
 msgid "_delete permanently"
-msgstr "_trvale smazat"
+msgstr "_trvale odstranit"
 
 #: ../src/control/jobs/control_jobs.c:1075
 #: ../src/control/jobs/control_jobs.c:1080
-#, fuzzy
 msgid "_remove from library"
 msgstr "_odstranit z knihovny"
 
@@ -9734,17 +9696,15 @@ msgid "abort"
 msgstr "přerušit"
 
 #: ../src/control/jobs/control_jobs.c:1090
-#, fuzzy
 msgid "trashing error"
 msgstr "chyba při přesunu do koše"
 
 #: ../src/control/jobs/control_jobs.c:1091
-#, fuzzy
 msgid "deletion error"
 msgstr "chyba při mazání"
 
 #: ../src/control/jobs/control_jobs.c:1243
-#, fuzzy, c-format
+#, c-format
 msgid "trashing %d image"
 msgid_plural "trashing %d images"
 msgstr[0] "přesouvám do koše %d obrázek"
@@ -9752,7 +9712,7 @@ msgstr[1] "přesouvám do koše %d obrázky"
 msgstr[2] "přesouvám do koše %d obrázků"
 
 #: ../src/control/jobs/control_jobs.c:1245
-#, fuzzy, c-format
+#, c-format
 msgid "deleting %d image"
 msgid_plural "deleting %d images"
 msgstr[0] "mažu %d obrázek"
@@ -9883,17 +9843,16 @@ msgstr[1] "aplikuji styly na %d obrázky ..."
 msgstr[2] "aplikuji styly na %d obrázků ..."
 
 #: ../src/control/jobs/control_jobs.c:1877
-#, fuzzy, c-format
+#, c-format
 msgid "exporting %d image.."
 msgid_plural "exporting %d images.."
-msgstr[0] "exportuji %d obrázek ..."
-msgstr[1] "exportuji %d obrázky ..."
-msgstr[2] "exportuji %d obrázků ..."
+msgstr[0] "exportuji %d obrázek"
+msgstr[1] "exportuji %d obrázky"
+msgstr[2] "exportuji %d obrázků"
 
 #: ../src/control/jobs/control_jobs.c:1879
-#, fuzzy
 msgid "no image to export"
-msgstr "žádný obrázek pro export"
+msgstr "žádný obrázek k exportu"
 
 #. progress message
 #. update the message. initialize_store() might have changed the number of images
@@ -9909,19 +9868,16 @@ msgid "image `%s' is currently unavailable"
 msgstr "obrázek `%s' je momentálně nedostupný"
 
 #: ../src/control/jobs/control_jobs.c:2051
-#, fuzzy
 msgid "merge HDR image"
-msgstr "sloučit HDR obraz"
+msgstr "sloučit HDR obrázek"
 
 #: ../src/control/jobs/control_jobs.c:2067
-#, fuzzy
 msgid "duplicate images"
 msgstr "duplicitní obrázky"
 
 #: ../src/control/jobs/control_jobs.c:2076
-#, fuzzy
 msgid "flip images"
-msgstr "převracet obrázky"
+msgstr "převrátit obrázky"
 
 #: ../src/control/jobs/control_jobs.c:2084
 #, fuzzy
@@ -9956,19 +9912,16 @@ msgstr[2] ""
 "Opravdu chcete odstranit %d obrázků z darktable (bez smazání z disku)?"
 
 #: ../src/control/jobs/control_jobs.c:2122
-#, fuzzy
 msgid "delete images"
-msgstr "smazat obrázky"
+msgstr "odstranit obrázky"
 
 #: ../src/control/jobs/control_jobs.c:2138
-#, fuzzy
 msgid "delete image?"
-msgstr "vymazat obrázek?"
+msgstr "odstranit obrázek?"
 
 #: ../src/control/jobs/control_jobs.c:2138
-#, fuzzy
 msgid "delete images?"
-msgstr "vymazat obrázky?"
+msgstr "odstranit obrázky?"
 
 #: ../src/control/jobs/control_jobs.c:2139
 #, fuzzy, c-format
@@ -14229,15 +14182,13 @@ msgid "title:"
 msgstr "název:"
 
 #: ../src/external/lua-scripts/official/selection_to_pdf.lua:89
-#, fuzzy
 msgid "thumbnails per row:"
-msgstr "náhledů na řádek:"
+msgstr "počet náhledů na řádek:"
 
 #. fact is that latex will get confused if the filename has multiple dots.
 #. so \includegraphics{file.01.jpg} wont work. We need to output the filename
 #. and extention separated, e.g: \includegraphics{{file.01}.jpg}
 #: ../src/external/lua-scripts/official/selection_to_pdf.lua:137
-#, fuzzy
 msgid "export thumbnails to pdf"
 msgstr "export náhledů do PDF"
 
@@ -14388,9 +14339,8 @@ msgstr "uložit dokumentaci interní knihovny jako manuál"
 #. print the documentation for the library
 #. print the documentation for each of the functions
 #: ../src/external/lua-scripts/tools/get_libdoc.lua:65
-#, fuzzy
 msgid "get library docs"
-msgstr "dokumentace ke knihovnám"
+msgstr "získat dokumentaci ke knihovnám"
 
 #: ../src/external/lua-scripts/tools/get_libdoc.lua:66
 #, fuzzy
@@ -14460,10 +14410,8 @@ msgstr "získat a vypsat dokumentaci do konzole"
 #. P R E F E R E N C E S
 #. - - - - - - - - - - - - - - - - - - - - - - -
 #: ../src/external/lua-scripts/tools/script_manager.lua:131
-#, fuzzy
-#| msgid "disable scripts"
 msgid "disable Lua scripts"
-msgstr "zakázat skripty"
+msgstr "zakázat Lua skripty"
 
 # label
 #: ../src/external/lua-scripts/tools/script_manager.lua:132
@@ -15398,7 +15346,7 @@ msgid "create separate shortcuts for up and down move?"
 msgstr "vytvořit samostatné zkratky pro pohyb nahoru a dolů?"
 
 #: ../src/gui/accelerators.c:1490
-#, fuzzy, c-format
+#, c-format
 msgid "%s, speed reset"
 msgstr "%s, reset rychlosti"
 
@@ -15817,13 +15765,13 @@ msgstr "záloha pro přesun"
 
 # toast
 #: ../src/gui/accelerators.c:3881
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "applying preset '%s'"
 msgstr ""
 "\n"
-"aplikuji preset '%s' …"
+"aplikuji preset '%s'"
 
 #. TODO
 #: ../src/gui/accelerators.c:3997
@@ -15831,12 +15779,12 @@ msgid "ignoring shortcuts while blocking jobs running"
 msgstr ""
 
 #: ../src/gui/accelerators.c:4031
-#, fuzzy, c-format
+#, c-format
 msgid "%s not assigned"
 msgstr "%s není nepřiřazeno"
 
 #: ../src/gui/accelerators.c:4211
-#, fuzzy, c-format
+#, c-format
 msgid "%s assigned to %s"
 msgstr "%s přiřazeno k %s"
 
@@ -16392,16 +16340,14 @@ msgstr "globální průvodce nastavením překrytí"
 
 #: ../src/gui/guides.c:831 ../src/gui/guides.c:840 ../src/gui/guides.c:847
 #: ../src/gui/guides.c:862 ../src/views/darkroom.c:3294
-#, fuzzy
 msgid "guide lines"
-msgstr "vodící linie"
+msgstr "vodící čáry"
 
 #: ../src/gui/guides.c:831 ../src/iop/clipping.c:2098
 msgid "flip"
 msgstr "převrátit"
 
 #: ../src/gui/guides.c:831
-#, fuzzy
 msgid "flip guides"
 msgstr "překlápěcí vodítka"
 
@@ -18959,9 +18905,8 @@ msgid "rotate and perspective"
 msgstr "rotace a perspektiva"
 
 #: ../src/iop/ashift.c:118
-#, fuzzy
 msgid "rotation|keystone|distortion|crop|reframe"
-msgstr "rotace|základní kámen|zkreslení|oříznutí|přerámování"
+msgstr "rotace|základní kámen|deformace|oříznutí|přerámování"
 
 #: ../src/iop/ashift.c:123
 #, fuzzy
@@ -19128,7 +19073,7 @@ msgid ""
 "ctrl+click to only fit rotation\n"
 "shift+click to only fit lens shift"
 msgstr ""
-"automaticky koriguje vertikální perspektivní zkreslení\n"
+"automaticky koriguje vertikální perspektivní deformace\n"
 "Ctrl+klik přizpůsobíte pouze rotaci\n"
 "Shift+klik přizpůsobíte pouze posun objektivu"
 
@@ -19139,7 +19084,7 @@ msgid ""
 "ctrl+click to only fit rotation\n"
 "shift+click to only fit lens shift"
 msgstr ""
-"automaticky koriguje zkreslení horizontální perspektivy\n"
+"automaticky koriguje deformace horizontální perspektivy\n"
 "Ctrl+klik přizpůsobíte pouze rotaci\n"
 "Shift+klik přizpůsobíte pouze posun objektivu"
 
@@ -19152,7 +19097,7 @@ msgid ""
 "shift+click to only fit lens shift\n"
 "ctrl+shift+click to only fit rotation and lens shift"
 msgstr ""
-"automaticky koriguje vertikální a horizontální perspektivní zkreslení; rotace "
+"automaticky koriguje vertikální a horizontální perspektivní deformace; rotace "
 "lícování, posun objektivu v obou směrech a střih\n"
 "Ctrl+klik přizpůsobí pouze rotaci\n"
 "Shift+klik přizpůsobí pouze posun objektivu\n"
@@ -19417,7 +19362,6 @@ msgid "change color saturation at each feature size"
 msgstr "změnit sytost barev při každé velikosti prvku"
 
 #: ../src/iop/atrous.c:1759
-#, fuzzy
 msgid "edges"
 msgstr "hrany"
 
@@ -19505,7 +19449,6 @@ msgid "nokia like"
 msgstr "jako nokia"
 
 #: ../src/iop/basecurve.c:363
-#, fuzzy
 msgid "base curve"
 msgstr "základní křivka"
 
@@ -19528,7 +19471,6 @@ msgstr ""
 #: ../src/iop/rawdenoise.c:140 ../src/iop/retouch.c:207
 #: ../src/iop/scalepixels.c:85 ../src/iop/sharpen.c:93 ../src/iop/spots.c:66
 #: ../src/iop/temperature.c:249
-#, fuzzy
 msgid "corrective"
 msgstr "korektivní"
 
@@ -19560,12 +19502,10 @@ msgid "method to preserve colors when applying contrast"
 msgstr "metoda pro zachování barev při použití kontrastu"
 
 #: ../src/iop/basecurve.c:2116
-#, fuzzy
 msgid "two exposures"
 msgstr "dvě expozice"
 
 #: ../src/iop/basecurve.c:2117
-#, fuzzy
 msgid "three exposures"
 msgstr "tři expozice"
 
@@ -19593,7 +19533,6 @@ msgstr ""
 "stínů)"
 
 #: ../src/iop/basecurve.c:2138 ../src/iop/tonecurve.c:1326
-#, fuzzy
 msgid "scale for graph"
 msgstr "měřítko pro graf"
 
@@ -19603,12 +19542,10 @@ msgid "this module is deprecated. please use the quick access panel instead."
 msgstr "tento modul je zastaralý. místo toho použijte panel rychlého přístupu."
 
 #: ../src/iop/basicadj.c:162
-#, fuzzy
 msgid "basic adjustments"
 msgstr "základní úpravy"
 
 #: ../src/iop/basicadj.c:167
-#, fuzzy
 msgid "apply usual image adjustments"
 msgstr "použít obvyklé úpravy obrazu"
 
@@ -19653,7 +19590,6 @@ msgid "highlight compression adjustment"
 msgstr "nastavení komprese světel"
 
 #: ../src/iop/basicadj.c:632 ../src/iop/colisa.c:276
-#, fuzzy
 msgid "contrast adjustment"
 msgstr "úprava kontrastu"
 
@@ -19663,19 +19599,16 @@ msgid "middle gray adjustment"
 msgstr "úprava střední šedé"
 
 #: ../src/iop/basicadj.c:645 ../src/iop/colisa.c:277
-#, fuzzy
 msgid "brightness adjustment"
-msgstr "nastavení jasu"
+msgstr "úprava jasu"
 
 #: ../src/iop/basicadj.c:648
-#, fuzzy
 msgid "saturation adjustment"
 msgstr "úprava sytosti"
 
 #: ../src/iop/basicadj.c:651
-#, fuzzy
 msgid "vibrance adjustment"
-msgstr "nastavení živosti"
+msgstr "úprava živosti"
 
 #: ../src/iop/basicadj.c:653
 #, fuzzy
@@ -21252,7 +21185,7 @@ msgstr "oříznout a otočit"
 #: ../src/iop/clipping.c:350
 #, fuzzy
 msgid "reframe|perspective|keystone|distortion"
-msgstr "přerámovat|perspektiva|keystone|zkreslit"
+msgstr "přerámovat|perspektiva|keystone|deformace"
 
 #: ../src/iop/clipping.c:355
 #, fuzzy
@@ -23200,7 +23133,7 @@ msgstr "oříznutí"
 #: ../src/iop/crop.c:127
 #, fuzzy
 msgid "reframe|distortion"
-msgstr "přerámovat|zkreslit"
+msgstr "přerámovat|deformace"
 
 #: ../src/iop/crop.c:133
 msgid "change the framing"
@@ -25156,12 +25089,10 @@ msgid "scale into final size"
 msgstr "škálovat do konečné velikosti"
 
 #: ../src/iop/flip.c:78
-#, fuzzy
 msgid "rotation|flip|mirror"
-msgstr "rotace|překlopení|zrcadlo"
+msgstr "rotace|převrácení|zrcadlo"
 
 #: ../src/iop/flip.c:108
-#, fuzzy
 msgid "flip or rotate image by step of 90 degrees"
 msgstr "převrátit nebo otočit obrázek o 90 stupňů"
 
@@ -25205,7 +25136,6 @@ msgid "this module is deprecated. please use the filmic rgb module instead."
 msgstr "tento modul je zastaralý. místo toho použijte filmový rgb modul."
 
 #: ../src/iop/globaltonemap.c:631 ../src/libs/filters/colors.c:259
-#, fuzzy
 msgid "operator"
 msgstr "operátor"
 
@@ -25695,14 +25625,12 @@ msgid "select color of film material"
 msgstr "vyberte barvu filmového materiálu"
 
 #: ../src/iop/lens.cc:252
-#, fuzzy
 msgid "lens correction"
 msgstr "korekce objektivu"
 
 #: ../src/iop/lens.cc:257
-#, fuzzy
 msgid "vignette|chromatic aberrations|distortion"
-msgstr "vinětace|chromatické aberace|zkreslení"
+msgstr "vinětace|chromatické aberace|deformace"
 
 #: ../src/iop/lens.cc:262
 #, fuzzy
@@ -25815,7 +25743,6 @@ msgid "automatic scale to available image size due to Lensfun data"
 msgstr "automatické měřítko na dostupnou velikost obrázku díky datům Lensfun"
 
 #: ../src/iop/lens.cc:4468
-#, fuzzy
 msgid "correct distortions or apply them"
 msgstr "opravit deformace nebo je použít"
 
