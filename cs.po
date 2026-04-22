@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-20 20:53+0200\n"
-"PO-Revision-Date: 2026-04-22 13:51+0200\n"
+"PO-Revision-Date: 2026-04-22 13:58+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -8938,12 +8938,11 @@ msgid "Legal"
 msgstr "Legal"
 
 #: ../src/common/pwstorage/pwstorage.c:109
-#, fuzzy
 msgid "GNOME Keyring backend is no longer supported. configure a different one"
-msgstr "Backend Keyring GNOME již není podporován. nakonfigurovat jiný"
+msgstr "Backend Keyring GNOME již není podporován, nakonfigurovat jiný"
 
 #: ../src/common/ratings.c:150
-#, fuzzy, c-format
+#, c-format
 msgid "rejecting %d image"
 msgid_plural "rejecting %d images"
 msgstr[0] "odmítnutí %d obrázku"
@@ -8964,19 +8963,17 @@ msgid "no images selected to apply rating"
 msgstr "nejsou vybrány obrázky pro přiřazení hodnocení"
 
 #: ../src/common/ratings.c:313 ../src/libs/metadata_view.c:396
-#, fuzzy
 msgid "image rejected"
 msgstr "obrázek odmítnut"
 
 #: ../src/common/ratings.c:315
-#, fuzzy
 msgid "image rated to 0 star"
 msgstr "obrázek hodnocen 0 hvězdičkami"
 
 #: ../src/common/ratings.c:317
-#, fuzzy, c-format
+#, c-format
 msgid "image rated to %s"
-msgstr "obrázek hodnocen jako %s"
+msgstr "obrázek hodnocen %s"
 
 #: ../src/common/ratings.c:346
 #: ../src/external/lua-scripts/tools/executable_manager.lua:220
@@ -9020,7 +9017,6 @@ msgid "five"
 msgstr "pět"
 
 #: ../src/common/ratings.c:358
-#, fuzzy
 msgid "reject"
 msgstr "odmítnout"
 
@@ -9215,22 +9211,18 @@ msgstr "D55"
 
 #. For Olympus with no real "Flash" preset:
 #: ../src/common/wb_presets.c:85
-#, fuzzy
 msgid "flash (auto mode)"
 msgstr "blesk (automatický režim)"
 
 #: ../src/common/wb_presets.c:86
-#, fuzzy
 msgid "evening sun"
 msgstr "večerní slunce"
 
 #: ../src/common/wb_presets.c:87
-#, fuzzy
 msgid "underwater"
 msgstr "pod vodou"
 
 #: ../src/common/wb_presets.c:88 ../src/views/darkroom.c:3060
-#, fuzzy
 msgid "black & white"
 msgstr "černá a bílá"
 
@@ -9261,7 +9253,6 @@ msgid "hold"
 msgstr "držet"
 
 #: ../src/control/control.c:105 ../src/control/control.c:218
-#, fuzzy
 msgid "modifiers"
 msgstr "modifikátory"
 
@@ -9333,7 +9324,6 @@ msgid "darktable will be locked until background work has been done"
 msgstr "Aplikace zůstane uzamčena dokud nebude dokončena práce na pozadí."
 
 #: ../src/control/control.c:478
-#, fuzzy
 msgid "working..."
 msgstr "pracuji..."
 
@@ -9428,7 +9418,7 @@ msgid "SUCCESS: %s synced old (DB) → new (XMP)"
 msgstr "HOTOVO: Synchronizace '%s' provedena: DB (starší) → XMP (novější)"
 
 #: ../src/control/crawler.c:699
-#, fuzzy, c-format
+#, c-format
 msgid "%id %02dh %02dm %02ds"
 msgstr "%id %02dh %02dm %02ds"
 
@@ -9485,9 +9475,8 @@ msgid "invert selection"
 msgstr "invertovat výběr"
 
 #: ../src/control/crawler.c:818
-#, fuzzy
 msgid "on the selection:"
-msgstr "ve výběru:"
+msgstr "na výběru:"
 
 #: ../src/control/crawler.c:819
 msgid "keep the XMP edit"
@@ -9506,7 +9495,6 @@ msgid "keep the oldest edit"
 msgstr "ponechat starší úpravu"
 
 #: ../src/control/crawler.c:836
-#, fuzzy
 msgid "synchronization log"
 msgstr "log synchronizace"
 
@@ -13098,9 +13086,8 @@ msgstr "$(ELEVATION) - nadmořská výška"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1002
 #: ../src/gui/gtkentry.c:103
-#, fuzzy
 msgid "$(STARS) - star rating as number (-1 for rejected)"
-msgstr "$(STARS) - hodnocení hvězdičkami číselně (-1 for rejected)"
+msgstr "$(STARS) - hodnocení hvězdičkami číselně (-1 pro odmítnutí)"
 
 #. _("$(RATING.ICONS) - star/reject rating in icon form"),-- not implemented
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1004
@@ -29104,7 +29091,6 @@ msgid "use <, <=, >, >=, <>, =, [;] as operators"
 msgstr "jako operátory použijte <, <=, >, >=, <>, =, [;]"
 
 #: ../src/libs/collect.c:2621
-#, fuzzy
 msgid ""
 "use <, <=, >, >=, <>, =, [;] as operators\n"
 "star rating: 0-5\n"
