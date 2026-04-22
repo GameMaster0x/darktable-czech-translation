@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-20 20:53+0200\n"
-"PO-Revision-Date: 2026-04-22 19:07+0200\n"
+"PO-Revision-Date: 2026-04-22 22:28+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -206,7 +206,6 @@ msgid "select only new images"
 msgstr "pouze nové obrázky"
 
 #: ../build/bin/conf_gen.h:1389
-#, fuzzy
 msgid "only select images that have not already been imported"
 msgstr "vybrat pouze obrázky, které ještě nebyly importovány"
 
@@ -215,13 +214,12 @@ msgid "ignore non-raw images"
 msgstr "ignorovat ne-RAW"
 
 #: ../build/bin/conf_gen.h:1398
-#, fuzzy
 msgid ""
 "if enabled, only raw files will be allowed to import. non-raw files will not "
 "be visible in the dialog and will not be imported."
 msgstr ""
-"Pokud je povoleno, bude povolen import pouze RAW souborů. Jiné než RAW "
-"soubory nebudou v dialogu viditelné a nebudou importovány."
+"pokud je povoleno, bude umožněn import pouze RAW souborů\n"
+"ostatní soubory nebudou v dialogu viditelné"
 
 #: ../build/bin/conf_gen.h:1406
 msgid "apply metadata"
@@ -236,24 +234,20 @@ msgid "recursive directory"
 msgstr "procházet rekurzivně"
 
 #: ../build/bin/conf_gen.h:1416
-#, fuzzy
 msgid "recursive directory traversal when importing filmrolls"
-msgstr "Rekurzivně procházet adresáře při importu."
+msgstr "rekurzivně procházet složku při importu filmových pásů"
 
 #: ../build/bin/conf_gen.h:1424
-#, fuzzy
 msgid "creator to be applied when importing"
-msgstr "Tvůrce, který se použije při importu"
+msgstr "tvůrce, který se nastaví při importu"
 
 #: ../build/bin/conf_gen.h:1433
-#, fuzzy
 msgid "publisher to be applied when importing"
-msgstr "Vydavatel, který se použije při importu"
+msgstr "vydavatel, který se nastaví při importu"
 
 #: ../build/bin/conf_gen.h:1442
-#, fuzzy
 msgid "rights to be applied when importing"
-msgstr "Práva, která se mají nastavit při importu"
+msgstr "práva, která se mají nastavit při importu"
 
 #: ../build/bin/conf_gen.h:1451
 msgid "comma separated tags to be applied when importing"
@@ -9930,12 +9924,10 @@ msgstr "přesun obrázků"
 
 #: ../src/control/jobs/control_jobs.c:2205
 #: ../src/control/jobs/control_jobs.c:2262
-#, fuzzy
 msgid "_select as destination"
 msgstr "_vybrat jako cíl"
 
 #: ../src/control/jobs/control_jobs.c:2225
-#, fuzzy
 msgid "move image?"
 msgid_plural "move images?"
 msgstr[0] "přesunout obrázek?"
@@ -9961,12 +9953,10 @@ msgstr[2] ""
 "(všechny duplikáty budou přesunuty)"
 
 #: ../src/control/jobs/control_jobs.c:2249
-#, fuzzy
 msgid "copy images"
 msgstr "kopírovat obrázky"
 
 #: ../src/control/jobs/control_jobs.c:2285
-#, fuzzy
 msgid "copy image?"
 msgid_plural "copy images?"
 msgstr[0] "kopírovat obrázek?"
@@ -9983,49 +9973,40 @@ msgstr[2] "opravdu fyzicky zkopírovat %d obrázků do %s?"
 
 #: ../src/control/jobs/control_jobs.c:2304
 #: ../src/control/jobs/control_jobs.c:2313
-#, fuzzy
 msgid "local copy images"
 msgstr "lokální kopie obrázků"
 
 #: ../src/control/jobs/control_jobs.c:2322 ../src/libs/image.c:654
-#, fuzzy
 msgid "refresh EXIF"
-msgstr "obnovit EXIF"
+msgstr "aktualizovat EXIF"
 
 #: ../src/control/jobs/control_jobs.c:2415
 #: ../src/control/jobs/control_jobs.c:2447 ../src/dtgtk/thumbtable.c:3085
-#, fuzzy
 msgid "paste history"
-msgstr "historie vkládání"
+msgstr "vložit historii"
 
 #: ../src/control/jobs/control_jobs.c:2463 ../src/libs/copy_history.c:324
-#, fuzzy
 msgid "compress history"
 msgstr "komprimovat historii"
 
 #: ../src/control/jobs/control_jobs.c:2475 ../src/dtgtk/thumbtable.c:3089
 #: ../src/libs/copy_history.c:329
-#, fuzzy
 msgid "discard history"
 msgstr "zahodit historii"
 
 #: ../src/control/jobs/control_jobs.c:2483
-#, fuzzy
 msgid "no images nor styles selected!"
 msgstr "nebyly vybrány žádné obrázky ani styly!"
 
 #: ../src/control/jobs/control_jobs.c:2487
-#, fuzzy
 msgid "no styles selected!"
 msgstr "nebyly vybrány žádné styly!"
 
 #: ../src/control/jobs/control_jobs.c:2491
-#, fuzzy
 msgid "no images selected!"
 msgstr "není vybrán žádný obrázek!"
 
 #: ../src/control/jobs/control_jobs.c:2504
-#, fuzzy
 msgid "apply style(s)"
 msgstr "aplikovat styly"
 
@@ -12348,7 +12329,6 @@ msgid "copy history"
 msgstr "historie kopírování"
 
 #: ../src/dtgtk/thumbtable.c:3083
-#, fuzzy
 msgid "copy history parts"
 msgstr "kopírovat části historie"
 
@@ -17448,7 +17428,6 @@ msgstr "4:2:0"
 
 #: ../src/imageio/format/copy.c:109 ../src/libs/copy_history.c:305
 #: ../src/libs/image.c:627
-#, fuzzy
 msgid "copy"
 msgstr "kopírovat"
 
@@ -29346,12 +29325,11 @@ msgstr "historie úprav"
 
 # module description
 #: ../src/libs/copy_history.c:58
-#, fuzzy
 msgid ""
 "perform actions on the history\n"
 "stacks (edit histories) of the\n"
 "currently selected images"
-msgstr "vykoná změny v historii úprav aktuálně vybraných obrázků"
+msgstr "provádí změny v historii úprav aktuálně vybraných obrázků"
 
 #: ../src/libs/copy_history.c:113
 #, fuzzy
@@ -29364,7 +29342,6 @@ msgid "error loading file '%s'"
 msgstr "chyba při čtení souboru '%s'"
 
 #: ../src/libs/copy_history.c:229
-#, fuzzy
 msgid "delete images' history?"
 msgstr "vymazat historii obrázků?"
 
@@ -29377,12 +29354,10 @@ msgstr[1] "opravdu odstranit historii %d vybraných obrázků?"
 msgstr[2] "opravdu odstranit historii %d vybraných obrázků?"
 
 #: ../src/libs/copy_history.c:299
-#, fuzzy
 msgid "selective copy..."
-msgstr "selektivní výběr..."
+msgstr "kopírovat selektivně"
 
 #: ../src/libs/copy_history.c:300
-#, fuzzy
 msgid "choose which modules to copy from the source image"
 msgstr "vyberte, které moduly chcete zkopírovat ze zdrojového obrázku"
 
@@ -29418,7 +29393,9 @@ msgstr "použít historii úprav na všechny vybrané obrázky"
 msgid ""
 "compress history stack of\n"
 "all selected images"
-msgstr "komprimovat historii úprav všech vybraných obrázků"
+msgstr ""
+"komprimovat historii úprav\n"
+"všech vybraných obrázků"
 
 # tooltip
 #: ../src/libs/copy_history.c:330
@@ -29443,10 +29420,9 @@ msgstr "Otevřít doprovodný XMP soubor a použít jej na vybrané snímky"
 #: ../src/libs/copy_history.c:340
 #, fuzzy
 msgid "write history stack and tags to XMP sidecar files"
-msgstr "Zapsat historii úprav a tagy do doprovodných souborů XMP"
+msgstr "zapsat historii úprav a tagy do doprovodných souborů XMP"
 
 #: ../src/libs/duplicate.c:59
-#, fuzzy
 msgid "duplicate manager"
 msgstr "správce duplikátů"
 
@@ -29458,9 +29434,8 @@ msgid ""
 msgstr "Spravovat varianty obrázku."
 
 #: ../src/libs/duplicate.c:330
-#, fuzzy
 msgid "delete this duplicate"
-msgstr "Smazat tento duplikát"
+msgstr "smazat tento duplikát"
 
 #: ../src/libs/duplicate.c:409
 #, fuzzy
@@ -29668,12 +29643,10 @@ msgstr ""
 #: ../src/libs/export.c:1600 ../src/libs/export.c:1635
 #: ../src/libs/neural_restore.c:2368 ../src/libs/print_settings.c:2877
 #: ../src/libs/print_settings.c:2923
-#, fuzzy
 msgid "image settings"
 msgstr "nastavení obrázku"
 
 #: ../src/libs/export.c:1610 ../src/libs/print_settings.c:2911
-#, fuzzy
 msgid "output ICC profiles"
 msgstr "výstupní ICC profily"
 
@@ -29729,12 +29702,10 @@ msgstr "připojit historii"
 
 # tooltip
 #: ../src/libs/export.c:1656
-#, fuzzy
 msgid "select style to be applied on export"
-msgstr "Vyberte styl aplikovaný během exportu."
+msgstr "vyberte styl pro použití během exportu"
 
 #: ../src/libs/export.c:1659
-#, fuzzy
 msgid "temporary style to use while exporting"
 msgstr "dočasný styl pro použití při exportu"
 
@@ -30655,7 +30626,6 @@ msgstr ""
 "- kliknutí se shiftem pouze vybere daný modul bez dalších změn"
 
 #: ../src/libs/history.c:140
-#, fuzzy
 msgid "compress history stack"
 msgstr "komprimovat historii"
 
@@ -31164,22 +31134,18 @@ msgid "parameters"
 msgstr "parametery"
 
 #: ../src/libs/ioporder.c:200
-#, fuzzy
 msgid "v3.0 for RAW input"
 msgstr "v3.0 (RAW vstup)"
 
 #: ../src/libs/ioporder.c:208
-#, fuzzy
 msgid "v3.0 for JPEG/non-RAW input"
 msgstr "v3.0 (JPEG/ne-RAW vstup)"
 
 #: ../src/libs/ioporder.c:217
-#, fuzzy
 msgid "v5.0 for RAW input"
 msgstr "v5.0 (RAW vstup)"
 
 #: ../src/libs/ioporder.c:226
-#, fuzzy
 msgid "v5.0 for JPEG/non-RAW input"
 msgstr "v5.0 (JPEG/ne-RAW vstup)"
 
@@ -31193,9 +31159,8 @@ msgid "manage presets..."
 msgstr "spravovat presety…"
 
 #: ../src/libs/lib.c:566
-#, fuzzy
 msgid "nothing to save"
-msgstr "nic pro uložení"
+msgstr "nic k uložení"
 
 #: ../src/libs/lib.c:1275
 msgid "show module"
@@ -31215,12 +31180,10 @@ msgid "live view"
 msgstr "živý náhled"
 
 #: ../src/libs/live_view.c:325 ../src/libs/live_view.c:327
-#, fuzzy
 msgid "toggle live view"
 msgstr "přepnout živý náhled"
 
 #: ../src/libs/live_view.c:330 ../src/libs/live_view.c:332
-#, fuzzy
 msgid "zoom live view"
 msgstr "zvětšit živý náhled"
 
@@ -31539,6 +31502,7 @@ msgid "mode: sum"
 msgstr "režim: součet"
 
 #: ../src/libs/masks.c:1150
+#, fuzzy
 msgid "mode: exclusion"
 msgstr "režim : vyloučit"
 
@@ -31614,9 +31578,8 @@ msgid "display name"
 msgstr "název"
 
 #: ../src/libs/metadata.c:902 ../src/libs/metadata_view.c:1500
-#, fuzzy
 msgid "visible"
-msgstr "zobrazeno"
+msgstr "viditelný"
 
 # tooltip
 #: ../src/libs/metadata.c:909
@@ -31959,7 +31922,6 @@ msgid "effect"
 msgstr "efekt"
 
 #: ../src/libs/modulegroups.c:1651
-#, fuzzy
 msgid "modules: all"
 msgstr "moduly: vše"
 
@@ -31974,17 +31936,14 @@ msgid "effects"
 msgstr "efekty"
 
 #: ../src/libs/modulegroups.c:1689
-#, fuzzy
 msgid "workflow: beginner"
 msgstr "workflow: začátečník"
 
 #: ../src/libs/modulegroups.c:1742
-#, fuzzy
 msgid "workflow: display-referred"
 msgstr "workflow: display-referred"
 
 #: ../src/libs/modulegroups.c:1803
-#, fuzzy
 msgid "search only"
 msgstr "pouze hledat"
 
@@ -31995,19 +31954,16 @@ msgid "deprecated"
 msgstr "zastaralé"
 
 #: ../src/libs/modulegroups.c:1832
-#, fuzzy
 msgid "previous config"
-msgstr "minulá konfigurace"
+msgstr "předchozí konfigurace"
 
 #: ../src/libs/modulegroups.c:1834
-#, fuzzy
 msgid "previous layout"
-msgstr "minulé rozvržení"
+msgstr "předchozí uspořádání"
 
 #: ../src/libs/modulegroups.c:1838
-#, fuzzy
 msgid "previous config with new layout"
-msgstr "minulá konfigurace s novým rozvržením"
+msgstr "předchozí konfigurace s novým uspořádáním"
 
 #: ../src/libs/modulegroups.c:2015 ../src/libs/modulegroups.c:2542
 #: ../src/libs/modulegroups.c:2555
@@ -32929,7 +32885,6 @@ msgid "split"
 msgstr "dělená čára"
 
 #: ../src/libs/scopes/vectorscope.c:135
-#, fuzzy
 msgid "vectorscope"
 msgstr "vektoroskop"
 
@@ -33457,7 +33412,6 @@ msgid "delete tag"
 msgstr "vymazat tag"
 
 #: ../src/libs/tagging.c:2524
-#, fuzzy
 msgid "delete node"
 msgstr "vymazat uzel"
 
@@ -33480,7 +33434,6 @@ msgid "go to tag collection"
 msgstr "přejděte do sbírky značek"
 
 #: ../src/libs/tagging.c:2594
-#, fuzzy
 msgid "go back to work"
 msgstr "vrátit se do práce"
 
@@ -33572,9 +33525,8 @@ msgid "toggle sort by name or by count"
 msgstr "přepnout třídění podle názvu, nebo počtu"
 
 #: ../src/libs/tagging.c:3534
-#, fuzzy
 msgid "sort"
-msgstr "třídit"
+msgstr "seřadit"
 
 #: ../src/libs/tagging.c:3537
 #, fuzzy
@@ -34088,7 +34040,7 @@ msgstr "napovídač"
 #: ../src/libs/tools/hinter.c:98
 #, c-format
 msgid "%s in current collection"
-msgstr "%s v aktuální sbírce"
+msgstr "%s v této sbírce"
 
 #: ../src/libs/tools/image_infos.c:40
 msgid "image infos"
@@ -34663,7 +34615,7 @@ msgstr "vyberte, jak označit oříznuté pixely"
 #: ../src/views/darkroom.c:2980
 #, fuzzy
 msgid "mark with CFA color"
-msgstr "označte barvou CFA"
+msgstr "označit CFA barvou"
 
 #: ../src/views/darkroom.c:2980
 #, fuzzy
