@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-20 20:53+0200\n"
-"PO-Revision-Date: 2026-04-22 18:16+0200\n"
+"PO-Revision-Date: 2026-04-22 18:32+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -9129,65 +9129,53 @@ msgid "shade"
 msgstr "stín"
 
 #: ../src/common/wb_presets.c:62
-#, fuzzy
 msgid "incandescent"
 msgstr "žárovka"
 
 #: ../src/common/wb_presets.c:63
-#, fuzzy
 msgid "incandescent warm"
 msgstr "žárovka teplá"
 
 #. Same as "Incandescent":
 #: ../src/common/wb_presets.c:65
-#, fuzzy
 msgid "tungsten"
-msgstr "wolfram"
+msgstr "wolframová žárovka"
 
 #: ../src/common/wb_presets.c:66
-#, fuzzy
 msgid "fluorescent"
-msgstr "fluorescenční"
+msgstr "zářivka"
 
 #. In Canon cameras and some newer Nikon cameras:
 #: ../src/common/wb_presets.c:68
-#, fuzzy
 msgid "fluorescent high"
-msgstr "fluorescenční vysoká"
+msgstr "zářivka (high)"
 
 #: ../src/common/wb_presets.c:69
-#, fuzzy
 msgid "cool white fluorescent"
 msgstr "studená bílá zářivka"
 
 #: ../src/common/wb_presets.c:70
-#, fuzzy
 msgid "warm white fluorescent"
 msgstr "teplá bílá zářivka"
 
 #: ../src/common/wb_presets.c:71
-#, fuzzy
 msgid "daylight fluorescent"
 msgstr "zářivka denní světlo"
 
 #: ../src/common/wb_presets.c:72
-#, fuzzy
 msgid "neutral fluorescent"
-msgstr "neutrální fluorescenční"
+msgstr "neutrální zářivka"
 
 #: ../src/common/wb_presets.c:73
-#, fuzzy
 msgid "white fluorescent"
 msgstr "bílá zářivka"
 
 #. In some newer Nikon cameras:
 #: ../src/common/wb_presets.c:75
-#, fuzzy
 msgid "sodium-vapor fluorescent"
-msgstr "fluorescenční sodík-pára"
+msgstr "sodíková výbojka"
 
 #: ../src/common/wb_presets.c:76
-#, fuzzy
 msgid "day white fluorescent"
 msgstr "denní bílá zářivka"
 
@@ -9230,17 +9218,14 @@ msgid "spot WB"
 msgstr "bod ČB"
 
 #: ../src/common/wb_presets.c:91
-#, fuzzy
 msgid "manual WB"
 msgstr "ruční vyvážení bílé"
 
 #: ../src/common/wb_presets.c:92
-#, fuzzy
 msgid "camera WB"
 msgstr "vyvážení bílé fotoaparátu"
 
 #: ../src/common/wb_presets.c:93
-#, fuzzy
 msgid "auto WB"
 msgstr "automatické vyvážení bílé"
 
@@ -9323,7 +9308,7 @@ msgstr "Aplikace zůstane uzamčena dokud nebude dokončena práce na pozadí."
 
 #: ../src/control/control.c:478
 msgid "working..."
-msgstr "pracuji..."
+msgstr "načítám…"
 
 #: ../src/control/crawler.c:168
 #, fuzzy, c-format
