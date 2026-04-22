@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-20 20:53+0200\n"
-"PO-Revision-Date: 2026-04-22 18:32+0200\n"
+"PO-Revision-Date: 2026-04-22 19:07+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -3154,9 +3154,8 @@ msgstr "cílová bílá"
 #: ../build/lib/darktable/plugins/introspection_agx.c:574
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:194
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:289
-#, fuzzy
 msgid "base primaries"
-msgstr "základní primárky"
+msgstr "primární barvy"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:365
 #: ../build/lib/darktable/plugins/introspection_agx.c:578
@@ -3168,7 +3167,6 @@ msgstr "vypnout úpravy"
 #: ../build/lib/darktable/plugins/introspection_agx.c:582
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:152
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:261
-#, fuzzy
 msgid "red attenuation"
 msgstr "utlumení červené"
 
@@ -3176,7 +3174,6 @@ msgstr "utlumení červené"
 #: ../build/lib/darktable/plugins/introspection_agx.c:586
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:158
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:265
-#, fuzzy
 msgid "red rotation"
 msgstr "rotace červené"
 
@@ -3184,7 +3181,6 @@ msgstr "rotace červené"
 #: ../build/lib/darktable/plugins/introspection_agx.c:590
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:164
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:269
-#, fuzzy
 msgid "green attenuation"
 msgstr "utlumení zelené"
 
@@ -3192,7 +3188,6 @@ msgstr "utlumení zelené"
 #: ../build/lib/darktable/plugins/introspection_agx.c:594
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:170
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:273
-#, fuzzy
 msgid "green rotation"
 msgstr "rotace zelené"
 
@@ -3200,7 +3195,6 @@ msgstr "rotace zelené"
 #: ../build/lib/darktable/plugins/introspection_agx.c:598
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:176
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:277
-#, fuzzy
 msgid "blue attenuation"
 msgstr "utlumení modré"
 
@@ -3208,7 +3202,6 @@ msgstr "utlumení modré"
 #: ../build/lib/darktable/plugins/introspection_agx.c:602
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:182
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:281
-#, fuzzy
 msgid "blue rotation"
 msgstr "rotace modré"
 
@@ -3269,14 +3262,12 @@ msgstr "zvrátit"
 #: ../build/lib/darktable/plugins/introspection_agx.c:652
 #: ../src/common/colorspaces.c:1426 ../src/common/colorspaces.c:1774
 #: ../src/iop/colorout.c:852
-#, fuzzy
 msgid "export profile"
 msgstr "exportní profil"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:653
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:308
 #: ../src/iop/colorin.c:2054
-#, fuzzy
 msgid "working profile"
 msgstr "pracovní profil"
 
@@ -6383,7 +6374,6 @@ msgstr "sklonit"
 
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:140
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:253
-#, fuzzy
 msgid "color processing"
 msgstr "zpracování barev"
 
@@ -10092,7 +10082,7 @@ msgid "added time offset to %d images"
 msgstr "přidán časový posun k %d obrázkům"
 
 #: ../src/control/jobs/control_jobs.c:2724
-#, fuzzy, c-format
+#, c-format
 msgid "set date/time of %d images"
 msgstr "nastavit datum/čas %d obrázků"
 
@@ -10106,7 +10096,7 @@ msgid "write sidecar files"
 msgstr "zapsat pomocné soubory"
 
 #: ../src/control/jobs/control_jobs.c:3010 ../src/control/jobs/film_jobs.c:297
-#, fuzzy, c-format
+#, c-format
 msgid "importing %d image"
 msgid_plural "importing %d images"
 msgstr[0] "importuji %d obrázek"
@@ -10114,7 +10104,7 @@ msgstr[1] "importuji %d obrázky"
 msgstr[2] "importuji %d obrázků"
 
 #: ../src/control/jobs/control_jobs.c:3061
-#, fuzzy, c-format
+#, c-format
 msgid "importing %d/%d image"
 msgid_plural "importing %d/%d images"
 msgstr[0] "importuji obrázek %d/%d"
@@ -10122,7 +10112,7 @@ msgstr[1] "importuji obrázek %d/%d"
 msgstr[2] "importuji obrázek %d/%d"
 
 #: ../src/control/jobs/control_jobs.c:3069
-#, fuzzy, c-format
+#, c-format
 msgid "imported %d image"
 msgid_plural "imported %d images"
 msgstr[0] "importován %d obrázek"
@@ -10130,7 +10120,6 @@ msgstr[1] "importovány %d obrázky"
 msgstr[2] "importováno %d obrázků"
 
 #: ../src/control/jobs/film_jobs.c:73 ../src/control/jobs/film_jobs.c:110
-#, fuzzy
 msgid "import images"
 msgstr "importovat obrázky"
 
@@ -10140,12 +10129,11 @@ msgid "no supported images were found to be imported"
 msgstr "nebyly nalezeny žádné podporované obrázky k importu"
 
 #: ../src/control/jobs/image_jobs.c:75
-#, fuzzy, c-format
+#, c-format
 msgid "importing image %s"
 msgstr "importuji obrázek %s"
 
 #: ../src/control/jobs/image_jobs.c:108
-#, fuzzy
 msgid "import image"
 msgstr "import obrázku"
 
@@ -10375,7 +10363,6 @@ msgstr "obrácený"
 #: ../src/gui/workspace.c:322 ../src/gui/workspace.c:526
 #: ../src/gui/preferences_ai.c:1563 ../src/imageio/format/webp.c:435
 #: ../src/libs/styles.c:1029
-#, fuzzy
 msgid "default"
 msgstr "výchozí"
 
@@ -10405,13 +10392,11 @@ msgstr "kreslená maska"
 
 #: ../src/develop/blend_gui.c:159 ../src/develop/blend_gui.c:2562
 #: ../src/develop/blend_gui.c:3457 ../src/develop/imageop.c:2856
-#, fuzzy
 msgid "parametric mask"
 msgstr "parametrická maska"
 
 #: ../src/develop/blend_gui.c:161 ../src/develop/blend_gui.c:2984
 #: ../src/develop/blend_gui.c:3480 ../src/develop/imageop.c:2858
-#, fuzzy
 msgid "raster mask"
 msgstr "rastrová maska"
 
@@ -10421,12 +10406,10 @@ msgid "drawn & parametric mask"
 msgstr "kreslená a parametrická maska"
 
 #: ../src/develop/blend_gui.c:168
-#, fuzzy
 msgid "exclusive"
 msgstr "exkluzivně"
 
 #: ../src/develop/blend_gui.c:169
-#, fuzzy
 msgid "inclusive"
 msgstr "inkluzivně"
 
@@ -18249,7 +18232,6 @@ msgstr "Aplikuje tónovou křivku inspirovanou mapováním AgX v Blenderu."
 #: ../src/iop/rgbcurve.c:142 ../src/iop/rgblevels.c:121 ../src/iop/shadhi.c:141
 #: ../src/iop/sigmoid.c:206 ../src/iop/tonecurve.c:179
 #: ../src/iop/toneequal.c:329
-#, fuzzy
 msgid "corrective and creative"
 msgstr "korektivní a kreativní"
 
@@ -18275,7 +18257,6 @@ msgstr "korektivní a kreativní"
 #: ../src/iop/splittoning.c:103 ../src/iop/splittoning.c:105
 #: ../src/iop/spots.c:67 ../src/iop/spots.c:69 ../src/iop/toneequal.c:330
 #: ../src/iop/velvia.c:98 ../src/iop/velvia.c:100
-#, fuzzy
 msgid "linear, RGB, scene-referred"
 msgstr "lineární, RGB, scene-referred"
 
@@ -18286,7 +18267,6 @@ msgstr "lineární, RGB, scene-referred"
 #: ../src/iop/profile_gamma.c:101 ../src/iop/rgbcurve.c:144
 #: ../src/iop/rgblevels.c:123 ../src/iop/sigmoid.c:207 ../src/iop/vignette.c:119
 #: ../src/iop/watermark.c:462
-#, fuzzy
 msgid "non-linear, RGB"
 msgstr "nelineární, RGB"
 
@@ -18296,7 +18276,6 @@ msgstr "nelineární, RGB"
 #: ../src/iop/rgbcurve.c:143 ../src/iop/rgbcurve.c:145
 #: ../src/iop/rgblevels.c:122 ../src/iop/sigmoid.c:207 ../src/iop/soften.c:100
 #: ../src/iop/soften.c:102
-#, fuzzy
 msgid "linear, RGB, display-referred"
 msgstr "lineární, RGB, display-referred"
 
@@ -18532,7 +18511,6 @@ msgid "relative exposure above mid-gray (white point)"
 msgstr "Relativní expozice nad střední šedou (bílý bod)"
 
 #: ../src/iop/agx.c:2048
-#, fuzzy
 msgid "pick the white point"
 msgstr "vybrat bílý bod"
 
@@ -18543,7 +18521,6 @@ msgid "relative exposure below mid-gray (black point)"
 msgstr "Relativní expozice pod střední šedou (černý bod)"
 
 #: ../src/iop/agx.c:2057
-#, fuzzy
 msgid "pick the black point"
 msgstr "vybrat černý bod"
 
@@ -18569,7 +18546,6 @@ msgid "set black and white relative exposure using the selected area"
 msgstr "Upravte relativní expozici světel a stínů na základě vybrané oblasti."
 
 #: ../src/iop/agx.c:2074 ../src/iop/agx.c:2081
-#, fuzzy
 msgid "exposure range"
 msgstr "rozsah expozice"
 
@@ -18585,7 +18561,6 @@ msgid "read exposure"
 msgstr "vyčíst expozici"
 
 #: ../src/iop/agx.c:2104
-#, fuzzy
 msgid "blender-like"
 msgstr "jako v Blenderu"
 
@@ -18595,9 +18570,8 @@ msgid "unmodified"
 msgstr "nezměněno"
 
 #: ../src/iop/agx.c:2260 ../src/iop/sigmoid.c:923 ../src/iop/sigmoid.c:927
-#, fuzzy
 msgid "primaries"
-msgstr "primárky"
+msgstr "primární barvy"
 
 #: ../src/iop/agx.c:2260
 #, fuzzy
@@ -19038,7 +19012,6 @@ msgid "rectangle"
 msgstr "obdélník"
 
 #: ../src/iop/ashift.c:6143
-#, fuzzy
 msgid "lines"
 msgstr "linie"
 
@@ -19287,7 +19260,6 @@ msgid "make effect stronger or weaker"
 msgstr "zvolit účinek silnější nebo slabší"
 
 #: ../src/iop/basecurve.c:305
-#, fuzzy
 msgid "neutral"
 msgstr "neutrální"
 
@@ -23989,12 +23961,10 @@ msgstr ""
 "toto lze použít k domalování světel."
 
 #: ../src/iop/dither.c:104
-#, fuzzy
 msgid "dither or posterize"
 msgstr "dithering, nebo posterizace"
 
 #: ../src/iop/dither.c:109
-#, fuzzy
 msgid "dithering|posterization|reduce bit depth"
 msgstr "dithering|posterizace|redukce bitové hloubky"
 
@@ -27738,9 +27708,8 @@ msgstr "obnovit část původní čistoty po vložení"
 
 # module section title
 #: ../src/iop/sigmoid.c:966
-#, fuzzy
 msgid "display luminance"
-msgstr "jas zobrazení"
+msgstr "jas displeje"
 
 #: ../src/iop/sigmoid.c:967
 #, fuzzy
