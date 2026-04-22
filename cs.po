@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-20 20:53+0200\n"
-"PO-Revision-Date: 2026-04-22 22:28+0200\n"
+"PO-Revision-Date: 2026-04-22 22:54+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -9548,7 +9548,7 @@ msgstr[1] "slučuji %d obrázky"
 msgstr[2] "slučuji %d obrázků"
 
 #: ../src/control/jobs/control_jobs.c:712
-#, fuzzy, c-format
+#, c-format
 msgid "wrote merged HDR `%s'"
 msgstr "sloučené HDR `%s' uloženo"
 
@@ -16878,7 +16878,7 @@ msgstr "HDR"
 #: ../src/gui/presets.c:59 ../src/iop/monochrome.c:75 ../src/libs/image.c:661
 #: ../src/libs/metadata_view.c:384
 msgid "monochrome"
-msgstr "monochromatický"
+msgstr "černobílý"
 
 #: ../src/gui/presets.c:153
 #, fuzzy, c-format
@@ -30907,9 +30907,8 @@ msgid "how to handle existing metadata"
 msgstr "jak zacházet se stávajícími metadaty"
 
 #: ../src/libs/image.c:650
-#, fuzzy
 msgid "merge"
-msgstr "spojit"
+msgstr "sloučit"
 
 #: ../src/libs/image.c:655
 #, fuzzy
