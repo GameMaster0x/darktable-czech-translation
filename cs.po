@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-20 20:53+0200\n"
-"PO-Revision-Date: 2026-04-22 14:13+0200\n"
+"PO-Revision-Date: 2026-04-22 16:44+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -1029,9 +1029,8 @@ msgstr "lighttable"
 #: ../build/bin/preferences_gen.h:2658 ../build/bin/preferences_gen.h:3009
 #: ../build/bin/preferences_gen.h:3829 ../src/gui/preferences.c:344
 #: ../src/gui/preferences_ai.c:1288
-#, fuzzy
 msgid "general"
-msgstr "hlavní"
+msgstr "obecné"
 
 #: ../build/bin/preferences_gen.h:2668
 #, fuzzy
@@ -15840,7 +15839,7 @@ msgstr "Zobrazení"
 #: ../src/gui/gtk.c:1387
 msgctxt "menu"
 msgid "Lighttable"
-msgstr "Katalog"
+msgstr "Lighttable"
 
 #: ../src/gui/gtk.c:1388
 msgctxt "menu"
