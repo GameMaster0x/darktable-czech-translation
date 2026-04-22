@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-20 20:53+0200\n"
-"PO-Revision-Date: 2026-04-22 13:58+0200\n"
+"PO-Revision-Date: 2026-04-22 14:13+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -12874,38 +12874,32 @@ msgstr "$(MONTH.SHORT) - zkrácený název měsíce podle aktuální lokalizace"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:960
 #: ../src/gui/gtkentry.c:61
-#, fuzzy
 msgid "$(DAY) - day"
 msgstr "$(DAY) - den"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:961
 #: ../src/gui/gtkentry.c:62
-#, fuzzy
 msgid "$(HOUR) - hour"
 msgstr "$(HOUR) - hodina"
 
 #. _("$(HOUR.AMPM) - hour, 12-hour clock"),  -- not implemented
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:963
 #: ../src/gui/gtkentry.c:64
-#, fuzzy
 msgid "$(MINUTE) - minute"
 msgstr "$(MINUTE) - minuta"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:964
 #: ../src/gui/gtkentry.c:65
-#, fuzzy
 msgid "$(SECOND) - second"
 msgstr "$(SECOND) - sekunda"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:965
 #: ../src/gui/gtkentry.c:66
-#, fuzzy
 msgid "$(MSEC) - millisecond"
 msgstr "$(MSEC) - milisekunda"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:966
 #: ../src/gui/gtkentry.c:69
-#, fuzzy
 msgid "$(EXIF.YEAR) - EXIF year"
 msgstr "$(EXIF.YEAR) - rok z EXIF"
 
@@ -12917,7 +12911,6 @@ msgstr "$(EXIF.YEAR.SHORT) - rok z EXIF bez století"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:968
 #: ../src/gui/gtkentry.c:71
-#, fuzzy
 msgid "$(EXIF.MONTH) - EXIF month"
 msgstr "$(EXIF_MONTH) - měsíc z EXIF"
 
@@ -12942,32 +12935,27 @@ msgstr ""
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:971
 #: ../src/gui/gtkentry.c:74
-#, fuzzy
 msgid "$(EXIF.DAY) - EXIF day"
 msgstr "$(EXIF.DAY) - den z EXIF"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:972
 #: ../src/gui/gtkentry.c:75
-#, fuzzy
 msgid "$(EXIF.HOUR) - EXIF hour"
-msgstr "$(EXIF.HOUR) - hodina z EXIF"
+msgstr "$(EXIF.HOUR) - hodiny z EXIF"
 
 #. _("$(EXIF.HOUR.AMPM) - EXIF hour, 12-hour clock") ..  "\n" .. -- not implemented
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:974
 #: ../src/gui/gtkentry.c:77
-#, fuzzy
 msgid "$(EXIF.MINUTE) - EXIF minute"
-msgstr "$(EXIF.MINUTE) - minuta z EXIF"
+msgstr "$(EXIF.MINUTE) - minutay z EXIF"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:975
 #: ../src/gui/gtkentry.c:78
-#, fuzzy
 msgid "$(EXIF.SECOND) - EXIF second"
 msgstr "$(EXIF.SECOND) - sekundy z EXIF"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:976
 #: ../src/gui/gtkentry.c:79
-#, fuzzy
 msgid "$(EXIF.MSEC) - EXIF millisecond"
 msgstr "$(EXIF_MSEC) - milisekundy z EXIF"
 
@@ -12975,13 +12963,11 @@ msgstr "$(EXIF_MSEC) - milisekundy z EXIF"
 #. _("$(EXIF.TIME.REGIONAL) - localized EXIF time"),  -- not implemented
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:979
 #: ../src/gui/gtkentry.c:80
-#, fuzzy
 msgid "$(EXIF.ISO) - ISO value"
-msgstr "$(EXIF.ISO) - hodnota ISO"
+msgstr "$(EXIF.ISO) - hodnota ISO z EXIF"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:980
 #: ../src/gui/gtkentry.c:83
-#, fuzzy
 msgid "$(EXIF.EXPOSURE) - EXIF exposure"
 msgstr "$(EXIF.EXPOSURE) - expozice z EXIF"
 
@@ -12994,27 +12980,24 @@ msgstr "$(EXIF.EXPOSURE.BIAS) - posun expozice z EXIF"
 #. _("$(EXIF.EXPOSURE.PROGRAM) - EXIF exposure program"),  -- not implemented
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:983
 #: ../src/gui/gtkentry.c:84
-#, fuzzy
 msgid "$(EXIF.APERTURE) - EXIF aperture"
 msgstr "$(EXIF.APERTURE) - clona z EXIF"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:984
 #: ../src/gui/gtkentry.c:85
-#, fuzzy
 msgid "$(EXIF.CROP_FACTOR) - EXIF crop factor"
-msgstr "$(EXIF.CROP_FACTOR) - EXIF crop factor"
+msgstr "$(EXIF.CROP_FACTOR) - crop faktor z EXIF"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:985
 #: ../src/gui/gtkentry.c:86
-#, fuzzy
 msgid "$(EXIF.FOCAL.LENGTH) - EXIF focal length"
 msgstr "$(EXIF.FOCAL.LENGTH) - ohnisková vzdálenost z EXIF"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:986
 #: ../src/gui/gtkentry.c:87
-#, fuzzy
 msgid "$(EXIF.FOCAL.LENGTH.EQUIV) - EXIF 35 mm equivalent focal length"
-msgstr "$(EXIF.FOCAL.LENGTH.EQUIV) - EXIF 35 mm equivalent fokální vzdálenost"
+msgstr ""
+"$(EXIF.FOCAL.LENGTH.EQUIV) - 35 mm equivalent ohnisková vzdálenost z EXIF"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:987
 #: ../src/gui/gtkentry.c:88
@@ -13024,40 +13007,34 @@ msgstr "$(EXIF_FOCUS_DISTANCE) - ohnisková vzdálenost z EXIF"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:988
 #: ../src/gui/gtkentry.c:89
-#, fuzzy
 msgid "$(EXIF.MAKER) - camera maker"
-msgstr "$(EXIF.MAKER) - výrobce fotoaparátu"
+msgstr "$(EXIF.MAKER) - výrobce fotoaparátu z EXIF"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:989
 #: ../src/gui/gtkentry.c:90
-#, fuzzy
 msgid "$(EXIF.MODEL) - camera model"
-msgstr "$(EXIF.MODEL) - model fotoaparátu"
+msgstr "$(EXIF.MODEL) - model fotoaparátu z EXIF"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:990
 #: ../src/gui/gtkentry.c:91
-#, fuzzy
 msgid "$(EXIF.WHITEBALANCE) - EXIF selected white balance"
 msgstr "$(EXIF_FOCUS_DISTANCE) - vyvážení bílé z EXIF"
 
 #. not implemented
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:991
 #: ../src/gui/gtkentry.c:92
-#, fuzzy
 msgid "$(EXIF.METERING) - EXIF exposure metering mode"
 msgstr "$(EXIF.EXPOSURE) - způsob měření expozice z EXIF"
 
 #. not implemented
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:992
 #: ../src/gui/gtkentry.c:93
-#, fuzzy
 msgid "$(EXIF.LENS) - lens"
 msgstr "$(EXIF.LENS) - objektiv"
 
 #. _("$(EXIF.FLASH.ICON) - icon indicating whether flash was used") ..  -- not implemented
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:994
 #: ../src/gui/gtkentry.c:95
-#, fuzzy
 msgid "$(EXIF.FLASH) - was flash used (yes/no/--)"
 msgstr "$(EXIF.FLASH) - byl použit blesk (ano/ne/--)"
 
@@ -13068,19 +13045,16 @@ msgstr "$(EXIF.FLASH) - byl použit blesk (ano/ne/--)"
 #. _("$(GPS.LOCATION.ICON) - icon indicating whether GPS location is known"),-- not implemented
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:999
 #: ../src/gui/gtkentry.c:100
-#, fuzzy
 msgid "$(LONGITUDE) - longitude"
 msgstr "$(LONGITUDE) - zeměpisná délka"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1000
 #: ../src/gui/gtkentry.c:101
-#, fuzzy
 msgid "$(LATITUDE) - latitude"
 msgstr "$(LATITUDE) - zeměpisná šířka"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1001
 #: ../src/gui/gtkentry.c:102
-#, fuzzy
 msgid "$(ELEVATION) - elevation"
 msgstr "$(ELEVATION) - nadmořská výška"
 
@@ -13101,49 +13075,40 @@ msgid "$(TITLE) - title from metadata"
 msgstr "$(TITLE) - název z metadat"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1007
-#, fuzzy
 msgid "$(Xmp.dc.title) - title from metadata"
-msgstr "$(TITLE) - název z metadat"
+msgstr "$(Xmp.dc.title) - název z metadat"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1008
-#, fuzzy
 msgid "$(DESCRIPTION) - description from metadata"
 msgstr "$(DESCRIPTION) - popis z metadat"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1009
-#, fuzzy
 msgid "$(Xmp.dc.description) - description from metadata"
-msgstr "$(DESCRIPTION) - popis z metadat"
+msgstr "$(Xmp.dc.description) - popis z metadat"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1010
-#, fuzzy
 msgid "$(CREATOR) - creator from metadata"
 msgstr "$(CREATOR) - tvůrce z metadat"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1011
-#, fuzzy
 msgid "$(Xmp.dc.creator) - creator from metadata"
-msgstr "$(CREATOR) - tvůrce z metadat"
+msgstr "$(Xmp.dc.creator) - tvůrce z metadat"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1012
-#, fuzzy
 msgid "$(PUBLISHER) - publisher from metadata"
 msgstr "$(PUBLISHER) – vydavatel z metadat"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1013
-#, fuzzy
 msgid "$(Xmp.dc.publisher) - publisher from metadata"
-msgstr "$(PUBLISHER) – vydavatel z metadat"
+msgstr "$(Xmp.dc.publisher) - vydavatel z metadat"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1014
-#, fuzzy
 msgid "$(RIGHTS) - rights from metadata"
 msgstr "$(RIGHTS) - práva z metadat"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1015
-#, fuzzy
 msgid "$(Xmp.dc.rights) - rights from metadata"
-msgstr "$(RIGHTS) - práva z metadat"
+msgstr "$(Xmp.dc.rights) - práva z metadat"
 
 #. _("$(TAGS) - tags as set in metadata settings"),
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1017
@@ -13160,26 +13125,22 @@ msgstr "$(SIDECAR_TXT) - obsah doprovodného souboru (pokud existuje)"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1019
 #: ../src/gui/gtkentry.c:113
-#, fuzzy
 msgid "$(FOLDER.PICTURES) - pictures folder"
-msgstr "$(FOLDER.PICTURES) - složka obrázky"
+msgstr "$(FOLDER.PICTURES) - složka Obrázky"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1020
 #: ../src/gui/gtkentry.c:114
-#, fuzzy
 msgid "$(FOLDER.HOME) - home folder"
 msgstr "$(FOLDER.HOME) - domovská složka"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1021
 #: ../src/gui/gtkentry.c:115
-#, fuzzy
 msgid "$(FOLDER.DESKTOP) - desktop folder"
-msgstr "$(FOLDER.DESKTOP) - složka plocha"
+msgstr "$(FOLDER.DESKTOP) - složka Plocha"
 
 #. _("$(OPENCL.ACTIVATED) - whether OpenCL is activated"),
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1023
 #: ../src/gui/gtkentry.c:112
-#, fuzzy
 msgid "$(USERNAME) - login name"
 msgstr "$(USERNAME) - přihlašovací jméno"
 
@@ -13263,7 +13224,7 @@ msgstr "$(USERNAME) - přihlašovací jméno"
 #: ../src/external/lua-scripts/official/apply_camera_style.lua:99
 #, fuzzy
 msgid "apply camera style"
-msgstr "aplikovat styl fotoaparátu"
+msgstr "použít styl fotoaparátu"
 
 #. name of script
 #: ../src/external/lua-scripts/official/apply_camera_style.lua:100
@@ -13374,9 +13335,8 @@ msgid "check for updates"
 msgstr "vyhledat aktualizace"
 
 #: ../src/external/lua-scripts/official/check_for_updates.lua:49
-#, fuzzy
 msgid "check for newer darktable releases"
-msgstr "Vyhledat novější verzi darktable."
+msgstr "vyhledat novější verzi darktable"
 
 #. function to destory the script
 #. set to hide for libs since we can't destroy them commpletely yet
@@ -34205,12 +34165,11 @@ msgid "hinter"
 msgstr "napovídač"
 
 #: ../src/libs/tools/hinter.c:98
-#, fuzzy, c-format
+#, c-format
 msgid "%s in current collection"
-msgstr "%s v aktuální kolekci"
+msgstr "%s v aktuální sbírce"
 
 #: ../src/libs/tools/image_infos.c:40
-#, fuzzy
 msgid "image infos"
 msgstr "info o obrázku"
 
@@ -34364,12 +34323,10 @@ msgid "timeline"
 msgstr "časová osa"
 
 #: ../src/libs/tools/timeline.c:1421
-#, fuzzy
 msgid "start selection"
-msgstr "start výběru"
+msgstr "začátek výběru"
 
 #: ../src/libs/tools/timeline.c:1422
-#, fuzzy
 msgid "stop selection"
 msgstr "konec výběru"
 
@@ -34520,39 +34477,32 @@ msgstr "kontrolní náhled"
 
 #. fail :(
 #: ../src/views/darkroom.c:947 ../src/views/print.c:318
-#, fuzzy
 msgid "no image to open!"
-msgstr "není obrázek pro otevření!"
+msgstr "žádný obrázek k otevření!"
 
 #: ../src/views/darkroom.c:973
-#, fuzzy
 msgid "file not found"
 msgstr "soubor nenalezen"
 
 #: ../src/views/darkroom.c:977
-#, fuzzy
 msgid "unspecified failure"
 msgstr "nespecifikovaná chyba"
 
 #: ../src/views/darkroom.c:980
-#, fuzzy
 msgid "unsupported file format"
 msgstr "nepodporovaný formát souboru"
 
 #: ../src/views/darkroom.c:983
-#, fuzzy
 msgid "unsupported camera model"
 msgstr "nepodporovaný model fotoaparátu"
 
 #: ../src/views/darkroom.c:986
-#, fuzzy
 msgid "unsupported feature in file"
 msgstr "nepodporovaná funkcionalita v souboru"
 
 #: ../src/views/darkroom.c:989
-#, fuzzy
 msgid "file appears corrupt"
-msgstr "Soubor vypadá poškozený."
+msgstr "soubor vypadá poškozený"
 
 #: ../src/views/darkroom.c:992
 msgid "I/O error"
@@ -34563,7 +34513,7 @@ msgid "cache full"
 msgstr "Vyrovnávací paměť plná."
 
 #: ../src/views/darkroom.c:998
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "image `%s' could not be loaded\n"
 "%s"
@@ -35533,7 +35483,6 @@ msgstr "přepnout na klasické okno, které po uvolnění klíče zůstane otev�
 
 #. we add the mouse actions too
 #: ../src/views/view.c:1630
-#, fuzzy
 msgid "mouse actions"
 msgstr "akce myši"
 
