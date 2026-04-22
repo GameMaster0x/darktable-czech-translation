@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-20 20:53+0200\n"
-"PO-Revision-Date: 2026-04-22 16:44+0200\n"
+"PO-Revision-Date: 2026-04-22 18:16+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -280,7 +280,7 @@ msgid ""
 "ignore EXIF rating. if not set and EXIF rating is found, it overrides "
 "'initial rating'"
 msgstr ""
-"ignorovat EXIF hodnocení\n"
+"ignoruje EXIF hodnocení\n"
 "pokud není aktivováno a je nalezeno hodnocení EXIF, přepíše „výchozí "
 "hodnocení“"
 
@@ -950,9 +950,9 @@ msgstr "kořenová složka filmového pásu"
 #: ../build/bin/preferences_gen.h:4644 ../build/bin/preferences_gen.h:4661
 #: ../build/bin/preferences_gen.h:4685 ../build/bin/preferences_gen.h:4751
 #: ../build/bin/preferences_gen.h:4769 ../build/bin/preferences_gen.h:4843
-#, fuzzy, c-format
+#, c-format
 msgid "double click to reset to `%s'"
-msgstr "dvojklik pro reset na `%s'"
+msgstr "dvojitým kliknutím resetujete na `%s'"
 
 #: ../build/bin/preferences_gen.h:2582
 #, fuzzy
@@ -1292,7 +1292,6 @@ msgstr ""
 "neaktivní ve světlé komoře."
 
 #: ../build/bin/preferences_gen.h:2916
-#, fuzzy
 msgid "reset cached thumbnails"
 msgstr "resetovat miniatury uložené v mezipaměti"
 
@@ -1403,9 +1402,9 @@ msgstr "ohraničení obrazu v režimu editace"
 #: ../build/bin/preferences_gen.h:4719 ../build/bin/preferences_gen.h:4797
 #: ../build/bin/preferences_gen.h:4825 ../build/bin/preferences_gen.h:4888
 #: ../build/bin/preferences_gen.h:4950 ../build/bin/preferences_gen.h:4979
-#, fuzzy, c-format
+#, c-format
 msgid "double click to reset to `%d'"
-msgstr "dvojklikem vraťte na `%d'"
+msgstr "dvojitým kliknutím resetujete na `%d'"
 
 # tooltip
 #: ../build/bin/preferences_gen.h:3113
@@ -7347,7 +7346,7 @@ msgstr "nedefinováno"
 #: ../src/common/collection.c:2919
 #, c-format
 msgid "<b>%d</b> image (#<b>%d</b>) selected of <b>%d</b>"
-msgstr "<b>%d</b> obrázek (#<b>%d</b>) vybraný z <b>%d</b>"
+msgstr "vybrán <b>%d</b> obrázek (#<b>%d</b>) z <b>%d</b>"
 
 #: ../src/common/collection.c:2926
 #, c-format
@@ -10758,7 +10757,7 @@ msgid ""
 "press 'c' to toggle view of channel data.\n"
 "press 'm' to toggle mask view."
 msgstr ""
-"Dvojklikem resetujte.\n"
+"dvojklikem resetujete\n"
 "Tlačítko 'a' přepíná dostupné režimy posuvníku.\n"
 "Tlačítko 'c' přepíná zobrazení kanálu dat.\n"
 "Tlačítko 'm' přepíná zobrazení masky."
@@ -10780,7 +10779,6 @@ msgstr ""
 #: ../src/iop/toneequal.c:3261 ../src/iop/toneequal.c:3264
 #: ../src/iop/toneequal.c:3321 ../src/iop/toneequal.c:3331
 #: ../src/iop/toneequal.c:3391 ../src/views/darkroom.c:3069
-#, fuzzy
 msgid " EV"
 msgstr " EV"
 
@@ -12152,13 +12150,12 @@ msgid "date"
 msgstr "datum"
 
 #: ../src/dtgtk/range.c:954 ../src/dtgtk/range.c:1008
-#, fuzzy
 msgid ""
 "click to select date\n"
 "double-click to use the date directly"
 msgstr ""
-"klikni pro výběr data\n"
-"dvojklik pro přímé použití data"
+"klikněte pro výběr data\n"
+"dvojklikněte pro přímé použití data"
 
 #: ../src/dtgtk/range.c:963
 msgid "years: "
@@ -12201,9 +12198,8 @@ msgid "current date: "
 msgstr "aktuální datum: "
 
 #: ../src/dtgtk/resetlabel.c:64 ../src/libs/metadata.c:597
-#, fuzzy
 msgid "double-click to reset"
-msgstr "dvojklik pro reset"
+msgstr "pro reset dvojklikněte"
 
 #. loop through the tabke of path preferences and populate the widgets
 #: ../src/dtgtk/thumbnail.c:162 ../src/dtgtk/thumbnail.c:195
@@ -15178,13 +15174,12 @@ msgstr ""
 "stisknutím Delete obnovíte výchozí zkratku"
 
 #: ../src/gui/accelerators.c:1074
-#, fuzzy
 msgid ""
 "\n"
 "double-click to add new shortcut"
 msgstr ""
 "\n"
-"dvojklik přidá novou zkratku"
+"dvojklikem přidáte novou zkratku"
 
 #: ../src/gui/accelerators.c:1086
 #, fuzzy
@@ -15201,13 +15196,12 @@ msgstr ""
 "kliknutím pravým tlačítkem zobrazíte akci vybrané zkratky"
 
 #: ../src/gui/accelerators.c:1091
-#, fuzzy
 msgid ""
 "\n"
 "double-click to define new shortcut"
 msgstr ""
 "\n"
-"dvojklik definujte novou zkratku"
+"dvojklikem definujte novou zkratku"
 
 #: ../src/gui/accelerators.c:1107
 #, fuzzy
@@ -16475,9 +16469,8 @@ msgid "interface language"
 msgstr "jazyk rozhraní"
 
 #: ../src/gui/preferences.c:368
-#, fuzzy
 msgid "double-click to reset to the system language"
-msgstr "dvojklik resetuje na jazyk systému"
+msgstr "dvojklikem resetujete na jazyk systému"
 
 #: ../src/gui/preferences.c:371
 #, fuzzy
@@ -27335,7 +27328,6 @@ msgstr "náhled jedné stupnice"
 
 #. shapes selected (label)
 #: ../src/iop/retouch.c:2621
-#, fuzzy
 msgid "shape selected:"
 msgstr "vybraný tvar:"
 
@@ -27957,7 +27949,6 @@ msgstr "nepodařilo se přečíst informace o vyvážení bílé z fotoaparátu 
 #. old "camera". reason for change: all other RAW development
 #. tools use "As Shot" or "shot"
 #: ../src/iop/temperature.c:1667
-#, fuzzy
 msgctxt "white balance"
 msgid "as shot"
 msgstr "jako snímek"
@@ -27970,7 +27961,6 @@ msgid "from image area"
 msgstr "z část obrázku"
 
 #: ../src/iop/temperature.c:1671
-#, fuzzy
 msgctxt "white balance"
 msgid "user modified"
 msgstr "uživatelsky definovaný"
@@ -28019,7 +28009,6 @@ msgid "blue channel coefficient"
 msgstr "koeficient modrého kanálu"
 
 #: ../src/iop/temperature.c:2001
-#, fuzzy
 msgid "emerald"
 msgstr "smaragdová"
 
@@ -28029,7 +28018,6 @@ msgid "emerald channel coefficient"
 msgstr "koeficient smaragdového kanálu"
 
 #: ../src/iop/temperature.c:2077
-#, fuzzy
 msgid "as shot"
 msgstr "jako snímek"
 
@@ -28395,14 +28383,12 @@ msgstr "+0 EV"
 
 #. Advanced view
 #: ../src/iop/toneequal.c:3278
-#, fuzzy
 msgid "advanced"
-msgstr "pokročilý"
+msgstr "pokročilé"
 
 #: ../src/iop/toneequal.c:3304
-#, fuzzy
 msgid "double-click to reset the curve"
-msgstr "dvojitým kliknutím obnovíte křivku"
+msgstr "dvojklikem obnovíte křivku"
 
 #: ../src/iop/toneequal.c:3308
 #, fuzzy
@@ -28720,9 +28706,9 @@ msgid "marker"
 msgstr "popisovač"
 
 #: ../src/iop/watermark.c:1407
-#, fuzzy, c-format
+#, c-format
 msgid "SVG watermarks in %s/watermarks or %s/watermarks"
-msgstr "SVG vodoznaky v %s/vodoznaky nebo %s/vodoznaky"
+msgstr "SVG vodoznaky v %s/watermarks nebo %s/watermarks"
 
 #. Simple text
 #: ../src/iop/watermark.c:1418 ../src/iop/watermark.c:1420
@@ -28748,20 +28734,18 @@ msgid "font"
 msgstr "písmo"
 
 #: ../src/iop/watermark.c:1438
-#, fuzzy
 msgid ""
 "text font, tags:\n"
 "$(WATERMARK_FONT_FAMILY)\n"
 "$(WATERMARK_FONT_STYLE)\n"
 "$(WATERMARK_FONT_WEIGHT)"
 msgstr ""
-"písmo textu, tagy:\n"
+"font textu, tagy:\n"
 "$(WATERMARK_FONT_FAMILY)\n"
 "$(WATERMARK_FONT_STYLE)\n"
 "$(WATERMARK_FONT_WEIGHT)"
 
 #: ../src/iop/watermark.c:1453
-#, fuzzy
 msgid ""
 "watermark color, tag:\n"
 "$(WATERMARK_COLOR)"
@@ -28770,12 +28754,10 @@ msgstr ""
 "$ (WATERMARK_COLOR)"
 
 #: ../src/iop/watermark.c:1455
-#, fuzzy
 msgid "select watermark color"
-msgstr "vyberte barvu vodoznaku"
+msgstr "vybrat barvu vodoznaku"
 
 #: ../src/iop/watermark.c:1458
-#, fuzzy
 msgid "pick color from image"
 msgstr "vybrat barvu z obrázku"
 
@@ -28806,28 +28788,23 @@ msgid "reference image dimension against which to scale the watermark"
 msgstr "referenční rozměr obrázku, podle kterého se měří vodoznak"
 
 #: ../src/iop/watermark.c:1503
-#, fuzzy
 msgid "watermark dimension to scale"
 msgstr "rozměr vodoznaku v měřítku"
 
 #. Let's add some tooltips and hook up some signals...
 #: ../src/iop/watermark.c:1530
-#, fuzzy
 msgid "the opacity of the watermark"
-msgstr "Neprůhlednost vodoznaku"
+msgstr "krytí vodoznaku"
 
 #: ../src/iop/watermark.c:1531
-#, fuzzy
 msgid "the scale of the watermark"
 msgstr "měřítko vodoznaku"
 
 #: ../src/iop/watermark.c:1532
-#, fuzzy
 msgid "the rotation of the watermark"
 msgstr "rotace vodoznaku"
 
 #: ../src/iop/zonesystem.c:93
-#, fuzzy
 msgid "zone system"
 msgstr "zónový systém"
 
@@ -28850,7 +28827,6 @@ msgid "background jobs"
 msgstr "práce na pozadí"
 
 #: ../src/libs/camera.c:79
-#, fuzzy
 msgid "camera settings"
 msgstr "nastavení fotoaparátu"
 
@@ -28967,12 +28943,10 @@ msgid "label"
 msgstr "label"
 
 #: ../src/libs/camera.c:527
-#, fuzzy
 msgid "property"
 msgstr "vlastnost"
 
 #: ../src/libs/camera.c:538
-#, fuzzy
 msgid "add user property"
 msgstr "přidat uživatelskou vlastnost"
 
@@ -28985,12 +28959,10 @@ msgid "focus mode"
 msgstr "režim ostření"
 
 #: ../src/libs/camera.c:577
-#, fuzzy
 msgid "shutterspeed2"
 msgstr "rychlost závěrky2"
 
 #: ../src/libs/camera.c:579
-#, fuzzy
 msgid "shutterspeed"
 msgstr "rychlost závěrky"
 
@@ -29010,7 +28982,6 @@ msgid ""
 msgstr "definuje kritéria vyhledávání pro zobrazení nebo editaci obrázků"
 
 #: ../src/libs/collect.c:461
-#, fuzzy
 msgid "update path to files"
 msgstr "aktualizovat cestu k souborům"
 
@@ -29021,7 +28992,6 @@ msgstr "problém s výběrem nové cesty pro filmový pás v %s"
 
 # popup menu item
 #: ../src/libs/collect.c:619
-#, fuzzy
 msgid "update path to files..."
 msgstr "aktualizovat cestu k souborům…"
 
@@ -30688,9 +30658,8 @@ msgid "drag to change black point"
 msgstr "přetažením změníte černý bod"
 
 #: ../src/libs/histogram.c:296 ../src/libs/histogram.c:300
-#, fuzzy
 msgid "double-click resets"
-msgstr "dvojklik pro reset"
+msgstr "dvojklikem resetujete"
 
 #: ../src/libs/histogram.c:299
 #, fuzzy
@@ -31337,7 +31306,6 @@ msgid "overlay"
 msgstr "překrytí"
 
 #: ../src/libs/live_view.c:370
-#, fuzzy
 msgid "selected image"
 msgstr "vybraný obrázek"
 
@@ -31910,12 +31878,12 @@ msgid "<various values>"
 msgstr "<různé hodnoty>"
 
 #: ../src/libs/metadata_view.c:715
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "double-click to jump to film roll\n"
 "%s"
 msgstr ""
-"dvojklik pro přechod na filmový pás\n"
+"dvojklikem přejdete na filmový pás\n"
 "%s"
 
 #: ../src/libs/metadata_view.c:806
@@ -33276,7 +33244,7 @@ msgid ""
 "double-click to apply"
 msgstr ""
 "dostupné styly,\n"
-"aplikujte dvojitým kliknutím"
+"aplikujte dvojklikem"
 
 #: ../src/libs/styles.c:884 ../src/libs/styles.c:885
 msgid "filter style names"
@@ -34342,23 +34310,23 @@ msgstr "přepínač pohledu"
 #: ../src/lua/preferences.c:683 ../src/lua/preferences.c:698
 #: ../src/lua/preferences.c:710 ../src/lua/preferences.c:723
 #: ../src/lua/preferences.c:739 ../src/lua/preferences.c:803
-#, fuzzy, c-format
+#, c-format
 msgid "double-click to reset to `%s'"
-msgstr "dvojklik pro reset na `%s'"
+msgstr "dvojklikem resetujete na `%s'"
 
 #: ../src/lua/preferences.c:708
 msgid "select file"
 msgstr "vybrat soubor"
 
 #: ../src/lua/preferences.c:762
-#, fuzzy, c-format
+#, c-format
 msgid "double-click to reset to `%d'"
-msgstr "dvojklik pro reset na `%d'"
+msgstr "dvojklikem resetujete na `%d'"
 
 #: ../src/lua/preferences.c:789
-#, fuzzy, c-format
+#, c-format
 msgid "double-click to reset to `%f'"
-msgstr "dvojklik pro reset na `%f'"
+msgstr "dvojklik resetujete na `%f'"
 
 #: ../src/lua/preferences.c:868
 msgid "Lua options"
@@ -35431,32 +35399,26 @@ msgid "no camera with tethering support available for use..."
 msgstr "Není připojen žádný fotoaparát s podporou tetheringu."
 
 #: ../src/views/view.c:1472
-#, fuzzy
 msgid "left-click"
 msgstr "kliknutí levým tlačítkem"
 
 #: ../src/views/view.c:1475
-#, fuzzy
 msgid "right-click"
 msgstr "kliknutí pravým tlačítkem"
 
 #: ../src/views/view.c:1478
-#, fuzzy
 msgid "middle-click"
 msgstr "kliknutí prostředním tlačítkem"
 
 #: ../src/views/view.c:1484
-#, fuzzy
 msgid "left double-click"
 msgstr "levý dvojklik"
 
 #: ../src/views/view.c:1487
-#, fuzzy
 msgid "right double-click"
 msgstr "pravý dvojklik"
 
 #: ../src/views/view.c:1490
-#, fuzzy
 msgid "drag and drop"
 msgstr "táhni a pusť"
 
