@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-20 20:53+0200\n"
-"PO-Revision-Date: 2026-04-21 22:37+0200\n"
+"PO-Revision-Date: 2026-04-22 13:51+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -471,7 +471,6 @@ msgid "when set limit the images drawn to the current filmstrip"
 msgstr "pokud je nastaven limit zobrazených obrázků aktuálního filmového pásu"
 
 #: ../build/bin/conf_gen.h:2742
-#, fuzzy
 msgid "max images"
 msgstr "maximum obrázků"
 
@@ -532,9 +531,8 @@ msgstr ""
 "nebo nic"
 
 #: ../build/bin/conf_gen.h:2790
-#, fuzzy
 msgid "max polygon points"
-msgstr "maximum bodů polygonu"
+msgstr "maximum polygonů"
 
 #: ../build/bin/conf_gen.h:2791
 #, fuzzy
@@ -7231,7 +7229,7 @@ msgstr "název souboru"
 #: ../src/common/collection.c:654 ../src/develop/lightroom.c:1598
 #: ../src/libs/geotagging.c:143
 msgid "geotagging"
-msgstr "geotagging"
+msgstr "geotagování"
 
 #: ../src/common/collection.c:656 ../src/libs/filtering.c:63
 msgid "group"
@@ -7944,9 +7942,8 @@ msgid "loading views"
 msgstr "načítám zobrazení"
 
 #: ../src/common/darktable.c:1983 ../src/libs/lib.c:886
-#, fuzzy
 msgid "loading utility modules"
-msgstr "načítám nástrojové moduly ..."
+msgstr "načítám moduly nástrojů"
 
 #: ../src/common/darktable.c:1990
 msgid "initializing Lua"
@@ -8527,9 +8524,9 @@ msgstr ""
 "nelze odstranit filmový pás obsahující lokální kopie s nepřístupnými originály"
 
 #: ../src/common/gpx.c:259 ../src/control/jobs/control_jobs.c:1403
-#, fuzzy, c-format
+#, c-format
 msgid "failed to parse GPX file"
-msgstr "nepodařilo se analyzovat soubor GPX"
+msgstr "nepodařilo se načíst data z GPX souboru"
 
 #: ../src/common/history.c:924
 #, fuzzy
@@ -9284,10 +9281,9 @@ msgid "thumbtable"
 msgstr "tabulka náhledů"
 
 #: ../src/control/control.c:140
-#, fuzzy
 msgctxt "accel"
 msgid "utility modules"
-msgstr "nástrojové moduly"
+msgstr "moduly nástrojů"
 
 #: ../src/control/control.c:147
 msgctxt "accel"
@@ -9316,7 +9312,6 @@ msgid "Lua scripts"
 msgstr "Lua skripty"
 
 #: ../src/control/control.c:182
-#, fuzzy
 msgctxt "accel"
 msgid "fallbacks"
 msgstr "zálohy"
@@ -13110,13 +13105,11 @@ msgstr "$(STARS) - hodnocení hvězdičkami číselně (-1 for rejected)"
 #. _("$(RATING.ICONS) - star/reject rating in icon form"),-- not implemented
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1004
 #: ../src/gui/gtkentry.c:105
-#, fuzzy
 msgid "$(LABELS) - color labels as text"
 msgstr "$(LABELS) - barevné značky jako text"
 
 #. _("$(LABELS.ICONS) - color labels as icons"),-- not implemented
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1006
-#, fuzzy
 msgid "$(TITLE) - title from metadata"
 msgstr "$(TITLE) - název z metadat"
 
@@ -14880,7 +14873,6 @@ msgid "in other views"
 msgstr "v jiných pohledech"
 
 #: ../src/gui/accelerators.c:69
-#, fuzzy
 msgid "fallbacks"
 msgstr "zálohy"
 
@@ -15460,7 +15452,6 @@ msgid "preset"
 msgstr "preset"
 
 #: ../src/gui/accelerators.c:2531
-#, fuzzy
 msgid "restore shortcuts"
 msgstr "obnovit zkratky"
 
@@ -15504,12 +15495,10 @@ msgid "shortcuts"
 msgstr "zkratky"
 
 #: ../src/gui/accelerators.c:2614
-#, fuzzy
 msgid "export shortcuts"
 msgstr "exportovat zkratky"
 
 #: ../src/gui/accelerators.c:2621
-#, fuzzy
 msgid ""
 "export all shortcuts to a file\n"
 "or just for one selected device\n"
@@ -15526,7 +15515,6 @@ msgid "device id"
 msgstr "id zařízení"
 
 #: ../src/gui/accelerators.c:2658
-#, fuzzy
 msgid "select file to export"
 msgstr "vyberte soubor pro export"
 
@@ -15535,7 +15523,6 @@ msgid "_export"
 msgstr "_export"
 
 #: ../src/gui/accelerators.c:2686
-#, fuzzy
 msgid "import shortcuts"
 msgstr "importovat zkratky"
 
@@ -15645,7 +15632,6 @@ msgid "type"
 msgstr "typ"
 
 #: ../src/gui/accelerators.c:3060
-#, fuzzy
 msgid "enable fallbacks"
 msgstr "povolit zálohy"
 
@@ -16215,7 +16201,6 @@ msgid "$(RATING.ICONS) - star/reject rating in icon form"
 msgstr "$(RATING.ICONS) - hvězdička/zrušit hodnocení ve formě ikon"
 
 #: ../src/gui/gtkentry.c:106
-#, fuzzy
 msgid "$(LABELS.ICONS) - color labels as icons"
 msgstr "$(LABELS.ICONS) - barevné značky jako ikony"
 
@@ -18164,9 +18149,8 @@ msgid "---"
 msgstr "---"
 
 #: ../src/imageio/storage/piwigo.c:802
-#, fuzzy
 msgid "cannot refresh albums"
-msgstr "nelze obnovit alba"
+msgstr "alba nelze aktualizovat"
 
 #: ../src/imageio/storage/piwigo.c:1024
 msgid "Piwigo"
@@ -18241,7 +18225,6 @@ msgid "album"
 msgstr "album"
 
 #: ../src/imageio/storage/piwigo.c:1133
-#, fuzzy
 msgid "refresh album list"
 msgstr "aktualizovat seznam alb"
 
@@ -19885,7 +19868,6 @@ msgid ""
 msgstr "Vyberte, kterou část cesty použít pro dosažení asymetrie."
 
 #: ../src/iop/borders.c:306
-#, fuzzy
 msgid "framing"
 msgstr "rámování"
 
@@ -20989,7 +20971,6 @@ msgstr "použijte cíl výběru barvy k automatickému nastavení CAT a kanálů
 #: ../src/iop/channelmixerrgb.c:4679 ../src/iop/channelmixerrgb.c:4691
 #: ../src/iop/channelmixerrgb.c:4708 ../src/iop/channelmixerrgb.c:4722
 #: ../src/iop/channelmixerrgb.c:4730 ../src/iop/channelmixerrgb.c:4737
-#, fuzzy
 msgid "calibrate"
 msgstr "kalibrovat"
 
@@ -21004,42 +20985,34 @@ msgid "choose the vendor and the type of your chart"
 msgstr "vyberte dodavatele a typ grafu"
 
 #: ../src/iop/channelmixerrgb.c:4682
-#, fuzzy
 msgid "Xrite ColorChecker 24 pre-2014"
-msgstr "Xrite ColorChecker 24 před rokem 2014"
+msgstr "Xrite ColorChecker 24 (před 2014)"
 
 #: ../src/iop/channelmixerrgb.c:4683
-#, fuzzy
 msgid "Xrite/Calibrite ColorChecker 24 post-2014"
-msgstr "Xrite/Calibrite ColorChecker 24 (rok 2014 a novější)"
+msgstr "Xrite/Calibrite ColorChecker 24 (po 2014)"
 
 #: ../src/iop/channelmixerrgb.c:4684
-#, fuzzy
 msgid "Datacolor SpyderCheckr 24 pre-2018"
-msgstr "Datacolor SpyderCheckr 24 pre-2018"
+msgstr "Datacolor SpyderCheckr 48 (před 2018)"
 
 #: ../src/iop/channelmixerrgb.c:4685
-#, fuzzy
 msgid "Datacolor SpyderCheckr 24 post-2018"
-msgstr "Datacolor SpyderCheckr 24 post-2018"
+msgstr "Datacolor SpyderCheckr 24 (po 2018)"
 
 #: ../src/iop/channelmixerrgb.c:4686
-#, fuzzy
 msgid "Datacolor SpyderCheckr 48 pre-2018"
-msgstr "Datacolor SpyderCheckr 48 pre-2018"
+msgstr "Datacolor SpyderCheckr 48 (před 2018)"
 
 #: ../src/iop/channelmixerrgb.c:4687
-#, fuzzy
 msgid "Datacolor SpyderCheckr 48 post-2018"
-msgstr "Datacolor SpyderCheckr 48 post-2018"
+msgstr "Datacolor SpyderCheckr 48 (po 2018)"
 
 #: ../src/iop/channelmixerrgb.c:4688
-#, fuzzy
 msgid "Datacolor SpyderCheckr Photo"
 msgstr "Datacolor SpyderCheckr Photo"
 
 #: ../src/iop/channelmixerrgb.c:4691
-#, fuzzy
 msgid "optimize for"
 msgstr "optimalizovat pro"
 
@@ -21188,9 +21161,8 @@ msgid "reframe|perspective|keystone|distortion"
 msgstr "přerámovat|perspektiva|keystone|deformace"
 
 #: ../src/iop/clipping.c:355
-#, fuzzy
 msgid "change the framing and correct the perspective"
-msgstr "změnit orámování a opravit perspektivu"
+msgstr "změnit rámování a opravit perspektivu"
 
 #: ../src/iop/clipping.c:1411 ../src/iop/clipping.c:2126 ../src/iop/crop.c:733
 #: ../src/iop/crop.c:1271
@@ -21574,12 +21546,10 @@ msgid "color control sliders"
 msgstr "posuvníky ovládání barev"
 
 #: ../src/iop/colorbalance.c:1859 ../src/libs/colorpicker.c:52
-#, fuzzy
 msgid "HSL"
 msgstr "HSL"
 
 #: ../src/iop/colorbalance.c:1860
-#, fuzzy
 msgid "RGBL"
 msgstr "RGBL"
 
@@ -22081,37 +22051,31 @@ msgid "expanded color checker"
 msgstr "rozšířený kalibrační terč"
 
 #: ../src/iop/colorchecker.c:488
-#, fuzzy
 msgid "Helmholtz/Kohlrausch monochrome"
-msgstr "Helmholtz/Kohlrausch monochromatický"
+msgstr "Helmholtz/Kohlrausch monochrome"
 
 #: ../src/iop/colorchecker.c:505
-#, fuzzy
 msgid "Fuji Astia emulation"
 msgstr "Emulace Fuji Astia"
 
 #: ../src/iop/colorchecker.c:519
-#, fuzzy
 msgid "Fuji Classic Chrome emulation"
 msgstr "Emulace Fuji Classic Chrome"
 
 #: ../src/iop/colorchecker.c:533
-#, fuzzy
 msgid "Fuji Monochrome emulation"
 msgstr "Emulace Fuji Monochrome"
 
 #: ../src/iop/colorchecker.c:547
-#, fuzzy
 msgid "Fuji Provia emulation"
 msgstr "Emulace Fuji Provia"
 
 #: ../src/iop/colorchecker.c:561
-#, fuzzy
 msgid "Fuji Velvia emulation"
 msgstr "Emulace Fuji Velvia"
 
 #: ../src/iop/colorchecker.c:997 ../src/iop/colorchecker.c:1555
-#, fuzzy, c-format
+#, c-format
 msgid "patch #%d"
 msgstr "patch #%d"
 
@@ -22132,6 +22096,7 @@ msgstr ""
 "anebo po výběru cílové barvy podržte Shift a kliknutím políčko nahraďte."
 
 #: ../src/iop/colorchecker.c:1550
+#, fuzzy
 msgid "patch"
 msgstr "patch"
 
@@ -22481,19 +22446,19 @@ msgstr ""
 
 #: ../src/iop/colorharmonizer.c:1608
 msgid "hue 1"
-msgstr "hue 1"
+msgstr "odstín 1"
 
 #: ../src/iop/colorharmonizer.c:1608
 msgid "hue 2"
-msgstr "hue 2"
+msgstr "odstín 2"
 
 #: ../src/iop/colorharmonizer.c:1608
 msgid "hue 3"
-msgstr "hue 3"
+msgstr "odstín 3"
 
 #: ../src/iop/colorharmonizer.c:1608
 msgid "hue 4"
-msgstr "hue 4"
+msgstr "odstín 4"
 
 #: ../src/iop/colorharmonizer.c:1620
 msgid ""
@@ -22537,14 +22502,12 @@ msgid "bleach bypass"
 msgstr "bleach bypass"
 
 #: ../src/iop/colorequal.c:2142
-#, fuzzy
 msgid "Kodachrome 64 like"
-msgstr "Jako Kodachrome 64"
+msgstr "jako Kodachrome 64"
 
 #: ../src/iop/colorequal.c:2186
-#, fuzzy
 msgid "Kodak Portra 400 like"
-msgstr "Jako Kodak Portra 400"
+msgstr "jako Kodak Portra 400"
 
 #: ../src/iop/colorequal.c:2230
 msgid "teal & orange"
@@ -22724,7 +22687,6 @@ msgid "unsupported input profile has been replaced by linear Rec709 RGB!"
 msgstr "nepodporovaný vstupní profil byl nahrazen lineárním Rec709 RGB!"
 
 #: ../src/iop/colorin.c:1808
-#, fuzzy
 msgid "external ICC profiles"
 msgstr "externí ICC profily"
 
@@ -22751,12 +22713,10 @@ msgstr ""
 "autorská práva: <b>%s</b>\n"
 
 #: ../src/iop/colorin.c:2051
-#, fuzzy
 msgid "input profile"
 msgstr "vstupní profil"
 
 #: ../src/iop/colorin.c:2064
-#, fuzzy
 msgid "working ICC profiles"
 msgstr "pracovní ICC profily"
 
@@ -22905,7 +22865,6 @@ msgstr "vykreslovací záměr"
 #: ../src/iop/colorout.c:840 ../src/libs/export.c:1636
 #: ../src/libs/print_settings.c:2575 ../src/libs/print_settings.c:2924
 #: ../src/views/darkroom.c:3140 ../src/views/lighttable.c:1346
-#, fuzzy
 msgid "perceptual"
 msgstr "percepční"
 
@@ -24482,7 +24441,6 @@ msgstr ""
 #. geotagging
 #: ../src/iop/filmic.c:1527 ../src/iop/filmicrgb.c:4504
 #: ../src/libs/metadata_view.c:169
-#, fuzzy
 msgid "latitude"
 msgstr "zeměpisná šířka"
 
@@ -30172,12 +30130,11 @@ msgstr ""
 "kliknutím pravým tlačítkem myši otevřete nabídku pro výběr dostupných hodnot"
 
 #: ../src/libs/filtering.c:832
-#, fuzzy, c-format
+#, c-format
 msgid "you can't have more than %d rules"
 msgstr "nemůžete mít více než %d pravidel"
 
 #: ../src/libs/filtering.c:948 ../src/libs/filtering.c:1616
-#, fuzzy
 msgid "rule property"
 msgstr "vlastnosti pravidla"
 
@@ -30225,12 +30182,10 @@ msgid "remove this collect rule"
 msgstr "odstranit toto pravidlo shromažďování"
 
 #: ../src/libs/filtering.c:1128
-#, fuzzy
 msgid "this rule is enabled"
 msgstr "toto pravidlo je povoleno"
 
 #: ../src/libs/filtering.c:1130
-#, fuzzy
 msgid "this rule is disabled"
 msgstr "toto pravidlo je zakázáno"
 
@@ -30355,17 +30310,16 @@ msgid "color filter"
 msgstr "barevný filtr"
 
 #: ../src/libs/filters/colors.c:294
-#, fuzzy
 msgid ""
 "filter by images color label\n"
 "click to toggle the color label selection\n"
 "ctrl+click to exclude the color label\n"
 "the gray button affects all color labels"
 msgstr ""
-"Filtruje obrázky podle barevných značek.\n"
-"Kliknutím vyberete barvu.\n"
-"Kliknutím s Ctrl barvu vyloučíte.\n"
-"Šedé tlačítko ovlivňuje všechny barevné značky."
+"filtruje obrázky podle barevných značek\n"
+"kliknutím vyberete barvu\n"
+"kliknutí+ctrl barvu vyloučíte\n"
+"šedé tlačítko ovlivňuje všechny barevné značky"
 
 #. create the filter combobox
 #: ../src/libs/filters/colors.c:301 ../src/libs/filters/colors.c:312
@@ -30378,15 +30332,14 @@ msgstr "pravidla"
 
 # tooltip
 #: ../src/libs/filters/colors.c:306
-#, fuzzy
 msgid ""
 "filter by images color label\n"
 "intersection: images having all selected color labels\n"
 "union: images with at least one of the selected color labels"
 msgstr ""
-"Filtruje obrázky na základě barevných značek.\n"
-"Průnik (∩): Obrázky označené všemi vybranými barvami.\n"
-"Sjednocení (∪): Obrázky označené alespoň jednou z vybraných barev."
+"filtruje obrázky na základě barevných značek\n"
+"průnik (∩): obrázky označené všemi vybranými barvami.\n"
+"sjednocení (∪): obrázky označené alespoň jednou z vybraných barev"
 
 #: ../src/libs/filters/date.c:187
 msgid ""
@@ -30527,22 +30480,18 @@ msgid "cap"
 msgstr "víčko"
 
 #: ../src/libs/filters/rating_range.c:313
-#, fuzzy
 msgid "rating filter"
 msgstr "filtr hodnocení"
 
 #: ../src/libs/filters/ratio.c:72 ../src/libs/filters/ratio.c:84
-#, fuzzy
 msgid "portrait images"
 msgstr "obrázky na výšku"
 
 #: ../src/libs/filters/ratio.c:73 ../src/libs/filters/ratio.c:85
-#, fuzzy
 msgid "square images"
 msgstr "čtvercové obrázky"
 
 #: ../src/libs/filters/ratio.c:74 ../src/libs/filters/ratio.c:86
-#, fuzzy
 msgid "landscape images"
 msgstr "obrázky na šířku"
 
@@ -30579,7 +30528,6 @@ msgid "apply offset and geo-location"
 msgstr "použít posun a geografickou polohu"
 
 #: ../src/libs/geotagging.c:379 ../src/libs/geotagging.c:1983
-#, fuzzy
 msgid "apply geo-location"
 msgstr "použít geografickou polohu"
 
@@ -30594,7 +30542,6 @@ msgstr ""
 "Pro vrácení zpět stiskněte dvakrát Ctrl-Z."
 
 #: ../src/libs/geotagging.c:383 ../src/libs/geotagging.c:1984
-#, fuzzy
 msgid "apply geo-location to matching images"
 msgstr "použít geografickou polohu na odpovídající obrázky"
 
@@ -30630,7 +30577,6 @@ msgid "preview"
 msgstr "náhled"
 
 #: ../src/libs/geotagging.c:964
-#, fuzzy
 msgid "GPS data exchange format"
 msgstr "GPS data exchange formát"
 
@@ -30660,7 +30606,6 @@ msgid "date/time offset"
 msgstr "posun data/času"
 
 #: ../src/libs/geotagging.c:1814
-#, fuzzy
 msgid "offset or difference ([-]dd hh:mm:ss[.sss])"
 msgstr "posun, nebo rozdíl ([-]dd hh:mm:ss[.sss])"
 
@@ -30695,14 +30640,12 @@ msgstr ""
 
 #. gpx
 #: ../src/libs/geotagging.c:1875
-#, fuzzy
 msgid "apply GPX track file..."
 msgstr "použít soubor GPX..."
 
 #: ../src/libs/geotagging.c:1876
-#, fuzzy
 msgid "parses a GPX file and updates location of selected images"
-msgstr "analyzuje soubor GPX a aktualizuje umístění vybraných obrázků"
+msgstr "načte soubor GPX a aktualizuje umístění vybraných obrázků"
 
 #: ../src/libs/geotagging.c:1887
 msgctxt "section"
@@ -30710,7 +30653,6 @@ msgid "GPX file"
 msgstr "soubor GPX"
 
 #: ../src/libs/geotagging.c:1894
-#, fuzzy
 msgid "select a GPX track file..."
 msgstr "vyberte soubor GPX..."
 
@@ -30734,7 +30676,6 @@ msgstr ""
 #. the gpx_view_button is invisible and the label and tooltip of cannot be displayed on GUI.
 #. but label is use in "shortcuts" dialog.
 #: ../src/libs/geotagging.c:1948
-#, fuzzy
 msgid "view entire track"
 msgstr "zobrazit celou trasu"
 
@@ -30755,9 +30696,8 @@ msgid "show on map matching images"
 msgstr "zobrazit na mapě odpovídající obrázky"
 
 #: ../src/libs/geotagging.c:1971
-#, fuzzy
 msgid "select images"
-msgstr "vybrat obrázky"
+msgstr "vybráno"
 
 #: ../src/libs/geotagging.c:1972
 #, fuzzy
@@ -30867,7 +30807,6 @@ msgid "create a style from the current history stack"
 msgstr "Vytvořit styl z aktuální historie úprav."
 
 #: ../src/libs/history.c:154
-#, fuzzy
 msgid "create style from history"
 msgstr "vytvořit styl z historie"
 
@@ -31548,25 +31487,22 @@ msgid "only draw part of the overlay"
 msgstr "nakreslete pouze část překryvné vrstvy"
 
 #: ../src/libs/location.c:106
-#, fuzzy
 msgid "find location"
-msgstr "najít lokaci"
+msgstr "najít místo"
 
 #: ../src/libs/map_locations.c:36
-#, fuzzy
 msgid "locations"
-msgstr "lokace"
+msgstr "místa"
 
 #: ../src/libs/map_locations.c:233
 #, fuzzy
 msgid "new sub-location"
-msgstr "nová podlokace"
+msgstr "nové pod-místo"
 
 #: ../src/libs/map_locations.c:237 ../src/libs/map_locations.c:285
 #: ../src/libs/map_locations.c:954
-#, fuzzy
 msgid "new location"
-msgstr "nová lokace"
+msgstr "nové místo"
 
 #: ../src/libs/map_locations.c:585
 #, fuzzy, c-format
@@ -31574,24 +31510,20 @@ msgid "location name '%s' already exists"
 msgstr "název lokace '%s' již existuje"
 
 #: ../src/libs/map_locations.c:776
-#, fuzzy
 msgid "edit location"
-msgstr "upravit lokaci"
+msgstr "upravit místo"
 
 #: ../src/libs/map_locations.c:779
-#, fuzzy
 msgid "delete location"
-msgstr "vymazat lokaci"
+msgstr "odstranit místo"
 
 #: ../src/libs/map_locations.c:789
-#, fuzzy
 msgid "update filmstrip"
 msgstr "aktualizovat filmový pás"
 
 #: ../src/libs/map_locations.c:796
-#, fuzzy
 msgid "go to collection (lighttable)"
-msgstr "jdi na kolekci (katalog)"
+msgstr "jdi na sbírky (katalog)"
 
 #: ../src/libs/map_locations.c:841
 #, fuzzy
@@ -31639,9 +31571,8 @@ msgstr ""
 "modulu 'najít polohu')"
 
 #: ../src/libs/map_locations.c:955
-#, fuzzy
 msgid "add a new location on the center of the visible map"
-msgstr "přidat novou lokaci do středu viditelné mapy"
+msgstr "přidat nové místo do středu viditelné mapy"
 
 #: ../src/libs/map_locations.c:959
 msgid "show all"
@@ -31653,12 +31584,10 @@ msgid "show all locations which are on the visible map"
 msgstr "zobrazit všechny lokace, které jsou na viditelné mapě"
 
 #: ../src/libs/map_settings.c:39
-#, fuzzy
 msgid "map settings"
 msgstr "nastavení mapy"
 
 #: ../src/libs/map_settings.c:89
-#, fuzzy
 msgid "map source"
 msgstr "zdroj mapy"
 
@@ -31688,7 +31617,7 @@ msgid "cleanup"
 msgstr "vymazat"
 
 #: ../src/libs/masks.c:372
-#, fuzzy, c-format
+#, c-format
 msgid "group #%d"
 msgstr "skupina #%d"
 
@@ -33508,7 +33437,6 @@ msgid "attach tag to all"
 msgstr "přiřadit tag všem"
 
 #: ../src/libs/tagging.c:1424 ../src/libs/tagging.c:2499
-#, fuzzy
 msgid "detach tag"
 msgstr "odpojit tag"
 
@@ -33651,7 +33579,7 @@ msgstr "tag %s vytvořen"
 
 #: ../src/libs/tagging.c:2494
 msgid "attach tag"
-msgstr "přiřadit tag"
+msgstr "připojit tag"
 
 #: ../src/libs/tagging.c:2509
 msgid "create tag..."
@@ -33747,24 +33675,20 @@ msgstr ""
 "Klávesou Tab položku zaměříte."
 
 #: ../src/libs/tagging.c:3510
-#, fuzzy
 msgid "attach"
-msgstr "připnout"
+msgstr "připojit"
 
 #: ../src/libs/tagging.c:3512
-#, fuzzy
 msgid "attach tag to all selected images"
-msgstr "přiřadit tag všem vybraným obrázkům"
+msgstr "připojit tag ke všem vybraným obrázkům"
 
 #: ../src/libs/tagging.c:3515
-#, fuzzy
 msgid "detach"
-msgstr "odepnout"
+msgstr "odpojit"
 
 #: ../src/libs/tagging.c:3517
-#, fuzzy
 msgid "detach tag from all selected images"
-msgstr "odepnout tag od vybraných obrázků"
+msgstr "odpojit tag od vybraných obrázků"
 
 #: ../src/libs/tagging.c:3531
 #, fuzzy
@@ -33881,42 +33805,39 @@ msgstr ""
 "zobrazení seznamu."
 
 #: ../src/libs/tagging.c:3942
-#, fuzzy
 msgid "tagging settings"
 msgstr "nastavení tagování"
 
 #: ../src/libs/tools/colorlabels.c:64
-#, fuzzy
 msgid "colorlabels"
-msgstr "barevné značení"
+msgstr "barevné značky"
 
 # tooltip
 #: ../src/libs/tools/colorlabels.c:106
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "toggle color label of selected images\n"
 "<i>%s</i>"
 msgstr ""
-"Označí vybrané obrázky barvou\n"
+"barevně označit vybrané obrázky\n"
 "<i>%s</i>"
 
 # tooltip
 #: ../src/libs/tools/colorlabels.c:109
-#, fuzzy
 msgid "toggle color label of selected images"
-msgstr "Označí vybrané obrázky barvou."
+msgstr ""
+"barevně označit vybrané obrázky\n"
+"<i>%s</i>"
 
 # tooltip
 #: ../src/libs/tools/colorlabels.c:135
-#, fuzzy
 msgid "clear color labels of selected images"
-msgstr "Odebrat barevné značení vybraných obrázků."
+msgstr "odebrat barevné značení vybraných obrázků"
 
 # tooltip
 #: ../src/libs/tools/colorlabels.c:228
-#, fuzzy
 msgid "enter a description of how you use this color label"
-msgstr "Popište význam této barevné značky."
+msgstr "popište význam této barevné značky"
 
 #: ../src/libs/tools/filmstrip.c:46
 msgid "filmstrip"
