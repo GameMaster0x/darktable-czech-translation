@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-22 22:36+0200\n"
-"PO-Revision-Date: 2026-04-23 18:28+0200\n"
+"PO-Revision-Date: 2026-04-23 19:49+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -4583,7 +4583,6 @@ msgid "smooth"
 msgstr "vyhlazený"
 
 #: ../build/lib/darktable/plugins/introspection_colorzones.c:268
-#, fuzzy
 msgid "strong"
 msgstr "silný"
 
@@ -4651,7 +4650,6 @@ msgstr "vyhlazení barev"
 #: ../build/lib/darktable/plugins/introspection_dither.c:153
 #: ../build/lib/darktable/plugins/introspection_highlights.c:119
 #: ../build/lib/darktable/plugins/introspection_highlights.c:228
-#, fuzzy
 msgid "method"
 msgstr "metoda"
 
@@ -4663,7 +4661,6 @@ msgstr "LMMSE vylepšení"
 
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:156
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:255
-#, fuzzy
 msgid "dual threshold"
 msgstr "duální práh"
 
@@ -4694,12 +4691,10 @@ msgstr "capture sharpen"
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:293
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:300
 #: ../build/lib/darktable/plugins/introspection_rawprepare.c:197
-#, fuzzy
 msgid "disabled"
 msgstr "zakázáno"
 
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:294
-#, fuzzy
 msgid "local average"
 msgstr "místní průměr"
 
@@ -4785,12 +4780,10 @@ msgstr "Černobílý"
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:329
 #: ../src/common/collection.c:1497 ../src/libs/collect.c:1964
 #: ../src/libs/filters/history.c:38
-#, fuzzy
 msgid "basic"
 msgstr "základní"
 
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:330
-#, fuzzy
 msgid "median"
 msgstr "medián"
 
@@ -5005,7 +4998,6 @@ msgid "damping"
 msgstr "tlumení"
 
 #: ../build/lib/darktable/plugins/introspection_dither.c:191
-#, fuzzy
 msgid "random"
 msgstr "náhodně"
 
@@ -5141,13 +5133,11 @@ msgstr "kompenzace zkreslení expozice"
 
 #: ../build/lib/darktable/plugins/introspection_exposure.c:183
 #: ../build/lib/darktable/plugins/introspection_levels.c:160
-#, fuzzy
 msgid "manual"
 msgstr "ruční"
 
 #: ../build/lib/darktable/plugins/introspection_exposure.c:184
 #: ../build/lib/darktable/plugins/introspection_levels.c:161
-#, fuzzy
 msgid "automatic"
 msgstr "automatický"
 
@@ -5160,7 +5150,6 @@ msgstr "středně šedý jas"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:236
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:439
-#, fuzzy
 msgid "transition"
 msgstr "přechod"
 
@@ -5208,7 +5197,6 @@ msgstr "cílová bílá svítivost"
 #: ../build/lib/darktable/plugins/introspection_graduatednd.c:69
 #: ../build/lib/darktable/plugins/introspection_graduatednd.c:140
 #: ../src/libs/masks.c:111
-#, fuzzy
 msgid "hardness"
 msgstr "tvrdost"
 
@@ -5305,7 +5293,6 @@ msgstr "povolit rekonstrukci světel"
 #: ../src/imageio/format/pdf.c:672 ../src/imageio/format/tiff.c:921
 #: ../src/libs/export.c:1578 ../src/libs/export.c:1586 ../src/libs/export.c:1594
 #: ../src/libs/metadata_view.c:748
-#, fuzzy
 msgid "no"
 msgstr "ne"
 
@@ -5327,7 +5314,6 @@ msgstr "RGB euklidovská norma (starší)"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:554
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:384
-#, fuzzy
 msgid "RGB euclidean norm"
 msgstr "RGB euklidovská norma"
 
@@ -5352,27 +5338,22 @@ msgid "v7 (2023)"
 msgstr "v7 (2023)"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:566
-#, fuzzy
 msgid "uniform"
 msgstr "jednotný"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:568
-#, fuzzy
 msgid "poissonian"
 msgstr "poissonovský"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:572
-#, fuzzy
 msgid "hard"
 msgstr "tvrdý"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:573
-#, fuzzy
 msgid "soft"
 msgstr "měkký"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:574
-#, fuzzy
 msgid "safe"
 msgstr "bezpečný"
 
@@ -5389,12 +5370,10 @@ msgid "v3 (2021)"
 msgstr "v3 (2021)"
 
 #: ../build/lib/darktable/plugins/introspection_flip.c:100
-#, fuzzy
 msgid "autodetect"
 msgstr "autodetekce"
 
 #: ../build/lib/darktable/plugins/introspection_flip.c:101 ../src/iop/flip.c:453
-#, fuzzy
 msgid "no rotation"
 msgstr "bez rotace"
 
@@ -5640,7 +5619,6 @@ msgstr "detekovat podle 3 sousedních"
 
 #: ../build/lib/darktable/plugins/introspection_lens.cc:190
 #: ../build/lib/darktable/plugins/introspection_lens.cc:401
-#, fuzzy
 msgid "correction method"
 msgstr "korekční metoda"
 
@@ -5672,7 +5650,6 @@ msgstr "režim"
 #: ../build/lib/darktable/plugins/introspection_lens.cc:238
 #: ../build/lib/darktable/plugins/introspection_lens.cc:433
 #: ../src/iop/lens.cc:4456
-#, fuzzy
 msgid "target geometry"
 msgstr "cílová geometrie"
 
@@ -5686,7 +5663,6 @@ msgstr "TCA manuální kompenzace"
 #: ../build/lib/darktable/plugins/introspection_lens.cc:298
 #: ../build/lib/darktable/plugins/introspection_lens.cc:457
 #: ../build/lib/darktable/plugins/introspection_lens.cc:473
-#, fuzzy
 msgid "TCA red"
 msgstr "TCA červená"
 
@@ -5694,7 +5670,6 @@ msgstr "TCA červená"
 #: ../build/lib/darktable/plugins/introspection_lens.cc:304
 #: ../build/lib/darktable/plugins/introspection_lens.cc:461
 #: ../build/lib/darktable/plugins/introspection_lens.cc:477
-#, fuzzy
 msgid "TCA blue"
 msgstr "TCA modrá"
 
@@ -5753,7 +5728,6 @@ msgstr "pouze ruční vinětace"
 #: ../src/libs/filters/colors.c:265 ../src/libs/filters/date.c:112
 #: ../src/libs/filters/date.c:125 ../src/libs/filters/rating.c:210
 #: ../src/libs/modulegroups.c:2863 ../src/libs/modulegroups.c:2867
-#, fuzzy
 msgid "all"
 msgstr "vše"
 
@@ -5766,7 +5740,6 @@ msgid "distortion & vignetting"
 msgstr "deformace a vinětace"
 
 #: ../build/lib/darktable/plugins/introspection_lens.cc:537
-#, fuzzy
 msgid "TCA & vignetting"
 msgstr "TCA a vinětace"
 
@@ -5775,12 +5748,10 @@ msgid "only distortion"
 msgstr "pouze deformace"
 
 #: ../build/lib/darktable/plugins/introspection_lens.cc:539
-#, fuzzy
 msgid "only TCA"
 msgstr "pouze TCA"
 
 #: ../build/lib/darktable/plugins/introspection_lens.cc:540
-#, fuzzy
 msgid "only vignetting"
 msgstr "pouze vinětace"
 
@@ -5801,7 +5772,6 @@ msgid "rectilinear"
 msgstr "přímočará"
 
 #: ../build/lib/darktable/plugins/introspection_lens.cc:551
-#, fuzzy
 msgid "fisheye"
 msgstr "rybí oko"
 
@@ -5858,13 +5828,11 @@ msgstr "čára"
 #: ../build/lib/darktable/plugins/introspection_liquify.c:431
 #: ../src/iop/agx.c:1954 ../src/iop/agx.c:2472 ../src/iop/basecurve.c:2107
 #: ../src/iop/rgbcurve.c:1523 ../src/iop/tonecurve.c:1288
-#, fuzzy
 msgid "curve"
 msgstr "křivka"
 
 #: ../build/lib/darktable/plugins/introspection_lowlight.c:43
 #: ../build/lib/darktable/plugins/introspection_lowlight.c:110
-#, fuzzy
 msgid "blue shift"
 msgstr "posun modlé"
 
@@ -5896,13 +5864,11 @@ msgstr "pořadí 2"
 
 #: ../build/lib/darktable/plugins/introspection_lowpass.c:190
 #: ../build/lib/darktable/plugins/introspection_shadhi.c:268
-#, fuzzy
 msgid "bilateral filter"
-msgstr "oboystranný filtr"
+msgstr "bilaterální filtr"
 
 #: ../build/lib/darktable/plugins/introspection_lut3d.c:77
 #: ../build/lib/darktable/plugins/introspection_lut3d.c:164
-#, fuzzy
 msgid "application color space"
 msgstr "barevný prostor aplikace"
 
@@ -5920,25 +5886,21 @@ msgid "linear ProPhoto RGB"
 msgstr "linear ProPhoto RGB"
 
 #: ../build/lib/darktable/plugins/introspection_lut3d.c:211
-#, fuzzy
 msgid "tetrahedral"
 msgstr "čtyřstěnný"
 
 #: ../build/lib/darktable/plugins/introspection_lut3d.c:212
-#, fuzzy
 msgid "trilinear"
 msgstr "trilineární"
 
 #: ../build/lib/darktable/plugins/introspection_lut3d.c:213
-#, fuzzy
 msgid "pyramid"
 msgstr "pyramida"
 
 #: ../build/lib/darktable/plugins/introspection_negadoctor.c:84
 #: ../build/lib/darktable/plugins/introspection_negadoctor.c:199
-#, fuzzy
 msgid "film stock"
-msgstr "filmová zásoba"
+msgstr "filmová surovina"
 
 #: ../build/lib/darktable/plugins/introspection_negadoctor.c:132
 #: ../build/lib/darktable/plugins/introspection_negadoctor.c:231
@@ -6034,43 +5996,36 @@ msgstr "obraz"
 
 #: ../build/lib/darktable/plugins/introspection_overlay.c:304
 #: ../build/lib/darktable/plugins/introspection_watermark.c:324
-#, fuzzy
 msgid "larger border"
 msgstr "větší okraj"
 
 #: ../build/lib/darktable/plugins/introspection_overlay.c:305
 #: ../build/lib/darktable/plugins/introspection_watermark.c:325
-#, fuzzy
 msgid "smaller border"
 msgstr "menší okraj"
 
 #: ../build/lib/darktable/plugins/introspection_overlay.c:307
 #: ../build/lib/darktable/plugins/introspection_watermark.c:327
-#, fuzzy
 msgid "advanced options"
 msgstr "rozšířené možnosti"
 
 #: ../build/lib/darktable/plugins/introspection_overlay.c:311
 #: ../build/lib/darktable/plugins/introspection_watermark.c:331
-#, fuzzy
 msgid "image width"
 msgstr "šířka obrázku"
 
 #: ../build/lib/darktable/plugins/introspection_overlay.c:312
 #: ../build/lib/darktable/plugins/introspection_watermark.c:332
-#, fuzzy
 msgid "image height"
 msgstr "výška obrázku"
 
 #: ../build/lib/darktable/plugins/introspection_overlay.c:313
 #: ../build/lib/darktable/plugins/introspection_watermark.c:333
-#, fuzzy
 msgid "larger image border"
 msgstr "větší okraj obrázku"
 
 #: ../build/lib/darktable/plugins/introspection_overlay.c:314
 #: ../build/lib/darktable/plugins/introspection_watermark.c:334
-#, fuzzy
 msgid "smaller image border"
 msgstr "menší okraj obrázku"
 
@@ -6095,7 +6050,6 @@ msgstr "odstín"
 #: ../build/lib/darktable/plugins/introspection_primaries.c:81
 #: ../build/lib/darktable/plugins/introspection_primaries.c:164
 #: ../src/iop/primaries.c:402
-#, fuzzy
 msgid "tint purity"
 msgstr "čistota odstínu"
 
@@ -6106,37 +6060,31 @@ msgstr "červený odstín"
 
 #: ../build/lib/darktable/plugins/introspection_primaries.c:93
 #: ../build/lib/darktable/plugins/introspection_primaries.c:172
-#, fuzzy
 msgid "red purity"
 msgstr "čistota červené"
 
 #: ../build/lib/darktable/plugins/introspection_primaries.c:99
 #: ../build/lib/darktable/plugins/introspection_primaries.c:176
-#, fuzzy
 msgid "green hue"
 msgstr "zelený odstín"
 
 #: ../build/lib/darktable/plugins/introspection_primaries.c:105
 #: ../build/lib/darktable/plugins/introspection_primaries.c:180
-#, fuzzy
 msgid "green purity"
 msgstr "čistota zelené"
 
 #: ../build/lib/darktable/plugins/introspection_primaries.c:111
 #: ../build/lib/darktable/plugins/introspection_primaries.c:184
-#, fuzzy
 msgid "blue hue"
 msgstr "modrý odstín"
 
 #: ../build/lib/darktable/plugins/introspection_primaries.c:117
 #: ../build/lib/darktable/plugins/introspection_primaries.c:188
-#, fuzzy
 msgid "blue purity"
 msgstr "čistota modré"
 
 #: ../build/lib/darktable/plugins/introspection_profile_gamma.c:85
 #: ../build/lib/darktable/plugins/introspection_profile_gamma.c:158
-#, fuzzy
 msgid "dynamic range"
 msgstr "dynamický rozsah"
 
@@ -6192,31 +6140,26 @@ msgstr "zelená a modrá"
 
 #: ../build/lib/darktable/plugins/introspection_rawdenoise.c:43
 #: ../build/lib/darktable/plugins/introspection_rawdenoise.c:122
-#, fuzzy
 msgid "noise threshold"
 msgstr "práh šumu"
 
 #: ../build/lib/darktable/plugins/introspection_rawprepare.c:70
 #: ../build/lib/darktable/plugins/introspection_rawprepare.c:155
-#, fuzzy
 msgid "crop left"
 msgstr "oříznout vlevo"
 
 #: ../build/lib/darktable/plugins/introspection_rawprepare.c:76
 #: ../build/lib/darktable/plugins/introspection_rawprepare.c:159
-#, fuzzy
 msgid "crop top"
 msgstr "oříznout nahoře"
 
 #: ../build/lib/darktable/plugins/introspection_rawprepare.c:82
 #: ../build/lib/darktable/plugins/introspection_rawprepare.c:163
-#, fuzzy
 msgid "crop right"
 msgstr "oříznout vpravo"
 
 #: ../build/lib/darktable/plugins/introspection_rawprepare.c:88
 #: ../build/lib/darktable/plugins/introspection_rawprepare.c:167
-#, fuzzy
 msgid "crop bottom"
 msgstr "oříznout dole"
 
@@ -6224,14 +6167,12 @@ msgstr "oříznout dole"
 #: ../build/lib/darktable/plugins/introspection_rawprepare.c:100
 #: ../build/lib/darktable/plugins/introspection_rawprepare.c:171
 #: ../build/lib/darktable/plugins/introspection_rawprepare.c:175
-#, fuzzy
 msgid "black level"
 msgstr "úroveň černé"
 
 #: ../build/lib/darktable/plugins/introspection_rawprepare.c:106
 #: ../build/lib/darktable/plugins/introspection_rawprepare.c:179
 #: ../src/iop/rawprepare.c:901
-#, fuzzy
 msgid "white point"
 msgstr "bílý bod"
 
@@ -6242,7 +6183,6 @@ msgid "flat field correction"
 msgstr "korekce plochých polí"
 
 #: ../build/lib/darktable/plugins/introspection_rawprepare.c:198
-#, fuzzy
 msgid "embedded GainMap"
 msgstr "vestavěná GainMap"
 
@@ -6263,7 +6203,6 @@ msgstr "režim vyplnění"
 
 #: ../build/lib/darktable/plugins/introspection_retouch.c:291
 #: ../build/lib/darktable/plugins/introspection_retouch.c:430
-#, fuzzy
 msgid "max_iter"
 msgstr "max_iter"
 
@@ -6333,7 +6272,6 @@ msgstr "poměr stran pixelů"
 
 #: ../build/lib/darktable/plugins/introspection_shadhi.c:112
 #: ../build/lib/darktable/plugins/introspection_shadhi.c:215
-#, fuzzy
 msgid "white point adjustment"
 msgstr "úprava bílého bodu"
 
@@ -6352,9 +6290,8 @@ msgstr "úprava barev světla"
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:122
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:241
 #: ../src/gui/accelerators.c:96
-#, fuzzy
 msgid "skew"
-msgstr "sklonit"
+msgstr "sklon"
 
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:140
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:253
@@ -25673,9 +25610,8 @@ msgid "pick medium gray point from image"
 msgstr "vyberte z obrázku středně šedý bod"
 
 #: ../src/iop/levels.c:658 ../src/iop/rgblevels.c:1079
-#, fuzzy
 msgid "pick white point from image"
-msgstr "vyberte z obrázku bílý bod"
+msgstr "vyberte bílý bod z obrázku"
 
 #: ../src/iop/levels.c:672
 #, fuzzy
@@ -26862,7 +26798,7 @@ msgstr "přeexponovaný raw"
 #: ../src/iop/rawprepare.c:96
 msgctxt "modulename"
 msgid "raw black/white point"
-msgstr "raw černý/bílý bod"
+msgstr "RAW černý/bílý bod"
 
 # module description
 #: ../src/iop/rawprepare.c:168
@@ -26940,13 +26876,12 @@ msgid "crop bottom border"
 msgstr "oříznout spodní okraj"
 
 #: ../src/iop/rawprepare.c:935
-#, fuzzy
 msgid ""
 "raw black/white point correction\n"
 "only works for the sensors that need it."
 msgstr ""
-"Korekce RAW černobílého bodu\n"
-"funguje pouze pro senzory, které to potřebují."
+"korekce RAW černého/bíleho bodu\n"
+"funguje pouze pro senzory, které to potřebují"
 
 #: ../src/iop/relight.c:50
 #, fuzzy
@@ -27424,7 +27359,6 @@ msgid "correct highlights"
 msgstr "opravit světla"
 
 #: ../src/iop/shadhi.c:693
-#, fuzzy
 msgid "shift white point"
 msgstr "posun bílého bodu"
 
