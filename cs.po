@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-22 22:36+0200\n"
-"PO-Revision-Date: 2026-04-23 13:33+0200\n"
+"PO-Revision-Date: 2026-04-23 13:36+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -23696,7 +23696,6 @@ msgstr ""
 #. Camera settings
 #: ../src/iop/diffuse.c:1763 ../src/iop/splittoning.c:516
 #: ../src/libs/camera.c:509
-#, fuzzy
 msgctxt "section"
 msgid "properties"
 msgstr "vlastnosti"
