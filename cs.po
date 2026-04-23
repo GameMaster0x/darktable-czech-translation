@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 11:32+0200\n"
-"PO-Revision-Date: 2026-04-23 19:58+0200\n"
+"PO-Revision-Date: 2026-04-23 22:31+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -3001,7 +3001,6 @@ msgstr "sklon"
 #: ../src/iop/basicadj.c:643 ../src/iop/channelmixerrgb.c:4653
 #: ../src/iop/colisa.c:273 ../src/iop/colorequal.c:3066 ../src/iop/lowpass.c:575
 #: ../src/iop/soften.c:380 ../src/iop/vignette.c:1045 ../src/libs/history.c:959
-#, fuzzy
 msgid "brightness"
 msgstr "jas"
 
@@ -4272,7 +4271,6 @@ msgstr "střední šedá"
 
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:400
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:577
-#, fuzzy
 msgid "global vibrance"
 msgstr "globální živost"
 
@@ -4312,9 +4310,8 @@ msgstr "kontrast modrá-žlutá"
 
 #: ../build/lib/darktable/plugins/introspection_colorequal.c:218
 #: ../build/lib/darktable/plugins/introspection_colorequal.c:447
-#, fuzzy
 msgid "saturation threshold"
-msgstr "práh nasycení"
+msgstr "práh sytosti"
 
 #: ../build/lib/darktable/plugins/introspection_colorequal.c:224
 #: ../build/lib/darktable/plugins/introspection_colorequal.c:451
@@ -4323,7 +4320,6 @@ msgstr "křivka odstínu"
 
 #: ../build/lib/darktable/plugins/introspection_colorequal.c:236
 #: ../build/lib/darktable/plugins/introspection_colorequal.c:459
-#, fuzzy
 msgid "white level"
 msgstr "úroveň bílé"
 
@@ -4358,7 +4354,6 @@ msgstr "levandulová"
 
 #: ../build/lib/darktable/plugins/introspection_colorequal.c:404
 #: ../build/lib/darktable/plugins/introspection_colorequal.c:571
-#, fuzzy
 msgid "node placement"
 msgstr "umístění uzlu"
 
@@ -4871,7 +4866,6 @@ msgstr "upgradovat profilovanou transformaci"
 #: ../build/lib/darktable/plugins/introspection_denoiseprofile.c:262
 #: ../build/lib/darktable/plugins/introspection_denoiseprofile.c:399
 #: ../src/libs/colorpicker.c:765
-#, fuzzy
 msgid "color mode"
 msgstr "barevný režim"
 
@@ -4894,14 +4888,12 @@ msgid "non-local means auto"
 msgstr "nelokální prostředky auto"
 
 #: ../build/lib/darktable/plugins/introspection_denoiseprofile.c:419
-#, fuzzy
 msgid "wavelets"
-msgstr "vlnkový rozklad"
+msgstr "wavelets"
 
 #: ../build/lib/darktable/plugins/introspection_denoiseprofile.c:420
-#, fuzzy
 msgid "wavelets auto"
-msgstr "vlnkový rozklad (auto)"
+msgstr "wavelets (auto)"
 
 #: ../build/lib/darktable/plugins/introspection_denoiseprofile.c:421
 #, fuzzy
@@ -18340,7 +18332,6 @@ msgstr ""
 
 #: ../src/gui/presets.c:430 ../src/imageio/storage/disk.c:200
 #: ../src/imageio/storage/gallery.c:149 ../src/imageio/storage/latex.c:145
-#, fuzzy
 msgid "_select as output destination"
 msgstr "_vybrat cíl výstupu"
 
@@ -18476,9 +18467,9 @@ msgid "∞"
 msgstr "∞"
 
 #: ../src/gui/presets.c:981
-#, fuzzy, c-format
+#, c-format
 msgid "preset `%s' is write-protected! can't edit it!"
-msgstr "preset `%s' je chráněn proti zápisu! nelze jej upravit!"
+msgstr "preset `%s' je chráněn proti zápisu a nelze jej upravit"
 
 # dialog title
 #: ../src/gui/presets.c:1005 ../src/libs/lib.c:157
@@ -18486,7 +18477,7 @@ msgid "update preset?"
 msgstr "aktualizovat preset?"
 
 #: ../src/gui/presets.c:1006 ../src/libs/lib.c:158
-#, fuzzy, c-format
+#, c-format
 msgid "do you really want to update the preset `%s'?"
 msgstr "Opravdu chcete aktualizovat preset '%s'?"
 
@@ -18514,17 +18505,14 @@ msgid "manage module layouts"
 msgstr "spravovat rozložení modulů"
 
 #: ../src/gui/presets.c:1436
-#, fuzzy
 msgid "manage quick presets"
 msgstr "spravovat rychlé presety"
 
 #: ../src/gui/presets.c:1618
-#, fuzzy
 msgid "manage quick presets list..."
 msgstr "spravovat seznam rychlých presetů..."
 
 #: ../src/gui/presets.c:1773
-#, fuzzy
 msgid "disabled: wrong module version"
 msgstr "zakázáno: špatná verze modulu"
 
@@ -18600,12 +18588,10 @@ msgid "create new style"
 msgstr "vytvořit nový styl"
 
 #: ../src/gui/styles_dialog.c:572
-#, fuzzy
 msgid "enter a name for the new style"
 msgstr "zadejte název nového stylu"
 
 #: ../src/gui/styles_dialog.c:581
-#, fuzzy
 msgid "enter a description for the new style, this description is searchable"
 msgstr "zadejte popis nového stylu, tento popis lze vyhledávat"
 
@@ -18614,9 +18600,8 @@ msgid "keep"
 msgstr "zachovat"
 
 #: ../src/gui/styles_dialog.c:839
-#, fuzzy
 msgid "can't create style out of unaltered image"
-msgstr "nelze vytvořit styl z nezměněného obrazu"
+msgstr "nelze vytvořit styl z nezměněného obrázku"
 
 #: ../src/gui/welcome.c:611 ../src/gui/welcome.c:631
 msgid "Welcome to darktable!"
@@ -18632,30 +18617,26 @@ msgid "_next"
 msgstr "_další"
 
 #: ../src/gui/welcome.c:738
-#, fuzzy
 msgid "let's set up a few options to get you started."
 msgstr "Pojďme nastavit pár možností, abyste mohli začít."
 
 #: ../src/gui/welcome.c:741
-#, fuzzy
 msgid ""
 "if you are unsure, don't worry! just go ahead with the default, you can "
 "always change all values later in the <b>preferences</b>."
 msgstr ""
-"Pokud si nejste jisti, nedělejte si starosti! Stačí použít výchozí nastavení, "
-"všechny hodnoty můžete kdykoli později změnit v <b>nastavení</b>."
+"Pokud si nejste jisti, nedělejte si starosti; stačí použít výchozí nastavení. "
+"Všechny hodnoty můžete kdykoli následně změnit v <b>předvolbách</b>."
 
 #: ../src/gui/welcome.c:746
-#, fuzzy
 msgid ""
 "you can close this window at any time, in which case the defaults will be "
 "applied."
 msgstr ""
-"Toto okno můžete kdykoli zavřít; v takovém případě se použijí výchozí "
+"Toto okno můžete kdykoli zavřít; v takovém případě se použije výchozí "
 "nastavení."
 
 #: ../src/gui/welcome.c:779
-#, fuzzy
 msgid "<b>You are all set!</b>"
 msgstr "<b>Vše je připraveno!</b>"
 
@@ -18666,7 +18647,7 @@ msgid ""
 "covered just the most essential ones — make sure to explore the "
 "<b>preferences</b> to get the full picture."
 msgstr ""
-"Darktable je velmi flexibilní a nabízí celou řadu možností. Zde jsme se "
+"Darktable je velmi flexibilně a nabízí celou řadu možností. Zde jsme se "
 "zaměřili pouze na ty nejdůležitější – nezapomeňte prozkoumat <b>nastavení</"
 "b>, abyste získali ucelený přehled."
 
@@ -18690,7 +18671,6 @@ msgstr ""
 "a získat tak pomoc přesně tam, kde ji potřebujete."
 
 #: ../src/gui/welcome.c:804
-#, fuzzy
 msgid "Happy editing with darktable!"
 msgstr "Přejeme příjemnou práci v darktable!"
 
@@ -20615,7 +20595,6 @@ msgstr "hrubý"
 
 #: ../src/iop/atrous.c:1341 ../src/iop/atrous.c:1581
 #: ../src/iop/denoiseprofile.c:3421 ../src/iop/rawdenoise.c:740
-#, fuzzy
 msgid "fine"
 msgstr "jemný"
 
@@ -20815,7 +20794,6 @@ msgstr "korektivní"
 #: ../src/iop/rgblevels.c:124 ../src/iop/vignette.c:118
 #: ../src/iop/vignette.c:120 ../src/iop/watermark.c:461
 #: ../src/iop/watermark.c:463
-#, fuzzy
 msgid "non-linear, RGB, display-referred"
 msgstr "nelineární, RGB, displej-referred"
 
@@ -20971,7 +20949,6 @@ msgid "adjusts clipping value for auto exposure calculation"
 msgstr "upraví hodnotu oříznutí pro automatický výpočet expozice"
 
 #: ../src/iop/bilat.c:74
-#, fuzzy
 msgid "local contrast"
 msgstr "lokální kontrast"
 
@@ -20990,7 +20967,6 @@ msgstr "pracovat s místním a globálním kontrastem odděleně"
 #: ../src/iop/levels.c:140 ../src/iop/lowlight.c:90 ../src/iop/lowlight.c:92
 #: ../src/iop/monochrome.c:102 ../src/iop/nlmeans.c:88 ../src/iop/nlmeans.c:90
 #: ../src/iop/shadhi.c:144 ../src/iop/tonecurve.c:182 ../src/iop/vibrance.c:97
-#, fuzzy
 msgid "non-linear, Lab, display-referred"
 msgstr "nelineární, Lab, display-referred"
 
@@ -21001,7 +20977,6 @@ msgstr "nelineární, Lab, display-referred"
 #: ../src/iop/defringe.c:82 ../src/iop/grain.c:393 ../src/iop/levels.c:139
 #: ../src/iop/monochrome.c:101 ../src/iop/nlmeans.c:89 ../src/iop/shadhi.c:143
 #: ../src/iop/tonecurve.c:181 ../src/iop/vibrance.c:96
-#, fuzzy
 msgid "non-linear, Lab"
 msgstr "nelineární, Lab"
 
@@ -23107,7 +23082,6 @@ msgid "perceptual brilliance grading"
 msgstr "percepční grading jasu"
 
 #: ../src/iop/colorbalancergb.c:1850
-#, fuzzy
 msgid "brilliance"
 msgstr "jas"
 
@@ -23599,9 +23573,8 @@ msgstr "teal & orange"
 #. Page OPTIONS
 #: ../src/iop/colorequal.c:2886 ../src/iop/colorequal.c:3089
 #: ../src/iop/filmicrgb.c:4552
-#, fuzzy
 msgid "options"
-msgstr "nastavení"
+msgstr "možnosti"
 
 # tooltip
 #: ../src/iop/colorequal.c:2982
@@ -26839,7 +26812,6 @@ msgstr "lineární, raw, display-referred"
 #. Here we could provide more for monochrome special cases. As no monochrome camera
 #. has a bayer sensor we don't need g->RGB_to_CAM and g->CAM_to_RGB corrections
 #: ../src/iop/invert.c:410
-#, fuzzy
 msgid "brightness of film material"
 msgstr "jas filmového materiálu"
 
@@ -27948,7 +27920,6 @@ msgid "radius of the patches to match"
 msgstr "poloměr záplat, aby se shodovaly"
 
 #: ../src/iop/nlmeans.c:456
-#, fuzzy
 msgid "how much to smooth brightness"
 msgstr "jak moc vyhladit jas"
 
@@ -33790,7 +33761,6 @@ msgid "AI upscaling"
 msgstr "AI upscaling"
 
 #: ../src/libs/neural_restore.c:2273
-#, fuzzy
 msgid "detail recovery"
 msgstr "obnovení detailů"
 
@@ -34336,7 +34306,7 @@ msgstr "pracovní kód"
 #: ../src/libs/snapshots.c:99
 #, fuzzy
 msgid "snapshots"
-msgstr "varianty"
+msgstr "snímky"
 
 #: ../src/libs/snapshots.c:104
 #, fuzzy
