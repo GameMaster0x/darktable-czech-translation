@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-22 22:36+0200\n"
-"PO-Revision-Date: 2026-04-23 18:20+0200\n"
+"PO-Revision-Date: 2026-04-23 18:28+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -19819,7 +19819,7 @@ msgstr "5:3"
 
 #: ../src/iop/borders.c:943
 msgid "US Legal 8.5x14"
-msgstr "US Legal 8.5x14"
+msgstr "US Legal 8.5×14"
 
 #: ../src/iop/borders.c:944 ../src/iop/clipping.c:2137 ../src/iop/crop.c:1283
 msgid "golden cut"
@@ -19831,7 +19831,7 @@ msgstr "16:10"
 
 #: ../src/iop/borders.c:946
 msgid "3:2 (4x6, 10x15cm)"
-msgstr "3:2 (4x6, 10x15cm)"
+msgstr "3:2 (4×6, 10×15cm)"
 
 #: ../src/iop/borders.c:948
 msgid "DIN"
@@ -19847,7 +19847,7 @@ msgstr "4:3"
 
 #: ../src/iop/borders.c:951
 msgid "US Letter 8.5x11"
-msgstr "US Letter 8.5x11"
+msgstr "US Letter 8.5×11"
 
 #: ../src/iop/borders.c:952
 msgid "14:11"
@@ -19855,7 +19855,7 @@ msgstr "14:11"
 
 #: ../src/iop/borders.c:953
 msgid "5:4 (8x10)"
-msgstr "5:4 (8x10)"
+msgstr "5:4 (8×10)"
 
 #: ../src/iop/borders.c:955
 msgid "constant border"
@@ -21077,15 +21077,15 @@ msgstr "10:8 v tisku"
 
 #: ../src/iop/clipping.c:2129 ../src/iop/crop.c:1274
 msgid "5:4, 4x5, 8x10"
-msgstr "5:4, 4x5, 8x10"
+msgstr "5:4, 4×5, 8×10"
 
 #: ../src/iop/clipping.c:2130 ../src/iop/crop.c:1275
 msgid "11x14"
-msgstr "11x14"
+msgstr "11×14"
 
 #: ../src/iop/clipping.c:2131 ../src/iop/crop.c:1277
 msgid "8.5x11, letter"
-msgstr "8.5x11, letter"
+msgstr "8.5×11, letter"
 
 #: ../src/iop/clipping.c:2132 ../src/iop/crop.c:1278
 msgid "4:3, VGA, TV"
@@ -21093,7 +21093,7 @@ msgstr "4:3, VGA, TV"
 
 #: ../src/iop/clipping.c:2133 ../src/iop/crop.c:1279
 msgid "5x7"
-msgstr "5x7"
+msgstr "5×7"
 
 #: ../src/iop/clipping.c:2134 ../src/iop/crop.c:1280
 msgid "ISO 216, DIN 476, A4"
@@ -21101,11 +21101,11 @@ msgstr "ISO 216, DIN 476, A4"
 
 #: ../src/iop/clipping.c:2135 ../src/iop/crop.c:1281
 msgid "3:2, 4x6, 35mm"
-msgstr "3:2, 4x6, 35mm"
+msgstr "3:2, 4×6, 35mm"
 
 #: ../src/iop/clipping.c:2136 ../src/iop/crop.c:1282
 msgid "16:10, 8x5"
-msgstr "16:10, 8x5"
+msgstr "16:10, 8×5"
 
 #: ../src/iop/clipping.c:2138 ../src/iop/crop.c:1284
 msgid "16:9, HDTV"
@@ -22911,8 +22911,9 @@ msgid "change the framing"
 msgstr "změnit rámování"
 
 #: ../src/iop/crop.c:1276
+#, fuzzy
 msgid "45x35, portrait"
-msgstr "45x35, portrét"
+msgstr "45×35, portrét"
 
 #: ../src/iop/crop.c:1286
 msgid "2:1, Univisium"
@@ -24851,20 +24852,21 @@ msgid "rotation|flip|mirror"
 msgstr "rotace|převrácení|zrcadlo"
 
 #: ../src/iop/flip.c:108
+#, fuzzy
 msgid "flip or rotate image by step of 90 degrees"
-msgstr "převrátit nebo otočit obrázek o 90 stupňů"
+msgstr "převrátit nebo otočit obrázek o 90°"
 
 #: ../src/iop/flip.c:465
 msgid "rotate by -90 degrees"
-msgstr "otočit o -90 stupňů"
+msgstr "otočit o -90°"
 
 #: ../src/iop/flip.c:469
 msgid "rotate by  90 degrees"
-msgstr "otočit o 90 stupňů"
+msgstr "otočit o 90°"
 
 #: ../src/iop/flip.c:473
 msgid "rotate by 180 degrees"
-msgstr "otočit o 180 stupňů"
+msgstr "otočit o 180°"
 
 #: ../src/iop/flip.c:601
 msgid "transform"
@@ -24872,11 +24874,11 @@ msgstr "transformace"
 
 #: ../src/iop/flip.c:605 ../src/libs/live_view.c:334
 msgid "rotate 90 degrees CCW"
-msgstr "otočit o 90 stupňů proti směru hodinových ručiček"
+msgstr "otočit o 90° proti směru hodinových ručiček"
 
 #: ../src/iop/flip.c:609 ../src/libs/live_view.c:336
 msgid "rotate 90 degrees CW"
-msgstr "otočit o 90 stupňů po směru hodinových ručiček"
+msgstr "otočit o 90° po směru hodinových ručiček"
 
 #: ../src/iop/gamma.c:41
 msgctxt "modulename"
@@ -25007,7 +25009,7 @@ msgstr ""
 #: ../src/iop/graduatednd.c:1070
 #, fuzzy
 msgid "rotation of filter -180 to 180 degrees"
-msgstr "otočení filtru -180 až 180 stupňů"
+msgstr "otočení filtru -180° až 180°"
 
 #: ../src/iop/graduatednd.c:1083
 #, fuzzy
@@ -25114,7 +25116,6 @@ msgid "avoid magenta highlights and try to recover highlights colors"
 msgstr "vyhněte se purpurovým odleskům a pokuste se obnovit světlé barvy"
 
 #: ../src/iop/highlights.c:178 ../src/iop/hotpixels.c:75
-#, fuzzy
 msgid "reconstruction, raw"
 msgstr "rekonstrukce, raw"
 
@@ -30704,11 +30705,11 @@ msgstr "Přidat duplikát do knihovny obrázků, včetně historie úprav."
 
 #: ../src/libs/image.c:551 ../src/libs/image.c:556
 msgid "rotate selected images 90 degrees CCW"
-msgstr "otočit vybrané snímky o 90 stupňů proti směru hodinových ručiček"
+msgstr "otočit vybrané snímky o 90° proti směru hodinových ručiček"
 
 #: ../src/libs/image.c:562 ../src/libs/image.c:567
 msgid "rotate selected images 90 degrees CW"
-msgstr "otočit vybrané snímky o 90 stupňů po směru hodinových ručiček"
+msgstr "otočit vybrané snímky o 90°po směru hodinových ručiček"
 
 #: ../src/libs/image.c:570
 msgid "reset rotation"
