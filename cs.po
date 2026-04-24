@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 11:32+0200\n"
-"PO-Revision-Date: 2026-04-23 22:31+0200\n"
+"PO-Revision-Date: 2026-04-24 09:06+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -2078,7 +2078,6 @@ msgstr ""
 "Je nezbytné, aby bylo vyplněné heslo."
 
 #: ../build/bin/preferences_gen.h:4074
-#, fuzzy
 msgid "executable for playing audio files"
 msgstr "program pro přehrávání zvukových souborů"
 
@@ -2260,9 +2259,8 @@ msgid "display the welcome setup screen the next time darktable is launched"
 msgstr "Při příštím startu darktable nebudou Lua skripty aktivovány."
 
 #: ../build/bin/preferences_gen.h:4311
-#, fuzzy
 msgid "load default shortcuts at startup"
-msgstr "obnovit výchozí zkratky po startu"
+msgstr "po startu načíst výchozí zkratky"
 
 #: ../build/bin/preferences_gen.h:4319
 #, fuzzy
@@ -6847,7 +6845,6 @@ msgid "error: can't open XMP file %s"
 msgstr "chyba: nelze otevřít XMP soubor %s"
 
 #: ../src/cli/main.c:696
-#, fuzzy
 msgid "empty history stack"
 msgstr "vymazat historii úprav"
 
@@ -6939,10 +6936,8 @@ msgid "model is already downloading"
 msgstr "model se již stahuje"
 
 #: ../src/common/ai_models.c:1339
-#, fuzzy
-#| msgid "invalid override date/time format"
 msgid "invalid repository format"
-msgstr "neplatný přepis formátu data/času"
+msgstr "neplatný formát repozitáře"
 
 #: ../src/common/ai_models.c:1364
 #, c-format
@@ -6963,16 +6958,13 @@ msgid "failed to build download url"
 msgstr "Nezdařilo se stáhnout skripty."
 
 #: ../src/common/ai_models.c:1409
-#, fuzzy, c-format
-#| msgid "failed to overwrite style file for %s"
+#, c-format
 msgid "failed to create file: %s"
-msgstr "nepodařilo se přepsat soubor stylu pro %s"
+msgstr "nezdařilo se vytvořit soubor: %s"
 
 #: ../src/common/ai_models.c:1433
-#, fuzzy
-#| msgid "failed to download scripts"
 msgid "failed to initialize download"
-msgstr "Nezdařilo se stáhnout skripty."
+msgstr "nezdařilo se zahájit stahování"
 
 #: ../src/common/ai_models.c:1453
 msgid "download cancelled"
@@ -6989,9 +6981,8 @@ msgid "http error: %ld"
 msgstr "http chyba: %ld"
 
 #: ../src/common/ai_models.c:1489
-#, fuzzy
 msgid "checksum verification failed"
-msgstr "Ověření kontrolního součtu se nezdařilo"
+msgstr "ověření kontrolního součtu se nezdařilo"
 
 #: ../src/common/ai_models.c:1499
 #, c-format
@@ -6999,10 +6990,12 @@ msgid ""
 "no checksum available for %s — refusing to install without integrity "
 "verification"
 msgstr ""
+"pro %s nebyl nalezen žádný kontrolní součet, instalace bez ověření integrity "
+"není možná"
 
 #: ../src/common/ai_models.c:1509
 msgid "failed to extract archive"
-msgstr ""
+msgstr "extrakce archivu se nezdařila"
 
 #: ../src/common/camera_control.c:205
 #, fuzzy, c-format
@@ -7284,17 +7277,14 @@ msgstr "pracovní profil"
 
 #: ../src/common/colorspaces.c:1431 ../src/common/colorspaces.c:1776
 #: ../src/views/darkroom.c:3177
-#, fuzzy
 msgid "softproof profile"
 msgstr "softproof profil"
 
 #: ../src/common/colorspaces.c:1441 ../src/common/colorspaces.c:1758
-#, fuzzy
 msgid "system display profile"
 msgstr "systémový barevný profil"
 
 #: ../src/common/colorspaces.c:1446 ../src/common/colorspaces.c:1780
-#, fuzzy
 msgid "system display profile (second window)"
 msgstr "systémový barevný profil (druhé okno)"
 
@@ -7345,42 +7335,38 @@ msgid "BRG (for testing)"
 msgstr "BRG (pro testování)"
 
 #: ../src/common/colorspaces.c:1663
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "profile `%s' not usable as histogram profile. it has been replaced by sRGB!"
-msgstr "profil `%s' nelze použít jako profil histogramu. byl nahrazen sRGB!"
+msgstr ""
+"profil `%s' nelze použít jako profil histogramu\n"
+"byl nahrazen sRGB"
 
 #: ../src/common/colorspaces.c:1742
 msgid "no filename"
 msgstr "žádný název souboru"
 
 #: ../src/common/colorspaces.c:1760
-#, fuzzy
 msgid "embedded ICC profile"
 msgstr "vestavěný ICC profil"
 
 #: ../src/common/colorspaces.c:1762
-#, fuzzy
 msgid "embedded matrix"
 msgstr "vestavěná matice"
 
 #: ../src/common/colorspaces.c:1764
-#, fuzzy
 msgid "standard color matrix"
 msgstr "standardní barevná matice"
 
 #: ../src/common/colorspaces.c:1766
-#, fuzzy
 msgid "enhanced color matrix"
 msgstr "rozšířená barevná matice"
 
 #: ../src/common/colorspaces.c:1768
-#, fuzzy
 msgid "vendor color matrix"
 msgstr "matice barev dodavatele"
 
 #: ../src/common/colorspaces.c:1770
-#, fuzzy
 msgid "alternate color matrix"
 msgstr "alternativní barevná matice"
 
@@ -7692,14 +7678,13 @@ msgid "color not found"
 msgstr "barva nebyla nalezena"
 
 #: ../src/common/cups_print.c:437
-#, fuzzy, c-format
+#, c-format
 msgid "file `%s' to print not found for image %d on `%s'"
 msgstr "soubor `%s' k tisku nebyl nalezen pro obrázek %d na `%s'"
 
 #: ../src/common/cups_print.c:460
-#, fuzzy
 msgid "failed to create temporary file for printing options"
-msgstr "nepodařilo se vytvořit dočasný soubor pro možnosti tisku"
+msgstr "nezdařilo se vytvořit dočasný soubor pro možnosti tisku"
 
 #: ../src/common/cups_print.c:530
 #, c-format
@@ -7717,24 +7702,24 @@ msgid "printing `%s' on `%s'"
 msgstr "tisk `%s' na `%s'"
 
 #: ../src/common/darktable.c:429
-#, fuzzy, c-format
+#, c-format
 msgid "found strange path `%s'"
-msgstr "existuje podivná cesta `%s'"
+msgstr "existuje zvláštní cesta `%s'"
 
 #: ../src/common/darktable.c:444
-#, fuzzy, c-format
+#, c-format
 msgid "error loading directory `%s'"
 msgstr "chyba při načítání adresáře `%s'"
 
 #: ../src/common/darktable.c:468
-#, fuzzy, c-format
+#, c-format
 msgid "file `%s' has unsupported format!"
 msgstr "soubor `%s' má nepodporovaný formát!"
 
 #: ../src/common/darktable.c:470
-#, fuzzy, c-format
+#, c-format
 msgid "file `%s' has unknown format!"
-msgstr "soubor `%s' má neznámý formát!"
+msgstr "neznámý formát souboru `%s'"
 
 #: ../src/common/darktable.c:483 ../src/control/jobs/control_jobs.c:2877
 #: ../src/control/jobs/control_jobs.c:2932
@@ -7764,7 +7749,6 @@ msgstr "darktable - nelze vytvořit adresáře"
 
 #: ../src/common/darktable.c:1611 ../src/common/database.c:4137
 #: ../src/common/database.c:4339
-#, fuzzy
 msgid "_quit darktable"
 msgstr "_ukončit darktable"
 
@@ -7795,68 +7779,68 @@ msgstr "inicializuji signals and control"
 
 #: ../src/common/darktable.c:1753
 msgid "importing default styles"
-msgstr "importuji výchozí styly"
+msgstr "importuji výchozí styly..."
 
 #: ../src/common/darktable.c:1855
 msgid "initializing GraphicsMagick"
-msgstr "inicializuji GraphicsMagick"
+msgstr "inicializuji GraphicsMagick..."
 
 #. ImageMagick init
 #: ../src/common/darktable.c:1867
 msgid "initializing ImageMagick"
-msgstr "inicializuji ImageMagick"
+msgstr "inicializuji ImageMagick..."
 
 #: ../src/common/darktable.c:1872
 msgid "initializing libheif"
-msgstr "inicializuji libheif"
+msgstr "inicializuji libheif..."
 
 #: ../src/common/darktable.c:1876
 msgid "starting OpenCL"
-msgstr "spouštím OpenCL"
+msgstr "spouštím OpenCL..."
 
 #: ../src/common/darktable.c:1888
 msgid "loading noise profiles"
-msgstr "nahrávám profily šumu"
+msgstr "nahrávám profily šumu..."
 
 #: ../src/common/darktable.c:1905
 msgid "synchronizing local copies"
-msgstr "synchronizuji lokální kopie"
+msgstr "synchronizuji lokální kopie..."
 
 #. Initialize the camera control.  this is done late so that the
 #. gui can react to the signal sent but before switching to
 #. lighttable!
 #: ../src/common/darktable.c:1912
 msgid "initializing camera control"
-msgstr "inicializuji ovládání fotoaparátu"
+msgstr "inicializuji ovládání fotoaparátu..."
 
 #: ../src/common/darktable.c:1925
 msgid "initializing GUI"
-msgstr "inicializuji GUI"
+msgstr "inicializuji GUI..."
 
 #: ../src/common/darktable.c:1942
 msgid "loading image formats"
-msgstr "načítám formáty obrázků"
+msgstr "načítám formáty obrázků..."
 
 #: ../src/common/darktable.c:1947 ../src/develop/imageop.c:1719
 msgid "loading processing modules"
-msgstr "načítám kreativní moduly ..."
+msgstr "načítám kreativní moduly..."
 
 #: ../src/common/darktable.c:1979
 msgid "loading views"
-msgstr "načítám zobrazení"
+msgstr "načítám zobrazení..."
 
 #: ../src/common/darktable.c:1983 ../src/libs/lib.c:886
 msgid "loading utility modules"
-msgstr "načítám moduly nástrojů"
+msgstr "načítám moduly nástrojů..."
 
 #: ../src/common/darktable.c:1990
 msgid "initializing Lua"
-msgstr "načítám Lua"
+msgstr "inicializuji Lua..."
 
 #. If only one image is listed, attempt to load it in darkroom
 #: ../src/common/darktable.c:2019
 msgid "importing image"
-msgstr "importuji obrázek"
+msgstr "importuji obrázek..."
 
 #: ../src/common/darktable.c:2038
 msgid "configuration information"
@@ -16195,7 +16179,6 @@ msgid "organize and develop images from digital cameras"
 msgstr "organizujte a zpracovávejte snímky z digitálních fotoaparátů"
 
 #: ../src/gui/about.c:51
-#, fuzzy
 msgid "all those of you that made previous releases possible"
 msgstr "všichni ti z vás, kdo umožnili předchozí vydání"
 
@@ -16204,7 +16187,6 @@ msgid "and..."
 msgstr "a…"
 
 #: ../src/gui/about.c:59
-#, fuzzy
 msgid "translator-credits"
 msgstr "překladatel"
 
@@ -16455,12 +16437,10 @@ msgid "tablet button"
 msgstr "tlačítko tabletu"
 
 #: ../src/gui/accelerators.c:686
-#, fuzzy
 msgid "unknown driver"
 msgstr "neznámý ovladač"
 
 #: ../src/gui/accelerators.c:759
-#, fuzzy
 msgid "long"
 msgstr "dlouhý"
 
@@ -16683,7 +16663,7 @@ msgid "shortcut for move exists with single effect"
 msgstr "zkratka pro pohyb existuje s jediným efektem"
 
 #: ../src/gui/accelerators.c:1463
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s\n"
 "\n"
@@ -16709,27 +16689,22 @@ msgid "shortcut exists with different settings"
 msgstr "zkratka existuje s jinými nastaveními"
 
 #: ../src/gui/accelerators.c:1510
-#, fuzzy
 msgid "reset the settings of the shortcut?"
 msgstr "resetovat nastavení zkratky?"
 
 #: ../src/gui/accelerators.c:1519
-#, fuzzy
 msgid "shortcut already exists"
 msgstr "zkratka již existuje"
 
 #: ../src/gui/accelerators.c:1521
-#, fuzzy
 msgid "disable this default shortcut?"
 msgstr "zakázat tuto výchozí zkratku?"
 
 #: ../src/gui/accelerators.c:1522
-#, fuzzy
 msgid "remove the shortcut?"
 msgstr "odstranit zkratku?"
 
 #: ../src/gui/accelerators.c:1562
-#, fuzzy
 msgid "clashing shortcuts exist"
 msgstr "existují konfliktní zkratky"
 
@@ -16750,7 +16725,6 @@ msgid "second"
 msgstr "druhý"
 
 #: ../src/gui/accelerators.c:1612
-#, fuzzy
 msgid "last but one"
 msgstr "předposlední"
 
@@ -17406,9 +17380,9 @@ msgid "does not contain pages"
 msgstr "neobsahuje stránky"
 
 #: ../src/gui/gtk.c:4232
-#, fuzzy, c-format
+#, c-format
 msgid "never show more than %d lines"
-msgstr "nemůžete mít více než %d řádků"
+msgstr "nezobrazovat více než %d řádků"
 
 #: ../src/gui/gtkentry.c:37
 #, fuzzy
@@ -17820,7 +17794,7 @@ msgstr "stahuji AI model"
 #: ../src/gui/preferences_ai.c:621
 #, c-format
 msgid "downloading: %s"
-msgstr "stahuji `%s' ..."
+msgstr "stahuji: %s"
 
 #: ../src/gui/preferences_ai.c:782
 msgid "install AI model"
@@ -17840,13 +17814,12 @@ msgstr "balíček AI modelu (*.dtmodel)"
 
 # dialog title
 #: ../src/gui/preferences_ai.c:863
-#, fuzzy, c-format
-#| msgid "delete duplicate?"
+#, c-format
 msgid "delete %d selected model?"
 msgid_plural "delete %d selected models?"
-msgstr[0] "Odstranit duplikát?"
-msgstr[1] "Odstranit duplikát?"
-msgstr[2] "Odstranit duplikát?"
+msgstr[0] "delete %d selected model?"
+msgstr[1] "delete %d selected models?"
+msgstr[2] "Odstranit %d duplikátů?"
 
 #: ../src/gui/preferences_ai.c:925
 #, fuzzy
@@ -17855,39 +17828,31 @@ msgstr "rozsahy"
 
 #: ../src/gui/preferences_ai.c:925
 msgid "author"
-msgstr ""
+msgstr "autor"
 
 #: ../src/gui/preferences_ai.c:926
-#, fuzzy
 msgid "source"
-msgstr "F zdroj"
+msgstr "zdroj"
 
 #: ../src/gui/preferences_ai.c:926
-#, fuzzy
-#| msgid "paper size"
 msgid "paper"
-msgstr "velikost papíru"
+msgstr "papír"
 
 #: ../src/gui/preferences_ai.c:927
-#, fuzzy
 msgid "license"
-msgstr "cenzurovat"
+msgstr "licence"
 
 #: ../src/gui/preferences_ai.c:927
-#, fuzzy
 msgid "training data"
-msgstr "připravuji databázi ..."
+msgstr "tréninková data"
 
 #: ../src/gui/preferences_ai.c:928
-#, fuzzy
-#| msgid "metadata list"
 msgid "data license"
-msgstr "seznam metadat"
+msgstr "licence dat"
 
 #: ../src/gui/preferences_ai.c:1003
-#, fuzzy
 msgid "click for model details"
-msgstr "kliknutím upravte uzly"
+msgstr "klikněte pro detaily o modelu"
 
 #: ../src/gui/preferences_ai.c:1060
 #, c-format
@@ -18541,7 +18506,7 @@ msgstr "načítám"
 msgid ""
 "Photography workflow application\n"
 "and RAW developer"
-msgstr "Software pro práci a zpracování RAW fotografií"
+msgstr "Software pro organizaci a zpracování RAW fotografií"
 
 # dialog title
 #: ../src/gui/styles_dialog.c:234 ../src/libs/styles.c:501
@@ -31261,7 +31226,7 @@ msgstr "id"
 
 #: ../src/libs/filtering.c:65
 msgid "custom sort"
-msgstr "vlastní třídění"
+msgstr "vlastní řazení"
 
 #: ../src/libs/filtering.c:66
 msgid "shuffle"
@@ -32200,7 +32165,6 @@ msgid "remove selected images from the group"
 msgstr "odstranit vybrané obrázky ze skupiny"
 
 #: ../src/libs/image.c:615 ../src/libs/metadata_view.c:144
-#, fuzzy
 msgid "flags"
 msgstr "příznaky"
 
@@ -32305,9 +32269,8 @@ msgid "device \"%s\" connected on port \"%s\"."
 msgstr "zařízení \"%s\" připojené k portu \"%s\"."
 
 #: ../src/libs/import.c:312 ../src/libs/import.c:2409
-#, fuzzy
 msgid "unmount camera"
-msgstr "odpojit fotoaparát"
+msgstr "odebrat fotoaparát"
 
 #: ../src/libs/import.c:331
 #, fuzzy
@@ -32389,16 +32352,14 @@ msgid "modified"
 msgstr "změněno"
 
 #: ../src/libs/import.c:1881
-#, fuzzy
 msgid "file 'modified date/time', may be different from 'Exif date/time'"
-msgstr "'změněný datum/čas' souboru, se může lišit od 'Exif data/času'"
+msgstr "\"změněné datum/čas\" souboru, se může lišit od \"EXIF datum/čas\""
 
 #: ../src/libs/import.c:1893
 msgid "show/hide thumbnails"
 msgstr "zobrazit/skrýt miniatury"
 
 #: ../src/libs/import.c:1967
-#, fuzzy
 msgid "naming rules"
 msgstr "pravidla pojmenování"
 
