@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 11:32+0200\n"
-"PO-Revision-Date: 2026-04-24 09:06+0200\n"
+"PO-Revision-Date: 2026-04-24 09:50+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -1938,9 +1938,8 @@ msgid "security"
 msgstr "zabezpečení"
 
 #: ../build/bin/preferences_gen.h:3839
-#, fuzzy
 msgid "ask before removing images from the library"
-msgstr "zeptat se před vymazáním obrázku z knihovny"
+msgstr "zeptat se před odebráním obrázku z knihovny"
 
 #: ../build/bin/preferences_gen.h:3847
 #, fuzzy
@@ -1948,7 +1947,6 @@ msgid "always ask the user before removing image information from the library"
 msgstr "Vyžadovat potvrzení před odebráním fotografií z knihovny."
 
 #: ../build/bin/preferences_gen.h:3856
-#, fuzzy
 msgid "ask before deleting images from disk"
 msgstr "zeptat se před smazáním obrázku z disku"
 
@@ -2522,7 +2520,6 @@ msgstr ""
 "maskované instance ignorujte"
 
 #: ../build/bin/preferences_gen.h:4637
-#, fuzzy
 msgid "selection order"
 msgstr "pořadí výběru"
 
@@ -32638,9 +32635,9 @@ msgid "new location"
 msgstr "nové místo"
 
 #: ../src/libs/map_locations.c:585
-#, fuzzy, c-format
+#, c-format
 msgid "location name '%s' already exists"
-msgstr "název lokace '%s' již existuje"
+msgstr "název místa \"%s\" již existuje"
 
 #: ../src/libs/map_locations.c:776
 msgid "edit location"
@@ -33730,7 +33727,6 @@ msgid "recover fine texture lost during denoising while suppressing noise"
 msgstr ""
 
 #: ../src/libs/neural_restore.c:2284
-#, fuzzy
 msgid "upscale factor"
 msgstr "měřítko zvětšení"
 
@@ -33912,9 +33908,8 @@ msgid " x "
 msgstr " x "
 
 #: ../src/libs/print_settings.c:2647
-#, fuzzy
 msgid "scale factor"
-msgstr "měřítko"
+msgstr "měřítko zvětšení"
 
 #: ../src/libs/print_settings.c:2653
 #, fuzzy
@@ -34420,7 +34415,6 @@ msgid "creates a duplicate of the image before applying style"
 msgstr "vytvoří duplikát obrázku před aplikováním stylu"
 
 #: ../src/libs/styles.c:911
-#, fuzzy
 msgid "how to handle existing history"
 msgstr "jak zacházet se stávající historií"
 
@@ -34433,7 +34427,6 @@ msgid "create..."
 msgstr "vytvořit..."
 
 #: ../src/libs/styles.c:920
-#, fuzzy
 msgid "create styles from history stack of selected images"
 msgstr "vytvořit styl z historie úprav vybraných obrázků"
 
@@ -34497,7 +34490,6 @@ msgid ""
 msgstr "přidá nebo odebere klíčová slova aktuálně vybraným obrázkům"
 
 #: ../src/libs/tagging.c:1415
-#, fuzzy
 msgid "attach tag to all"
 msgstr "přiřadit tag všem"
 
@@ -34547,12 +34539,11 @@ msgid "tag %s removed"
 msgstr "tag %s odstraněn"
 
 #: ../src/libs/tagging.c:1757
-#, fuzzy
 msgid "delete node?"
-msgstr "Smazat uzel?"
+msgstr "Odstranit uzel?"
 
 #: ../src/libs/tagging.c:1767
-#, fuzzy, c-format
+#, c-format
 msgid "<u>%d</u> tag will be deleted"
 msgid_plural "<u>%d</u> tags will be deleted"
 msgstr[0] "<u>%d</u> tag bude odstraněn"
@@ -34561,7 +34552,7 @@ msgstr[2] "<u>%d</u> tagů bude odstraněno"
 
 #: ../src/libs/tagging.c:1774 ../src/libs/tagging.c:1994
 #: ../src/libs/tagging.c:2303
-#, fuzzy, c-format
+#, c-format
 msgid "<u>%d</u> image will be updated"
 msgid_plural "<u>%d</u> images will be updated"
 msgstr[0] "<u>%d</u> obrázek bude aktualizován"
@@ -34596,17 +34587,15 @@ msgstr "synonyma: "
 
 #: ../src/libs/tagging.c:1894 ../src/libs/tagging.c:2046
 #: ../src/libs/tagging.c:2329
-#, fuzzy
 msgid "empty tag is not allowed, aborting"
-msgstr "prázdný tag není dovolen, storno"
+msgstr "prázdný tag není dovolen"
 
 #: ../src/libs/tagging.c:1905
-#, fuzzy
 msgid "tag name already exists. aborting."
-msgstr "tag již existuje, ruším"
+msgstr "název tagu již existuje"
 
 #: ../src/libs/tagging.c:1988 ../src/libs/tagging.c:2297
-#, fuzzy, c-format
+#, c-format
 msgid "<u>%d</u> tag will be updated"
 msgid_plural "<u>%d</u> tags will be updated"
 msgstr[0] "<u>%d</u> tag bude aktualizován"
@@ -34628,7 +34617,6 @@ msgid "at least one new tag name (%s) already exists, aborting"
 msgstr "alespoň jeden nový název tagu (%s) již existuje, ruším"
 
 #: ../src/libs/tagging.c:2287
-#, fuzzy
 msgid "change path"
 msgstr "změnit cestu"
 
@@ -34638,7 +34626,7 @@ msgid "'|' misplaced, empty tag is not allowed, aborting"
 msgstr "znak '|' špatně umístěn, tag bez názvu není povolen, ruším"
 
 #: ../src/libs/tagging.c:2465
-#, fuzzy, c-format
+#, c-format
 msgid "tag %s created"
 msgstr "tag %s vytvořen"
 
@@ -35065,24 +35053,20 @@ msgid "invalid gamepad button"
 msgstr "neplatné tlačítko gamepadu"
 
 #: ../src/libs/tools/gamepad.c:89
-#, fuzzy
 msgid "left x"
-msgstr "vlevo x"
+msgstr "levé x"
 
 #: ../src/libs/tools/gamepad.c:89
-#, fuzzy
 msgid "left y"
-msgstr "vlevo y"
+msgstr "levé y"
 
 #: ../src/libs/tools/gamepad.c:89
-#, fuzzy
 msgid "right x"
-msgstr "pravý x"
+msgstr "pravé x"
 
 #: ../src/libs/tools/gamepad.c:89
-#, fuzzy
 msgid "right y"
-msgstr "pravý y"
+msgstr "pravé y"
 
 #: ../src/libs/tools/gamepad.c:90
 #, fuzzy
@@ -35335,7 +35319,6 @@ msgid "focus detection"
 msgstr "detekce zaostření"
 
 #: ../src/libs/tools/lighttable.c:415 ../src/libs/tools/lighttable.c:426
-#, fuzzy
 msgid "no restriction"
 msgstr "bez omezení"
 
@@ -35743,27 +35726,22 @@ msgid "cycle modules"
 msgstr "aktivní moduly"
 
 #: ../src/views/darkroom.c:2832 ../src/views/darkroom.c:2834
-#, fuzzy
 msgid "quick access to presets"
-msgstr "rychlý přístup do presetů"
+msgstr "rychlý přístup k presetům"
 
 #: ../src/views/darkroom.c:2844
-#, fuzzy
 msgid "quick access to styles"
 msgstr "rychlý přístup ke stylům"
 
 #: ../src/views/darkroom.c:2847
-#, fuzzy
 msgid "quick access for applying any of your styles"
-msgstr "rychlý přístup pro použití libovolného z vašich stylů"
+msgstr "rychlý přístup pro použití vašich stylů"
 
 #: ../src/views/darkroom.c:2854
-#, fuzzy
 msgid "second window"
 msgstr "druhé okno"
 
 #: ../src/views/darkroom.c:2859
-#, fuzzy
 msgid "display a second darkroom image window"
 msgstr "zobrazit druhé okno s náhledem"
 
@@ -35969,9 +35947,8 @@ msgid "purple & green"
 msgstr "fialová a zelená"
 
 #: ../src/views/darkroom.c:3070
-#, fuzzy
 msgid "lower threshold"
-msgstr "dolní hranice"
+msgstr "dolní práh"
 
 #: ../src/views/darkroom.c:3071
 #, fuzzy
@@ -35995,7 +35972,6 @@ msgstr ""
 "typické černobílé lesklé výtisky vytvářejí černou při -9,00 EV."
 
 #: ../src/views/darkroom.c:3088
-#, fuzzy
 msgid "upper threshold"
 msgstr "horní práh"
 
@@ -36035,9 +36011,8 @@ msgstr ""
 #: ../src/views/darkroom.c:3173 ../src/views/darkroom.c:3175
 #: ../src/views/darkroom.c:3177 ../src/views/darkroom.c:3179
 #: ../src/views/lighttable.c:1353 ../src/views/lighttable.c:1357
-#, fuzzy
 msgid "profiles"
-msgstr "barevné profily"
+msgstr "profily"
 
 #: ../src/views/darkroom.c:3155 ../src/views/lighttable.c:1357
 #, fuzzy
@@ -36055,7 +36030,6 @@ msgid "preview display profile"
 msgstr "barevný profil (druhé okno)"
 
 #: ../src/views/darkroom.c:3179
-#, fuzzy
 msgid "histogram profile"
 msgstr "profil histogramu"
 
@@ -36130,12 +36104,10 @@ msgstr "oddálit"
 
 #. Shortcut to skip images
 #: ../src/views/darkroom.c:3348
-#, fuzzy
 msgid "image forward"
 msgstr "obrázek vpřed"
 
 #: ../src/views/darkroom.c:3350
-#, fuzzy
 msgid "image back"
 msgstr "obrázek vzad"
 
@@ -36200,7 +36172,6 @@ msgid "change keyboard shortcut slider precision"
 msgstr "změnit klávesovou zkratku přesnosti posuvníku"
 
 #: ../src/views/darkroom.c:3389
-#, fuzzy
 msgid "synchronize selection"
 msgstr "synchronizovat výběr"
 
@@ -36250,12 +36221,10 @@ msgid "[modules] expand module without closing others"
 msgstr "[moduly] rozbalit modul bez sbalení ostatních"
 
 #: ../src/views/darkroom.c:4270 ../src/views/lighttable.c:1074
-#, fuzzy
 msgid "[modules] expand module and close others"
 msgstr "[moduly] rozbalit modul a sbalit ostatní"
 
 #: ../src/views/darkroom.c:4272
-#, fuzzy
 msgid "[modules] rename module"
 msgstr "[moduly] přejmenovat modul"
 
@@ -36284,7 +36253,7 @@ msgid "switch to next/previous image"
 msgstr "přepnout na další/předchozí obrázek"
 
 #: ../src/views/lighttable.c:1018 ../src/views/lighttable.c:1058
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "zoom to 100% and back"
 msgstr "zvětšit na 100 % a zpět"
 
@@ -36468,9 +36437,8 @@ msgid "print"
 msgstr "tisk"
 
 #: ../src/views/print.c:307
-#, fuzzy
 msgid "no printers found!"
-msgstr "Nebyly nalezeny žádné tiskárny!"
+msgstr "nebyly nalezeny žádné tiskárny"
 
 #: ../src/views/slideshow.c:359
 #, fuzzy
@@ -36483,15 +36451,13 @@ msgid "end of images. press any key to return to lighttable mode"
 msgstr "konec obrázků. stisknutím libovolné klávesy se vrátíte do katalogu"
 
 #: ../src/views/slideshow.c:513
-#, fuzzy
 msgid "waiting to start slideshow"
-msgstr "čekám na start slideshow"
+msgstr "čekám na start prezentace"
 
 #: ../src/views/slideshow.c:681 ../src/views/slideshow.c:708
 #: ../src/views/slideshow.c:716
-#, fuzzy
 msgid "slideshow paused"
-msgstr "slideshow pozastavena"
+msgstr "prezentace pozastavena"
 
 #: ../src/views/slideshow.c:689 ../src/views/slideshow.c:699
 #, fuzzy, c-format
@@ -36502,14 +36468,12 @@ msgstr[1] "zpoždění slideshow nastaveno na %d sekundy"
 msgstr[2] "zpoždění slideshow nastaveno na %d sekund"
 
 #: ../src/views/slideshow.c:731
-#, fuzzy
 msgid "start and stop"
-msgstr "start a stop"
+msgstr "začátek a konec"
 
 #: ../src/views/slideshow.c:733
-#, fuzzy
 msgid "exit slideshow"
-msgstr "ukončit promítání"
+msgstr "ukončit prezentaci"
 
 #: ../src/views/slideshow.c:737
 msgid "slow down"
@@ -36528,14 +36492,12 @@ msgid "step back"
 msgstr "krok zpět"
 
 #: ../src/views/slideshow.c:756
-#, fuzzy
 msgid "go to next image"
-msgstr "další obrázek"
+msgstr "jít na další obrázek"
 
 #: ../src/views/slideshow.c:758
-#, fuzzy
 msgid "go to previous image"
-msgstr "předešlý obrázek"
+msgstr "jít na předchozí obrázek"
 
 #: ../src/views/tethering.c:163
 #, fuzzy, c-format
@@ -36572,12 +36534,10 @@ msgid "drag and drop"
 msgstr "táhni a pusť"
 
 #: ../src/views/view.c:1493
-#, fuzzy
 msgid "left-click+drag"
 msgstr "kliknout levým tlačítkem a táhnout"
 
 #: ../src/views/view.c:1496
-#, fuzzy
 msgid "right-click+drag"
 msgstr "kliknout pravým tlačítkem a táhnout"
 
