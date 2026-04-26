@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 11:32+0200\n"
-"PO-Revision-Date: 2026-04-24 14:48+0200\n"
+"PO-Revision-Date: 2026-04-26 22:51+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -3805,7 +3805,6 @@ msgstr "rádius rozostření výstupu"
 #: ../build/lib/darktable/plugins/introspection_censorize.c:124
 #: ../build/lib/darktable/plugins/introspection_highlights.c:149
 #: ../build/lib/darktable/plugins/introspection_highlights.c:248
-#, fuzzy
 msgid "noise level"
 msgstr "úrověň šumu"
 
@@ -3821,7 +3820,6 @@ msgstr "úrověň šumu"
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:445
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:449
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:453
-#, fuzzy
 msgid "normalize channels"
 msgstr "normalizovat kanály"
 
@@ -4189,14 +4187,12 @@ msgstr "globální chroma"
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:169
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:306
 #: ../src/iop/colorbalance.c:1995
-#, fuzzy
 msgid "mid-tones"
 msgstr "střední tóny"
 
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:340
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:537
 #: ../src/iop/filmic.c:1544
-#, fuzzy
 msgid "global saturation"
 msgstr "globální sytost"
 
@@ -4207,7 +4203,6 @@ msgstr "posun odstínu"
 
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:370
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:557
-#, fuzzy
 msgid "global brilliance"
 msgstr "globální jas"
 
@@ -4230,7 +4225,6 @@ msgstr "střední šedá"
 
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:418
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:589
-#, fuzzy
 msgid "saturation formula"
 msgstr "saturační vzorec"
 
@@ -4347,10 +4341,8 @@ msgstr "uživatelské třídění"
 
 #: ../build/lib/darktable/plugins/introspection_colorharmonizer.c:132
 #: ../build/lib/darktable/plugins/introspection_colorharmonizer.c:221
-#, fuzzy
-#| msgid "modes"
 msgid "nodes"
-msgstr "režimy"
+msgstr "uzly"
 
 #: ../build/lib/darktable/plugins/introspection_colorharmonizer.c:138
 #: ../build/lib/darktable/plugins/introspection_colorharmonizer.c:144
@@ -4477,13 +4469,11 @@ msgstr "rozšíření rozsahu"
 
 #: ../build/lib/darktable/plugins/introspection_colorreconstruction.c:154
 #: ../src/iop/channelmixerrgb.c:4700
-#, fuzzy
 msgid "saturated colors"
 msgstr "syté barvy"
 
 #: ../build/lib/darktable/plugins/introspection_colorzones.c:78
 #: ../build/lib/darktable/plugins/introspection_colorzones.c:193
-#, fuzzy
 msgid "select by"
 msgstr "vybrat podle"
 
@@ -4608,13 +4598,11 @@ msgstr "citlivost na kontrast"
 
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:174
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:267
-#, fuzzy
 msgid "corner boost"
 msgstr "zesílení v rozích"
 
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:186
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:275
-#, fuzzy
 msgid "sharp center"
 msgstr "ostrý střed"
 
@@ -5000,25 +4988,21 @@ msgstr "posterizovat 8 úrovní na kanál"
 
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:62
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:129
-#, fuzzy
 msgid "percent left"
 msgstr "procent vlevo"
 
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:68
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:133
-#, fuzzy
 msgid "percent right"
 msgstr "procent vpravo"
 
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:74
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:137
-#, fuzzy
 msgid "percent top"
 msgstr "procent nahoře"
 
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:80
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:141
-#, fuzzy
 msgid "percent bottom"
 msgstr "procent dole"
 
@@ -5050,7 +5034,6 @@ msgstr "percentil"
 
 #: ../build/lib/darktable/plugins/introspection_exposure.c:90
 #: ../build/lib/darktable/plugins/introspection_exposure.c:161
-#, fuzzy
 msgid "target level"
 msgstr "cílová úroveň"
 
@@ -5345,7 +5328,6 @@ msgstr "posun"
 
 #: ../build/lib/darktable/plugins/introspection_globaltonemap.c:66
 #: ../build/lib/darktable/plugins/introspection_globaltonemap.c:129
-#, fuzzy
 msgid "target"
 msgstr "cíl"
 
@@ -6378,7 +6360,6 @@ msgstr "RGB geometrický průměr"
 #: ../build/lib/darktable/plugins/introspection_tonemap.cc:39
 #: ../build/lib/darktable/plugins/introspection_tonemap.cc:88
 #: ../src/iop/tonecurve.c:569
-#, fuzzy
 msgid "contrast compression"
 msgstr "komprese kontrastu"
 
@@ -6573,7 +6554,6 @@ msgstr "vynutit"
 
 #: ../src/bauhaus/bauhaus.c:4033 ../src/libs/navigation.c:265
 #: ../src/libs/navigation.c:282
-#, fuzzy
 msgid "zoom"
 msgstr "zvětšení"
 
@@ -6587,7 +6567,6 @@ msgid "slider"
 msgstr "posuvník"
 
 #: ../src/bauhaus/bauhaus.c:4081
-#, fuzzy
 msgid "dropdown"
 msgstr "rozevírací seznam"
 
@@ -20376,7 +20355,6 @@ msgid "[%s] unselect all segments from zone"
 msgstr "[%s] zrušit výběr všech segmentů ze zóny"
 
 #: ../src/iop/atrous.c:122 ../src/iop/atrous.c:1713
-#, fuzzy
 msgid "contrast equalizer"
 msgstr "ekvalizér kontrastu"
 
@@ -21322,9 +21300,8 @@ msgstr "vyberte barvu čáry rámečku z obrázku"
 
 #. make sure you put all your translatable strings into _() !
 #: ../src/iop/cacorrect.c:75
-#, fuzzy
 msgid "raw chromatic aberrations"
-msgstr "raw chromatická aberace"
+msgstr "raw chromatické aberace"
 
 #: ../src/iop/cacorrect.c:80
 #, fuzzy
@@ -24330,7 +24307,6 @@ msgid "threshold for defringe, higher values mean less defringing"
 msgstr "práh pro odtřepení, vyšší hodnoty znamenají menší odtřepení"
 
 #: ../src/iop/demosaic.c:311
-#, fuzzy
 msgid "demosaic"
 msgstr "demosaic"
 
@@ -26408,7 +26384,6 @@ msgstr ""
 "větší je vychýlení, tím výraznější vypadávání zrna ve stínech a světlech"
 
 #: ../src/iop/hazeremoval.c:98
-#, fuzzy
 msgid "haze removal"
 msgstr "odstranění oparu"
 
@@ -27015,24 +26990,20 @@ msgid "pick white point from image"
 msgstr "vyberte bílý bod z obrázku"
 
 #: ../src/iop/levels.c:672
-#, fuzzy
 msgid "black percentile"
-msgstr "černý percentil"
+msgstr "percentil černé"
 
 #: ../src/iop/levels.c:676
-#, fuzzy
 msgid "gray percentile"
-msgstr "šedý percentil"
+msgstr "percentil šedé"
 
 #: ../src/iop/levels.c:680
-#, fuzzy
 msgid "white percentile"
-msgstr "bílý percentil"
+msgstr "percentil bílé"
 
 #: ../src/iop/liquify.c:288
-#, fuzzy
 msgid "liquify"
-msgstr "zkapalnit"
+msgstr "zkapalnění"
 
 #: ../src/iop/liquify.c:293
 #, fuzzy
@@ -27040,7 +27011,6 @@ msgid "distort parts of the image"
 msgstr "zkreslit části obrázku"
 
 #: ../src/iop/liquify.c:2863
-#, fuzzy
 msgid "click to edit nodes"
 msgstr "kliknutím upravte uzly"
 
@@ -27508,7 +27478,6 @@ msgid "select the interpolation method"
 msgstr "vyberte metodu interpolace"
 
 #: ../src/iop/mask_manager.c:42 ../src/libs/masks.c:61
-#, fuzzy
 msgid "mask manager"
 msgstr "správce masek"
 
@@ -28078,7 +28047,6 @@ msgid "tone mapping method"
 msgstr "metoda mapování tónů"
 
 #: ../src/iop/rasterfile.c:91
-#, fuzzy
 msgid "external raster masks"
 msgstr "externí rastrové masky"
 
@@ -28212,7 +28180,6 @@ msgstr ""
 "Opatrně s tím!"
 
 #: ../src/iop/rawprepare.c:180
-#, fuzzy
 msgid "passthrough"
 msgstr "průchod"
 
@@ -28326,9 +28293,8 @@ msgid "width of fill-light area defined in zones"
 msgstr "šířka oblasti výplně definované v zónách"
 
 #: ../src/iop/retouch.c:194
-#, fuzzy
 msgid "retouch"
-msgstr "retušovat"
+msgstr "retušování"
 
 #: ../src/iop/retouch.c:199
 #, fuzzy
@@ -28364,7 +28330,6 @@ msgid "default tool changed to %s"
 msgstr "výchozí nástroj změněn na %s"
 
 #: ../src/iop/retouch.c:2032
-#, fuzzy
 msgid "cloning"
 msgstr "klonování"
 
@@ -28374,7 +28339,6 @@ msgid "healing"
 msgstr "léčení"
 
 #: ../src/iop/retouch.c:2431
-#, fuzzy
 msgid "shapes:"
 msgstr "tvary:"
 
@@ -28390,7 +28354,6 @@ msgstr ""
 #: ../src/iop/retouch.c:2438 ../src/iop/retouch.c:2556 ../src/iop/retouch.c:2562
 #: ../src/iop/retouch.c:2570 ../src/iop/retouch.c:2575 ../src/iop/retouch.c:2582
 #: ../src/iop/retouch.c:2613
-#, fuzzy
 msgid "editing"
 msgstr "editace"
 
@@ -28567,7 +28530,6 @@ msgid "set the opacity on the selected shape"
 msgstr "nastavte neprůhlednost na vybraném tvaru"
 
 #: ../src/iop/retouch.c:2690
-#, fuzzy
 msgctxt "section"
 msgid "retouch tools"
 msgstr "retušovací nástroje"
@@ -28607,12 +28569,10 @@ msgid "linear (gamma 1.0)"
 msgstr "lineární (gama 1.0)"
 
 #: ../src/iop/rgbcurve.c:204
-#, fuzzy
 msgid "contrast | medium (linear)"
 msgstr "kontrast | střední (lineární)"
 
 #: ../src/iop/rgbcurve.c:214
-#, fuzzy
 msgid "contrast | high (linear)"
 msgstr "kontrast | vysoký (lineární)"
 
@@ -28633,12 +28593,10 @@ msgid "non-contrast curve | gamma 0.5"
 msgstr "nekontrastní křivka | střední (gama 0.5)"
 
 #: ../src/iop/rgbcurve.c:275
-#, fuzzy
 msgid "non-contrast curve | logarithm (base 2)"
 msgstr "nekontrastní křivka | logaritmická (základ 2)"
 
 #: ../src/iop/rgbcurve.c:282
-#, fuzzy
 msgid "non-contrast curve | exponential (base 2)"
 msgstr "nekontrastní křivka | exponenciální (základ 2)"
 
@@ -29079,7 +29037,6 @@ msgid "spot module is limited to 64 shapes. please add a new instance!"
 msgstr "bodový modul je omezen na 64 tvarů. prosím přidejte novou instanci!"
 
 #: ../src/iop/spots.c:866
-#, fuzzy
 msgid "number of strokes:"
 msgstr "počet tahů:"
 
@@ -29374,9 +29331,8 @@ msgid "pick color"
 msgstr "vybrat barvu"
 
 #: ../src/iop/toneequal.c:316
-#, fuzzy
 msgid "tone equalizer"
-msgstr "tónový ekvalizér"
+msgstr "ekvalizér tónů"
 
 #: ../src/iop/toneequal.c:321
 #, fuzzy
@@ -29404,32 +29360,26 @@ msgid "mask blending | people with backlight"
 msgstr "maska | lidé se světlem v zádech"
 
 #: ../src/iop/toneequal.c:522
-#, fuzzy
 msgid "compress shadows/highlights | EIGF | strong"
 msgstr "komprese dynamického rozsahu | EIGF | silná"
 
 #: ../src/iop/toneequal.c:527
-#, fuzzy
 msgid "compress shadows/highlights | GF | strong"
 msgstr "komprese dynamického rozsahu | GF | silná"
 
 #: ../src/iop/toneequal.c:536
-#, fuzzy
 msgid "compress shadows/highlights | EIGF | medium"
 msgstr "komprese dynamického rozsahu | EIGF | střední"
 
 #: ../src/iop/toneequal.c:541
-#, fuzzy
 msgid "compress shadows/highlights | GF | medium"
 msgstr "komprese dynamického rozsahu | GF | střední"
 
 #: ../src/iop/toneequal.c:550
-#, fuzzy
 msgid "compress shadows/highlights | EIGF | soft"
 msgstr "komprese dynamického rozsahu | EIGF | mírná"
 
 #: ../src/iop/toneequal.c:555
-#, fuzzy
 msgid "compress shadows/highlights | GF | soft"
 msgstr "komprese dynamického rozsahu | GF | mírná"
 
@@ -29454,20 +29404,17 @@ msgid "relight: fill-in"
 msgstr "obnova světla: vyplnit"
 
 #: ../src/iop/toneequal.c:1091
-#, fuzzy
 msgid "tone equalizer failed to allocate memory, check your RAM settings"
 msgstr ""
-"tónovému ekvalizéru se nepodařilo přidělit paměť, zkontrolujte nastavení RAM"
+"nepodařilo se alokovat paměť pro tónový ekvalizér, zkontrolujte nastavení RAM"
 
 #: ../src/iop/toneequal.c:1773 ../src/iop/toneequal.c:2140
-#, fuzzy
 msgid "the interpolation is unstable, decrease the curve smoothing"
 msgstr "interpolace je nestabilní, snižte vyhlazení křivky"
 
 #: ../src/iop/toneequal.c:1807 ../src/iop/toneequal.c:1873
-#, fuzzy
 msgid "wait for the preview to finish recomputing"
-msgstr "počkejte, až náhled dokončí přepočítávání"
+msgstr "počkejte, než náhled dokončí přepočítávání"
 
 #: ../src/iop/toneequal.c:2014 ../src/iop/toneequal.c:2565
 #, fuzzy
@@ -29479,7 +29426,6 @@ msgstr ""
 "Shift+scroll pro velké kroky; Ctrl+scroll pro malé kroky"
 
 #: ../src/iop/toneequal.c:2145
-#, fuzzy
 msgid "some parameters are out-of-bounds"
 msgstr "některé parametry jsou mimo rozsah"
 
@@ -29509,9 +29455,8 @@ msgstr "[%s přes obrázek] změna tónu expozice po malých krocích"
 #: ../src/iop/toneequal.c:3269 ../src/iop/toneequal.c:3270
 #: ../src/iop/toneequal.c:3271 ../src/iop/toneequal.c:3272
 #: ../src/iop/toneequal.c:3273 ../src/iop/toneequal.c:3274
-#, fuzzy
 msgid "simple"
-msgstr "jednoduchý"
+msgstr "základní"
 
 #: ../src/iop/toneequal.c:3266
 msgid "-8 EV"
@@ -29559,7 +29504,6 @@ msgid "double-click to reset the curve"
 msgstr "dvojklikem obnovíte křivku"
 
 #: ../src/iop/toneequal.c:3308
-#, fuzzy
 msgid "curve smoothing"
 msgstr "vyhlazení křivky"
 
@@ -29702,7 +29646,6 @@ msgstr ""
 "při použití vysokých hodnot prolínání vytváří celistvé hladké plochy"
 
 #: ../src/iop/toneequal.c:3408 ../src/iop/toneequal.c:3415
-#, fuzzy
 msgid "display exposure mask"
 msgstr "zobrazit expoziční masku"
 
@@ -29761,7 +29704,6 @@ msgstr ""
 "aby byly barvy živější."
 
 #: ../src/iop/vibrance.c:199
-#, fuzzy
 msgid "the amount of vibrance"
 msgstr "množství živosti"
 
@@ -29771,7 +29713,6 @@ msgid "simulate a lens fall-off close to edges"
 msgstr "simulovat vypadnutí čočky blízko okrajů"
 
 #: ../src/iop/vignette.c:1010
-#, fuzzy
 msgid "lomo"
 msgstr "lomo"
 
@@ -29782,7 +29723,6 @@ msgid "position / form"
 msgstr "pozice / forma"
 
 #: ../src/iop/vignette.c:1055
-#, fuzzy
 msgid "dithering"
 msgstr "dithering"
 
@@ -29884,13 +29824,12 @@ msgid "text"
 msgstr "text"
 
 #: ../src/iop/watermark.c:1422
-#, fuzzy
 msgid ""
 "text string, tag: $(WATERMARK_TEXT)\n"
 "use $(NL) to insert a line break"
 msgstr ""
-"Textový řetězec, tag: $(WATERMARK_TEXT)\n"
-"Použijte $(NL) pro zalomení řádky."
+"textový řetězec, tag: $(WATERMARK_TEXT)\n"
+"použijte $(NL) pro nový řádek"
 
 #: ../src/iop/watermark.c:1426
 msgid "content"
@@ -30861,9 +30800,8 @@ msgid "do high quality resampling during export"
 msgstr "provádět vysoce kvalitní převzorkování během exportu"
 
 #: ../src/libs/export.c:1590
-#, fuzzy
 msgid "store masks"
-msgstr "ukládat masky"
+msgstr "uložit masky"
 
 #: ../src/libs/export.c:1591
 #, fuzzy
@@ -31136,7 +31074,6 @@ msgid "general settings"
 msgstr "obecná nastavení"
 
 #: ../src/libs/export_metadata.c:299
-#, fuzzy
 msgid "per metadata settings"
 msgstr "podle nastavení metadat"
 
@@ -31296,7 +31233,6 @@ msgid "actions"
 msgstr "akce"
 
 #: ../src/libs/filtering.c:1775
-#, fuzzy
 msgid "reset quickfilters"
 msgstr "resetovat rychlé filtry"
 
@@ -34187,9 +34123,8 @@ msgid "jobcode"
 msgstr "pracovní kód"
 
 #: ../src/libs/snapshots.c:99
-#, fuzzy
 msgid "snapshots"
-msgstr "snímky"
+msgstr "snapshoty"
 
 #: ../src/libs/snapshots.c:104
 #, fuzzy
