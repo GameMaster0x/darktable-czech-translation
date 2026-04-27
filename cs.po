@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: darktable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-23 11:32+0200\n"
-"PO-Revision-Date: 2026-04-27 12:59+0200\n"
+"POT-Creation-Date: 2026-04-26 19:29+0200\n"
+"PO-Revision-Date: 2026-04-27 13:15+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -15,205 +15,205 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
 "X-Generator: Poedit 3.9\n"
 
-#: ../build/bin/conf_gen.h:108
+#: ../build/bin/conf_gen.h:111
 msgctxt "preferences"
 msgid "first instance"
 msgstr "první instance"
 
-#: ../build/bin/conf_gen.h:109 ../build/bin/preferences_gen.h:4644
+#: ../build/bin/conf_gen.h:112 ../build/bin/preferences_gen.h:4644
 msgctxt "preferences"
 msgid "last instance"
 msgstr "poslední instance"
 
-#: ../build/bin/conf_gen.h:209 ../build/bin/preferences_gen.h:4352
+#: ../build/bin/conf_gen.h:212 ../build/bin/preferences_gen.h:4352
 msgctxt "preferences"
 msgid "triangle"
 msgstr "trojúhelník"
 
-#: ../build/bin/conf_gen.h:210
+#: ../build/bin/conf_gen.h:213
 msgctxt "preferences"
 msgid "circle"
 msgstr "kruh"
 
-#: ../build/bin/conf_gen.h:211
+#: ../build/bin/conf_gen.h:214
 msgctxt "preferences"
 msgid "diamond"
 msgstr "diamant"
 
-#: ../build/bin/conf_gen.h:212
+#: ../build/bin/conf_gen.h:215
 #, fuzzy
 msgctxt "preferences"
 msgid "bar"
 msgstr "kostička"
 
-#: ../build/bin/conf_gen.h:276 ../build/bin/conf_gen.h:428
-#: ../build/bin/conf_gen.h:440 ../build/bin/conf_gen.h:1775
-#: ../build/bin/conf_gen.h:1796 ../build/bin/conf_gen.h:1833
+#: ../build/bin/conf_gen.h:279 ../build/bin/conf_gen.h:431
+#: ../build/bin/conf_gen.h:444 ../build/bin/conf_gen.h:1779
+#: ../build/bin/conf_gen.h:1800 ../build/bin/conf_gen.h:1837
 #: ../build/bin/preferences_gen.h:2818 ../build/bin/preferences_gen.h:2905
 msgctxt "preferences"
 msgid "never"
 msgstr "nikdy"
 
-#: ../build/bin/conf_gen.h:277
+#: ../build/bin/conf_gen.h:280
 msgctxt "preferences"
 msgid "once a month"
 msgstr "měsíčně"
 
-#: ../build/bin/conf_gen.h:278 ../build/bin/preferences_gen.h:4136
+#: ../build/bin/conf_gen.h:281 ../build/bin/preferences_gen.h:4136
 msgctxt "preferences"
 msgid "once a week"
 msgstr "týdně"
 
-#: ../build/bin/conf_gen.h:279
+#: ../build/bin/conf_gen.h:282
 msgctxt "preferences"
 msgid "once a day"
 msgstr "denně"
 
-#: ../build/bin/conf_gen.h:280
+#: ../build/bin/conf_gen.h:283
 msgctxt "preferences"
 msgid "on close"
 msgstr "při ukončení"
 
-#: ../build/bin/conf_gen.h:353 ../build/bin/conf_gen.h:1766
-#: ../build/bin/conf_gen.h:1787 ../build/bin/conf_gen.h:1834
+#: ../build/bin/conf_gen.h:356 ../build/bin/conf_gen.h:1770
+#: ../build/bin/conf_gen.h:1791 ../build/bin/conf_gen.h:1838
 msgctxt "preferences"
 msgid "small"
 msgstr "malý"
 
-#: ../build/bin/conf_gen.h:354 ../build/bin/conf_gen.h:544
+#: ../build/bin/conf_gen.h:357 ../build/bin/conf_gen.h:548
 #: ../build/bin/preferences_gen.h:3569 ../build/bin/preferences_gen.h:3637
 msgctxt "preferences"
 msgid "default"
 msgstr "výchozí"
 
-#: ../build/bin/conf_gen.h:355 ../build/bin/conf_gen.h:4190
+#: ../build/bin/conf_gen.h:358 ../build/bin/conf_gen.h:4197
 msgctxt "preferences"
 msgid "large"
 msgstr "velký"
 
-#: ../build/bin/conf_gen.h:429
+#: ../build/bin/conf_gen.h:432
 msgctxt "preferences"
 msgid "after edit"
 msgstr "po úpravě"
 
-#: ../build/bin/conf_gen.h:430 ../build/bin/preferences_gen.h:4188
+#: ../build/bin/conf_gen.h:433 ../build/bin/preferences_gen.h:4188
 msgctxt "preferences"
 msgid "on import"
 msgstr "při importu"
 
-#: ../build/bin/conf_gen.h:441 ../build/bin/conf_gen.h:1765
-#: ../build/bin/conf_gen.h:1786 ../build/bin/conf_gen.h:4921
+#: ../build/bin/conf_gen.h:445 ../build/bin/conf_gen.h:1769
+#: ../build/bin/conf_gen.h:1790 ../build/bin/conf_gen.h:4933
 #: ../build/bin/preferences_gen.h:3307
 msgctxt "preferences"
 msgid "always"
 msgstr "vždy"
 
-#: ../build/bin/conf_gen.h:442 ../build/bin/preferences_gen.h:4206
+#: ../build/bin/conf_gen.h:446 ../build/bin/preferences_gen.h:4206
 #, fuzzy
 msgctxt "preferences"
 msgid "only large entries"
 msgstr "pouze velké položky"
 
-#: ../build/bin/conf_gen.h:479
+#: ../build/bin/conf_gen.h:483
 #, fuzzy
 msgctxt "preferences"
 msgid "sensitive"
 msgstr "citlivý"
 
-#: ../build/bin/conf_gen.h:480 ../build/bin/preferences_gen.h:4769
+#: ../build/bin/conf_gen.h:484 ../build/bin/preferences_gen.h:4769
 #, fuzzy
 msgctxt "preferences"
 msgid "insensitive"
 msgstr "necitlivý"
 
-#: ../build/bin/conf_gen.h:545
+#: ../build/bin/conf_gen.h:549
 msgctxt "preferences"
 msgid "multiple GPUs"
 msgstr "více GPU"
 
-#: ../build/bin/conf_gen.h:546
+#: ../build/bin/conf_gen.h:550
 msgctxt "preferences"
 msgid "very fast GPU"
 msgstr "velmi rychlé GPU"
 
-#: ../build/bin/conf_gen.h:1015 ../build/bin/preferences_gen.h:4843
+#: ../build/bin/conf_gen.h:1019 ../build/bin/preferences_gen.h:4843
 #, fuzzy
 msgctxt "preferences"
 msgid "import time"
 msgstr "čas importu"
 
-#: ../build/bin/conf_gen.h:1016
+#: ../build/bin/conf_gen.h:1020
 msgctxt "preferences"
 msgid "folder name"
 msgstr "název složky"
 
-#: ../build/bin/conf_gen.h:1017
+#: ../build/bin/conf_gen.h:1021
 #, fuzzy
 #| msgid "display name"
 msgctxt "preferences"
 msgid "display name"
 msgstr "název"
 
-#: ../build/bin/conf_gen.h:1036
+#: ../build/bin/conf_gen.h:1040
 msgctxt "preferences"
 msgid "RGB"
 msgstr "RGB"
 
-#: ../build/bin/conf_gen.h:1037
+#: ../build/bin/conf_gen.h:1041
 msgctxt "preferences"
 msgid "Lab"
 msgstr "Lab"
 
-#: ../build/bin/conf_gen.h:1038
+#: ../build/bin/conf_gen.h:1042
 msgctxt "preferences"
 msgid "LCh"
 msgstr "LCh"
 
-#: ../build/bin/conf_gen.h:1039
+#: ../build/bin/conf_gen.h:1043
 msgctxt "preferences"
 msgid "HSL"
 msgstr "HSL"
 
-#: ../build/bin/conf_gen.h:1040
+#: ../build/bin/conf_gen.h:1044
 msgctxt "preferences"
 msgid "Hex"
 msgstr "Hex"
 
-#: ../build/bin/conf_gen.h:1041 ../build/bin/conf_gen.h:2770
-#: ../build/bin/conf_gen.h:3733 ../build/bin/conf_gen.h:4161
-#: ../build/bin/conf_gen.h:4680
+#: ../build/bin/conf_gen.h:1045 ../build/bin/conf_gen.h:2776
+#: ../build/bin/conf_gen.h:3740 ../build/bin/conf_gen.h:4168
+#: ../build/bin/conf_gen.h:4691
 msgctxt "preferences"
 msgid "none"
 msgstr "žádný"
 
-#: ../build/bin/conf_gen.h:1051
+#: ../build/bin/conf_gen.h:1055
 msgctxt "preferences"
 msgid "mean"
 msgstr "střední"
 
-#: ../build/bin/conf_gen.h:1052
+#: ../build/bin/conf_gen.h:1056
 msgctxt "preferences"
 msgid "min"
 msgstr "min"
 
-#: ../build/bin/conf_gen.h:1053
+#: ../build/bin/conf_gen.h:1057
 msgctxt "preferences"
 msgid "max"
 msgstr "max"
 
-#: ../build/bin/conf_gen.h:1388
+#: ../build/bin/conf_gen.h:1392
 msgid "select only new images"
 msgstr "pouze nové obrázky"
 
-#: ../build/bin/conf_gen.h:1389
+#: ../build/bin/conf_gen.h:1393
 msgid "only select images that have not already been imported"
 msgstr "vybrat pouze obrázky, které ještě nebyly importovány"
 
-#: ../build/bin/conf_gen.h:1397
+#: ../build/bin/conf_gen.h:1401
 msgid "ignore non-raw images"
 msgstr "ignorovat ne-RAW"
 
-#: ../build/bin/conf_gen.h:1398
+#: ../build/bin/conf_gen.h:1402
 msgid ""
 "if enabled, only raw files will be allowed to import. non-raw files will not "
 "be visible in the dialog and will not be imported."
@@ -221,55 +221,55 @@ msgstr ""
 "pokud je povoleno, bude umožněn import pouze RAW souborů\n"
 "ostatní soubory nebudou v dialogu viditelné"
 
-#: ../build/bin/conf_gen.h:1406
+#: ../build/bin/conf_gen.h:1410
 msgid "apply metadata"
 msgstr "aplikovat metadata"
 
-#: ../build/bin/conf_gen.h:1407
+#: ../build/bin/conf_gen.h:1411
 msgid "apply some metadata to all newly imported images."
 msgstr "aplikuje následující metadata na všechny nově importované obrázky"
 
-#: ../build/bin/conf_gen.h:1415
+#: ../build/bin/conf_gen.h:1419
 msgid "recursive directory"
 msgstr "procházet rekurzivně"
 
-#: ../build/bin/conf_gen.h:1416
+#: ../build/bin/conf_gen.h:1420
 msgid "recursive directory traversal when importing filmrolls"
 msgstr "rekurzivně procházet složku při importu filmových pásů"
 
-#: ../build/bin/conf_gen.h:1424
+#: ../build/bin/conf_gen.h:1428
 msgid "creator to be applied when importing"
 msgstr "tvůrce, který se nastaví při importu"
 
-#: ../build/bin/conf_gen.h:1433
+#: ../build/bin/conf_gen.h:1437
 msgid "publisher to be applied when importing"
 msgstr "vydavatel, který se nastaví při importu"
 
-#: ../build/bin/conf_gen.h:1442
+#: ../build/bin/conf_gen.h:1446
 msgid "rights to be applied when importing"
 msgstr "práva, která se mají nastavit při importu"
 
-#: ../build/bin/conf_gen.h:1451
+#: ../build/bin/conf_gen.h:1455
 msgid "comma separated tags to be applied when importing"
 msgstr "čárkami oddělené tagy, které se použijí při importu"
 
-#: ../build/bin/conf_gen.h:1460
+#: ../build/bin/conf_gen.h:1464
 msgid "import tags from XMP"
 msgstr "importovat tagy z XMP"
 
-#: ../build/bin/conf_gen.h:1496
+#: ../build/bin/conf_gen.h:1500
 msgid "initial rating"
 msgstr "výchozí hodnocení"
 
-#: ../build/bin/conf_gen.h:1497
+#: ../build/bin/conf_gen.h:1501
 msgid "initial star rating for all images when importing a filmroll"
 msgstr "výchozí hodnocení hvězdičkami pro všechny importované snímky"
 
-#: ../build/bin/conf_gen.h:1505
+#: ../build/bin/conf_gen.h:1509
 msgid "ignore EXIF rating"
 msgstr "ignorovat EXIF hodnocení"
 
-#: ../build/bin/conf_gen.h:1506
+#: ../build/bin/conf_gen.h:1510
 msgid ""
 "ignore EXIF rating. if not set and EXIF rating is found, it overrides "
 "'initial rating'"
@@ -278,19 +278,19 @@ msgstr ""
 "pokud není aktivováno a je nalezeno hodnocení EXIF, přepíše „výchozí "
 "hodnocení“"
 
-#: ../build/bin/conf_gen.h:1514
+#: ../build/bin/conf_gen.h:1518
 msgid "import job"
 msgstr "importní úloha"
 
-#: ../build/bin/conf_gen.h:1515
+#: ../build/bin/conf_gen.h:1519
 msgid "name of the import job"
 msgstr "jméno importní úlohy"
 
-#: ../build/bin/conf_gen.h:1523
+#: ../build/bin/conf_gen.h:1527
 msgid "override today's date"
 msgstr "přepsat dnešní datum"
 
-#: ../build/bin/conf_gen.h:1524
+#: ../build/bin/conf_gen.h:1528
 msgid ""
 "type a date in the form: YYYY:MM:DD[ hh:mm:ss[.sss]] if you want to override "
 "the current date/time used when expanding variables:\n"
@@ -302,182 +302,182 @@ msgstr ""
 "$(YEAR), $(MONTH), $(DAY), $(HOUR), $(MINUTE), $(SECONDS), $(MSEC)\n"
 "jinak nechte pole prázdné"
 
-#: ../build/bin/conf_gen.h:1532
+#: ../build/bin/conf_gen.h:1536
 msgid "keep this window open"
 msgstr "ponechat toto okno otevřené"
 
-#: ../build/bin/conf_gen.h:1533
+#: ../build/bin/conf_gen.h:1537
 msgid "keep this window open to run several imports"
 msgstr "ponechat toto okno otevřené pro spuštění více importů"
-
-#: ../build/bin/conf_gen.h:1767 ../build/bin/conf_gen.h:1788
-#: ../build/bin/conf_gen.h:1835
-msgctxt "preferences"
-msgid "VGA"
-msgstr "VGA"
-
-#: ../build/bin/conf_gen.h:1768 ../build/bin/conf_gen.h:1789
-#: ../build/bin/conf_gen.h:1836 ../build/bin/preferences_gen.h:2836
-msgctxt "preferences"
-msgid "720p"
-msgstr "720p"
-
-#: ../build/bin/conf_gen.h:1769 ../build/bin/conf_gen.h:1790
-#: ../build/bin/conf_gen.h:1837
-msgctxt "preferences"
-msgid "1080p"
-msgstr "1080p"
-
-#: ../build/bin/conf_gen.h:1770 ../build/bin/conf_gen.h:1791
-#: ../build/bin/conf_gen.h:1838
-msgctxt "preferences"
-msgid "WQXGA"
-msgstr "WQXGA"
 
 #: ../build/bin/conf_gen.h:1771 ../build/bin/conf_gen.h:1792
 #: ../build/bin/conf_gen.h:1839
 msgctxt "preferences"
-msgid "4K"
-msgstr "4K"
+msgid "VGA"
+msgstr "VGA"
 
 #: ../build/bin/conf_gen.h:1772 ../build/bin/conf_gen.h:1793
-#: ../build/bin/conf_gen.h:1840
+#: ../build/bin/conf_gen.h:1840 ../build/bin/preferences_gen.h:2836
 msgctxt "preferences"
-msgid "5K"
-msgstr "5K"
+msgid "720p"
+msgstr "720p"
 
 #: ../build/bin/conf_gen.h:1773 ../build/bin/conf_gen.h:1794
 #: ../build/bin/conf_gen.h:1841
 msgctxt "preferences"
-msgid "6K"
-msgstr "6K"
+msgid "1080p"
+msgstr "1080p"
 
 #: ../build/bin/conf_gen.h:1774 ../build/bin/conf_gen.h:1795
 #: ../build/bin/conf_gen.h:1842
 msgctxt "preferences"
+msgid "WQXGA"
+msgstr "WQXGA"
+
+#: ../build/bin/conf_gen.h:1775 ../build/bin/conf_gen.h:1796
+#: ../build/bin/conf_gen.h:1843
+msgctxt "preferences"
+msgid "4K"
+msgstr "4K"
+
+#: ../build/bin/conf_gen.h:1776 ../build/bin/conf_gen.h:1797
+#: ../build/bin/conf_gen.h:1844
+msgctxt "preferences"
+msgid "5K"
+msgstr "5K"
+
+#: ../build/bin/conf_gen.h:1777 ../build/bin/conf_gen.h:1798
+#: ../build/bin/conf_gen.h:1845
+msgctxt "preferences"
+msgid "6K"
+msgstr "6K"
+
+#: ../build/bin/conf_gen.h:1778 ../build/bin/conf_gen.h:1799
+#: ../build/bin/conf_gen.h:1846
+msgctxt "preferences"
 msgid "8K"
 msgstr "8K"
 
-#: ../build/bin/conf_gen.h:1776 ../build/bin/conf_gen.h:3732
-#: ../build/bin/conf_gen.h:4924 ../build/bin/preferences_gen.h:4046
+#: ../build/bin/conf_gen.h:1780 ../build/bin/conf_gen.h:3739
+#: ../build/bin/conf_gen.h:4936 ../build/bin/preferences_gen.h:4046
 msgctxt "preferences"
 msgid "auto"
 msgstr "auto"
 
-#: ../build/bin/conf_gen.h:1888
+#: ../build/bin/conf_gen.h:1892
 msgctxt "preferences"
 msgid "off"
 msgstr "vyp."
 
-#: ../build/bin/conf_gen.h:1889
+#: ../build/bin/conf_gen.h:1893
 msgctxt "preferences"
 msgid "hardness (relative)"
 msgstr "tvrdost (relativní)"
 
-#: ../build/bin/conf_gen.h:1890
+#: ../build/bin/conf_gen.h:1894
 msgctxt "preferences"
 msgid "hardness (absolute)"
 msgstr "tvrdost (absolutní)"
 
-#: ../build/bin/conf_gen.h:1891
+#: ../build/bin/conf_gen.h:1895
 msgctxt "preferences"
 msgid "opacity (relative)"
 msgstr "krytí (relativní)"
 
-#: ../build/bin/conf_gen.h:1892
+#: ../build/bin/conf_gen.h:1896
 msgctxt "preferences"
 msgid "opacity (absolute)"
 msgstr "krytí (absolutní)"
 
-#: ../build/bin/conf_gen.h:1893
+#: ../build/bin/conf_gen.h:1897
 msgctxt "preferences"
 msgid "brush size (relative)"
 msgstr "velikost stopy (relativní)"
 
-#: ../build/bin/conf_gen.h:1903
+#: ../build/bin/conf_gen.h:1907
 msgctxt "preferences"
 msgid "low"
 msgstr "nízký"
 
-#: ../build/bin/conf_gen.h:1904
+#: ../build/bin/conf_gen.h:1908
 msgctxt "preferences"
 msgid "medium"
 msgstr "střední"
 
-#: ../build/bin/conf_gen.h:1905
+#: ../build/bin/conf_gen.h:1909
 msgctxt "preferences"
 msgid "high"
 msgstr "vysoký"
 
-#: ../build/bin/conf_gen.h:1933 ../build/bin/preferences_gen.h:3170
+#: ../build/bin/conf_gen.h:1937 ../build/bin/preferences_gen.h:3170
 msgctxt "preferences"
 msgid "false color"
 msgstr "nepravé barvy"
 
-#: ../build/bin/conf_gen.h:1934
+#: ../build/bin/conf_gen.h:1938
 msgctxt "preferences"
 msgid "grayscale"
 msgstr "stupně šedi"
 
-#: ../build/bin/conf_gen.h:1953
+#: ../build/bin/conf_gen.h:1957
 msgctxt "preferences"
 msgid "top left"
 msgstr "nahoře vlevo"
 
-#: ../build/bin/conf_gen.h:1954
+#: ../build/bin/conf_gen.h:1958
 msgctxt "preferences"
 msgid "top right"
 msgstr "nahoře vpravo"
 
-#: ../build/bin/conf_gen.h:1955
+#: ../build/bin/conf_gen.h:1959
 msgctxt "preferences"
 msgid "top center"
 msgstr "nahoře uprostřed"
 
-#: ../build/bin/conf_gen.h:1956 ../build/bin/preferences_gen.h:3085
+#: ../build/bin/conf_gen.h:1960 ../build/bin/preferences_gen.h:3085
 msgctxt "preferences"
 msgid "bottom"
 msgstr "dole"
 
-#: ../build/bin/conf_gen.h:1957
+#: ../build/bin/conf_gen.h:1961
 msgctxt "preferences"
 msgid "hidden"
 msgstr "skrytý"
 
-#: ../build/bin/conf_gen.h:2724
+#: ../build/bin/conf_gen.h:2730
 msgid "show OSD"
 msgstr "zobrazit OSD"
 
-#: ../build/bin/conf_gen.h:2725
+#: ../build/bin/conf_gen.h:2731
 #, fuzzy
 msgid "toggle the visibility of the map overlays"
 msgstr "přepnout viditelnost překryvu map"
 
-#: ../build/bin/conf_gen.h:2733 ../src/libs/map_settings.c:119
+#: ../build/bin/conf_gen.h:2739 ../src/libs/map_settings.c:119
 #, fuzzy
 msgid "filtered images"
 msgstr "filtr obrázků"
 
-#: ../build/bin/conf_gen.h:2734
+#: ../build/bin/conf_gen.h:2740
 #, fuzzy
 msgid "when set limit the images drawn to the current filmstrip"
 msgstr "pokud je nastaven limit zobrazených obrázků aktuálního filmového pásu"
 
-#: ../build/bin/conf_gen.h:2742
+#: ../build/bin/conf_gen.h:2748
 msgid "max images"
 msgstr "maximum obrázků"
 
-#: ../build/bin/conf_gen.h:2743
+#: ../build/bin/conf_gen.h:2749
 #, fuzzy
 msgid "the maximum number of image thumbnails drawn on the map"
 msgstr "maximální počet miniatur obrázků nakreslených na mapě"
 
-#: ../build/bin/conf_gen.h:2751
+#: ../build/bin/conf_gen.h:2757
 #, fuzzy
 msgid "group size factor"
 msgstr "faktor velikosti skupiny"
 
-#: ../build/bin/conf_gen.h:2752
+#: ../build/bin/conf_gen.h:2758
 #, fuzzy
 msgid ""
 "increase or decrease the spatial size of images groups on the map. can "
@@ -486,12 +486,12 @@ msgstr ""
 "zvětšit nebo zmenšit prostorovou velikost skupin obrázků na mapě. může "
 "ovlivnit dobu výpočtu"
 
-#: ../build/bin/conf_gen.h:2760
+#: ../build/bin/conf_gen.h:2766
 #, fuzzy
 msgid "min images per group"
 msgstr "minimum obrázků ve skupině"
 
-#: ../build/bin/conf_gen.h:2761
+#: ../build/bin/conf_gen.h:2767
 #, fuzzy
 msgid ""
 "the minimum number of images to set up an images group. can influence the "
@@ -500,21 +500,21 @@ msgstr ""
 "minimální počet obrázků pro vytvoření skupiny obrázků. může ovlivnit dobu "
 "výpočtu."
 
-#: ../build/bin/conf_gen.h:2768
+#: ../build/bin/conf_gen.h:2774
 msgctxt "preferences"
 msgid "thumbnail"
 msgstr "miniatura"
 
-#: ../build/bin/conf_gen.h:2769
+#: ../build/bin/conf_gen.h:2775
 msgctxt "preferences"
 msgid "count"
 msgstr "počet"
 
-#: ../build/bin/conf_gen.h:2772
+#: ../build/bin/conf_gen.h:2778
 msgid "thumbnail display"
 msgstr "zobrazení miniatur"
 
-#: ../build/bin/conf_gen.h:2773
+#: ../build/bin/conf_gen.h:2779
 #, fuzzy
 msgid ""
 "three options are available: images thumbnails, only the count of images of "
@@ -523,257 +523,272 @@ msgstr ""
 "k dispozici jsou tři možnosti: miniatury obrázků, pouze počet obrázků skupiny "
 "nebo nic"
 
-#: ../build/bin/conf_gen.h:2790
+#: ../build/bin/conf_gen.h:2796
 msgid "max polygon points"
 msgstr "maximum polygonů"
 
-#: ../build/bin/conf_gen.h:2791
+#: ../build/bin/conf_gen.h:2797
 #, fuzzy
 msgid "limit the number of points imported with polygon in find location module"
 msgstr "omezit počet bodů importovaných pomocí polygonu v modulu hledání polohy"
 
-#: ../build/bin/conf_gen.h:3284 ../build/bin/conf_gen.h:3296
+#: ../build/bin/conf_gen.h:3291 ../build/bin/conf_gen.h:3303
 msgctxt "preferences"
 msgid "bilinear"
 msgstr "bilineární"
 
-#: ../build/bin/conf_gen.h:3285 ../build/bin/conf_gen.h:3297
+#: ../build/bin/conf_gen.h:3292 ../build/bin/conf_gen.h:3304
 #: ../build/bin/preferences_gen.h:3409
 msgctxt "preferences"
 msgid "bicubic"
 msgstr "bikubický"
 
-#: ../build/bin/conf_gen.h:3286 ../build/bin/conf_gen.h:3298
+#: ../build/bin/conf_gen.h:3293 ../build/bin/conf_gen.h:3305
 msgctxt "preferences"
 msgid "lanczos2"
 msgstr "lanczos2"
 
-#: ../build/bin/conf_gen.h:3299 ../build/bin/preferences_gen.h:3427
+#: ../build/bin/conf_gen.h:3306 ../build/bin/preferences_gen.h:3427
 msgctxt "preferences"
 msgid "lanczos3"
 msgstr "lanczos3"
 
-#: ../build/bin/conf_gen.h:3734
+#: ../build/bin/conf_gen.h:3741
 msgctxt "preferences"
 msgid "libsecret"
 msgstr "libsecret"
 
-#: ../build/bin/conf_gen.h:3735
+#: ../build/bin/conf_gen.h:3742
 msgctxt "preferences"
 msgid "kwallet"
 msgstr "kwallet"
 
-#: ../build/bin/conf_gen.h:3736
+#: ../build/bin/conf_gen.h:3743
 msgctxt "preferences"
 msgid "apple_keychain"
 msgstr "apple_keychain"
 
-#: ../build/bin/conf_gen.h:3737
+#: ../build/bin/conf_gen.h:3744
 msgctxt "preferences"
 msgid "windows_credentials"
 msgstr "přihlašovací_údaje_windows"
 
-#: ../build/bin/conf_gen.h:4035
+#: ../build/bin/conf_gen.h:4042
 msgctxt "preferences"
 msgid "vectorscope"
 msgstr "vectorscope"
 
-#: ../build/bin/conf_gen.h:4036
+#: ../build/bin/conf_gen.h:4043
 msgctxt "preferences"
 msgid "waveform"
 msgstr "waveform"
 
-#: ../build/bin/conf_gen.h:4037
+#: ../build/bin/conf_gen.h:4044
 #, fuzzy
 #| msgid "split line"
 msgctxt "preferences"
 msgid "split"
 msgstr "dělená čára"
 
-#: ../build/bin/conf_gen.h:4038
+#: ../build/bin/conf_gen.h:4045
 msgctxt "preferences"
 msgid "RGB parade"
 msgstr "RGB parade"
 
-#: ../build/bin/conf_gen.h:4039
+#: ../build/bin/conf_gen.h:4046
 msgctxt "preferences"
 msgid "histogram"
 msgstr "histogram"
 
-#: ../build/bin/conf_gen.h:4049
+#: ../build/bin/conf_gen.h:4056
 msgctxt "preferences"
 msgid "left"
 msgstr "levý"
 
-#: ../build/bin/conf_gen.h:4050 ../build/bin/preferences_gen.h:4483
+#: ../build/bin/conf_gen.h:4057 ../build/bin/preferences_gen.h:4483
 msgctxt "preferences"
 msgid "right"
 msgstr "pravý"
 
-#: ../build/bin/conf_gen.h:4069 ../build/bin/conf_gen.h:4114
+#: ../build/bin/conf_gen.h:4076 ../build/bin/conf_gen.h:4121
 msgctxt "preferences"
 msgid "logarithmic"
 msgstr "logaritmický"
 
-#: ../build/bin/conf_gen.h:4070 ../build/bin/conf_gen.h:4115
+#: ../build/bin/conf_gen.h:4077 ../build/bin/conf_gen.h:4122
 msgctxt "preferences"
 msgid "linear"
 msgstr "lineární"
 
-#: ../build/bin/conf_gen.h:4080
+#: ../build/bin/conf_gen.h:4087
 msgctxt "preferences"
 msgid "horizontal"
 msgstr "horizontální"
 
-#: ../build/bin/conf_gen.h:4081
+#: ../build/bin/conf_gen.h:4088
 msgctxt "preferences"
 msgid "vertical"
 msgstr "vertikální"
 
-#: ../build/bin/conf_gen.h:4091
+#: ../build/bin/conf_gen.h:4098
 #, fuzzy
 msgctxt "preferences"
 msgid "overlaid"
 msgstr "překrytý"
 
-#: ../build/bin/conf_gen.h:4092
+#: ../build/bin/conf_gen.h:4099
 msgctxt "preferences"
 msgid "parade"
 msgstr "parade"
 
-#: ../build/bin/conf_gen.h:4102
+#: ../build/bin/conf_gen.h:4109
 msgctxt "preferences"
 msgid "u*v*"
 msgstr "u*v*"
 
-#: ../build/bin/conf_gen.h:4103
+#: ../build/bin/conf_gen.h:4110
 msgctxt "preferences"
 msgid "AzBz"
 msgstr "AzBz"
 
-#: ../build/bin/conf_gen.h:4104
+#: ../build/bin/conf_gen.h:4111
 msgctxt "preferences"
 msgid "RYB"
 msgstr "RYB"
 
-#: ../build/bin/conf_gen.h:4162
+#: ../build/bin/conf_gen.h:4169
 msgctxt "preferences"
 msgid "monochromatic"
 msgstr "černobílý"
 
-#: ../build/bin/conf_gen.h:4163
+#: ../build/bin/conf_gen.h:4170
 #, fuzzy
 msgctxt "preferences"
 msgid "analogous"
 msgstr "analogový"
 
-#: ../build/bin/conf_gen.h:4164
+#: ../build/bin/conf_gen.h:4171
 #, fuzzy
 msgctxt "preferences"
 msgid "analogous complementary"
 msgstr "analogicky komplementární"
 
-#: ../build/bin/conf_gen.h:4165
+#: ../build/bin/conf_gen.h:4172
 msgctxt "preferences"
 msgid "complementary"
 msgstr "komplementární"
 
-#: ../build/bin/conf_gen.h:4166
+#: ../build/bin/conf_gen.h:4173
 #, fuzzy
 msgctxt "preferences"
 msgid "split complementary"
 msgstr "rozdělit komplementární"
 
-#: ../build/bin/conf_gen.h:4167
+#: ../build/bin/conf_gen.h:4174
 msgctxt "preferences"
 msgid "dyad"
 msgstr "dyáda"
 
-#: ../build/bin/conf_gen.h:4168
+#: ../build/bin/conf_gen.h:4175
 msgctxt "preferences"
 msgid "triad"
 msgstr "triáda"
 
-#: ../build/bin/conf_gen.h:4169
+#: ../build/bin/conf_gen.h:4176
 msgctxt "preferences"
 msgid "tetrad"
 msgstr "tetráda"
 
-#: ../build/bin/conf_gen.h:4170
+#: ../build/bin/conf_gen.h:4177
 msgctxt "preferences"
 msgid "square"
 msgstr "čtverec"
 
-#: ../build/bin/conf_gen.h:4189
+#: ../build/bin/conf_gen.h:4196
 msgctxt "preferences"
 msgid "normal"
 msgstr "normální"
 
-#: ../build/bin/conf_gen.h:4191
+#: ../build/bin/conf_gen.h:4198
 msgctxt "preferences"
 msgid "narrow"
 msgstr "úzký"
 
-#: ../build/bin/conf_gen.h:4192
+#: ../build/bin/conf_gen.h:4199
 msgctxt "preferences"
 msgid "line"
 msgstr "čára"
 
-#: ../build/bin/conf_gen.h:4490
+#: ../build/bin/conf_gen.h:4497
 msgctxt "preferences"
 msgid "mm"
 msgstr "mm"
 
-#: ../build/bin/conf_gen.h:4491
+#: ../build/bin/conf_gen.h:4498
 msgctxt "preferences"
 msgid "cm"
 msgstr "cm"
 
-#: ../build/bin/conf_gen.h:4492
+#: ../build/bin/conf_gen.h:4499
 msgctxt "preferences"
 msgid "inch"
 msgstr "palec"
 
-#: ../build/bin/conf_gen.h:4547 ../build/bin/preferences_gen.h:4501
+#: ../build/bin/conf_gen.h:4549
+msgctxt "preferences"
+msgid "grey"
+msgstr "šedý"
+
+#: ../build/bin/conf_gen.h:4550
+msgctxt "preferences"
+msgid "dark"
+msgstr "tmavý"
+
+#: ../build/bin/conf_gen.h:4551
+msgctxt "preferences"
+msgid "darker"
+msgstr "tmavější"
+
+#: ../build/bin/conf_gen.h:4558 ../build/bin/preferences_gen.h:4501
 msgctxt "preferences"
 msgid "all"
 msgstr "vše"
 
-#: ../build/bin/conf_gen.h:4548
+#: ../build/bin/conf_gen.h:4559
 msgctxt "preferences"
 msgid "xatom"
 msgstr "xatom"
 
-#: ../build/bin/conf_gen.h:4549
+#: ../build/bin/conf_gen.h:4560
 msgctxt "preferences"
 msgid "colord"
 msgstr "colord"
 
-#: ../build/bin/conf_gen.h:4676 ../build/bin/preferences_gen.h:3493
+#: ../build/bin/conf_gen.h:4687 ../build/bin/preferences_gen.h:3493
 msgctxt "preferences"
 msgid "scene-referred (sigmoid)"
 msgstr "scene-referred (sigmoida)"
 
-#: ../build/bin/conf_gen.h:4677
+#: ../build/bin/conf_gen.h:4688
 msgctxt "preferences"
 msgid "scene-referred (filmic)"
 msgstr "scene-referred (filmic)"
 
-#: ../build/bin/conf_gen.h:4678
+#: ../build/bin/conf_gen.h:4689
 msgctxt "preferences"
 msgid "scene-referred (AgX)"
 msgstr "scene-referred (AgX)"
 
-#: ../build/bin/conf_gen.h:4679
+#: ../build/bin/conf_gen.h:4690
 msgctxt "preferences"
 msgid "display-referred (legacy)"
 msgstr "display-referred (starší)"
 
-#: ../build/bin/conf_gen.h:4826
+#: ../build/bin/conf_gen.h:4838
 msgid "camera time zone"
 msgstr "časové pásmo fotoaparátu"
 
-#: ../build/bin/conf_gen.h:4827
+#: ../build/bin/conf_gen.h:4839
 #, fuzzy
 msgid ""
 "most cameras don't store the time zone in EXIF. give the correct time zone so "
@@ -782,67 +797,67 @@ msgstr ""
 "většina fotoaparátů neukládá časové pásmo do EXIF. zadejte správné časové "
 "pásmo, aby bylo možné správně spárovat data GPX"
 
-#: ../build/bin/conf_gen.h:4843
+#: ../build/bin/conf_gen.h:4855
 msgctxt "preferences"
 msgid "no color"
 msgstr "bez barvy"
 
-#: ../build/bin/conf_gen.h:4844
+#: ../build/bin/conf_gen.h:4856
 #, fuzzy
 msgctxt "preferences"
 msgid "illuminant color"
 msgstr "barva světla"
 
-#: ../build/bin/conf_gen.h:4845
+#: ../build/bin/conf_gen.h:4857
 msgctxt "preferences"
 msgid "effect emulation"
 msgstr "emulace efektu"
 
-#: ../build/bin/conf_gen.h:4909
+#: ../build/bin/conf_gen.h:4921
 msgctxt "preferences"
 msgid "list"
 msgstr "seznam"
 
-#: ../build/bin/conf_gen.h:4910
+#: ../build/bin/conf_gen.h:4922
 msgctxt "preferences"
 msgid "tabs"
 msgstr "záložky"
 
-#: ../build/bin/conf_gen.h:4911
+#: ../build/bin/conf_gen.h:4923
 msgctxt "preferences"
 msgid "columns"
 msgstr "sloupce"
 
-#: ../build/bin/conf_gen.h:4922
+#: ../build/bin/conf_gen.h:4934
 msgctxt "preferences"
 msgid "active"
 msgstr "aktivní"
 
-#: ../build/bin/conf_gen.h:4923
+#: ../build/bin/conf_gen.h:4935
 #, fuzzy
 msgctxt "preferences"
 msgid "dim"
 msgstr "ztlumená"
 
-#: ../build/bin/conf_gen.h:4925
+#: ../build/bin/conf_gen.h:4937
 #, fuzzy
 msgctxt "preferences"
 msgid "fade"
 msgstr "ztmavená"
 
-#: ../build/bin/conf_gen.h:4926
+#: ../build/bin/conf_gen.h:4938
 #, fuzzy
 msgctxt "preferences"
 msgid "fit"
 msgstr "vyplnit"
 
-#: ../build/bin/conf_gen.h:4927
+#: ../build/bin/conf_gen.h:4939
 #, fuzzy
 msgctxt "preferences"
 msgid "smooth"
 msgstr "plynulé"
 
-#: ../build/bin/conf_gen.h:4928
+#: ../build/bin/conf_gen.h:4940
 #, fuzzy
 msgctxt "preferences"
 msgid "glide"
@@ -1011,7 +1026,7 @@ msgid "lighttable"
 msgstr "lighttable"
 
 #: ../build/bin/preferences_gen.h:2658 ../build/bin/preferences_gen.h:3009
-#: ../build/bin/preferences_gen.h:3829 ../src/gui/preferences_ai.c:1288
+#: ../build/bin/preferences_gen.h:3829 ../src/gui/preferences_ai.c:1283
 #: ../src/gui/preferences.c:344
 msgid "general"
 msgstr "obecné"
@@ -1636,7 +1651,7 @@ msgstr "kořenová složka 3D LUT"
 #: ../build/bin/preferences_gen.h:3440 ../build/bin/preferences_gen.h:3464
 #: ../src/control/jobs/control_jobs.c:2204
 #: ../src/control/jobs/control_jobs.c:2260 ../src/gui/preferences.c:1260
-#: ../src/gui/presets.c:429 ../src/gui/welcome.c:159 ../src/gui/welcome.c:318
+#: ../src/gui/presets.c:429 ../src/gui/welcome.c:168 ../src/gui/welcome.c:336
 #: ../src/imageio/storage/disk.c:199 ../src/imageio/storage/disk.c:285
 #: ../src/imageio/storage/gallery.c:148 ../src/imageio/storage/gallery.c:207
 #: ../src/imageio/storage/latex.c:144 ../src/imageio/storage/latex.c:193
@@ -2779,7 +2794,7 @@ msgid "extreme saturation"
 msgstr "extrémní sytost"
 
 #. cubic spline
-#: ../build/bin/styles_string.h:23 ../src/iop/filmic.c:1568
+#: ../build/bin/styles_string.h:23 ../src/iop/filmic.c:1585
 msgid "faded"
 msgstr "vybledlé"
 
@@ -3013,7 +3028,7 @@ msgstr "zachovat odstín"
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:427
 #: ../build/lib/darktable/plugins/introspection_profile_gamma.c:97
 #: ../build/lib/darktable/plugins/introspection_profile_gamma.c:166
-#: ../src/iop/filmic.c:1490
+#: ../src/iop/filmic.c:1493
 msgid "black relative exposure"
 msgstr "relativní expozice černé"
 
@@ -3021,7 +3036,7 @@ msgstr "relativní expozice černé"
 #: ../build/lib/darktable/plugins/introspection_agx.c:522
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:224
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:431
-#: ../src/iop/filmic.c:1478
+#: ../src/iop/filmic.c:1480
 msgid "white relative exposure"
 msgstr "relativní expozice bílé"
 
@@ -3053,8 +3068,8 @@ msgstr "cílová hodnota výstupu středu"
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:237
 #: ../src/gui/guides.c:862 ../src/iop/basicadj.c:630 ../src/iop/bilat.c:464
 #: ../src/iop/colisa.c:272 ../src/iop/colorbalance.c:1889
-#: ../src/iop/colorbalance.c:1895 ../src/iop/filmic.c:1519
-#: ../src/iop/filmicrgb.c:4492 ../src/iop/lowpass.c:574
+#: ../src/iop/colorbalance.c:1895 ../src/iop/filmic.c:1527
+#: ../src/iop/filmicrgb.c:4499 ../src/iop/lowpass.c:574
 msgid "contrast"
 msgstr "kontrast"
 
@@ -3626,7 +3641,7 @@ msgstr "základ"
 
 #: ../build/lib/darktable/plugins/introspection_borders.c:349
 #: ../build/lib/darktable/plugins/introspection_borders.c:355
-#: ../src/gui/preferences_ai.c:1320 ../src/gui/preferences.c:998
+#: ../src/gui/preferences_ai.c:1315 ../src/gui/preferences.c:998
 #: ../src/imageio/format/avif.c:1026 ../src/imageio/format/jpeg.c:597
 #: ../src/iop/ashift.c:6145 ../src/iop/basicadj.c:653 ../src/iop/flip.c:448
 #: ../src/iop/levels.c:645 ../src/iop/rgblevels.c:1081
@@ -4172,7 +4187,7 @@ msgstr "střední tóny"
 
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:340
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:537
-#: ../src/iop/filmic.c:1544
+#: ../src/iop/filmic.c:1557
 msgid "global saturation"
 msgstr "globální sytost"
 
@@ -5034,7 +5049,7 @@ msgstr "automatický"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:212
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:423
-#: ../src/iop/filmic.c:1467
+#: ../src/iop/filmic.c:1468
 #, fuzzy
 msgid "middle gray luminance"
 msgstr "středně šedý jas"
@@ -5064,21 +5079,21 @@ msgstr "struktura ↔ textura"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:266
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:459
-#: ../src/iop/filmic.c:1592
+#: ../src/iop/filmic.c:1612
 #, fuzzy
 msgid "target middle gray"
 msgstr "cíl středně šedá"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:272
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:463
-#: ../src/iop/filmic.c:1584
+#: ../src/iop/filmic.c:1603
 #, fuzzy
 msgid "target black luminance"
 msgstr "cílový černý jas"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:278
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:467
-#: ../src/iop/filmic.c:1600
+#: ../src/iop/filmic.c:1621
 #, fuzzy
 msgid "target white luminance"
 msgstr "cílová bílá svítivost"
@@ -5093,7 +5108,7 @@ msgstr "tvrdost"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:302
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:483
-#: ../src/iop/filmic.c:1553 ../src/iop/filmicrgb.c:4666
+#: ../src/iop/filmic.c:1568 ../src/iop/filmicrgb.c:4684
 #, fuzzy
 msgid "extreme luminance saturation"
 msgstr "extrémní nasycení jasu"
@@ -5978,7 +5993,7 @@ msgstr "středně šedá luma"
 
 #: ../build/lib/darktable/plugins/introspection_profile_gamma.c:103
 #: ../build/lib/darktable/plugins/introspection_profile_gamma.c:170
-#: ../src/iop/filmic.c:1501
+#: ../src/iop/filmic.c:1506
 #, fuzzy
 msgid "safety factor"
 msgstr "bezpečnostní faktor"
@@ -6556,11 +6571,11 @@ msgstr "rozevírací seznam"
 #: ../src/gui/accelerators.c:2688 ../src/gui/accelerators.c:2745
 #: ../src/gui/accelerators.c:2797 ../src/gui/hist_dialog.c:236
 #: ../src/gui/hist_dialog.c:248 ../src/gui/preferences_ai.c:609
-#: ../src/gui/preferences_ai.c:785 ../src/gui/preferences_ai.c:1109
-#: ../src/gui/preferences_ai.c:1196 ../src/gui/preferences.c:1221
+#: ../src/gui/preferences_ai.c:785 ../src/gui/preferences_ai.c:1105
+#: ../src/gui/preferences_ai.c:1192 ../src/gui/preferences.c:1221
 #: ../src/gui/preferences.c:1261 ../src/gui/presets.c:430
 #: ../src/gui/presets.c:575 ../src/gui/styles_dialog.c:554
-#: ../src/gui/welcome.c:160 ../src/imageio/storage/disk.c:200
+#: ../src/gui/welcome.c:169 ../src/imageio/storage/disk.c:200
 #: ../src/imageio/storage/gallery.c:149 ../src/imageio/storage/latex.c:145
 #: ../src/iop/lut3d.c:1575 ../src/iop/rasterfile.c:379 ../src/libs/collect.c:463
 #: ../src/libs/collect.c:3534 ../src/libs/copy_history.c:114
@@ -7931,7 +7946,7 @@ msgstr "popis"
 msgid "rights"
 msgstr "práva"
 
-#: ../src/common/database.c:3241 ../src/gui/preferences_ai.c:928
+#: ../src/common/database.c:3241 ../src/gui/preferences_ai.c:924
 msgid "notes"
 msgstr "poznámky"
 
@@ -8284,7 +8299,7 @@ msgstr[0] "odstranit prázdnou složku?"
 msgstr[1] "odstranit prázdné složky?"
 msgstr[2] "odstranit prázdných složek?"
 
-#: ../src/common/film.c:361 ../src/gui/preferences_ai.c:1498
+#: ../src/common/film.c:361 ../src/gui/preferences_ai.c:1493
 #: ../src/gui/preferences.c:949 ../src/gui/styles_dialog.c:571
 #: ../src/libs/geotagging.c:846 ../src/libs/import.c:1863
 msgid "name"
@@ -9211,23 +9226,23 @@ msgstr "časový rozdíl"
 msgid "updated XMP sidecar files found"
 msgstr "byly nalezeny aktualizované soubory XMP"
 
-#: ../src/control/crawler.c:801 ../src/gui/welcome.c:687
+#: ../src/control/crawler.c:801 ../src/gui/welcome.c:744
 msgid "_close"
 msgstr "_zavřít"
 
 #. setup selection accelerators
 #. action-box
-#: ../src/control/crawler.c:811 ../src/dtgtk/thumbtable.c:3098
+#: ../src/control/crawler.c:811 ../src/dtgtk/thumbtable.c:3099
 #: ../src/libs/import.c:2037 ../src/libs/select.c:142
 msgid "select all"
 msgstr "vybrat vše"
 
-#: ../src/control/crawler.c:812 ../src/dtgtk/thumbtable.c:3100
+#: ../src/control/crawler.c:812 ../src/dtgtk/thumbtable.c:3101
 #: ../src/libs/import.c:2041 ../src/libs/select.c:146
 msgid "select none"
 msgstr "zrušit výběr"
 
-#: ../src/control/crawler.c:813 ../src/dtgtk/thumbtable.c:3102
+#: ../src/control/crawler.c:813 ../src/dtgtk/thumbtable.c:3103
 #: ../src/libs/select.c:150
 msgid "invert selection"
 msgstr "invertovat výběr"
@@ -9772,7 +9787,7 @@ msgid "refresh EXIF"
 msgstr "aktualizovat EXIF"
 
 #: ../src/control/jobs/control_jobs.c:2415
-#: ../src/control/jobs/control_jobs.c:2447 ../src/dtgtk/thumbtable.c:3085
+#: ../src/control/jobs/control_jobs.c:2447 ../src/dtgtk/thumbtable.c:3086
 msgid "paste history"
 msgstr "vložit historii"
 
@@ -9780,7 +9795,7 @@ msgstr "vložit historii"
 msgid "compress history"
 msgstr "komprimovat historii"
 
-#: ../src/control/jobs/control_jobs.c:2475 ../src/dtgtk/thumbtable.c:3089
+#: ../src/control/jobs/control_jobs.c:2475 ../src/dtgtk/thumbtable.c:3090
 #: ../src/libs/copy_history.c:329
 msgid "discard history"
 msgstr "zahodit historii"
@@ -10131,10 +10146,9 @@ msgid "reverse"
 msgstr "obrácený"
 
 #. add default workspace
-#: ../src/develop/blend_gui.c:140 ../src/gui/preferences_ai.c:1563
-#: ../src/gui/workspace.c:48 ../src/gui/workspace.c:336
-#: ../src/gui/workspace.c:547 ../src/imageio/format/webp.c:435
-#: ../src/libs/styles.c:1029
+#: ../src/develop/blend_gui.c:140 ../src/gui/preferences_ai.c:1558
+#: ../src/gui/workspace.c:47 ../src/gui/workspace.c:582
+#: ../src/imageio/format/webp.c:435 ../src/libs/styles.c:1029
 msgid "default"
 msgstr "výchozí"
 
@@ -10506,10 +10520,10 @@ msgstr ""
 #: ../src/iop/agx.c:1825 ../src/iop/agx.c:2045 ../src/iop/agx.c:2054
 #: ../src/iop/basicadj.c:623 ../src/iop/colorbalancergb.c:2000
 #: ../src/iop/colorequal.c:3097 ../src/iop/exposure.c:1215
-#: ../src/iop/exposure.c:1231 ../src/iop/filmic.c:1479 ../src/iop/filmic.c:1491
-#: ../src/iop/filmic.c:1528 ../src/iop/filmicrgb.c:4385
-#: ../src/iop/filmicrgb.c:4396 ../src/iop/filmicrgb.c:4429
-#: ../src/iop/filmicrgb.c:4439 ../src/iop/graduatednd.c:1059
+#: ../src/iop/exposure.c:1231 ../src/iop/filmic.c:1481 ../src/iop/filmic.c:1494
+#: ../src/iop/filmic.c:1537 ../src/iop/filmicrgb.c:4389
+#: ../src/iop/filmicrgb.c:4400 ../src/iop/filmicrgb.c:4436
+#: ../src/iop/filmicrgb.c:4446 ../src/iop/graduatednd.c:1059
 #: ../src/iop/negadoctor.c:1004 ../src/iop/profile_gamma.c:624
 #: ../src/iop/profile_gamma.c:630 ../src/iop/relight.c:249
 #: ../src/iop/soften.c:381 ../src/iop/toneequal.c:3240
@@ -12063,12 +12077,12 @@ msgstr "najeďte myší nad libovolné tlačítko pro zobrazení popisu a zkrate
 msgid "camera's JPEG by applying a camera-specific style"
 msgstr "aplikací stylů specifických pro váš fotoaparát."
 
-#: ../src/dtgtk/thumbtable.c:1713
+#: ../src/dtgtk/thumbtable.c:1714
 #, fuzzy
 msgid "you have changed the settings related to how thumbnails are generated.\n"
 msgstr "změnili jste nastavení týkající se způsobu generování miniatur.\n"
 
-#: ../src/dtgtk/thumbtable.c:1716
+#: ../src/dtgtk/thumbtable.c:1717
 #, fuzzy
 msgid ""
 "all cached thumbnails need to be invalidated.\n"
@@ -12077,7 +12091,7 @@ msgstr ""
 "všechny miniatury uložené v mezipaměti musí být zneplatněny.\n"
 "\n"
 
-#: ../src/dtgtk/thumbtable.c:1720
+#: ../src/dtgtk/thumbtable.c:1721
 #, fuzzy, c-format
 msgid ""
 "cached thumbnails starting from level %d need to be invalidated.\n"
@@ -12086,7 +12100,7 @@ msgstr ""
 "miniatury uložené v mezipaměti počínaje úrovní %d je třeba zrušit.\n"
 "\n"
 
-#: ../src/dtgtk/thumbtable.c:1725
+#: ../src/dtgtk/thumbtable.c:1726
 #, fuzzy, c-format
 msgid ""
 "cached thumbnails below level %d need to be invalidated.\n"
@@ -12095,7 +12109,7 @@ msgstr ""
 "miniatury uložené v mezipaměti pod úrovní %d je třeba zrušit.\n"
 "\n"
 
-#: ../src/dtgtk/thumbtable.c:1730
+#: ../src/dtgtk/thumbtable.c:1731
 #, fuzzy, c-format
 msgid ""
 "cached thumbnails between level %d and %d need to be invalidated.\n"
@@ -12104,44 +12118,44 @@ msgstr ""
 "miniatury uložené v mezipaměti mezi úrovní %d a %d je třeba zrušit.\n"
 "\n"
 
-#: ../src/dtgtk/thumbtable.c:1733
+#: ../src/dtgtk/thumbtable.c:1734
 #, fuzzy
 msgid "do you want to do that now?"
 msgstr "chcete to udělat teď?"
 
-#: ../src/dtgtk/thumbtable.c:1735
+#: ../src/dtgtk/thumbtable.c:1736
 #, fuzzy
 msgid "cached thumbnails invalidation"
 msgstr "zneplatnění miniatur uložených v mezipaměti"
 
 #. setup history key accelerators
-#: ../src/dtgtk/thumbtable.c:3081
+#: ../src/dtgtk/thumbtable.c:3082
 msgid "copy history"
 msgstr "historie kopírování"
 
-#: ../src/dtgtk/thumbtable.c:3083
+#: ../src/dtgtk/thumbtable.c:3084
 msgid "copy history parts"
 msgstr "kopírovat části historie"
 
-#: ../src/dtgtk/thumbtable.c:3087
+#: ../src/dtgtk/thumbtable.c:3088
 #, fuzzy
 msgid "paste history parts"
 msgstr "vložit části historie"
 
-#: ../src/dtgtk/thumbtable.c:3092
+#: ../src/dtgtk/thumbtable.c:3093
 msgid "duplicate image"
 msgstr "duplikovat obrázek"
 
-#: ../src/dtgtk/thumbtable.c:3094
+#: ../src/dtgtk/thumbtable.c:3095
 #, fuzzy
 msgid "duplicate image virgin"
 msgstr "panenský duplikát obrázku"
 
-#: ../src/dtgtk/thumbtable.c:3104 ../src/libs/select.c:154
+#: ../src/dtgtk/thumbtable.c:3105 ../src/libs/select.c:154
 msgid "select film roll"
 msgstr "vybrat filmový pás"
 
-#: ../src/dtgtk/thumbtable.c:3106 ../src/libs/select.c:158
+#: ../src/dtgtk/thumbtable.c:3107 ../src/libs/select.c:158
 msgid "select untouched"
 msgstr "vybrat nedotčené"
 
@@ -15944,7 +15958,7 @@ msgstr "vybrat adresář se skripty"
 #: ../src/external/lua-scripts/tools/script_manager.lua:1533
 #: ../src/iop/agx.c:2456 ../src/iop/channelmixerrgb.c:4454
 #: ../src/iop/clipping.c:2093 ../src/iop/colorbalancergb.c:1781
-#: ../src/iop/colorequal.c:2972 ../src/iop/filmicrgb.c:4364
+#: ../src/iop/colorequal.c:2972 ../src/iop/filmicrgb.c:4368
 #: ../src/iop/negadoctor.c:837 ../src/iop/toneequal.c:3233
 #: ../src/libs/image.c:499 ../src/libs/neural_restore.c:2260
 #: ../src/views/lighttable.c:1446
@@ -17685,75 +17699,83 @@ msgstr "stahuji: %s"
 msgid "install AI model"
 msgstr "instalovat AI model"
 
-#: ../src/gui/preferences_ai.c:786 ../src/gui/preferences_ai.c:1197
-#: ../src/gui/preferences.c:1221 ../src/gui/welcome.c:160
+#: ../src/gui/preferences_ai.c:785 ../src/gui/preferences_ai.c:1192
+#: ../src/gui/preferences.c:1221 ../src/gui/welcome.c:169
 #: ../src/libs/collect.c:463 ../src/libs/copy_history.c:114
 #: ../src/libs/geotagging.c:953 ../src/libs/import.c:1815
 #: ../src/libs/import.c:1927 ../src/libs/styles.c:595
 msgid "_open"
 msgstr "_otevřít"
 
-#: ../src/gui/preferences_ai.c:790
+#: ../src/gui/preferences_ai.c:788
 msgid "AI model packages (*.dtmodel)"
 msgstr "balíček AI modelu (*.dtmodel)"
 
-# dialog title
-#: ../src/gui/preferences_ai.c:863
-#, c-format
-msgid "delete %d selected model?"
-msgid_plural "delete %d selected models?"
-msgstr[0] "delete %d selected model?"
-msgstr[1] "delete %d selected models?"
-msgstr[2] "Odstranit %d duplikátů?"
+#: ../src/gui/preferences_ai.c:858
+#, fuzzy
+#| msgid "delete node?"
+msgid "delete model?"
+msgid_plural "delete models?"
+msgstr[0] "Odstranit uzel?"
+msgstr[1] "Odstranit uzel?"
+msgstr[2] "Odstranit uzel?"
 
-#: ../src/gui/preferences_ai.c:925
+#: ../src/gui/preferences_ai.c:860
+#, fuzzy, c-format
+msgid "do you really want to delete %d selected model?"
+msgid_plural "do you really want to delete %d selected models?"
+msgstr[0] "opravdu odstranit historii %d vybraného obrázku?"
+msgstr[1] "opravdu odstranit historii %d vybraných obrázků?"
+msgstr[2] "opravdu odstranit historii %d vybraných obrázků?"
+
+#: ../src/gui/preferences_ai.c:921
 #, fuzzy
 msgid "scope"
 msgstr "rozsahy"
 
-#: ../src/gui/preferences_ai.c:925
+#: ../src/gui/preferences_ai.c:921
 msgid "author"
 msgstr "autor"
 
-#: ../src/gui/preferences_ai.c:926
+#: ../src/gui/preferences_ai.c:922
 msgid "source"
 msgstr "zdroj"
 
-#: ../src/gui/preferences_ai.c:926
+#: ../src/gui/preferences_ai.c:922
 msgid "paper"
 msgstr "papír"
 
-#: ../src/gui/preferences_ai.c:927
+#: ../src/gui/preferences_ai.c:923
 msgid "license"
 msgstr "licence"
 
-#: ../src/gui/preferences_ai.c:927
+#: ../src/gui/preferences_ai.c:923
 msgid "training data"
 msgstr "tréninková data"
 
-#: ../src/gui/preferences_ai.c:928
+#: ../src/gui/preferences_ai.c:924
 msgid "data license"
 msgstr "licence dat"
 
-#: ../src/gui/preferences_ai.c:1003
+#: ../src/gui/preferences_ai.c:999
 msgid "click for model details"
 msgstr "klikněte pro detaily o modelu"
 
-#: ../src/gui/preferences_ai.c:1060
+#: ../src/gui/preferences_ai.c:1056
 #, c-format
 msgid ""
 "ONNX Runtime %s detected.\n"
 "Restart darktable to apply."
 msgstr ""
 
-#: ../src/gui/preferences_ai.c:1065
+#: ../src/gui/preferences_ai.c:1061
 #, c-format
 msgid ""
 "not a valid ONNX Runtime library:\n"
 "%s"
 msgstr ""
 
-#: ../src/gui/preferences_ai.c:1082
+#: ../src/gui/preferences_ai.c:1078
 msgid ""
 "no system ONNX Runtime library found.\n"
 "\n"
@@ -17761,7 +17783,7 @@ msgid ""
 "the browse button to select a custom build."
 msgstr ""
 
-#: ../src/gui/preferences_ai.c:1098
+#: ../src/gui/preferences_ai.c:1094
 #, c-format
 msgid ""
 "ONNX Runtime %s [%s]\n"
@@ -17770,155 +17792,155 @@ msgid ""
 "Restart darktable to apply."
 msgstr ""
 
-#: ../src/gui/preferences_ai.c:1106 ../src/gui/preferences_ai.c:1193
+#: ../src/gui/preferences_ai.c:1102 ../src/gui/preferences_ai.c:1189
 msgid "select ONNX Runtime library"
 msgstr ""
 
-#: ../src/gui/preferences_ai.c:1110 ../src/iop/lut3d.c:1575
+#: ../src/gui/preferences_ai.c:1106 ../src/iop/lut3d.c:1575
 #: ../src/iop/rasterfile.c:379 ../src/libs/neural_restore.c:2227
 msgid "_select"
 msgstr "_vybrat"
 
-#: ../src/gui/preferences_ai.c:1116
+#: ../src/gui/preferences_ai.c:1112
 msgid "multiple ONNX Runtime libraries found:"
 msgstr ""
 
-#: ../src/gui/preferences_ai.c:1203
+#: ../src/gui/preferences_ai.c:1197
 msgid "ONNX Runtime (onnxruntime*.dll)"
 msgstr "ONNX Runtime (onnxruntime*.dll)"
 
-#: ../src/gui/preferences_ai.c:1206
+#: ../src/gui/preferences_ai.c:1200
 msgid "ONNX Runtime (libonnxruntime.so*)"
 msgstr "ONNX Runtime (libonnxruntime.so*)"
 
-#: ../src/gui/preferences_ai.c:1212 ../src/gui/preferences.c:1235
+#: ../src/gui/preferences_ai.c:1206 ../src/gui/preferences.c:1235
 #: ../src/iop/lut3d.c:1606 ../src/libs/copy_history.c:153
 #: ../src/libs/geotagging.c:969 ../src/libs/styles.c:609
 msgid "all files"
 msgstr "všechny soubory"
 
 #. enable AI toggle
-#: ../src/gui/preferences_ai.c:1259
+#: ../src/gui/preferences_ai.c:1254
 msgid "enable AI features"
 msgstr "povolit AI funkce"
 
 #. provider dropdown
-#: ../src/gui/preferences_ai.c:1304
+#: ../src/gui/preferences_ai.c:1299
 #, fuzzy
 #| msgid "selection order"
 msgid "execution provider"
 msgstr "pořadí výběru"
 
 #. populate from central provider table, skipping unavailable providers
-#: ../src/gui/preferences_ai.c:1315
+#: ../src/gui/preferences_ai.c:1310
 msgid "select hardware acceleration for AI inference:"
 msgstr ""
 
-#: ../src/gui/preferences_ai.c:1359
+#: ../src/gui/preferences_ai.c:1354
 msgid "ONNX Runtime library"
 msgstr "ONNX Runtime library"
 
-#: ../src/gui/preferences_ai.c:1373
+#: ../src/gui/preferences_ai.c:1368
 msgid "bundled (DirectML)"
 msgstr "bundled (DirectML)"
 
-#: ../src/gui/preferences_ai.c:1376
+#: ../src/gui/preferences_ai.c:1371
 msgid "bundled (CPU only)"
 msgstr "bundled (pouze CPU)"
 
-#: ../src/gui/preferences_ai.c:1379
+#: ../src/gui/preferences_ai.c:1374
 msgid ""
 "path to a GPU-enabled ONNX Runtime library.\n"
 "leave empty to use the bundled library.\n"
 "requires restart to take effect."
 msgstr ""
 
-#: ../src/gui/preferences_ai.c:1388
+#: ../src/gui/preferences_ai.c:1383
 msgid "select a custom ONNX Runtime shared library"
 msgstr ""
 
-#: ../src/gui/preferences_ai.c:1390
+#: ../src/gui/preferences_ai.c:1385
 msgid "detect"
 msgstr "detekovat"
 
-#: ../src/gui/preferences_ai.c:1392
+#: ../src/gui/preferences_ai.c:1387
 msgid "search for a system-installed ONNX Runtime library"
 msgstr "hledat nainstalovanou ONNX Runtime library"
 
-#: ../src/gui/preferences_ai.c:1427
+#: ../src/gui/preferences_ai.c:1422
 msgid "models"
 msgstr "modely"
 
-#: ../src/gui/preferences_ai.c:1474
+#: ../src/gui/preferences_ai.c:1469
 msgid "select/deselect all"
 msgstr "vybrat/odznačit vše"
 
-#: ../src/gui/preferences_ai.c:1520 ../src/libs/metadata_view.c:137
+#: ../src/gui/preferences_ai.c:1515 ../src/libs/metadata_view.c:137
 msgid "version"
 msgstr "verze"
 
-#: ../src/gui/preferences_ai.c:1529
+#: ../src/gui/preferences_ai.c:1524
 msgid "task"
 msgstr "úloha"
 
-#: ../src/gui/preferences_ai.c:1544
+#: ../src/gui/preferences_ai.c:1539
 msgid "enabled"
 msgstr "povoleno"
 
-#: ../src/gui/preferences_ai.c:1554
+#: ../src/gui/preferences_ai.c:1549
 msgid "status"
 msgstr "stav"
 
 #. download selected button
-#: ../src/gui/preferences_ai.c:1596
+#: ../src/gui/preferences_ai.c:1591
 msgid "download selected"
 msgstr "stáhnout vybrané"
 
-#: ../src/gui/preferences_ai.c:1598
+#: ../src/gui/preferences_ai.c:1593
 msgid "download or update the selected models"
 msgstr "stáhnout či aktializovat vybrané modely"
 
 #. download default button
-#: ../src/gui/preferences_ai.c:1607
+#: ../src/gui/preferences_ai.c:1602
 msgid "download default"
 msgstr "stáhnout výchozí"
 
-#: ../src/gui/preferences_ai.c:1609
+#: ../src/gui/preferences_ai.c:1604
 msgid "download or update all default models"
 msgstr "stáhnout či aktualizovat všechny výchozí modely"
 
 #. download all button
-#: ../src/gui/preferences_ai.c:1618
+#: ../src/gui/preferences_ai.c:1613
 msgid "download all"
 msgstr "stáhnout vše"
 
-#: ../src/gui/preferences_ai.c:1620
+#: ../src/gui/preferences_ai.c:1615
 msgid "download or update all available models"
 msgstr "stáhnout či aktualizovat všechny dostupné modely"
 
 #. install model button
-#: ../src/gui/preferences_ai.c:1626
+#: ../src/gui/preferences_ai.c:1621
 msgid "install model"
 msgstr "instalovat model"
 
-#: ../src/gui/preferences_ai.c:1628
+#: ../src/gui/preferences_ai.c:1623
 msgid "install a model from a local .dtmodel file"
 msgstr "instalovat model z lokálního .dtmodel souboru"
 
 #. delete selected button
-#: ../src/gui/preferences_ai.c:1633
+#: ../src/gui/preferences_ai.c:1628
 msgid "delete selected"
 msgstr "odstranit vybrané"
 
 # tooltip
-#: ../src/gui/preferences_ai.c:1635
+#: ../src/gui/preferences_ai.c:1630
 #, fuzzy
 #| msgid "remove the selected custom place"
 msgid "remove the selected models from disk"
 msgstr "Odebrat vybrané vlastní umístění."
 
 #. add to stack
-#: ../src/gui/preferences_ai.c:1651
+#: ../src/gui/preferences_ai.c:1646
 msgid "AI"
 msgstr "AI"
 
@@ -18453,24 +18475,24 @@ msgstr "zachovat"
 msgid "can't create style out of unaltered image"
 msgstr "nelze vytvořit styl z nezměněného obrázku"
 
-#: ../src/gui/welcome.c:611 ../src/gui/welcome.c:631
+#: ../src/gui/welcome.c:668 ../src/gui/welcome.c:688
 msgid "Welcome to darktable!"
 msgstr "Vítejte v darktable!"
 
 #. Navigation buttons (right-aligned)
-#: ../src/gui/welcome.c:681
+#: ../src/gui/welcome.c:738
 msgid "_prev"
 msgstr "_předchozí"
 
-#: ../src/gui/welcome.c:684
+#: ../src/gui/welcome.c:741
 msgid "_next"
 msgstr "_další"
 
-#: ../src/gui/welcome.c:738
+#: ../src/gui/welcome.c:795
 msgid "let's set up a few options to get you started."
 msgstr "Pojďme nastavit pár možností, abyste mohli začít."
 
-#: ../src/gui/welcome.c:741
+#: ../src/gui/welcome.c:798
 msgid ""
 "if you are unsure, don't worry! just go ahead with the default, you can "
 "always change all values later in the <b>preferences</b>."
@@ -18478,7 +18500,7 @@ msgstr ""
 "Pokud si nejste jisti, nedělejte si starosti; stačí použít výchozí nastavení. "
 "Všechny hodnoty můžete kdykoli následně změnit v <b>předvolbách</b>."
 
-#: ../src/gui/welcome.c:746
+#: ../src/gui/welcome.c:803
 msgid ""
 "you can close this window at any time, in which case the defaults will be "
 "applied."
@@ -18486,11 +18508,11 @@ msgstr ""
 "Toto okno můžete kdykoli zavřít; v takovém případě se použije výchozí "
 "nastavení."
 
-#: ../src/gui/welcome.c:779
+#: ../src/gui/welcome.c:836
 msgid "<b>You are all set!</b>"
 msgstr "<b>Vše je připraveno!</b>"
 
-#: ../src/gui/welcome.c:782
+#: ../src/gui/welcome.c:839
 #, fuzzy
 msgid ""
 "darktable is extremely configurable and has a wealth of options. Here we "
@@ -18502,7 +18524,7 @@ msgstr ""
 "b>, abyste získali ucelený přehled."
 
 #. xgettext: %s is a URL; keep <a href="%s"> and </a> unchanged
-#: ../src/gui/welcome.c:789
+#: ../src/gui/welcome.c:846
 #, fuzzy, c-format
 msgid ""
 "Read the <a href=\"%s\">user manual</a> to learn more and make the most of "
@@ -18511,7 +18533,7 @@ msgstr ""
 "Přečtěte si <a href=\"%s\">uživatelskou příručku</a>, abyste se dozvěděli "
 "více a mohli tak darktable využívat na maximum."
 
-#: ../src/gui/welcome.c:799
+#: ../src/gui/welcome.c:856
 #, fuzzy
 msgid ""
 "And remember that you can always click on the <b>?</b> on the top toolbar to "
@@ -18520,23 +18542,22 @@ msgstr ""
 "A nezapomeňte, že kdykoli můžete kliknout na <b>?</b> v horní liště nástrojů "
 "a získat tak pomoc přesně tam, kde ji potřebujete."
 
-#: ../src/gui/welcome.c:804
+#: ../src/gui/welcome.c:861
 msgid "Happy editing with darktable!"
 msgstr "Přejeme příjemnou práci v darktable!"
 
 #. add a memory workspace just after default one
-#: ../src/gui/workspace.c:49 ../src/gui/workspace.c:341
-#: ../src/gui/workspace.c:549
+#: ../src/gui/workspace.c:53 ../src/gui/workspace.c:584
 msgid "memory"
 msgstr "paměť"
 
 # dialog title
-#: ../src/gui/workspace.c:265
+#: ../src/gui/workspace.c:296
 #, fuzzy
 msgid "delete workspace"
 msgstr "Vymazat pracovní prostor"
 
-#: ../src/gui/workspace.c:266
+#: ../src/gui/workspace.c:297
 #, fuzzy, c-format
 msgid ""
 "WARNING\n"
@@ -18552,12 +18573,12 @@ msgstr ""
 "Pokud není aktivní zápis do XMP, přijdete o historii úprav."
 
 # dialog title
-#: ../src/gui/workspace.c:374 ../src/gui/workspace.c:387
+#: ../src/gui/workspace.c:405 ../src/gui/workspace.c:418
 #, fuzzy
 msgid "create workspace"
 msgstr "Vymazat pracovní prostor"
 
-#: ../src/gui/workspace.c:375
+#: ../src/gui/workspace.c:406
 msgid ""
 "WARNING\n"
 "\n"
@@ -18566,7 +18587,7 @@ msgid ""
 "choose a different name."
 msgstr ""
 
-#: ../src/gui/workspace.c:384
+#: ../src/gui/workspace.c:415
 #, c-format
 msgid ""
 "WARNING\n"
@@ -18576,26 +18597,26 @@ msgid ""
 "choose a different name."
 msgstr ""
 
-#: ../src/gui/workspace.c:528
+#: ../src/gui/workspace.c:563
 #, fuzzy
 msgid "darktable - select a workspace"
 msgstr "darktable - výběr pracovního prostoru"
 
-#: ../src/gui/workspace.c:540
+#: ../src/gui/workspace.c:575
 #, fuzzy
 msgid "select an existing workspace"
 msgstr "Vyberte existující pracovní prostor"
 
-#: ../src/gui/workspace.c:582
+#: ../src/gui/workspace.c:617
 #, fuzzy
 msgid "or create a new one"
 msgstr "nebo vytvořte nový"
 
-#: ../src/gui/workspace.c:590 ../src/libs/session.c:104
+#: ../src/gui/workspace.c:625 ../src/libs/session.c:104
 msgid "create"
 msgstr "vytvořit"
 
-#: ../src/gui/workspace.c:605
+#: ../src/gui/workspace.c:640
 #, fuzzy
 msgid "copy settings from existing workspace"
 msgstr "Vyberte existující pracovní prostor"
@@ -19534,6 +19555,7 @@ msgstr "korektivní a kreativní"
 #: ../src/iop/agx.c:59 ../src/iop/ashift.c:125 ../src/iop/ashift.c:127
 #: ../src/iop/basicadj.c:169 ../src/iop/bilateral.cc:104
 #: ../src/iop/bilateral.cc:106 ../src/iop/blurs.c:90 ../src/iop/blurs.c:91
+#: ../src/iop/cacorrectrgb.c:167 ../src/iop/cacorrectrgb.c:169
 #: ../src/iop/channelmixerrgb.c:239 ../src/iop/channelmixerrgb.c:241
 #: ../src/iop/clipping.c:357 ../src/iop/clipping.c:359
 #: ../src/iop/colorbalancergb.c:182 ../src/iop/colorequal.c:217
@@ -19719,7 +19741,7 @@ msgstr "zobrazit křivku"
 #: ../src/iop/agx.c:1954 ../src/iop/atrous.c:1773
 #: ../src/iop/colorbalancergb.c:1974 ../src/iop/colorequal.c:2981
 #: ../src/iop/colorzones.c:2708 ../src/iop/denoiseprofile.c:3636
-#: ../src/iop/filmicrgb.c:4352 ../src/iop/lowlight.c:807
+#: ../src/iop/filmicrgb.c:4356 ../src/iop/lowlight.c:807
 #: ../src/iop/rawdenoise.c:910 ../src/iop/toneequal.c:3284
 msgid "graph"
 msgstr "graf"
@@ -19819,7 +19841,7 @@ msgstr "Relativní expozice pod střední šedou (černý bod)"
 msgid "pick the black point"
 msgstr "vybrat černý bod"
 
-#: ../src/iop/agx.c:2065 ../src/iop/filmicrgb.c:4406
+#: ../src/iop/agx.c:2065 ../src/iop/filmicrgb.c:4412
 #, fuzzy
 msgid ""
 "symmetrically increase or decrease the computed dynamic range.\n"
@@ -19828,8 +19850,8 @@ msgstr ""
 "symetricky zvýšit nebo snížit vypočítaný dynamický rozsah.\n"
 "užitečné pro poskytnutí bezpečnostní rezervy extrémním jasům."
 
-#: ../src/iop/agx.c:2071 ../src/iop/agx.c:2074 ../src/iop/filmic.c:1509
-#: ../src/iop/filmicrgb.c:4412 ../src/iop/profile_gamma.c:640
+#: ../src/iop/agx.c:2071 ../src/iop/agx.c:2074 ../src/iop/filmic.c:1515
+#: ../src/iop/filmicrgb.c:4418 ../src/iop/profile_gamma.c:640
 #, fuzzy
 msgid "auto tune levels"
 msgstr "automatické nastavení úrovní"
@@ -20904,9 +20926,10 @@ msgstr ""
 "detailů."
 
 #: ../src/iop/bilateral.cc:105 ../src/iop/blurs.c:90
-#: ../src/iop/channelmixer.c:138 ../src/iop/denoiseprofile.c:822
-#: ../src/iop/diffuse.c:141 ../src/iop/enlargecanvas.c:82
-#: ../src/iop/exposure.c:132 ../src/iop/overlay.c:157 ../src/iop/primaries.c:75
+#: ../src/iop/cacorrectrgb.c:168 ../src/iop/channelmixer.c:138
+#: ../src/iop/denoiseprofile.c:822 ../src/iop/diffuse.c:141
+#: ../src/iop/enlargecanvas.c:82 ../src/iop/exposure.c:132
+#: ../src/iop/overlay.c:157 ../src/iop/primaries.c:75
 #: ../src/iop/scalepixels.c:87 ../src/iop/soften.c:101
 #: ../src/iop/splittoning.c:104 ../src/iop/velvia.c:99
 msgid "linear, RGB"
@@ -21287,22 +21310,19 @@ msgstr "raw chromatické aberace"
 msgid "correct chromatic aberrations for Bayer sensors"
 msgstr "správné chromatické aberace pro snímače Bayer"
 
-#: ../src/iop/cacorrect.c:82 ../src/iop/cacorrect.c:84
-#: ../src/iop/cacorrectrgb.c:167 ../src/iop/cacorrectrgb.c:169
-#: ../src/iop/demosaic.c:318 ../src/iop/highlights.c:177
-#: ../src/iop/highlights.c:179 ../src/iop/hotpixels.c:74
-#: ../src/iop/hotpixels.c:76 ../src/iop/rasterfile.c:104
-#: ../src/iop/rasterfile.c:106 ../src/iop/rawdenoise.c:141
-#: ../src/iop/rawdenoise.c:143 ../src/iop/rawprepare.c:171
-#: ../src/iop/rawprepare.c:173 ../src/iop/temperature.c:250
-#: ../src/iop/temperature.c:252
+#: ../src/iop/cacorrect.c:82 ../src/iop/cacorrect.c:84 ../src/iop/demosaic.c:318
+#: ../src/iop/highlights.c:177 ../src/iop/highlights.c:179
+#: ../src/iop/hotpixels.c:74 ../src/iop/hotpixels.c:76
+#: ../src/iop/rasterfile.c:104 ../src/iop/rasterfile.c:106
+#: ../src/iop/rawdenoise.c:141 ../src/iop/rawdenoise.c:143
+#: ../src/iop/rawprepare.c:171 ../src/iop/rawprepare.c:173
+#: ../src/iop/temperature.c:250 ../src/iop/temperature.c:252
 msgid "linear, raw, scene-referred"
 msgstr "lineární, raw, scene-referred"
 
-#: ../src/iop/cacorrect.c:83 ../src/iop/cacorrectrgb.c:168
-#: ../src/iop/demosaic.c:319 ../src/iop/invert.c:133 ../src/iop/rasterfile.c:105
-#: ../src/iop/rawdenoise.c:142 ../src/iop/rawprepare.c:172
-#: ../src/iop/temperature.c:251
+#: ../src/iop/cacorrect.c:83 ../src/iop/demosaic.c:319 ../src/iop/invert.c:133
+#: ../src/iop/rasterfile.c:105 ../src/iop/rawdenoise.c:142
+#: ../src/iop/rawprepare.c:172 ../src/iop/temperature.c:251
 msgid "linear, raw"
 msgstr "lineární, raw"
 
@@ -23419,7 +23439,7 @@ msgstr "teal & orange"
 
 #. Page OPTIONS
 #: ../src/iop/colorequal.c:2886 ../src/iop/colorequal.c:3089
-#: ../src/iop/filmicrgb.c:4552
+#: ../src/iop/filmicrgb.c:4565
 msgid "options"
 msgstr "možnosti"
 
@@ -25462,11 +25482,11 @@ msgstr "16 EV (HDR)"
 msgid "18 EV (HDR++)"
 msgstr "18 EV (HDR++)"
 
-#: ../src/iop/filmic.c:1461
+#: ../src/iop/filmic.c:1462
 msgid "read-only graph, use the parameters below to set the nodes"
 msgstr "graf pouze pro čtení, použijte parametry níže k nastavení uzlů"
 
-#: ../src/iop/filmic.c:1469
+#: ../src/iop/filmic.c:1471
 #, fuzzy
 msgid ""
 "adjust to match the average luminance of the subject.\n"
@@ -25475,7 +25495,7 @@ msgstr ""
 "upravit tak, aby odpovídala průměrnému jasu objektu.\n"
 "s výjimkou situací s protisvětlem by to mělo být přibližně 18 %."
 
-#: ../src/iop/filmic.c:1480 ../src/iop/filmicrgb.c:4387
+#: ../src/iop/filmic.c:1483 ../src/iop/filmicrgb.c:4391
 #, fuzzy
 msgid ""
 "number of stops between middle gray and pure white.\n"
@@ -25486,7 +25506,7 @@ msgstr ""
 "toto je údaj, který by vám na scéně poskytl expozimetr.\n"
 "upravit tak, aby nedocházelo k ořezávání světel"
 
-#: ../src/iop/filmic.c:1492 ../src/iop/filmicrgb.c:4398
+#: ../src/iop/filmic.c:1496 ../src/iop/filmicrgb.c:4402
 #, fuzzy
 msgid ""
 "number of stops between middle gray and pure black.\n"
@@ -25499,7 +25519,7 @@ msgstr ""
 "zvýšením získáte větší kontrast.\n"
 "snížením obnovíte více detailů ve slabém osvětlení."
 
-#: ../src/iop/filmic.c:1503
+#: ../src/iop/filmic.c:1509
 #, fuzzy
 msgid ""
 "increase or decrease the computed dynamic range.\n"
@@ -25509,7 +25529,7 @@ msgstr ""
 "užitečné ve spojení s „úrovněmi automatického ladění“."
 
 # tooltip
-#: ../src/iop/filmic.c:1512
+#: ../src/iop/filmic.c:1519
 #, fuzzy
 msgid ""
 "try to optimize the settings with some guessing.\n"
@@ -25522,7 +25542,7 @@ msgstr ""
 "Funkce je vhodná pro krajinky a rovnoměrně osvícené snímky,\n"
 "ale nehodí se pro příliš tmavé nebo příliš světlé."
 
-#: ../src/iop/filmic.c:1520 ../src/iop/filmicrgb.c:4495
+#: ../src/iop/filmic.c:1529 ../src/iop/filmicrgb.c:4503
 #, fuzzy
 msgid ""
 "slope of the linear part of the curve\n"
@@ -25531,13 +25551,14 @@ msgstr ""
 "sklon lineární části křivky\n"
 "postihuje převážně střední tóny"
 
-#. geotagging
-#: ../src/iop/filmic.c:1527 ../src/iop/filmicrgb.c:4504
-#: ../src/libs/metadata_view.c:169
+#: ../src/iop/filmic.c:1536 ../src/iop/filmicrgb.c:4513
+#, fuzzy
+#| msgid "latitude"
+msgctxt "curve-linear-part-width"
 msgid "latitude"
 msgstr "zeměpisná šířka"
 
-#: ../src/iop/filmic.c:1529
+#: ../src/iop/filmic.c:1539
 #, fuzzy
 msgid ""
 "width of the linear domain in the middle of the curve.\n"
@@ -25548,12 +25569,12 @@ msgstr ""
 "zvýšením získáte větší kontrast při extrémních jasech.\n"
 "nemá to žádný vliv na střední tóny."
 
-#: ../src/iop/filmic.c:1536
+#: ../src/iop/filmic.c:1546
 #, fuzzy
 msgid "shadows/highlights balance"
 msgstr "vyvážení stínů/světel"
 
-#: ../src/iop/filmic.c:1538 ../src/iop/filmicrgb.c:4515
+#: ../src/iop/filmic.c:1549 ../src/iop/filmicrgb.c:4525
 #, fuzzy
 msgid ""
 "slides the latitude along the slope\n"
@@ -25566,7 +25587,7 @@ msgstr ""
 "použijte jej, pokud potřebujete chránit detaily\n"
 "na jednom konci histogramu."
 
-#: ../src/iop/filmic.c:1547
+#: ../src/iop/filmic.c:1561
 #, fuzzy
 msgid ""
 "desaturates the input of the module globally.\n"
@@ -25577,7 +25598,7 @@ msgstr ""
 "musíte tuto hodnotu nastavit pod 100 %\n"
 "pokud je povoleno zachování chrominance."
 
-#: ../src/iop/filmic.c:1556
+#: ../src/iop/filmic.c:1572
 #, fuzzy
 msgid ""
 "desaturates the output of the module\n"
@@ -25589,40 +25610,39 @@ msgstr ""
 "snížit, pokud jsou stíny a/nebo světla přesycené."
 
 #. Add export intent combo
-#: ../src/iop/filmic.c:1566 ../src/libs/export.c:1617
+#: ../src/iop/filmic.c:1583 ../src/libs/export.c:1617
 #: ../src/libs/print_settings.c:2573 ../src/libs/print_settings.c:2920
 #: ../src/views/darkroom.c:3148 ../src/views/lighttable.c:1353
 #, fuzzy
 msgid "intent"
 msgstr "záměr"
 
-#: ../src/iop/filmic.c:1567
+#: ../src/iop/filmic.c:1584
 msgid "contrasted"
 msgstr "kontrastní"
 
 #. centripetal spline
-#: ../src/iop/filmic.c:1569 ../src/iop/profile_gamma.c:602
+#: ../src/iop/filmic.c:1586 ../src/iop/profile_gamma.c:602
 msgid "linear"
 msgstr "lineární"
 
 #. monotonic spline
-#: ../src/iop/filmic.c:1570
+#: ../src/iop/filmic.c:1587
 msgid "optimized"
 msgstr "optimalizované"
 
-#. monotonic spline
-#: ../src/iop/filmic.c:1571
+#: ../src/iop/filmic.c:1589
 #, fuzzy
 msgid "change this method if you see reversed contrast or faded blacks"
 msgstr "změňte tuto metodu, pokud vidíte obrácený kontrast nebo vybledlé černé"
 
 #. Preserve color
-#: ../src/iop/filmic.c:1575
+#: ../src/iop/filmic.c:1593
 #, fuzzy
 msgid "preserve the chrominance"
 msgstr "zachovat chrominanci"
 
-#: ../src/iop/filmic.c:1577
+#: ../src/iop/filmic.c:1596
 #, fuzzy
 msgid ""
 "ensure the original color are preserved.\n"
@@ -25633,7 +25653,7 @@ msgstr ""
 "může posílit chromatické aberace.\n"
 "při použití tohoto režimu musíte ručně doladit sytost."
 
-#: ../src/iop/filmic.c:1586 ../src/iop/filmicrgb.c:4534
+#: ../src/iop/filmic.c:1606 ../src/iop/filmicrgb.c:4546
 #, fuzzy
 msgid ""
 "luminance of output pure black, this should be 0%\n"
@@ -25642,7 +25662,7 @@ msgstr ""
 "jas výstupu čistě černá, měl by být 0 %\n"
 "kromě případů, kdy chcete vybledlý vzhled"
 
-#: ../src/iop/filmic.c:1594 ../src/iop/filmicrgb.c:4541
+#: ../src/iop/filmic.c:1615 ../src/iop/filmicrgb.c:4553
 #, fuzzy
 msgid ""
 "middle gray value of the target display or color space.\n"
@@ -25651,7 +25671,7 @@ msgstr ""
 "střední hodnota šedé cílového zobrazení nebo barevného prostoru.\n"
 "nikdy byste se toho neměli dotýkat, pokud nevíte, co děláte."
 
-#: ../src/iop/filmic.c:1602 ../src/iop/filmicrgb.c:4548
+#: ../src/iop/filmic.c:1624 ../src/iop/filmicrgb.c:4561
 #, fuzzy
 msgid ""
 "luminance of output pure white, this should be 100%\n"
@@ -25660,11 +25680,11 @@ msgstr ""
 "svítivost výstupu čistě bílá, měla by být 100%\n"
 "kromě případů, kdy chcete vybledlý vzhled"
 
-#: ../src/iop/filmic.c:1608
+#: ../src/iop/filmic.c:1630
 msgid "target gamma"
 msgstr "cílová gama"
 
-#: ../src/iop/filmic.c:1609
+#: ../src/iop/filmic.c:1632
 #, fuzzy
 msgid ""
 "power or gamma of the transfer function\n"
@@ -25675,19 +25695,19 @@ msgstr ""
 "displeje nebo barevného prostoru.\n"
 "nikdy byste se toho neměli dotýkat, pokud nevíte, co děláte."
 
-#: ../src/iop/filmic.c:1616
+#: ../src/iop/filmic.c:1640
 #, fuzzy
 msgctxt "section"
 msgid "destination/display"
 msgstr "cíl/zobrazení"
 
-#: ../src/iop/filmic.c:1625
+#: ../src/iop/filmic.c:1649
 #, fuzzy
 msgctxt "section"
 msgid "logarithmic shaper"
 msgstr "logaritmický tvarovač"
 
-#: ../src/iop/filmic.c:1631
+#: ../src/iop/filmic.c:1655
 #, fuzzy
 msgctxt "section"
 msgid "filmic S curve"
@@ -25768,7 +25788,7 @@ msgid "% camera"
 msgstr "% fotoaparát"
 
 #. Page DISPLAY
-#: ../src/iop/filmicrgb.c:3870 ../src/iop/filmicrgb.c:4528
+#: ../src/iop/filmicrgb.c:3870 ../src/iop/filmicrgb.c:4539
 #, fuzzy
 msgid "display"
 msgstr "displej"
@@ -25779,7 +25799,7 @@ msgid "(%)"
 msgstr "(%)"
 
 #. Page SCENE
-#: ../src/iop/filmicrgb.c:3888 ../src/iop/filmicrgb.c:4367
+#: ../src/iop/filmicrgb.c:3888 ../src/iop/filmicrgb.c:4371
 msgid "scene"
 msgstr "scéna"
 
@@ -25788,8 +25808,7 @@ msgstr "scéna"
 msgid "(EV)"
 msgstr "(EV)"
 
-#. we are over the graph area
-#: ../src/iop/filmicrgb.c:4307
+#: ../src/iop/filmicrgb.c:4309
 #, fuzzy
 msgid ""
 "use the parameters below to set the nodes.\n"
@@ -25800,13 +25819,13 @@ msgstr ""
 "světlá křivka je filmová křivka mapování tónů\n"
 "tmavá křivka je křivka odsycení."
 
-#: ../src/iop/filmicrgb.c:4313
+#: ../src/iop/filmicrgb.c:4316
 #, fuzzy
 msgid "toggle axis labels and values display"
 msgstr "přepnout popisky os a zobrazení hodnot"
 
 # tooltip
-#: ../src/iop/filmicrgb.c:4317
+#: ../src/iop/filmicrgb.c:4321
 #, fuzzy
 msgid ""
 "cycle through graph views.\n"
@@ -25818,7 +25837,7 @@ msgstr ""
 "Levým tlačítkem myši vpřed a pravým vzad.\n"
 "Dvojklikem vraťte zobrazení zpět."
 
-#: ../src/iop/filmicrgb.c:4376
+#: ../src/iop/filmicrgb.c:4380
 #, fuzzy, no-c-format
 msgid ""
 "adjust to match the average luminance of the image's subject.\n"
@@ -25830,7 +25849,7 @@ msgstr ""
 "snížením hodnoty zvýšíte celkový jas."
 
 # tooltip
-#: ../src/iop/filmicrgb.c:4413
+#: ../src/iop/filmicrgb.c:4420
 #, fuzzy
 msgid ""
 "try to optimize the settings with some statistical assumptions.\n"
@@ -25850,17 +25869,17 @@ msgstr ""
 "jak to celé funguje."
 
 #. Page RECONSTRUCT
-#: ../src/iop/filmicrgb.c:4422
+#: ../src/iop/filmicrgb.c:4429
 msgid "reconstruct"
 msgstr "rekonstruovat"
 
-#: ../src/iop/filmicrgb.c:4424
+#: ../src/iop/filmicrgb.c:4431
 #, fuzzy
 msgctxt "section"
 msgid "highlights clipping"
 msgstr "ořez zvýraznění"
 
-#: ../src/iop/filmicrgb.c:4431
+#: ../src/iop/filmicrgb.c:4438
 #, fuzzy
 msgid ""
 "set the exposure threshold upon which\n"
@@ -25877,7 +25896,7 @@ msgstr ""
 "snížit, aby se zahrnulo více oblastí,\n"
 "zvýšit pro vyloučení více oblastí."
 
-#: ../src/iop/filmicrgb.c:4441
+#: ../src/iop/filmicrgb.c:4448
 #, fuzzy
 msgid ""
 "soften the transition between clipped highlights and valid pixels.\n"
@@ -25889,17 +25908,17 @@ msgstr ""
 "zvýšit, aby byl přechod měkčí a rozmazanější."
 
 #. Highlight Reconstruction Mask
-#: ../src/iop/filmicrgb.c:4446 ../src/iop/filmicrgb.c:4447
+#: ../src/iop/filmicrgb.c:4453 ../src/iop/filmicrgb.c:4454
 #, fuzzy
 msgid "display highlight reconstruction mask"
 msgstr "zobrazit masku rekonstrukce světel"
 
-#: ../src/iop/filmicrgb.c:4453
+#: ../src/iop/filmicrgb.c:4460
 msgctxt "section"
 msgid "balance"
 msgstr "vyvážení"
 
-#: ../src/iop/filmicrgb.c:4459
+#: ../src/iop/filmicrgb.c:4466
 #, fuzzy, no-c-format
 msgid ""
 "decide which reconstruction strategy to favor,\n"
@@ -25916,7 +25935,7 @@ msgstr ""
 "zvyšte, pokud alespoň jeden kanál RGB není oříznut.\n"
 "snižte, pokud jsou všechny kanály RGB oříznuty na velkých plochách."
 
-#: ../src/iop/filmicrgb.c:4470
+#: ../src/iop/filmicrgb.c:4477
 #, fuzzy, no-c-format
 msgid ""
 "decide which reconstruction strategy to favor,\n"
@@ -25933,7 +25952,7 @@ msgstr ""
 "zvyšte, pokud chcete více podrobností.\n"
 "snižte, chcete-li více rozostřit."
 
-#: ../src/iop/filmicrgb.c:4482
+#: ../src/iop/filmicrgb.c:4489
 #, fuzzy, no-c-format
 msgid ""
 "decide which reconstruction strategy to favor,\n"
@@ -25951,11 +25970,11 @@ msgstr ""
 "snižte, pokud vidíte purpurová světla, nebo světla mimo gamut."
 
 #. Page LOOK
-#: ../src/iop/filmicrgb.c:4490
+#: ../src/iop/filmicrgb.c:4497
 msgid "look"
 msgstr "vzhled"
 
-#: ../src/iop/filmicrgb.c:4500
+#: ../src/iop/filmicrgb.c:4509
 #, fuzzy
 msgid ""
 "equivalent to paper grade in analog.\n"
@@ -25966,7 +25985,7 @@ msgstr ""
 "zvýšit, aby byly jasnější a méně komprimované.\n"
 "snížit na ztlumení zvýraznění."
 
-#: ../src/iop/filmicrgb.c:4508
+#: ../src/iop/filmicrgb.c:4517
 #, fuzzy
 msgid ""
 "width of the linear domain in the middle of the curve,\n"
@@ -25979,7 +25998,7 @@ msgstr ""
 "jinak snížit. v rozsahu zeměpisné šířky nedochází k žádné desaturaci.\n"
 "nemá to žádný vliv na střední tóny."
 
-#: ../src/iop/filmicrgb.c:4523 ../src/iop/filmicrgb.c:4667
+#: ../src/iop/filmicrgb.c:4534 ../src/iop/filmicrgb.c:4686
 #, fuzzy
 msgid ""
 "desaturates the output of the module\n"
@@ -25990,7 +26009,7 @@ msgstr ""
 "konkrétně při extrémních jasech.\n"
 "zvýšit, pokud jsou stíny a/nebo světla nedostatečně nasycené."
 
-#: ../src/iop/filmicrgb.c:4557
+#: ../src/iop/filmicrgb.c:4570
 #, fuzzy
 msgid ""
 "v3 is darktable 3.0 desaturation method, same as color balance.\n"
@@ -25999,7 +26018,7 @@ msgstr ""
 "v3 je metoda desaturace darktable 3.0, stejně jako vyvážení barev.\n"
 "v4 je novější desaturační metoda, založená na spektrální čistotě světla."
 
-#: ../src/iop/filmicrgb.c:4561
+#: ../src/iop/filmicrgb.c:4575
 #, fuzzy
 msgid ""
 "ensure the original colors are preserved.\n"
@@ -26010,7 +26029,7 @@ msgstr ""
 "může posílit chromatické aberace a chroma šum,\n"
 "takže se ujistěte, že jsou správně opraveny jinde."
 
-#: ../src/iop/filmicrgb.c:4570
+#: ../src/iop/filmicrgb.c:4585
 #, fuzzy
 msgid ""
 "choose the desired curvature of the filmic spline in highlights.\n"
@@ -26021,7 +26040,7 @@ msgstr ""
 "tvrdá využívá vysoké zakřivení, což má za následek větší tonální kompresi.\n"
 "měkká využívá nízké zakřivení, což má za následek menší tonální kompresi."
 
-#: ../src/iop/filmicrgb.c:4575
+#: ../src/iop/filmicrgb.c:4591
 #, fuzzy
 msgid ""
 "choose the desired curvature of the filmic spline in shadows.\n"
@@ -26032,7 +26051,7 @@ msgstr ""
 "tvrdá využívá vysoké zakřivení, což má za následek větší tonální kompresi.\n"
 "měkká využívá nízké zakřivení, což má za následek menší tonální kompresi."
 
-#: ../src/iop/filmicrgb.c:4582
+#: ../src/iop/filmicrgb.c:4598
 #, fuzzy, no-c-format
 msgid ""
 "enable to input custom middle-gray values.\n"
@@ -26045,7 +26064,7 @@ msgstr ""
 "místo toho opravte globální expozici v modulu expozice.\n"
 "deaktivovat použití standardních 18,45 % střední šedé."
 
-#: ../src/iop/filmicrgb.c:4589
+#: ../src/iop/filmicrgb.c:4605
 #, fuzzy
 msgid ""
 "enable to auto-set the look hardness depending on the scene white and black "
@@ -26058,7 +26077,7 @@ msgstr ""
 "toto zachovává střední šedou na linii identity a zlepšuje rychlé ladění.\n"
 "deaktivujte, pokud chcete ruční ovládání."
 
-#: ../src/iop/filmicrgb.c:4595
+#: ../src/iop/filmicrgb.c:4611
 #, fuzzy
 msgid ""
 "run extra passes of chromaticity reconstruction.\n"
@@ -26072,7 +26091,7 @@ msgstr ""
 "pomáhá také při obtížných případech purpurových odlesků."
 
 # tooltip
-#: ../src/iop/filmicrgb.c:4602
+#: ../src/iop/filmicrgb.c:4619
 #, fuzzy
 msgid ""
 "add statistical noise in reconstructed highlights.\n"
@@ -26083,7 +26102,7 @@ msgstr ""
 "Do rekonstruovaných světel přidá šum tak,\n"
 "aby vypadala přirozeně, pokud je zbytek obrázku zašuměný."
 
-#: ../src/iop/filmicrgb.c:4609
+#: ../src/iop/filmicrgb.c:4627
 #, fuzzy
 msgid ""
 "choose the statistical distribution of noise.\n"
@@ -26092,12 +26111,12 @@ msgstr ""
 "zvolte statistické rozložení šumu.\n"
 "to je užitečné pro přizpůsobení přirozenému vzoru šumu snímače."
 
-#: ../src/iop/filmicrgb.c:4673
+#: ../src/iop/filmicrgb.c:4692
 #, fuzzy
 msgid "mid-tones saturation"
 msgstr "sytost středních tónů"
 
-#: ../src/iop/filmicrgb.c:4674
+#: ../src/iop/filmicrgb.c:4694
 #, fuzzy
 msgid ""
 "desaturates the output of the module\n"
@@ -26108,12 +26127,12 @@ msgstr ""
 "konkrétně při středních jasech.\n"
 "zvýšit, pokud mají střední tóny nízkou saturaci."
 
-#: ../src/iop/filmicrgb.c:4680
+#: ../src/iop/filmicrgb.c:4700
 #, fuzzy
 msgid "highlights saturation mix"
 msgstr "zvýrazní mix saturace"
 
-#: ../src/iop/filmicrgb.c:4681
+#: ../src/iop/filmicrgb.c:4702
 #, fuzzy
 msgid ""
 "positive values ensure saturation is kept unchanged over the whole range.\n"
@@ -32828,6 +32847,11 @@ msgstr "šířka exportu"
 msgid "export height"
 msgstr "výška exportu"
 
+#. geotagging
+#: ../src/libs/metadata_view.c:169
+msgid "latitude"
+msgstr "zeměpisná šířka"
+
 #: ../src/libs/metadata_view.c:170
 msgid "longitude"
 msgstr "zeměpisná délka"
@@ -35359,7 +35383,7 @@ msgstr ""
 #, c-format
 msgctxt "darkroom"
 msgid "loading `%s' ..."
-msgstr "načítání `%s' ..."
+msgstr "načítám \"%s\" ..."
 
 #: ../src/views/darkroom.c:904 ../src/views/darkroom.c:3115
 #, fuzzy
@@ -36345,6 +36369,14 @@ msgstr "přepnout na klasické okno, které po uvolnění klíče zůstane otev�
 #: ../src/views/view.c:1630
 msgid "mouse actions"
 msgstr "akce myši"
+
+# dialog title
+#, c-format
+#~ msgid "delete %d selected model?"
+#~ msgid_plural "delete %d selected models?"
+#~ msgstr[0] "delete %d selected model?"
+#~ msgstr[1] "delete %d selected models?"
+#~ msgstr[2] "Odstranit %d duplikátů?"
 
 #~ msgctxt "preferences"
 #~ msgid "original"
@@ -38026,9 +38058,6 @@ msgstr "akce myši"
 
 #~ msgid "display blending mask"
 #~ msgstr "zobrazit masku"
-
-#~ msgid "grey"
-#~ msgstr "šedá"
 
 #~ msgctxt "accel"
 #~ msgid "capture image(s)"
