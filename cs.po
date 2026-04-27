@@ -8194,7 +8194,6 @@ msgstr ""
 
 #: ../src/common/database.c:4517 ../src/common/database.c:4532
 #: ../src/common/database.c:4691 ../src/common/database.c:4706
-#, fuzzy
 msgid "darktable - error opening database"
 msgstr "darktable - chyba při otevření databáze"
 
@@ -8205,9 +8204,8 @@ msgstr "_pokus o obnovu"
 
 #: ../src/common/database.c:4522 ../src/common/database.c:4536
 #: ../src/common/database.c:4696 ../src/common/database.c:4710
-#, fuzzy
 msgid "_delete database"
-msgstr "_vymazat databázi"
+msgstr "_odstranit databázi"
 
 #: ../src/common/database.c:4525 ../src/common/database.c:4699
 #, fuzzy
@@ -8619,7 +8617,6 @@ msgid "noiseprofile file `%s' is not valid"
 msgstr "soubor s profilem šumu `%s' není platný"
 
 #: ../src/common/opencl.c:1186
-#, fuzzy
 msgid "no working OpenCL library found"
 msgstr "nenalezena žádná funkční knihovna OpenCL"
 
@@ -8643,22 +8640,18 @@ msgstr ""
 " - více ovladačů nainstalovaných na platformě\n"
 
 #: ../src/common/opencl.c:1321
-#, fuzzy
 msgid "no devices found for unknown platform"
 msgstr "nebyla nalezena žádná zařízení pro neznámou platformu"
 
 #: ../src/common/opencl.c:1368
-#, fuzzy
 msgid "not enough memory for OpenCL devices"
 msgstr "nedostatek paměti pro zařízení OpenCL"
 
 #: ../src/common/opencl.c:1406
-#, fuzzy
 msgid "no OpenCL devices found"
 msgstr "nebyla nalezena žádná zařízení OpenCL"
 
 #: ../src/common/opencl.c:1449
-#, fuzzy
 msgid "no suitable OpenCL devices found"
 msgstr "nenalezena žádná vhodná zařízení OpenCL"
 
@@ -9264,12 +9257,12 @@ msgid "synchronization log"
 msgstr "log synchronizace"
 
 #: ../src/control/jobs/camera_jobs.c:79
-#, fuzzy, c-format
+#, c-format
 msgid "capturing %d image"
 msgid_plural "capturing %d images"
-msgstr[0] "získávám obrázek %d"
-msgstr[1] "získávám %d obrázky"
-msgstr[2] "získávám %d obrázků"
+msgstr[0] "zachycuji obrázek %d"
+msgstr[1] "zachycuji %d obrázky"
+msgstr[2] "zachycuji %d obrázků"
 
 #: ../src/control/jobs/camera_jobs.c:122
 #, fuzzy
@@ -9277,12 +9270,11 @@ msgid "please set your camera to manual mode first!"
 msgstr "nejprve nastavte fotoaparát do manuálního režimu!"
 
 #: ../src/control/jobs/camera_jobs.c:230
-#, fuzzy
 msgid "capture images"
 msgstr "zachytit obrázky"
 
 #: ../src/control/jobs/camera_jobs.c:269
-#, fuzzy, c-format
+#, c-format
 msgid "%d/%d imported to %s"
 msgid_plural "%d/%d imported to %s"
 msgstr[0] "%d/%d importován do %s"
@@ -9290,20 +9282,18 @@ msgstr[1] "%d/%d importováno do %s"
 msgstr[2] "%d/%d importováno do %s"
 
 #: ../src/control/jobs/camera_jobs.c:328
-#, fuzzy
 msgid "starting to import images from camera"
-msgstr "start importu snímků z fotoaparátu"
+msgstr "zahajuji import snímků z fotoaparátu"
 
 #: ../src/control/jobs/camera_jobs.c:332
-#, fuzzy, c-format
+#, c-format
 msgid "importing %d image from camera"
 msgid_plural "importing %d images from camera"
-msgstr[0] "import %d obrázek z fotoaparátu"
-msgstr[1] "import %d obrázky z fotoaparátu"
-msgstr[2] "import %d obrázků z fotoaparátu"
+msgstr[0] "importuji %d obrázek z fotoaparátu"
+msgstr[1] "importuji %d obrázky z fotoaparátu"
+msgstr[2] "importuji %d obrázků z fotoaparátu"
 
 #: ../src/control/jobs/camera_jobs.c:396
-#, fuzzy
 msgid "import images from camera"
 msgstr "import snímků z fotoaparátu"
 
@@ -9536,7 +9526,7 @@ msgstr[1] "obnovuji informace o %d obrázcích"
 msgstr[2] "obnovuji informace o %d obrázcích"
 
 #: ../src/control/jobs/control_jobs.c:1626
-#, fuzzy, c-format
+#, c-format
 msgid "pasting history to %d image"
 msgid_plural "pasting history to %d images"
 msgstr[0] "aplikuji historii úprav na %d obrázek..."
@@ -9583,12 +9573,12 @@ msgid "skipped discarding history for image being edited"
 msgstr "historie úprav nebyla zahozena u právě upravovaného obrázku"
 
 #: ../src/control/jobs/control_jobs.c:1778
-#, fuzzy, c-format
+#, c-format
 msgid "applying style(s) for %d image"
 msgid_plural "applying style(s) for %d images"
-msgstr[0] "aplikuji styly na %d obrázek ..."
-msgstr[1] "aplikuji styly na %d obrázky ..."
-msgstr[2] "aplikuji styly na %d obrázků ..."
+msgstr[0] "aplikuji styly na %d obrázek"
+msgstr[1] "aplikuji styly na %d obrázky"
+msgstr[2] "aplikuji styly na %d obrázků"
 
 #: ../src/control/jobs/control_jobs.c:1877
 #, c-format
@@ -9611,9 +9601,9 @@ msgstr "exportuji %d / %d do %s"
 
 #: ../src/control/jobs/control_jobs.c:1942 ../src/views/darkroom.c:963
 #: ../src/views/print.c:331
-#, fuzzy, c-format
+#, c-format
 msgid "image `%s' is currently unavailable"
-msgstr "obrázek `%s' je momentálně nedostupný"
+msgstr "obrázek “%s” je momentálně nedostupný"
 
 #: ../src/control/jobs/control_jobs.c:2051
 msgid "merge HDR image"
@@ -9698,13 +9688,11 @@ msgstr[1] "opravdu fyzicky odstranit %d obrázky z disku?"
 msgstr[2] "opravdu fyzicky odstranit %d obrázků z disku?"
 
 #: ../src/control/jobs/control_jobs.c:2159
-#, fuzzy
 msgid "delete duplicate"
-msgstr "odstranění duplikátu"
+msgstr "odstranit duplikát"
 
 # dialog title
 #: ../src/control/jobs/control_jobs.c:2175
-#, fuzzy
 msgid "delete duplicate?"
 msgstr "Odstranit duplikát?"
 
