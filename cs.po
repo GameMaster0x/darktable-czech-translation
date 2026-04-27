@@ -10581,14 +10581,12 @@ msgstr "přidat AI objekt"
 
 #: ../src/develop/blend_gui.c:2807 ../src/libs/masks.c:1022
 #: ../src/libs/masks.c:1818 ../src/libs/masks.c:1822
-#, fuzzy
 msgid "add gradient"
-msgstr "přidat gradient"
+msgstr "přidat přechod"
 
 #: ../src/develop/blend_gui.c:2808
-#, fuzzy
 msgid "add multiple gradients"
-msgstr "přidat více gradientů"
+msgstr "přidat více přechodů"
 
 #: ../src/develop/blend_gui.c:2815 ../src/iop/retouch.c:2451
 #: ../src/iop/spots.c:877 ../src/libs/masks.c:1017 ../src/libs/masks.c:1826
@@ -10661,7 +10659,6 @@ msgid "contrast enhancing"
 msgstr "vylepšení kontrastu"
 
 #: ../src/develop/blend_gui.c:3162 ../src/develop/blend_gui.c:3185
-#, fuzzy
 msgid "color channel"
 msgstr "barevný kanál"
 
@@ -10677,9 +10674,8 @@ msgstr "normální a aritmetický"
 
 #. add deprecated blend mode
 #: ../src/develop/blend_gui.c:3200
-#, fuzzy
 msgid "deprecated"
-msgstr "zastaralé"
+msgstr "zastaralý"
 
 #. should never happen: unknown blend mode
 #: ../src/develop/blend_gui.c:3204
@@ -10771,7 +10767,6 @@ msgid "set the opacity of the blending"
 msgstr "nastavte neprůhlednost maskování"
 
 #: ../src/develop/blend_gui.c:3578 ../src/libs/history.c:952
-#, fuzzy
 msgid "combine masks"
 msgstr "kombinovat masky"
 
@@ -10839,9 +10834,8 @@ msgstr "poloměr pro gaussovské rozostření masky"
 
 #: ../src/develop/blend_gui.c:3626 ../src/iop/retouch.c:2681
 #: ../src/libs/history.c:950
-#, fuzzy
 msgid "mask opacity"
-msgstr "neprůhlednost masky"
+msgstr "krytí masky"
 
 #: ../src/develop/blend_gui.c:3630
 #, fuzzy
@@ -10853,7 +10847,6 @@ msgstr ""
 "bez ovlivnění plně průhledných/zcela neprůhledných oblastí."
 
 #: ../src/develop/blend_gui.c:3635 ../src/libs/history.c:958
-#, fuzzy
 msgid "mask contrast"
 msgstr "kontrast masky"
 
@@ -10927,14 +10920,12 @@ msgid "duplicate module, can't move new instance after the base one\n"
 msgstr "duplicitní modul, nelze přesunout novou instanci za základní\n"
 
 #: ../src/develop/imageop.c:1004 ../src/views/darkroom.c:2877
-#, fuzzy
 msgid "new instance"
 msgstr "nová instance"
 
 #: ../src/develop/imageop.c:1011
-#, fuzzy
 msgid "duplicate instance"
-msgstr "duplicitní instance"
+msgstr "duplikovat instanci"
 
 #: ../src/develop/imageop.c:1018 ../src/develop/imageop.c:4137
 #: ../src/libs/masks.c:1154
@@ -10980,27 +10971,24 @@ msgid "'%s' has an introspection error"
 msgstr "V modulu '%s' došlo k vnitřní chybě."
 
 #: ../src/develop/imageop.c:2848
-#, fuzzy
 msgid "unknown mask"
 msgstr "neznámá maska"
 
 #: ../src/develop/imageop.c:2852
-#, fuzzy
 msgid "drawn + parametric mask"
 msgstr "kreslená + parametrická maska"
 
 #: ../src/develop/imageop.c:2861
-#, fuzzy, c-format
+#, c-format
 msgid "this module has a `%s'"
 msgstr "tento modul má `%s'"
 
 #: ../src/develop/imageop.c:2866
-#, fuzzy, c-format
+#, c-format
 msgid "taken from module %s"
 msgstr "získáno z modulu %s"
 
 #: ../src/develop/imageop.c:2871
-#, fuzzy
 msgid "click to display (module must be activated first)"
 msgstr "kliknutím zobrazíte (modul musí být nejprve aktivován)"
 
@@ -11102,7 +11090,6 @@ msgid "focus"
 msgstr "ostření"
 
 #: ../src/develop/imageop.c:4151 ../src/gui/accelerators.c:2957
-#, fuzzy
 msgid "instance"
 msgstr "instance"
 
@@ -11175,22 +11162,19 @@ msgid "size: %3.2f%%"
 msgstr "velikost: %3.2f%%"
 
 #: ../src/develop/masks/brush.c:3141
-#, fuzzy
 msgid "[BRUSH] change size"
 msgstr "[ŠTĚTEC] změnit velikost"
 
 #: ../src/develop/masks/brush.c:3143
-#, fuzzy
 msgid "[BRUSH] change hardness"
-msgstr "[ŠTĚTEC] změna tvrdosti"
+msgstr "[ŠTĚTEC] změnit tvrdost"
 
 #: ../src/develop/masks/brush.c:3145
-#, fuzzy
 msgid "[BRUSH] change opacity"
-msgstr "[ŠTĚTEC] změna neprůhlednosti"
+msgstr "[ŠTĚTEC] změnit krytí"
 
 #: ../src/develop/masks/brush.c:3157
-#, fuzzy, c-format
+#, c-format
 msgid "brush #%d"
 msgstr "štětec #%d"
 
@@ -11221,6 +11205,7 @@ msgid "[CIRCLE] change size"
 msgstr "[KRUŽNICE] změna velikosti"
 
 #: ../src/develop/masks/circle.c:1395
+#, fuzzy
 msgid "[CIRCLE] change feather size"
 msgstr "[KRUŽNICE] změnit velikost prolnutí"
 
@@ -11244,7 +11229,7 @@ msgstr ""
 "<b>neprůhlednost</b>: Ctrl+scroll (%d%%)"
 
 #: ../src/develop/masks/ellipse.c:451 ../src/develop/masks/ellipse.c:509
-#, fuzzy, c-format
+#, c-format
 msgid "rotation: %3.f°"
 msgstr "rotace: %3.f°"
 
@@ -11254,6 +11239,7 @@ msgid "[ELLIPSE] change size"
 msgstr "[ELIPSA] změna velikosti"
 
 #: ../src/develop/masks/ellipse.c:1958
+#, fuzzy
 msgid "[ELLIPSE] change feather size"
 msgstr "[ELIPSA] změnit velikost prolnutí"
 
@@ -11268,6 +11254,7 @@ msgid "[ELLIPSE] change opacity"
 msgstr "[ELIPSA] změna neprůhlednosti"
 
 #: ../src/develop/masks/ellipse.c:1967
+#, fuzzy
 msgid "[ELLIPSE] switch feathering mode"
 msgstr "[ELIPSA] přepne režim prolnutí"
 
@@ -11306,7 +11293,7 @@ msgstr ""
 "<b>neprůhlednost</b>: Ctrl+scroll (%d%%)"
 
 #: ../src/develop/masks/gradient.c:131 ../src/develop/masks/gradient.c:174
-#, fuzzy, c-format
+#, c-format
 msgid "compression: %3.2f%%"
 msgstr "komprese: %3.2f%%"
 
@@ -11392,14 +11379,12 @@ msgid "opacity: %.0f%%"
 msgstr "krytí: %.0f%%"
 
 #: ../src/develop/masks/masks.c:1669 ../src/libs/masks.c:1092
-#, fuzzy
 msgid "add existing shape"
 msgstr "přidat existující tvar"
 
 #: ../src/develop/masks/masks.c:1696
-#, fuzzy
 msgid "use same shapes as"
-msgstr "používat stejné tvary jako"
+msgstr "použít stejné tvary jako"
 
 #: ../src/develop/masks/masks.c:2006
 #, fuzzy
@@ -11425,10 +11410,8 @@ msgid "raster mask saved"
 msgstr "id rastrové masky"
 
 #: ../src/develop/masks/object.c:919
-#, fuzzy
-#| msgid "external raster masks"
 msgid "failed to save raster mask"
-msgstr "externí rastrové masky"
+msgstr "uložení rastrové masky se nezdařilo"
 
 #: ../src/develop/masks/object.c:1000
 msgid "no mask extracted from AI segmentation"
@@ -11580,14 +11563,12 @@ msgid "[PATH on segment] add node"
 msgstr "[CESTA na segmentu] přidat uzel"
 
 #: ../src/develop/masks/path.c:3957
-#, fuzzy
 msgid "[PATH] change size"
 msgstr "[CESTA] změnit velikost"
 
 #: ../src/develop/masks/path.c:3959
-#, fuzzy
 msgid "[PATH] change feather size"
-msgstr "[CESTA] změnit velikost pírka"
+msgstr "[CESTA] změnit velikost prolnutí"
 
 #: ../src/develop/masks/path.c:3961
 #, fuzzy
@@ -11735,27 +11716,23 @@ msgstr ""
 "v pořádku, ale možná jej budete chtít zkontrolovat."
 
 #: ../src/dtgtk/culling.c:225
-#, fuzzy
 msgid "you have reached the start of your selection"
-msgstr "dosáhl jste začátku výběru"
+msgstr "dosáhli jste začátku vašeho výběru"
 
 #: ../src/dtgtk/culling.c:234
-#, fuzzy
 msgid "you have reached the start of your collection"
-msgstr "dosáhl jste začátku vaší kolekce"
+msgstr "dosáhli jste začátku vaší sbírky"
 
 #: ../src/dtgtk/culling.c:281
-#, fuzzy
 msgid "you have reached the end of your selection"
-msgstr "dosáhl jste konce výběru"
+msgstr "dosáhli jste konce vašeho výběru"
 
 #: ../src/dtgtk/culling.c:308
-#, fuzzy
 msgid "you have reached the end of your collection"
-msgstr "dosáhl jste konce vaší kolekce"
+msgstr "dosáhli jste konce vaší sbírky"
 
 #: ../src/dtgtk/culling.c:418
-#, fuzzy, c-format
+#, c-format
 msgid "zooming is limited to %d images"
 msgstr "zvětšení je limitováno na %d obrázků"
 
@@ -11858,13 +11835,12 @@ msgid "fixed"
 msgstr "pevný"
 
 #: ../src/dtgtk/range.c:491 ../src/iop/colorchecker.c:1612
-#, fuzzy
 msgid "relative"
 msgstr "relativní"
 
 #: ../src/dtgtk/range.c:581
 msgid "selected"
-msgstr "vybrané"
+msgstr "vybraný"
 
 #: ../src/dtgtk/range.c:627 ../src/dtgtk/range.c:1740 ../src/dtgtk/range.c:1791
 #: ../src/libs/colorpicker.c:54
@@ -11959,7 +11935,6 @@ msgstr ""
 
 #. and the number of grouped images
 #: ../src/dtgtk/thumbnail.c:207
-#, fuzzy
 msgid "grouped images"
 msgstr "seskupené obrázky"
 
@@ -20692,9 +20667,8 @@ msgid "scale for graph"
 msgstr "měřítko pro graf"
 
 #: ../src/iop/basicadj.c:157
-#, fuzzy
 msgid "this module is deprecated. please use the quick access panel instead."
-msgstr "tento modul je zastaralý. místo toho použijte panel rychlého přístupu."
+msgstr "tento modul je zastaralý, použijte panel rychlého přístupu"
 
 #: ../src/iop/basicadj.c:162
 msgid "basic adjustments"
@@ -21426,11 +21400,9 @@ msgid "channel mixer"
 msgstr "míchání kanálů"
 
 #: ../src/iop/channelmixer.c:128
-#, fuzzy
 msgid ""
 "this module is deprecated. please use the color calibration module instead."
-msgstr ""
-"tento modul je zastaralý. místo toho použijte modul pro kalibraci barev."
+msgstr "tento modul je zastaralý, použijte modul kalibrace barev"
 
 #: ../src/iop/channelmixer.c:133 ../src/iop/channelmixerrgb.c:235
 #, fuzzy
@@ -22233,14 +22205,12 @@ msgstr ""
 "Cholesky rozkladu se nepodařilo alokovat paměť, zkontrolujte nastavení RAM"
 
 #: ../src/iop/clahe.c:61
-#, fuzzy
 msgid "old local contrast"
 msgstr "původní lokální kontrast"
 
 #: ../src/iop/clahe.c:71
-#, fuzzy
 msgid "this module is deprecated. better use new local contrast module instead."
-msgstr "tento modul je zastaralý. raději použijte nový modul lokální kontrast."
+msgstr "tento modul je zastaralý, raději použijte nový modul lokální kontrast"
 
 #: ../src/iop/clahe.c:325 ../src/iop/sharpen.c:423
 msgid "amount"
@@ -22262,7 +22232,7 @@ msgid ""
 "this module is deprecated. please use the crop, orientation and/or rotate and "
 "perspective modules instead."
 msgstr ""
-"tento modul je zastaralý. místo toho použijte moduly oříznutí, orientace a/"
+"tento modul je zastaralý, místo toho použijte moduly oříznutí, orientace a/"
 "nebo otočení a perspektivy."
 
 #: ../src/iop/clipping.c:345
@@ -22500,10 +22470,8 @@ msgid "[%s on borders] crop keeping ratio"
 msgstr "[%s na okrajích] oříznout - zachovat poměr"
 
 #: ../src/iop/colisa.c:76
-#, fuzzy
 msgid "this module is deprecated. please use colorbalance RGB module instead."
-msgstr ""
-"tento modul je zastaralý. místo toho použijte modul RGB pro vyvážení barev."
+msgstr "tento modul je zastaralý, použijte modul vyvážení barev RGB"
 
 #: ../src/iop/colisa.c:81
 #, fuzzy
@@ -24050,12 +24018,10 @@ msgid "color transfer"
 msgstr "přenos barev"
 
 #: ../src/iop/colortransfer.c:115
-#, fuzzy
 msgid "this module is deprecated. better use color mapping module instead."
-msgstr "tento modul je zastaralý. raději použijte modul mapování barev."
+msgstr "tento modul je zastaralý. raději použijte modul mapování barev"
 
 #: ../src/iop/colortransfer.c:413
-#, fuzzy
 msgid ""
 "this module will be removed in the future\n"
 "and is only here so you can switch it off\n"
@@ -24063,7 +24029,7 @@ msgid ""
 msgstr ""
 "tento modul bude v budoucnu odstraněn\n"
 "a je zde pouze proto, abyste jej mohli vypnout\n"
-"a přejděte na nový modul mapování barev."
+"a přejít na nový modul mapování barev"
 
 #: ../src/iop/colorzones.c:135 ../src/iop/colorzones.c:2561
 msgid "color zones"
@@ -24095,9 +24061,8 @@ msgid "B&W: film"
 msgstr "ČB: film"
 
 #: ../src/iop/colorzones.c:788
-#, fuzzy
 msgid "HSL base setting"
-msgstr "Základní nastavení HSL"
+msgstr "základní nastavení HSL"
 
 #: ../src/iop/colorzones.c:2652 ../src/iop/rgbcurve.c:1514
 #, fuzzy
@@ -24220,8 +24185,7 @@ msgstr "ztlumí chromatickou aberaci odsycením hran"
 #, fuzzy
 msgid ""
 "this module is deprecated. please use the chromatic aberration module instead."
-msgstr ""
-"tento modul je zastaralý. místo toho použijte modul chromatické aberace."
+msgstr "tento modul je zastaralý, použijte modul chromatické aberace."
 
 #: ../src/iop/defringe.c:402
 #, fuzzy
@@ -25221,9 +25185,8 @@ msgid "legacy equalizer"
 msgstr "starší ekvalizér"
 
 #: ../src/iop/equalizer.c:109
-#, fuzzy
 msgid "this module is deprecated. better use contrast equalizer module instead."
-msgstr "tento modul je zastaralý. raději použijte modul ekvalizér kontrastu."
+msgstr "tento modul je zastaralý, raději použijte modul ekvalizér kontrastu"
 
 #: ../src/iop/equalizer.c:236
 #, fuzzy
@@ -25388,9 +25351,8 @@ msgid "the desired target exposure after mapping"
 msgstr "požadovaná cílová expozice po mapování"
 
 #: ../src/iop/filmic.c:174
-#, fuzzy
 msgid "this module is deprecated. better use filmic rgb module instead."
-msgstr "tento modul je zastaralý. raději místo toho použijte filmový rgb modul."
+msgstr "tento modul je zastaralý, raději použijte modul filmové rgb"
 
 #: ../src/iop/filmic.c:328
 msgid "09 EV (low-key)"
@@ -31737,7 +31699,6 @@ msgid "default enabled module"
 msgstr "výchozí povolený modul"
 
 #: ../src/libs/history.c:221
-#, fuzzy
 msgid "deprecated module"
 msgstr "zastaralý modul"
 
