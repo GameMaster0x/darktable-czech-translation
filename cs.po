@@ -9605,7 +9605,7 @@ msgstr "žádný obrázek k exportu"
 #. progress message
 #. update the message. initialize_store() might have changed the number of images
 #: ../src/control/jobs/control_jobs.c:1930
-#, fuzzy, c-format
+#, c-format
 msgid "exporting %d / %d to %s"
 msgstr "exportuji %d / %d do %s"
 
@@ -33936,11 +33936,10 @@ msgid "RGB parade"
 msgstr "RGB parade"
 
 #: ../src/libs/select.c:45
-#, fuzzy
 msgid ""
 "modify which of the displayed\n"
 "images are selected"
-msgstr "Řeší, které ze zobrazených obrázků budou vybrány."
+msgstr "upravuje, které ze zobrazených obrázků budou vybrány"
 
 #: ../src/libs/select.c:143
 #, fuzzy
@@ -34813,7 +34812,6 @@ msgstr "pravé zkosení"
 
 #. diagonals
 #: ../src/libs/tools/gamepad.c:96
-#, fuzzy
 msgid "invalid gamepad axis"
 msgstr "neplatná osa gamepadu"
 
@@ -35394,7 +35392,6 @@ msgstr ""
 
 #: ../src/views/darkroom.c:2641
 #, fuzzy, c-format
-#| msgid "default enabled module"
 msgid "enabled module '%s'"
 msgstr "výchozí povolený modul"
 
