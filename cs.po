@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 11:32+0200\n"
-"PO-Revision-Date: 2026-04-26 22:51+0200\n"
+"PO-Revision-Date: 2026-04-27 12:59+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -2838,11 +2838,10 @@ msgid "magenta"
 msgstr "purpurová"
 
 #: ../build/bin/styles_string.h:29
-#, fuzzy
 msgid "make a photo taken in daylight look like it was taken in twilight"
 msgstr ""
-"Upraví fotografii focenou za denního světla tak, aby vypadala, jako by byla "
-"vyfocena za soumraku."
+"upraví fotografii focenou za denního světla tak, aby vypadala, jako by byla "
+"vyfocena za soumraku"
 
 #: ../build/bin/styles_string.h:30
 #, fuzzy
@@ -2969,7 +2968,6 @@ msgstr "projasnění"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:251
 #: ../build/lib/darktable/plugins/introspection_agx.c:502
-#, fuzzy
 msgid "slope"
 msgstr "sklon"
 
@@ -3006,7 +3004,6 @@ msgstr "sytost"
 #: ../build/lib/darktable/plugins/introspection_agx.c:514
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:146
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:257
-#, fuzzy
 msgid "preserve hue"
 msgstr "zachovat odstín"
 
@@ -3017,30 +3014,26 @@ msgstr "zachovat odstín"
 #: ../build/lib/darktable/plugins/introspection_profile_gamma.c:97
 #: ../build/lib/darktable/plugins/introspection_profile_gamma.c:166
 #: ../src/iop/filmic.c:1490
-#, fuzzy
 msgid "black relative exposure"
-msgstr "relativní expozice černá"
+msgstr "relativní expozice černé"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:281
 #: ../build/lib/darktable/plugins/introspection_agx.c:522
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:224
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:431
 #: ../src/iop/filmic.c:1478
-#, fuzzy
 msgid "white relative exposure"
-msgstr "relativní expozice bílá"
+msgstr "relativní expozice bílé"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:287
 #: ../build/lib/darktable/plugins/introspection_agx.c:526
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:260
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:455
-#, fuzzy
 msgid "dynamic range scaling"
 msgstr "škálování dynamického rozsahu"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:293
 #: ../build/lib/darktable/plugins/introspection_agx.c:530
-#, fuzzy
 msgid "pivot relative exposure"
 msgstr "relativní expozice středu"
 
@@ -3067,37 +3060,31 @@ msgstr "kontrast"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:311
 #: ../build/lib/darktable/plugins/introspection_agx.c:542
-#, fuzzy
 msgid "toe start"
 msgstr "počátek paty křivky"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:317
 #: ../build/lib/darktable/plugins/introspection_agx.c:546
-#, fuzzy
 msgid "shoulder start"
 msgstr "počátek ramene křivky"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:323
 #: ../build/lib/darktable/plugins/introspection_agx.c:550
-#, fuzzy
 msgid "toe power"
 msgstr "strmost paty křivky"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:329
 #: ../build/lib/darktable/plugins/introspection_agx.c:554
-#, fuzzy
 msgid "shoulder power"
 msgstr "strmost ramene křivky"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:335
 #: ../build/lib/darktable/plugins/introspection_agx.c:558
-#, fuzzy
 msgid "curve y gamma"
-msgstr "gamma křivky"
+msgstr "křivka y gamma"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:341
 #: ../build/lib/darktable/plugins/introspection_agx.c:562
-#, fuzzy
 msgid "keep the pivot on the diagonal"
 msgstr "ponechat střed na diagonále"
 
@@ -3105,7 +3092,6 @@ msgstr "ponechat střed na diagonále"
 #: ../build/lib/darktable/plugins/introspection_agx.c:566
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:134
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:249
-#, fuzzy
 msgid "target black"
 msgstr "cílová černá"
 
@@ -3113,7 +3099,6 @@ msgstr "cílová černá"
 #: ../build/lib/darktable/plugins/introspection_agx.c:570
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:128
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:245
-#, fuzzy
 msgid "target white"
 msgstr "cílová bílá"
 
@@ -3126,7 +3111,6 @@ msgstr "primární barvy"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:365
 #: ../build/lib/darktable/plugins/introspection_agx.c:578
-#, fuzzy
 msgid "disable adjustments"
 msgstr "vypnout úpravy"
 
@@ -3299,13 +3283,11 @@ msgstr "crop faktor"
 
 #: ../build/lib/darktable/plugins/introspection_ashift.c:160
 #: ../build/lib/darktable/plugins/introspection_ashift.c:299
-#, fuzzy
 msgid "lens dependence"
-msgstr "závisí na objektivu"
+msgstr "závislost na objektivu"
 
 #: ../build/lib/darktable/plugins/introspection_ashift.c:166
 #: ../build/lib/darktable/plugins/introspection_ashift.c:303
-#, fuzzy
 msgid "aspect adjust"
 msgstr "upravit poměr"
 
@@ -3359,7 +3341,6 @@ msgstr "fúze"
 
 #: ../build/lib/darktable/plugins/introspection_basecurve.c:140
 #: ../build/lib/darktable/plugins/introspection_basecurve.c:235
-#, fuzzy
 msgid "exposure shift"
 msgstr "posun expozice"
 
@@ -3380,7 +3361,6 @@ msgstr "zkreslení expozice"
 #: ../build/lib/darktable/plugins/introspection_rgblevels.c:122
 #: ../build/lib/darktable/plugins/introspection_tonecurve.c:153
 #: ../build/lib/darktable/plugins/introspection_tonecurve.c:244
-#, fuzzy
 msgid "preserve colors"
 msgstr "zachovat barvy"
 
@@ -4738,7 +4718,6 @@ msgstr "rádius vyhledávání"
 
 #: ../build/lib/darktable/plugins/introspection_denoiseprofile.c:148
 #: ../build/lib/darktable/plugins/introspection_denoiseprofile.c:323
-#, fuzzy
 msgid "preserve shadows"
 msgstr "zachovat stíny"
 
@@ -25445,12 +25424,10 @@ msgid "this module is deprecated. better use filmic rgb module instead."
 msgstr "tento modul je zastaralý. raději místo toho použijte filmový rgb modul."
 
 #: ../src/iop/filmic.c:328
-#, fuzzy
 msgid "09 EV (low-key)"
 msgstr "09 EV (low-key)"
 
 #: ../src/iop/filmic.c:336
-#, fuzzy
 msgid "10 EV (indoors)"
 msgstr "10 EV (uvnitř)"
 
@@ -25460,7 +25437,6 @@ msgid "11 EV (dim outdoors)"
 msgstr "11 EV (venku, šero)"
 
 #: ../src/iop/filmic.c:352
-#, fuzzy
 msgid "12 EV (outdoors)"
 msgstr "12 EV (venku)"
 
@@ -25487,9 +25463,8 @@ msgid "18 EV (HDR++)"
 msgstr "18 EV (HDR++)"
 
 #: ../src/iop/filmic.c:1461
-#, fuzzy
 msgid "read-only graph, use the parameters below to set the nodes"
-msgstr "graf pouze pro čtení, použijte níže uvedené parametry k nastavení uzlů"
+msgstr "graf pouze pro čtení, použijte parametry níže k nastavení uzlů"
 
 #: ../src/iop/filmic.c:1469
 #, fuzzy
@@ -25758,22 +25733,18 @@ msgid "filmic works only on RGB input"
 msgstr "filmic funguje pouze na vstupu RGB"
 
 #: ../src/iop/filmicrgb.c:3429
-#, fuzzy
 msgid "look only"
 msgstr "pouze vzhled"
 
 #: ../src/iop/filmicrgb.c:3431
-#, fuzzy
 msgid "look + mapping (lin)"
 msgstr "vzhled + mapování (lin)"
 
 #: ../src/iop/filmicrgb.c:3433
-#, fuzzy
 msgid "look + mapping (log)"
 msgstr "vzhled + mapování (log)"
 
 #: ../src/iop/filmicrgb.c:3435
-#, fuzzy
 msgid "dynamic range mapping"
 msgstr "mapování dynamického rozsahu"
 
@@ -25809,7 +25780,6 @@ msgstr "(%)"
 
 #. Page SCENE
 #: ../src/iop/filmicrgb.c:3888 ../src/iop/filmicrgb.c:4367
-#, fuzzy
 msgid "scene"
 msgstr "scéna"
 
@@ -25881,7 +25851,6 @@ msgstr ""
 
 #. Page RECONSTRUCT
 #: ../src/iop/filmicrgb.c:4422
-#, fuzzy
 msgid "reconstruct"
 msgstr "rekonstruovat"
 
@@ -25983,7 +25952,6 @@ msgstr ""
 
 #. Page LOOK
 #: ../src/iop/filmicrgb.c:4490
-#, fuzzy
 msgid "look"
 msgstr "vzhled"
 
@@ -26369,7 +26337,6 @@ msgid "the grain size (~ISO of the film)"
 msgstr "velikost zrna (~ISO filmu)"
 
 #: ../src/iop/grain.c:547
-#, fuzzy
 msgid "the strength of applied grain"
 msgstr "síla aplikovaného zrna"
 
@@ -26420,7 +26387,6 @@ msgstr ""
 "osvětlení."
 
 #: ../src/iop/highlights.c:170
-#, fuzzy
 msgid "highlight reconstruction"
 msgstr "rekonstrukce světel"
 
@@ -26443,9 +26409,8 @@ msgstr ""
 "proti."
 
 #: ../src/iop/highlights.c:1282
-#, fuzzy
 msgid "highlight reconstruction method"
-msgstr "meotoda rekonstrukce světel"
+msgstr "metoda rekonstrukce světel"
 
 #: ../src/iop/highlights.c:1287
 #, fuzzy
@@ -26625,20 +26590,18 @@ msgid ""
 msgstr "Odstraní abnormálně jasné pixely jejich nahrazením sousedními barvami."
 
 #: ../src/iop/hotpixels.c:424
-#, fuzzy, c-format
+#, c-format
 msgid "fixed %d pixel"
 msgid_plural "fixed %d pixels"
-msgstr[0] "fixed %d pixel"
-msgstr[1] "opraveno %d pixely"
+msgstr[0] "opraven %d pixel"
+msgstr[1] "opraveny %d pixely"
 msgstr[2] "opraveno %d pixelů"
 
 #: ../src/iop/hotpixels.c:447
-#, fuzzy
 msgid "lower threshold for hot pixel"
 msgstr "spodní práh pro horké pixely"
 
 #: ../src/iop/hotpixels.c:451
-#, fuzzy
 msgid "strength of hot pixel correction"
 msgstr "síla korekce horkých pixelů"
 
@@ -26666,12 +26629,10 @@ msgid "this module is deprecated. please use the negadoctor module instead."
 msgstr "tento modul je zastaralý. místo toho použijte modul filmové negativy."
 
 #: ../src/iop/invert.c:130
-#, fuzzy
 msgid "invert film negatives"
 msgstr "invertovat filmové negativy"
 
 #: ../src/iop/invert.c:132 ../src/iop/invert.c:134
-#, fuzzy
 msgid "linear, raw, display-referred"
 msgstr "lineární, raw, display-referred"
 
@@ -26682,19 +26643,16 @@ msgid "brightness of film material"
 msgstr "jas filmového materiálu"
 
 #: ../src/iop/invert.c:414
-#, fuzzy
 msgid "color of film material"
 msgstr "barva filmového materiálu"
 
 #: ../src/iop/invert.c:493 ../src/iop/negadoctor.c:849
-#, fuzzy
 msgid "pick color of film material from image"
 msgstr "vybrat barvu filmového materiálu z obrázku"
 
 #: ../src/iop/invert.c:495
-#, fuzzy
 msgid "select color of film material"
-msgstr "vyberte barvu filmového materiálu"
+msgstr "vybrat barvu filmového materiálu"
 
 #: ../src/iop/lens.cc:252
 msgid "lens correction"
@@ -26705,9 +26663,8 @@ msgid "vignette|chromatic aberrations|distortion"
 msgstr "vinětace|chromatické aberace|deformace"
 
 #: ../src/iop/lens.cc:262
-#, fuzzy
 msgid "correct lenses optical flaws"
-msgstr "opravit optické vady objektivů"
+msgstr "opravit optické vady objektivu"
 
 #: ../src/iop/lens.cc:265
 #, fuzzy
@@ -26755,7 +26712,6 @@ msgid "d"
 msgstr "d"
 
 #: ../src/iop/lens.cc:4239
-#, fuzzy
 msgid "camera/lens not found"
 msgstr "fotoaparát/objektiv nenalezen"
 
@@ -26773,7 +26729,6 @@ msgstr ""
 #. Lensfun widget
 #. camera selector
 #: ../src/iop/lens.cc:4384
-#, fuzzy
 msgid "camera model"
 msgstr "model fotoaparátu"
 
@@ -26829,7 +26784,6 @@ msgid "transversal chromatic aberration blue"
 msgstr "příčná chromatická aberace modrá"
 
 #: ../src/iop/lens.cc:4488
-#, fuzzy
 msgid "use latest algorithm"
 msgstr "použít nejnovější algoritmus"
 
@@ -26876,7 +26830,6 @@ msgid "tune the TCA blue correction"
 msgstr "dolaďte korekci TCA modré"
 
 #: ../src/iop/lens.cc:4533
-#, fuzzy
 msgid "image scaling"
 msgstr "škálování obrazu"
 
@@ -26905,9 +26858,8 @@ msgstr "jaké opravy použít"
 #. is useful as depending on Lensfun's profile only some of the lens
 #. flaws can be corrected
 #: ../src/iop/lens.cc:4557
-#, fuzzy
 msgid "corrections done: "
-msgstr "provedené opravy: "
+msgstr "provedené korekce: "
 
 #: ../src/iop/lens.cc:4560
 #, fuzzy
@@ -27341,19 +27293,17 @@ msgid "1D cube LUT is not supported"
 msgstr "1D cube LUT není podporována"
 
 #: ../src/iop/lut3d.c:827
-#, fuzzy
 msgid "error - allocating buffer for cube LUT"
-msgstr "chyba - alokace vyrovnávací paměti pro cube LUT"
+msgstr "chyba alokace vyrovnávací paměti pro cube LUT"
 
 #: ../src/iop/lut3d.c:838
-#, fuzzy
 msgid "error - cube LUT size is not defined"
-msgstr "chyba - velikost kostky LUT není definována"
+msgstr "chyba - velikost cube LUT není definována"
 
 #: ../src/iop/lut3d.c:849
-#, fuzzy, c-format
+#, c-format
 msgid "error - cube LUT invalid number line %d"
-msgstr "chyba - kostka LUT neplatné číslo řádek %d"
+msgstr "chyba - cube LUT, neplatné číslo na řádku %d"
 
 #: ../src/iop/lut3d.c:865
 #, fuzzy, c-format
@@ -27366,7 +27316,7 @@ msgid "warning - cube LUT has %d values out of range [0,1]"
 msgstr "varování - cube LUT má %d hodnot mimo rozsah [0,1]"
 
 #: ../src/iop/lut3d.c:900
-#, fuzzy, c-format
+#, c-format
 msgid "error - invalid 3dl file: %s"
 msgstr "chyba - neplatný soubor 3dl: %s"
 
@@ -31246,7 +31196,6 @@ msgid "determine the sort order of shown images"
 msgstr "určit pořadí řazení zobrazených obrázků"
 
 #: ../src/libs/filtering.c:1971
-#, fuzzy
 msgid "sort direction"
 msgstr "způsob řazení"
 
@@ -31903,7 +31852,6 @@ msgid "parametric input mask:"
 msgstr "maska parametrického vstupu:"
 
 #: ../src/libs/history.c:1342
-#, fuzzy
 msgid "delete image's history?"
 msgstr "smazat historii obrázku?"
 
@@ -32684,11 +32632,10 @@ msgid "metadata editor"
 msgstr "editor metadat"
 
 #: ../src/libs/metadata.c:70
-#, fuzzy
 msgid ""
 "modify text metadata fields of\n"
 "the currently selected images"
-msgstr "upraví textová metadata pro vybrané obrázky"
+msgstr "upraví pole textových metadat pro aktuálně vybrané obrázky"
 
 #: ../src/libs/metadata.c:606
 #, fuzzy
@@ -32773,7 +32720,6 @@ msgid ""
 msgstr "Přejete si odstranit metadata připojená k obrázkům?"
 
 #: ../src/libs/metadata.c:1143
-#, fuzzy
 msgid "write metadata for selected images"
 msgstr "zapsat metadata pro vybrané obrázky"
 
@@ -33687,17 +33633,14 @@ msgid "maximum image per page reached"
 msgstr "dosažen maximální počet obrázků na stranu"
 
 #: ../src/libs/print_settings.c:725
-#, fuzzy
 msgid "cannot print until a picture is selected"
 msgstr "nelze tisknout, dokud není vybrán snímek"
 
 #: ../src/libs/print_settings.c:730
-#, fuzzy
 msgid "cannot print until a printer is selected"
 msgstr "nelze tisknout, dokud není vybrána tiskárna"
 
 #: ../src/libs/print_settings.c:735
-#, fuzzy
 msgid "cannot print until a paper is selected"
 msgstr "nelze tisknout, dokud není vybrán papír"
 
@@ -34540,32 +34483,28 @@ msgid "(private)"
 msgstr "(soukromé)"
 
 #: ../src/libs/tagging.c:2801
-#, fuzzy
 msgid "select a keyword file"
 msgstr "vybrat soubor klíčových slov"
 
 #: ../src/libs/tagging.c:2816
-#, fuzzy
 msgid "error importing tags"
 msgstr "chyba importu tagů"
 
 #: ../src/libs/tagging.c:2818
-#, fuzzy, c-format
+#, c-format
 msgid "%zd tags imported"
 msgstr "%zd tagů importováno"
 
 #: ../src/libs/tagging.c:2843
-#, fuzzy
 msgid "select file to export to"
 msgstr "vyberte cílový soubor"
 
 #: ../src/libs/tagging.c:2859
-#, fuzzy
 msgid "error exporting tags"
 msgstr "chyba při exportu tagů"
 
 #: ../src/libs/tagging.c:2861
-#, fuzzy, c-format
+#, c-format
 msgid "%zd tags exported"
 msgstr "%zd tagů exportováno"
 
@@ -34645,7 +34584,6 @@ msgstr ""
 "Stisknutím Shift + Tab vyberte první připojený uživatelský tag."
 
 #: ../src/libs/tagging.c:3567 ../src/libs/tagging.c:3574
-#, fuzzy
 msgid "clear entry"
 msgstr "vymazat záznam"
 
@@ -34902,15 +34840,14 @@ msgstr "touchpad"
 #: ../src/libs/tools/gamepad.c:65
 #, fuzzy
 msgid "left trigger"
-msgstr "levá spoušť"
+msgstr "pravý trigger"
 
 #: ../src/libs/tools/gamepad.c:65
 #, fuzzy
 msgid "right trigger"
-msgstr "pravá spoušť"
+msgstr "levý trigger"
 
 #: ../src/libs/tools/gamepad.c:71
-#, fuzzy
 msgid "invalid gamepad button"
 msgstr "neplatné tlačítko gamepadu"
 
@@ -34993,7 +34930,6 @@ msgid "overlays not available here..."
 msgstr "překryvné vrstvy zde nejsou k dispozici..."
 
 #: ../src/libs/tools/global_toolbox.c:390
-#, fuzzy
 msgid "grouping"
 msgstr "seskupování"
 
@@ -35176,7 +35112,6 @@ msgid "click to limit browsing to the selection."
 msgstr "Klikněte pro omezení procházení na aktuální výběr."
 
 #: ../src/libs/tools/lighttable.c:414
-#, fuzzy
 msgid "focus detection"
 msgstr "detekce zaostření"
 
@@ -35471,7 +35406,7 @@ msgstr "chyba I/O"
 
 #: ../src/views/darkroom.c:995
 msgid "cache full"
-msgstr "Vyrovnávací paměť plná."
+msgstr "vyrovnávací paměť je plná"
 
 #: ../src/views/darkroom.c:998
 #, c-format
@@ -35494,10 +35429,8 @@ msgid "past beginning of collection, looped to last image"
 msgstr ""
 
 #: ../src/views/darkroom.c:2582
-#, fuzzy
-#| msgid "all available modules"
 msgid "no visible modules"
-msgstr "všechny dostupné moduly"
+msgstr "žádné viditelné moduly"
 
 #: ../src/views/darkroom.c:2612 ../src/views/darkroom.c:2767
 #, fuzzy, c-format
@@ -35791,7 +35724,6 @@ msgid "luminance only"
 msgstr "pouze jas"
 
 #: ../src/views/darkroom.c:3051
-#, fuzzy
 msgid "saturation only"
 msgstr "pouze sytost"
 
@@ -35938,7 +35870,6 @@ msgstr ""
 
 #. Fullscreen preview key
 #: ../src/views/darkroom.c:3318
-#, fuzzy
 msgid "full preview"
 msgstr "plný náhled"
 
@@ -36063,14 +35994,12 @@ msgid "zoom in the image"
 msgstr "zvětšit obraz"
 
 #: ../src/views/darkroom.c:4262
-#, fuzzy
 msgid "unbounded zoom in the image"
 msgstr "neomezené zvětšení obrazu"
 
 #: ../src/views/darkroom.c:4264
-#, fuzzy
 msgid "zoom to 100% 200% and back"
-msgstr "zvětšit na 100% 200% a zpět"
+msgstr "zvětšit na 100 %, 200 % a zpět"
 
 #: ../src/views/darkroom.c:4266 ../src/views/lighttable.c:1020
 #, fuzzy
@@ -36130,7 +36059,6 @@ msgid "change number of images per row"
 msgstr "změnit počet obrázků na řádek"
 
 #: ../src/views/lighttable.c:1030
-#, fuzzy
 msgid "select an image"
 msgstr "vybrat obrázek"
 
