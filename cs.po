@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: darktable\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-26 19:29+0200\n"
-"PO-Revision-Date: 2026-04-27 13:15+0200\n"
+"PO-Revision-Date: 2026-04-27 13:23+0200\n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -1595,12 +1595,10 @@ msgstr ""
 "názvu presetu nebo instanci presetu (pokud je k dispozici)"
 
 #: ../build/bin/preferences_gen.h:3370
-#, fuzzy
 msgid "processing"
 msgstr "zpracování"
 
 #: ../build/bin/preferences_gen.h:3375
-#, fuzzy
 msgid "image processing"
 msgstr "zpracování obrázku"
 
@@ -2061,7 +2059,6 @@ msgstr ""
 
 # label
 #: ../build/bin/preferences_gen.h:4057
-#, fuzzy
 msgid "auto login to storage server"
 msgstr "automaticky se přihlásit na server úložiště"
 
@@ -2110,9 +2107,8 @@ msgstr ""
 "startu."
 
 #: ../build/bin/preferences_gen.h:4129
-#, fuzzy
 msgid "create database snapshot"
-msgstr "vytvořit zálohu databáze"
+msgstr "vytvořit snapshot databáze"
 
 #: ../build/bin/preferences_gen.h:4138
 #, fuzzy
@@ -2136,9 +2132,8 @@ msgstr ""
 "  - 'při ukončení': vytvořit zálohu pokaždé, když se darktable zavře"
 
 #: ../build/bin/preferences_gen.h:4147
-#, fuzzy
 msgid "how many snapshots to keep"
-msgstr "kolik záloh ponechat"
+msgstr "kolik snapshotů ponechat"
 
 #: ../build/bin/preferences_gen.h:4165
 #, fuzzy
@@ -19598,7 +19593,6 @@ msgid "linear, RGB, display-referred"
 msgstr "lineární, RGB, display-referred"
 
 #: ../src/iop/agx.c:1817
-#, fuzzy
 msgctxt "section"
 msgid "basic curve parameters"
 msgstr "základní parametry křivky"
@@ -19729,7 +19723,6 @@ msgid "increase to bring hues closer to the original"
 msgstr "Zvyšte pro odstín podobnější originálu."
 
 #: ../src/iop/agx.c:1927
-#, fuzzy
 msgctxt "section"
 msgid "look"
 msgstr "vzhled"
@@ -19816,7 +19809,6 @@ msgstr ""
 "nebo ramene křivky."
 
 #: ../src/iop/agx.c:2039
-#, fuzzy
 msgctxt "section"
 msgid "input exposure range"
 msgstr "vstupní rozsah expozice"
@@ -19852,7 +19844,6 @@ msgstr ""
 
 #: ../src/iop/agx.c:2071 ../src/iop/agx.c:2074 ../src/iop/filmic.c:1515
 #: ../src/iop/filmicrgb.c:4418 ../src/iop/profile_gamma.c:640
-#, fuzzy
 msgid "auto tune levels"
 msgstr "automatické nastavení úrovní"
 
@@ -19873,16 +19864,14 @@ msgid "read exposure from metadata and exposure module"
 msgstr "Přečíst expozici z metadat obrázku a modulu expozice."
 
 #: ../src/iop/agx.c:2081
-#, fuzzy
 msgid "read exposure"
-msgstr "vyčíst expozici"
+msgstr "číst expozici"
 
 #: ../src/iop/agx.c:2104
 msgid "blender-like"
 msgstr "jako v Blenderu"
 
 #: ../src/iop/agx.c:2114
-#, fuzzy
 msgid "unmodified"
 msgstr "nezměněno"
 
@@ -19891,9 +19880,8 @@ msgid "primaries"
 msgstr "primární barvy"
 
 #: ../src/iop/agx.c:2260
-#, fuzzy
 msgid "color primaries adjustments"
-msgstr "nastavení barevných primárek"
+msgstr "úpravy primárních barev"
 
 #: ../src/iop/agx.c:2266
 #, fuzzy
@@ -19928,9 +19916,8 @@ msgid "reset primaries to a predefined configuration"
 msgstr "Reset primárek podle předdefinované konfigurace."
 
 #: ../src/iop/agx.c:2283 ../src/iop/agx.c:2286
-#, fuzzy
 msgid "reset primaries"
-msgstr "reset primárek"
+msgstr "reset primárních barev"
 
 #: ../src/iop/agx.c:2292
 #, fuzzy
@@ -20060,7 +20047,6 @@ msgid "main look and curve settings"
 msgstr "hlavní nastavení vzhledu a křivky"
 
 #: ../src/iop/agx.c:2473
-#, fuzzy
 msgid "detailed curve settings"
 msgstr "detailní nastavení křivky"
 
