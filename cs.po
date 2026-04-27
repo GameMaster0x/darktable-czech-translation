@@ -3,8 +3,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: darktable\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< Updated upstream
 "POT-Creation-Date: 2026-04-26 19:29+0200\n"
 "PO-Revision-Date: 2026-04-27 13:23+0200\n"
+=======
+"POT-Creation-Date: 2026-04-23 11:32+0200\n"
+"PO-Revision-Date: 2026-04-27 17:45+0200\n"
+>>>>>>> Stashed changes
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
 "<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
@@ -3611,9 +3616,8 @@ msgstr "vertikální posun"
 
 #: ../build/lib/darktable/plugins/introspection_borders.c:190
 #: ../build/lib/darktable/plugins/introspection_borders.c:315
-#, fuzzy
 msgid "frame line size"
-msgstr "šířka čáry rámečku"
+msgstr "tloušťka čáry rámečku"
 
 #: ../build/lib/darktable/plugins/introspection_borders.c:196
 #: ../build/lib/darktable/plugins/introspection_borders.c:319
@@ -3625,7 +3629,6 @@ msgstr "posun čáry rámečku"
 #: ../build/lib/darktable/plugins/introspection_borders.c:323
 #: ../build/lib/darktable/plugins/introspection_borders.c:327
 #: ../src/iop/borders.c:1024 ../src/iop/borders.c:1034
-#, fuzzy
 msgid "frame line color"
 msgstr "barva čáry rámečku"
 
@@ -20922,7 +20925,6 @@ msgid "linear, RGB"
 msgstr "lineární, RGB"
 
 #: ../src/iop/bilateral.cc:141
-#, fuzzy
 msgid "image too large"
 msgstr "obrázek je příliš velký"
 
@@ -21061,12 +21063,10 @@ msgid "borders|enlarge canvas|expand canvas"
 msgstr "okraje|zvětšit plátno|rozšířit plátno"
 
 #: ../src/iop/borders.c:316
-#, fuzzy
 msgid "add solid borders or margins around the image"
 msgstr "přidá kolem obrázku okraje nebo odsazení"
 
 #: ../src/iop/borders.c:318 ../src/iop/borders.c:320 ../src/iop/lut3d.c:141
-#, fuzzy
 msgid "linear or non-linear, RGB, display-referred"
 msgstr "lineární nebo nelineární, RGB, display-referred"
 
@@ -21079,12 +21079,10 @@ msgid "15:10 postcard black"
 msgstr "15:10 černá pohlednice"
 
 #: ../src/iop/borders.c:924
-#, fuzzy
 msgid "which dimension to use for the size calculation"
 msgstr "jaký rozměr použít pro výpočet velikosti"
 
 #: ../src/iop/borders.c:930
-#, fuzzy
 msgid "size of the border in percent of the chosen basis"
 msgstr "velikost rámečku v procentech zvoleného základu"
 
@@ -21093,13 +21091,12 @@ msgid "aspect"
 msgstr "poměr"
 
 #: ../src/iop/borders.c:933
-#, fuzzy
 msgid ""
 "select the aspect ratio\n"
 "(right-click on slider below to type your own w:h)"
 msgstr ""
-"Vyberte poměr stran nebo klikněte pravým\n"
-"tlačítkem na posuvník níže a zadejte vlastní š:v."
+"vyberte poměr stran\n"
+"(klikněte pravým tlačítkem na posuvník níže a zadejte vlastní š:v)"
 
 #: ../src/iop/borders.c:937
 msgid "3:1"
@@ -21175,33 +21172,29 @@ msgstr "vlastní..."
 
 # tooltip
 #: ../src/iop/borders.c:960
-#, fuzzy
 msgid ""
 "set the custom aspect ratio\n"
 "(right-click to enter number or w:h)"
 msgstr ""
-"Nastavte vlastní poměr stran\n"
-"nebo klikněte pravým tlačítkem a zadejte vlastní číslo nebo š:v."
+"nastavte vlastní poměr stran\n"
+"(klikněte pravým tlačítkem pro zadání hodnoty, nebo š:v)"
 
 # tooltip
 #: ../src/iop/borders.c:965
-#, fuzzy
 msgid "aspect ratio orientation of the image with border"
-msgstr "Orientace poměru stran obrázku včetně okraje"
+msgstr "orientace poměru stran obrázku včetně okraje"
 
 #: ../src/iop/borders.c:967
-#, fuzzy
 msgid "horizontal position"
-msgstr "horizontální pozice"
+msgstr "horizontální poloha"
 
 #: ../src/iop/borders.c:968
-#, fuzzy
 msgid ""
 "select the horizontal position ratio relative to top\n"
 "(right-click on slider below to type your own x:w)"
 msgstr ""
-"Vyberte poměr vodorovné polohy vzhledem k hornímu okraji\n"
-"nebo klikněte pravým tlačítkem na posuvník níže a zadejte vlastní x:š."
+"zvolte poměr vodorovné polohy vzhledem k hornímu okraji\n"
+"(klikněte pravým tlačítkem na posuvník níže a zadejte vlastní x:v)"
 
 #: ../src/iop/borders.c:971 ../src/iop/borders.c:982
 msgid "center"
@@ -21224,46 +21217,39 @@ msgid "2/3"
 msgstr "2/3"
 
 #: ../src/iop/borders.c:976
-#, fuzzy
 msgid "custom horizontal position"
 msgstr "vlastní horizontální poloha"
 
 #: ../src/iop/borders.c:978
-#, fuzzy
 msgid "vertical position"
 msgstr "vertikální poloha"
 
 #: ../src/iop/borders.c:979
-#, fuzzy
 msgid ""
 "select the vertical position ratio relative to left\n"
 "(right-click on slider below to type your own y:h)"
 msgstr ""
-"Vyberte poměr vertikální polohy vzhledem k levému okraji\n"
-"nebo klikněte pravým tlačítkem na posuvník níže a zadejte vlastní y:v."
+"vyberte poměr vertikální polohy vzhledem k levému okraji\n"
+"(klikněte pravým tlačítkem na posuvník níže a zadejte vlastní y:v)"
 
 #: ../src/iop/borders.c:987
-#, fuzzy
 msgid "custom vertical position"
 msgstr "vlastní vertikální poloha"
 
 #: ../src/iop/borders.c:993
-#, fuzzy
 msgid "size of the frame line in percent of min border width"
 msgstr "tloušťka čáry rámečku v procentech minimální šířky ohraničení"
 
 # tooltip
 #: ../src/iop/borders.c:999
-#, fuzzy
 msgid "offset of the frame line beginning on image side"
-msgstr "Odsazení čáry rámečku od okraje obrázku"
+msgstr "odsazení čáry rámečku od okraje obrázku"
 
 #: ../src/iop/borders.c:1014
 msgid "select border color"
 msgstr "vyberte barvu okraje"
 
 #: ../src/iop/borders.c:1019
-#, fuzzy
 msgid "pick border color from image"
 msgstr "vyberte barvu okraje z obrázku"
 
@@ -21272,17 +21258,14 @@ msgstr "vyberte barvu okraje z obrázku"
 #: ../src/iop/negadoctor.c:850 ../src/iop/negadoctor.c:912
 #: ../src/iop/negadoctor.c:946 ../src/iop/rgbcurve.c:1503
 #: ../src/iop/rgbcurve.c:1518 ../src/iop/rgblevels.c:1070
-#, fuzzy
 msgid "pickers"
 msgstr "kapátka"
 
 #: ../src/iop/borders.c:1028
-#, fuzzy
 msgid "select frame line color"
 msgstr "vyberte barvu čáry rámečku"
 
 #: ../src/iop/borders.c:1033
-#, fuzzy
 msgid "pick frame line color from image"
 msgstr "vyberte barvu čáry rámečku z obrázku"
 
@@ -21429,12 +21412,10 @@ msgstr "cenzurovat SPZ a části těla kvůli soukromí"
 
 #: ../src/iop/censorize.c:84 ../src/iop/colorin.c:128 ../src/iop/filmicrgb.c:345
 #: ../src/iop/graduatednd.c:144
-#, fuzzy
 msgid "linear or non-linear, RGB, scene-referred"
 msgstr "lineární nebo nelineární, RGB, scene-referred"
 
 #: ../src/iop/censorize.c:86
-#, fuzzy
 msgid "special, RGB, scene-referred"
 msgstr "speciální, RGB, scene-referred"
 
@@ -36078,17 +36059,14 @@ msgid "select range from last image"
 msgstr "vyberte rozsah z posledního obrázku"
 
 #: ../src/views/lighttable.c:1034
-#, fuzzy
 msgid "add image to or remove it from a selection"
 msgstr "přidat obrázek do výběru nebo jej z výběru odebrat"
 
 #: ../src/views/lighttable.c:1039
-#, fuzzy
 msgid "change image order"
 msgstr "změnit pořadí obrázků"
 
 #: ../src/views/lighttable.c:1048
-#, fuzzy
 msgid "zoom all the images"
 msgstr "přiblížit všechny obrázky"
 
@@ -36128,7 +36106,6 @@ msgid "set display profile"
 msgstr "nastavit profil zobrazení"
 
 #: ../src/views/lighttable.c:1425
-#, fuzzy
 msgid "whole"
 msgstr "celý"
 
