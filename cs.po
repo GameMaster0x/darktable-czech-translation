@@ -19410,7 +19410,6 @@ msgid "click login button to start"
 msgstr "začněte kliknutím na tlačítko přihlášení"
 
 #: ../src/imageio/storage/piwigo.c:1160 ../src/imageio/storage/piwigo.c:1189
-#, fuzzy
 msgid "filename pattern"
 msgstr "maska pojmenování souboru"
 
@@ -19441,12 +19440,10 @@ msgid "not logged in to Piwigo server!"
 msgstr "Přihlášení na Piwigo se nezdařilo!"
 
 #: ../src/imageio/storage/piwigo.c:1384
-#, fuzzy
 msgid "cannot create a new Piwigo album!"
-msgstr "nelze vytvořit nové album Piwigo!"
+msgstr "nelze vytvořit nové album na Piwigo"
 
 #: ../src/imageio/storage/piwigo.c:1403
-#, fuzzy
 msgid "could not update to Piwigo!"
 msgstr "nelze aktualizovat na Piwigo!"
 
@@ -19472,17 +19469,17 @@ msgid "AgX"
 msgstr "AgX"
 
 #: ../src/iop/agx.c:50 ../src/iop/sigmoid.c:197
-#, fuzzy
 msgid "tone mapping|view transform|display transform"
 msgstr "mapování tónů|ukázat transformaci|zobrazit transformaci"
 
 # module description
 #: ../src/iop/agx.c:56
-#, fuzzy
 msgid ""
 "applies a tone mapping curve.\n"
 "inspired by Blender's AgX tone mapper"
-msgstr "Aplikuje tónovou křivku inspirovanou mapováním AgX v Blenderu."
+msgstr ""
+"aplikuje tónovou křivku inspirovanou \n"
+"mapováním AgX v Blenderu."
 
 #: ../src/iop/agx.c:58 ../src/iop/atrous.c:133 ../src/iop/bilateral.cc:103
 #: ../src/iop/colorequal.c:216 ../src/iop/diffuse.c:139
@@ -19585,21 +19582,19 @@ msgstr ""
 
 # tooltip
 #: ../src/iop/agx.c:1847
-#, fuzzy
 msgid "slope of the linear section around the pivot"
-msgstr "Strmost lineární části křivky okolo středu"
+msgstr "strmost lineární části křivky okolo středu"
 
 # tooltip
 #: ../src/iop/agx.c:1853
-#, fuzzy
 msgid ""
 "contrast in highlights\n"
 "higher values keep the slope nearly constant for longer,\n"
 "at the cost of a more sudden drop near white"
 msgstr ""
-"Kontrast ve světlech.\n"
-"Vyšší hodnoty zachovávají sklon křivky takřka lineární\n"
-"po delší dobu výměnou za strmější růst do bilé."
+"kontrast ve světlech\n"
+"vyšší hodnoty udržují sklon téměř konstantní po delší dobu\n"
+"za cenu prudšího poklesu v blízkosti bílé"
 
 #: ../src/iop/agx.c:1857
 msgid ""
@@ -19617,15 +19612,14 @@ msgstr ""
 
 # tooltip
 #: ../src/iop/agx.c:1871
-#, fuzzy
 msgid ""
 "contrast in shadows\n"
 "higher values keep the slope nearly constant for longer,\n"
 "at the cost of a more sudden drop near black"
 msgstr ""
-"Kontrast ve stínech.\n"
-"Vyšší hodnoty zachovávají sklon křivky takřka lineární\n"
-"po delší dobu výměnou za strmější pád do černé."
+"kontrast ve stínech\n"
+"vyšší hodnoty udržují sklon téměř konstantní po delší dobu\n"
+"za cenu prudšího poklesu v blízkosti černé"
 
 #: ../src/iop/agx.c:1875
 msgid ""
@@ -19642,9 +19636,8 @@ msgstr ""
 
 # tooltip
 #: ../src/iop/agx.c:1895
-#, fuzzy
 msgid "decrease or increase contrast and brightness"
-msgstr "Sníží nebo zvýší kontrast."
+msgstr "sníží nebo zvýší kontrast a jas"
 
 # tooltip
 #: ../src/iop/agx.c:1900
@@ -19654,21 +19647,18 @@ msgstr "Prohloubí nebo prosvětlí stíny."
 
 # tooltip
 #: ../src/iop/agx.c:1904
-#, fuzzy
 msgid "increase or decrease brightness"
-msgstr "Sníží nebo zvýší jas."
+msgstr "sníží nebo zvýší jas."
 
 # tooltip
 #: ../src/iop/agx.c:1911
-#, fuzzy
 msgid "decrease or increase saturation"
-msgstr "Sníží nebo zvýší saturaci."
+msgstr "sníží nebo zvýší sytost"
 
 # tooltip
 #: ../src/iop/agx.c:1917
-#, fuzzy
 msgid "increase to bring hues closer to the original"
-msgstr "Zvyšte pro odstín podobnější originálu."
+msgstr "zvyšte pro odstín podobnější originálu"
 
 #: ../src/iop/agx.c:1927
 msgctxt "section"
@@ -19688,7 +19678,6 @@ msgid "graph"
 msgstr "graf"
 
 #: ../src/iop/agx.c:1957
-#, fuzzy
 msgid "tone mapping curve"
 msgstr "křivka mapování tónů"
 
@@ -19725,9 +19714,8 @@ msgstr ""
 
 # tooltip
 #: ../src/iop/agx.c:2013
-#, fuzzy
 msgid "raise for a faded look"
-msgstr "Zvyšte pro \"zašlý\" vzhled."
+msgstr "zvyšte pro “vybledlý” vzhled (faded look)"
 
 #: ../src/iop/agx.c:2019
 #, fuzzy
@@ -19763,9 +19751,8 @@ msgstr "vstupní rozsah expozice"
 
 # tooltip
 #: ../src/iop/agx.c:2047
-#, fuzzy
 msgid "relative exposure above mid-gray (white point)"
-msgstr "Relativní expozice nad střední šedou (bílý bod)"
+msgstr "relativní expozice nad střední šedou (bílý bod)"
 
 #: ../src/iop/agx.c:2048
 msgid "pick the white point"
@@ -19773,22 +19760,20 @@ msgstr "vybrat bílý bod"
 
 # tooltip
 #: ../src/iop/agx.c:2056
-#, fuzzy
 msgid "relative exposure below mid-gray (black point)"
-msgstr "Relativní expozice pod střední šedou (černý bod)"
+msgstr "relativní expozice pod střední šedou (černý bod)"
 
 #: ../src/iop/agx.c:2057
 msgid "pick the black point"
 msgstr "vybrat černý bod"
 
 #: ../src/iop/agx.c:2065 ../src/iop/filmicrgb.c:4412
-#, fuzzy
 msgid ""
 "symmetrically increase or decrease the computed dynamic range.\n"
 "useful to give a safety margin to extreme luminances."
 msgstr ""
-"symetricky zvýšit nebo snížit vypočítaný dynamický rozsah.\n"
-"užitečné pro poskytnutí bezpečnostní rezervy extrémním jasům."
+"symetricky zvýšit nebo snížit vypočítaný dynamický rozsah\n"
+"užitečné pro poskytnutí bezpečné rezervy extrémním jasům"
 
 #: ../src/iop/agx.c:2071 ../src/iop/agx.c:2074 ../src/iop/filmic.c:1515
 #: ../src/iop/filmicrgb.c:4418 ../src/iop/profile_gamma.c:640
@@ -19797,9 +19782,8 @@ msgstr "automatické nastavení úrovní"
 
 # tooltip
 #: ../src/iop/agx.c:2073
-#, fuzzy
 msgid "set black and white relative exposure using the selected area"
-msgstr "Upravte relativní expozici světel a stínů na základě vybrané oblasti."
+msgstr "upravit relativní expozici černé a bílé na základě vybrané oblasti"
 
 #: ../src/iop/agx.c:2074 ../src/iop/agx.c:2081
 msgid "exposure range"
@@ -19807,13 +19791,12 @@ msgstr "rozsah expozice"
 
 # tooltip
 #: ../src/iop/agx.c:2079
-#, fuzzy
 msgid "read exposure from metadata and exposure module"
-msgstr "Přečíst expozici z metadat obrázku a modulu expozice."
+msgstr "načíst expozici z metadat obrázku a modulu expozice"
 
 #: ../src/iop/agx.c:2081
 msgid "read exposure"
-msgstr "číst expozici"
+msgstr "načíst expozici"
 
 #: ../src/iop/agx.c:2104
 msgid "blender-like"
@@ -19859,9 +19842,8 @@ msgstr ""
 
 # tooltip
 #: ../src/iop/agx.c:2281
-#, fuzzy
 msgid "reset primaries to a predefined configuration"
-msgstr "Reset primárek podle předdefinované konfigurace."
+msgstr "resetovat primární barvy do předdefinované konfigurace"
 
 #: ../src/iop/agx.c:2283 ../src/iop/agx.c:2286
 msgid "reset primaries"
@@ -23038,7 +23020,6 @@ msgstr ""
 "Maximální hodnota střední šedé využitá k normalizaci transformační funkce"
 
 #: ../src/iop/colorbalancergb.c:2009
-#, fuzzy
 msgctxt "section"
 msgid "mask preview settings"
 msgstr "nastavení náhledu masky"
@@ -25027,7 +25008,6 @@ msgstr ""
 "nula ovlivňuje oba stejně (izotropní)."
 
 #: ../src/iop/diffuse.c:1874
-#, fuzzy
 msgctxt "section"
 msgid "edge management"
 msgstr "správa hran"
