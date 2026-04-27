@@ -3,17 +3,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: darktable\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< Updated upstream
-"POT-Creation-Date: 2026-04-26 19:29+0200\n"
-"PO-Revision-Date: 2026-04-27 13:23+0200\n"
-=======
-"POT-Creation-Date: 2026-04-23 11:32+0200\n"
-"PO-Revision-Date: 2026-04-27 17:45+0200\n"
->>>>>>> Stashed changes
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
-"Language-Team: František Ferenz <ferenz@pm.me>, Jan Šmucr "
-"<jan.smucr@gmail.com>, Petr Stasiak <petr@stasiak.cz>\n"
-"Language: cs_CZ\n"
+"Language-Team: \n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -9827,7 +9821,6 @@ msgid "failed to get parameters from format module `%s', aborting export."
 msgstr "nepodařilo se získat parametry z úložného modulu `%s', export se ruší.."
 
 #: ../src/control/jobs/control_jobs.c:2617
-#, fuzzy
 msgid "export images"
 msgstr "export obrázků"
 
@@ -9857,12 +9850,12 @@ msgid "added time offset to %d image"
 msgstr "přidán časový posun k %d obrázku"
 
 #: ../src/control/jobs/control_jobs.c:2721
-#, fuzzy, c-format
+#, c-format
 msgid "set date/time of %d image"
 msgstr "nastavit datum/čas %d obrázku"
 
 #: ../src/control/jobs/control_jobs.c:2723
-#, fuzzy, c-format
+#, c-format
 msgid "added time offset to %d images"
 msgstr "přidán časový posun k %d obrázkům"
 
@@ -9994,13 +9987,11 @@ msgid "subtract"
 msgstr "odečíst"
 
 #: ../src/develop/blend_gui.c:71
-#, fuzzy
 msgctxt "blendmode"
 msgid "geometric mean"
 msgstr "geometrický průměr"
 
 #: ../src/develop/blend_gui.c:73
-#, fuzzy
 msgctxt "blendmode"
 msgid "harmonic mean"
 msgstr "harmonický průměr"
@@ -10069,17 +10060,17 @@ msgstr "barvy lab"
 #: ../src/develop/blend_gui.c:103
 msgctxt "blendmode"
 msgid "RGB red channel"
-msgstr "RGB červený kanál"
+msgstr "červený kanál"
 
 #: ../src/develop/blend_gui.c:105
 msgctxt "blendmode"
 msgid "RGB green channel"
-msgstr "RGB zelený kanál"
+msgstr "zelený kanál"
 
 #: ../src/develop/blend_gui.c:107
 msgctxt "blendmode"
 msgid "RGB blue channel"
-msgstr "RGB modrý kanál"
+msgstr "modrý kanál"
 
 #: ../src/develop/blend_gui.c:109
 msgctxt "blendmode"
@@ -10102,7 +10093,6 @@ msgid "color"
 msgstr "barva"
 
 #: ../src/develop/blend_gui.c:118
-#, fuzzy
 msgctxt "blendmode"
 msgid "coloradjustment"
 msgstr "úprava barvy"
@@ -10110,10 +10100,9 @@ msgstr "úprava barvy"
 #. * deprecated blend modes: make them available as legacy
 #. * history stacks might want them
 #: ../src/develop/blend_gui.c:124
-#, fuzzy
 msgctxt "blendmode"
 msgid "difference (deprecated)"
-msgstr "rozdíl (zastaralý)"
+msgstr "rozdíl (zastaralé)"
 
 #: ../src/develop/blend_gui.c:126
 #, fuzzy
@@ -10128,7 +10117,6 @@ msgid "divide inverse (deprecated)"
 msgstr "invertovaný podíl (zastaralé)"
 
 #: ../src/develop/blend_gui.c:130
-#, fuzzy
 msgctxt "blendmode"
 msgid "Lab L-channel (deprecated)"
 msgstr "Lab L-kanál (zastaralé)"
@@ -10164,13 +10152,11 @@ msgstr "RGB (scene)"
 
 #. DEVELOP_MASK_ENABLED
 #: ../src/develop/blend_gui.c:155 ../src/develop/blend_gui.c:3439
-#, fuzzy
 msgid "uniformly"
 msgstr "jednotná maska"
 
 #: ../src/develop/blend_gui.c:157 ../src/develop/blend_gui.c:2768
 #: ../src/develop/blend_gui.c:3448 ../src/develop/imageop.c:2854
-#, fuzzy
 msgid "drawn mask"
 msgstr "kreslená maska"
 
@@ -10185,7 +10171,6 @@ msgid "raster mask"
 msgstr "rastrová maska"
 
 #: ../src/develop/blend_gui.c:163 ../src/develop/blend_gui.c:3469
-#, fuzzy
 msgid "drawn & parametric mask"
 msgstr "kreslená a parametrická maska"
 
@@ -10268,7 +10253,6 @@ msgid "reset and hide output channels"
 msgstr "resetovat a skrýt výstupní kanály"
 
 #: ../src/develop/blend_gui.c:2104
-#, fuzzy
 msgid "show output channels"
 msgstr "zobrazit výstupní kanály"
 
@@ -17450,7 +17434,6 @@ msgid "horizontal lines"
 msgstr "horizontální linie"
 
 #: ../src/gui/guides.c:234
-#, fuzzy
 msgid "number of horizontal guide lines"
 msgstr "počet horizontálních vodících čar"
 
@@ -17459,7 +17442,6 @@ msgid "vertical lines"
 msgstr "vertikální linie"
 
 #: ../src/gui/guides.c:245
-#, fuzzy
 msgid "number of vertical guide lines"
 msgstr "počet vertikálních vodících čar"
 
@@ -25675,7 +25657,6 @@ msgid "logarithmic shaper"
 msgstr "logaritmický tvarovač"
 
 #: ../src/iop/filmic.c:1655
-#, fuzzy
 msgctxt "section"
 msgid "filmic S curve"
 msgstr "filmová S křivka"
@@ -29034,13 +29015,11 @@ msgstr "uživatelsky definovaný"
 
 #. old "camera neutral", reason: better matches intent
 #: ../src/iop/temperature.c:1673
-#, fuzzy
 msgctxt "white balance"
 msgid "camera reference"
 msgstr "dle fotoaparátu"
 
 #: ../src/iop/temperature.c:1674
-#, fuzzy
 msgctxt "white balance"
 msgid "as shot to reference"
 msgstr "jako snímek, dle fotoaparátu"
@@ -30477,12 +30456,11 @@ msgstr "zkopírovat historii úprav z prvního vybraného obrázku"
 
 #: ../src/libs/copy_history.c:311
 msgid "selective paste..."
-msgstr "selektivní vložení..."
+msgstr "vložit selektivně…"
 
 #: ../src/libs/copy_history.c:312
-#, fuzzy
 msgid "choose which modules to paste to the target image(s)"
-msgstr "vyberte, které moduly chcete vložit do cílového obrázku (obrázků)"
+msgstr "vyberte, které moduly chcete vložit do cílového obrázku/obrázků"
 
 #: ../src/libs/copy_history.c:317 ../src/libs/image.c:635
 msgid "paste"
@@ -30506,11 +30484,10 @@ msgstr ""
 
 # tooltip
 #: ../src/libs/copy_history.c:330
-#, fuzzy
 msgid ""
 "discard history stack of\n"
 "all selected images"
-msgstr "Zahodit historii úprav všech vybraných obrázků."
+msgstr "zahodit historii úprav všech vybraných obrázků"
 
 #: ../src/libs/copy_history.c:334
 #, fuzzy
@@ -30575,12 +30552,10 @@ msgstr ""
 "a aplikuje na ně provedené úpravy."
 
 #: ../src/libs/export.c:341
-#, fuzzy
 msgid "invalid format for export selected"
 msgstr "vybrán neplatný formát pro export"
 
 #: ../src/libs/export.c:346
-#, fuzzy
 msgid "invalid storage for export selected"
 msgstr "vybráno neplatné úložiště pro export"
 
@@ -33737,19 +33712,16 @@ msgid "lock"
 msgstr "zámek"
 
 #: ../src/libs/print_settings.c:2676
-#, fuzzy
 msgid "change all margins uniformly"
-msgstr "změnit všechny okraje stejně"
+msgstr "změnit všechny okraje stejnoměrně"
 
 #. d->b_right  = gtk_spin_button_new_with_range(0, 10000, 1);
 #: ../src/libs/print_settings.c:2680
-#, fuzzy
 msgid "right margin"
 msgstr "pravý okraj"
 
 #. d->b_bottom  = gtk_spin_button_new_with_range(0, 10000, 1);
 #: ../src/libs/print_settings.c:2684
-#, fuzzy
 msgid "bottom margin"
 msgstr "spodní okraj"
 
@@ -35191,7 +35163,7 @@ msgid "switching encoding to relative (down = %d)"
 msgstr "přepnutí kódování na relativní (dolů = %d)"
 
 #: ../src/libs/tools/midi.c:559
-#, fuzzy, c-format
+#, c-format
 msgid "%s opened as midi%d"
 msgstr "%s otevřeno jako midi%d"
 
