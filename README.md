@@ -1,6 +1,4 @@
 # Překlad darktable
-Tento repozitář je v procesu tvorby, další informace budou postupně přidávány. 
-
 Našim cílem je kvalitní překlad GUI RAW editoru darktable. Tento repozitář slouží ke komunitnímu překladu, korekci chyb, návrhům a trackování změn tak, aby panoval konsenzus, terminologie byla přesná a překlad nebyl strojový. Pro konzistenci české terminologie vycházíme mj. z české lokalizace Adobe Photoshop 2026 a dalších.
 
 ## Proč je překlad důležitý
@@ -22,9 +20,8 @@ Našim cílem je kvalitní překlad GUI RAW editoru darktable. Tento repozitář
 
 # Jak na to
 0. Stáhněte si GitHub Desktop
-1. Naklonujte si tento repozitář. (obsahuje cs.po & darktable.pot, nechť jsou v jedné složce)
-2. Překládejte řetězce.
-3. Vytvořte pull request.
-4. Pokud bude vše ok, změny se propíšou.
+1. Naklonujte si tento repozitář
+2. cs.po otevřete např. v POEdit, překládejte řetězce
+3. vytvořte pull request
 
 
