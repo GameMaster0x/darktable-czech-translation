@@ -8841,7 +8841,7 @@ msgstr "styl %s byl úspěšně importován"
 
 #. Failed to open file, clean up.
 #: ../src/common/styles.c:1659
-#, fuzzy, c-format
+#, c-format
 msgid "could not read file `%s'"
 msgstr "nelze číst soubor `%s'"
 
@@ -9370,7 +9370,7 @@ msgstr[1] "nastavuji %d černobílé obrázky"
 msgstr[2] "nastavuji %d černobílých obrázků"
 
 #: ../src/control/jobs/control_jobs.c:928
-#, fuzzy, c-format
+#, c-format
 msgid "removing %d image"
 msgid_plural "removing %d images"
 msgstr[0] "odstraňuji %d obrázek"
@@ -11185,19 +11185,16 @@ msgid "feather size: %3.2f%%"
 msgstr "velikost prolnutí: %3.2f%%"
 
 #: ../src/develop/masks/circle.c:1393
-#, fuzzy
 msgid "[CIRCLE] change size"
-msgstr "[KRUŽNICE] změna velikosti"
+msgstr "[KRUH] změnit velikost"
 
 #: ../src/develop/masks/circle.c:1395
-#, fuzzy
 msgid "[CIRCLE] change feather size"
-msgstr "[KRUŽNICE] změnit velikost prolnutí"
+msgstr "[KRUH] změnit velikost prolnutí"
 
 #: ../src/develop/masks/circle.c:1397
-#, fuzzy
 msgid "[CIRCLE] change opacity"
-msgstr "[KRUŽNICE] změna neprůhlednosti"
+msgstr "[KRUH] změnit krytí"
 
 #: ../src/develop/masks/circle.c:1410
 #, c-format
@@ -11219,29 +11216,24 @@ msgid "rotation: %3.f°"
 msgstr "rotace: %3.f°"
 
 #: ../src/develop/masks/ellipse.c:1955
-#, fuzzy
 msgid "[ELLIPSE] change size"
-msgstr "[ELIPSA] změna velikosti"
+msgstr "[ELIPSA] změnit velikost"
 
 #: ../src/develop/masks/ellipse.c:1958
-#, fuzzy
 msgid "[ELLIPSE] change feather size"
 msgstr "[ELIPSA] změnit velikost prolnutí"
 
 #: ../src/develop/masks/ellipse.c:1961 ../src/develop/masks/ellipse.c:1970
-#, fuzzy
 msgid "[ELLIPSE] rotate shape"
-msgstr "[ELIPSA] rotace tvaru"
+msgstr "[ELIPSA] rotavat tvar"
 
 #: ../src/develop/masks/ellipse.c:1964
-#, fuzzy
 msgid "[ELLIPSE] change opacity"
-msgstr "[ELIPSA] změna neprůhlednosti"
+msgstr "[ELIPSA] změnit krytí"
 
 #: ../src/develop/masks/ellipse.c:1967
-#, fuzzy
 msgid "[ELLIPSE] switch feathering mode"
-msgstr "[ELIPSA] přepne režim prolnutí"
+msgstr "[ELIPSA] přepnout režim prolnutí"
 
 #: ../src/develop/masks/ellipse.c:1977
 #, c-format
@@ -11283,7 +11275,7 @@ msgid "compression: %3.2f%%"
 msgstr "komprese: %3.2f%%"
 
 #: ../src/develop/masks/gradient.c:143 ../src/develop/masks/gradient.c:183
-#, fuzzy, c-format
+#, c-format
 msgid "curvature: %3.2f%%"
 msgstr "zakřivení: %3.2f%%"
 
@@ -11339,7 +11331,6 @@ msgid "<b>rotate</b>: drag"
 msgstr "<b>rotace</b>: přetáhnout"
 
 #: ../src/develop/masks/masks.c:136
-#, fuzzy
 msgid "[SHAPE] remove shape"
 msgstr "[TVAR] odstranit tvar"
 
@@ -11354,9 +11345,9 @@ msgid "copy of `%s'"
 msgstr "kopie %s'"
 
 #: ../src/develop/masks/masks.c:1002
-#, fuzzy, c-format
+#, c-format
 msgid "%s: mask version mismatch: %d != %d"
-msgstr "%s: Neshoda verze masky: %d <> %d"
+msgstr "%s: neshoda verze masky: %d != %d"
 
 #: ../src/develop/masks/masks.c:1263 ../src/develop/masks/masks.c:1923
 #, c-format
@@ -11372,7 +11363,6 @@ msgid "use same shapes as"
 msgstr "použít stejné tvary jako"
 
 #: ../src/develop/masks/masks.c:2006
-#, fuzzy
 msgid "masks can not contain themselves"
 msgstr "masky nemohou obsahovat samy sebe"
 
@@ -11384,15 +11374,12 @@ msgstr "Kořenový adresář rastrových masek není definován."
 
 #: ../src/develop/masks/object.c:851
 #, fuzzy
-#| msgid "can't read raster mask file '%s'"
 msgid "cannot create raster mask folder"
-msgstr "Soubor s rastrovou maskou nelze načíst: %s"
+msgstr "nelze vytvořit služku"
 
 #: ../src/develop/masks/object.c:914
-#, fuzzy
-#| msgid "raster mask id"
 msgid "raster mask saved"
-msgstr "id rastrové masky"
+msgstr "rastrová maska uložena"
 
 #: ../src/develop/masks/object.c:919
 msgid "failed to save raster mask"
@@ -11454,14 +11441,12 @@ msgid "[OBJECT] add background point"
 msgstr ""
 
 #: ../src/develop/masks/object.c:1798
-#, fuzzy
-#| msgid "clear selection"
 msgid "[OBJECT] clear selection"
-msgstr "vymazat výběr"
+msgstr "[OBJEKT] zrušit výběr"
 
 #: ../src/develop/masks/object.c:1803
 msgid "[OBJECT] apply mask"
-msgstr ""
+msgstr "[OBJEKT] aplikovat masku"
 
 #: ../src/develop/masks/object.c:1808
 #, fuzzy
@@ -11476,9 +11461,8 @@ msgid "[OBJECT] change cleanup"
 msgstr "[GRADIENT] změna zakřivení"
 
 #: ../src/develop/masks/object.c:1818
-#, fuzzy
 msgid "[OBJECT] change opacity"
-msgstr "[CESTA] změnit krytí"
+msgstr "[OBJEKT] změnit krytí"
 
 #: ../src/develop/masks/object.c:1825
 #, c-format
@@ -11556,9 +11540,8 @@ msgid "[PATH] change feather size"
 msgstr "[CESTA] změnit velikost prolnutí"
 
 #: ../src/develop/masks/path.c:3961
-#, fuzzy
 msgid "[PATH] change opacity"
-msgstr "[CESTA] změnit neprůhlednost"
+msgstr "[CESTA] změnit krytí"
 
 #: ../src/develop/masks/path.c:3973
 #, c-format
@@ -12061,9 +12044,8 @@ msgstr ""
 "\n"
 
 #: ../src/dtgtk/thumbtable.c:1734
-#, fuzzy
 msgid "do you want to do that now?"
-msgstr "chcete to udělat teď?"
+msgstr "chcete to udělat nyní?"
 
 #: ../src/dtgtk/thumbtable.c:1736
 #, fuzzy
@@ -12403,25 +12385,21 @@ msgstr "vybrat nedotčené"
 #. populate the substitution list
 #. do category substitutions separately
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:931
-#, fuzzy
 msgid "$(ROLL.NAME) - roll of the input image"
 msgstr "$(ROLL.NAME) - název filmového pásu vstupního obrázku"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:932
 #: ../src/gui/gtkentry.c:38
-#, fuzzy
 msgid "$(FILE.FOLDER) - folder containing the input image"
 msgstr "$(FILE.FOLDER) - složka obsahující vstupní obrázek"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:933
 #: ../src/gui/gtkentry.c:39
-#, fuzzy
 msgid "$(FILE.NAME) - basename of the input image"
 msgstr "$(FILE.NAME) - základní název vstupního obrázku"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:934
 #: ../src/gui/gtkentry.c:40
-#, fuzzy
 msgid "$(FILE.EXTENSION) - extension of the input image"
 msgstr "$(FILE.EXTENSION) - přípona vstupního obrázku"
 
@@ -12432,13 +12410,11 @@ msgstr "$(ID) - ID obrázku"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:936
 #: ../src/gui/gtkentry.c:109
-#, fuzzy
 msgid "$(IMAGE.ID) - image ID"
 msgstr "$(IMAGE.ID) - ID obrázku"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:937
 #: ../src/gui/gtkentry.c:110
-#, fuzzy
 msgid "$(IMAGE.ID.NEXT) - next image ID to be assigned on import"
 msgstr "$(IMAGE.ID.NEXT) - následující ID přiřazené obrázku po importu"
 
@@ -12450,30 +12426,26 @@ msgstr "$(VERSION) - duplikovat verzi"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:939
 #: ../src/gui/gtkentry.c:42
-#, fuzzy
 msgid ""
 "$(VERSION.IF_MULTI) - same as $(VERSION) but null string if only one version "
 "exists"
 msgstr ""
-"$(VERSION.IF_MULTI) - stejné jako $(VERSION), ale prázdný řetězec, pokud "
-"existuje pouze jedna verze"
+"$(VERSION.IF_MULTI) - stejné jako $(VERSION), avšak obsahuje prázdný řetězec, "
+"pokud existuje pouze jedna verze"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:940
 #: ../src/gui/gtkentry.c:43
-#, fuzzy
 msgid "$(VERSION.NAME) - version name from metadata"
 msgstr "$(VERSION.NAME) - název verze z metadat"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:941
 #: ../src/gui/gtkentry.c:120
-#, fuzzy
 msgid "$(DARKTABLE.VERSION) - current darktable version"
 msgstr "$(DARKTABLE.VERSION) - aktuální verze darktable"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:942
-#, fuzzy
 msgid "$(Xmp.darktable.version) - current darktable version"
-msgstr "$(DARKTABLE.VERSION) - aktuální verze darktable"
+msgstr "$(Xmp.darktable.version) - aktuální verze darktable"
 
 #. _("$(DARKTABLE.NAME) - darktable name"),  -- not implemented
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:944
@@ -12484,49 +12456,41 @@ msgstr "$(SEQUENCE[n,m]) - pořadové číslo, n: počet číslic, m: počáteč
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:945
 #: ../src/gui/gtkentry.c:47
-#, fuzzy
 msgid "$(WIDTH.SENSOR) - image sensor width"
 msgstr "$(WIDTH.SENSOR) - šířka obrazového snímače"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:946
 #: ../src/gui/gtkentry.c:52
-#, fuzzy
 msgid "$(HEIGHT.SENSOR) - image sensor height"
 msgstr "$(HEIGHT.SENSOR) - výška obrazového snímače"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:947
 #: ../src/gui/gtkentry.c:48
-#, fuzzy
 msgid "$(WIDTH.RAW) - RAW image width"
 msgstr "$(WIDTH.RAW) - šířka RAW obrázku"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:948
 #: ../src/gui/gtkentry.c:53
-#, fuzzy
 msgid "$(HEIGHT.RAW) - RAW image height"
 msgstr "$(HEIGHT.RAW) - výška RAW obrázku"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:949
 #: ../src/gui/gtkentry.c:49
-#, fuzzy
 msgid "$(WIDTH.CROP) - image width after crop"
 msgstr "$(WIDTH.CROP) - šířka obrázku po oříznutí"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:950
 #: ../src/gui/gtkentry.c:54
-#, fuzzy
 msgid "$(HEIGHT.CROP) - image height after crop"
 msgstr "$(HEIGHT.CROP) - výška obrázku po oříznutí"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:951
 #: ../src/gui/gtkentry.c:50
-#, fuzzy
 msgid "$(WIDTH.EXPORT) - exported image width"
 msgstr "$(WIDTH.EXPORT) - šířka exportovaného obrázku"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:952
 #: ../src/gui/gtkentry.c:55
-#, fuzzy
 msgid "$(HEIGHT.EXPORT) - exported image height"
 msgstr "$(HEIGHT.EXPORT) - výška exportovaného obrázku"
 
@@ -12534,19 +12498,16 @@ msgstr "$(HEIGHT.EXPORT) - výška exportovaného obrázku"
 #. _("$(HEIGHT.MAX) - maximum image export height"),  -- not implemented
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:955
 #: ../src/gui/gtkentry.c:56
-#, fuzzy
 msgid "$(YEAR) - year"
 msgstr "$(YEAR) - rok"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:956
 #: ../src/gui/gtkentry.c:57
-#, fuzzy
 msgid "$(YEAR.SHORT) - year without century"
 msgstr "$(YEAR.SHORT) - rok bez století"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:957
 #: ../src/gui/gtkentry.c:58
-#, fuzzy
 msgid "$(MONTH) - month"
 msgstr "$(MONTH) - měsíc"
 
@@ -12595,7 +12556,6 @@ msgstr "$(EXIF.YEAR) - rok z EXIF"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:967
 #: ../src/gui/gtkentry.c:70
-#, fuzzy
 msgid "$(EXIF.YEAR.SHORT) - EXIF year without century"
 msgstr "$(EXIF.YEAR.SHORT) - rok z EXIF bez století"
 
@@ -12663,7 +12623,6 @@ msgstr "$(EXIF.EXPOSURE) - expozice z EXIF"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:981
 #: ../src/gui/gtkentry.c:81
-#, fuzzy
 msgid "$(EXIF.EXPOSURE.BIAS) - EXIF exposure bias"
 msgstr "$(EXIF.EXPOSURE.BIAS) - posun expozice z EXIF"
 
@@ -12687,11 +12646,10 @@ msgstr "$(EXIF.FOCAL.LENGTH) - ohnisková vzdálenost z EXIF"
 #: ../src/gui/gtkentry.c:87
 msgid "$(EXIF.FOCAL.LENGTH.EQUIV) - EXIF 35 mm equivalent focal length"
 msgstr ""
-"$(EXIF.FOCAL.LENGTH.EQUIV) - 35 mm equivalent ohnisková vzdálenost z EXIF"
+"$(EXIF.FOCAL.LENGTH.EQUIV) - 35 mm ekvivalentní ohnisková vzdálenost z EXIF"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:987
 #: ../src/gui/gtkentry.c:88
-#, fuzzy
 msgid "$(EXIF.FOCUS.DISTANCE) - EXIF focal distance"
 msgstr "$(EXIF_FOCUS_DISTANCE) - ohnisková vzdálenost z EXIF"
 
