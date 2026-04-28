@@ -8564,19 +8564,17 @@ msgstr "v5.0 JPEG"
 #: ../src/common/iop_profile.c:884
 #, c-format
 msgid "work icc profile '%s' missing"
-msgstr ""
+msgstr "pracovní ICC profil \"%s\" není dostupný"
 
 #: ../src/common/iop_profile.c:915
-#, fuzzy, c-format
-#| msgid "input color profile"
+#, c-format
 msgid "input icc profile '%s' missing"
-msgstr "vstupní barevný profil"
+msgstr "vstupní ICC profil \"%s\" není dostupný"
 
 #: ../src/common/iop_profile.c:968
-#, fuzzy, c-format
-#| msgid "output ICC profiles in %s or %s"
+#, c-format
 msgid "output icc profile '%s' missing"
-msgstr "výstupní ICC profily z %s nebo %s"
+msgstr "výstupní ICC profil \"%s\" není dostupný"
 
 #: ../src/common/iop_profile.c:1178
 #, fuzzy, c-format
@@ -8592,19 +8590,19 @@ msgstr ""
 "<b>%s</b>"
 
 #: ../src/common/mipmap_cache.c:1385 ../src/imageio/imageio.c:1086
-#, fuzzy, c-format
+#, c-format
 msgid "image `%s' is not available!"
-msgstr "obrázek `%s' není dostupný!"
+msgstr "obrázek \"%s\" není dostupný"
 
 #: ../src/common/mipmap_cache.c:1389 ../src/imageio/imageio.c:1094
-#, fuzzy, c-format
+#, c-format
 msgid "unable to load image `%s'!"
-msgstr "chyba při načítání souboru `%s'"
+msgstr "chyba při načítání obrázku \"%s\""
 
 #: ../src/common/mipmap_cache.c:1391 ../src/imageio/imageio.c:1097
-#, fuzzy, c-format
+#, c-format
 msgid "image '%s' not supported"
-msgstr "obrázek '%s' není podporován"
+msgstr "obrázek \"%s\" není podporován"
 
 #: ../src/common/noiseprofiles.c:26
 #, fuzzy
@@ -8723,10 +8721,10 @@ msgstr[1] "odmítnutí %d obrázků"
 msgstr[2] "odmítnutí %d obrázků"
 
 #: ../src/common/ratings.c:153
-#, fuzzy, c-format
+#, c-format
 msgid "applying rating %d to %d image"
 msgid_plural "applying rating %d to %d images"
-msgstr[0] "aplikuji hodnocení na obrázek %d z %d"
+msgstr[0] "aplikuji hodnocení %d na obrázek %d"
 msgstr[1] "aplikuji hodnocení %d na %d obrázky"
 msgstr[2] "aplikuji hodnocení %d na %d obrázků"
 
@@ -14299,7 +14297,7 @@ msgstr "nepodařilo se načíst data z GPX souboru"
 #. - - - - - - - - - - - - - - - - - - - - - - -
 #: ../src/external/lua-scripts/official/recent_bookmarks.lua:275
 msgid " only  runs on Linux"
-msgstr ""
+msgstr "funguje pouze na Linuxu"
 
 #: ../src/external/lua-scripts/official/recent_bookmarks.lua:281
 #, fuzzy
@@ -14731,10 +14729,8 @@ msgstr "akce nad výběrem"
 
 # tooltip
 #: ../src/external/lua-scripts/official/select_duplicates.lua:132
-#, fuzzy
-#| msgid "clear color labels of selected images"
 msgid "create collection of selected duplicates"
-msgstr "odebrat barevné značení vybraných obrázků"
+msgstr "odebrat barevné značky z vybraných obrázků"
 
 #: ../src/external/lua-scripts/official/select_duplicates.lua:239
 #, fuzzy
@@ -17664,7 +17660,7 @@ msgstr[1] "Odstranit uzel?"
 msgstr[2] "Odstranit uzel?"
 
 #: ../src/gui/preferences_ai.c:860
-#, fuzzy, c-format
+#, c-format
 msgid "do you really want to delete %d selected model?"
 msgid_plural "do you really want to delete %d selected models?"
 msgstr[0] "opravdu odstranit historii %d vybraného obrázku?"
@@ -17877,10 +17873,8 @@ msgstr "odstranit vybrané"
 
 # tooltip
 #: ../src/gui/preferences_ai.c:1630
-#, fuzzy
-#| msgid "remove the selected custom place"
 msgid "remove the selected models from disk"
-msgstr "Odebrat vybrané vlastní umístění."
+msgstr "odstranit vybrané modely z disku"
 
 #. add to stack
 #: ../src/gui/preferences_ai.c:1646
@@ -17916,15 +17910,14 @@ msgid "double-click to reset to the system language"
 msgstr "dvojklikem resetujete na jazyk systému"
 
 #: ../src/gui/preferences.c:371
-#, fuzzy
 msgid ""
 "set the language of the user interface. the system default is marked with an "
 "* \n"
 "(restart required)"
 msgstr ""
-"nastavit jazyk uživatelského rozhraní. výchozí nastavení systému je označeno "
-"*\n"
-"(vyžadován restart)"
+"nastavit jazyk uživatelského rozhraní\n"
+"výchozí nastavení systému je označeno *\n"
+"(vyžaduje restart)"
 
 #: ../src/gui/preferences.c:383
 msgid "theme"
@@ -18020,9 +18013,8 @@ msgid "darktable preferences"
 msgstr "předvolby darktable"
 
 #: ../src/gui/preferences.c:648
-#, fuzzy
 msgid "darktable needs to be restarted for settings to take effect"
-msgstr "Aby se změny projevily, bude potřeba darktable restartovat."
+msgstr "aby se změny projevily, je potřeba darktable restartovat"
 
 #. exif
 #: ../src/gui/preferences.c:955 ../src/gui/presets.c:657
@@ -18037,7 +18029,6 @@ msgstr "výrobce"
 
 # placeholder
 #: ../src/gui/preferences.c:1007
-#, fuzzy
 msgid "search presets list"
 msgstr "prohledat seznam presetů"
 
@@ -18062,14 +18053,13 @@ msgid "export..."
 msgstr "exportovat…"
 
 #: ../src/gui/preferences.c:1208
-#, fuzzy, c-format
+#, c-format
 msgid "failed to import preset %s"
 msgstr "chyba při importu presetu %s"
 
 #: ../src/gui/preferences.c:1220
-#, fuzzy
 msgid "select preset(s) to import"
-msgstr "vybrat preset(y) pro import"
+msgstr "vybrat preset(y) k importu"
 
 #: ../src/gui/preferences.c:1230
 msgid "darktable preset files"
@@ -18093,9 +18083,9 @@ msgid "monochrome"
 msgstr "černobílý"
 
 #: ../src/gui/presets.c:153
-#, fuzzy, c-format
+#, c-format
 msgid "preset `%s' is write-protected, can't delete!"
-msgstr "preset `%s' je pouze pro čtení, nelze vymazat!"
+msgstr "preset \"%s\" je pouze pro čtení a nelze odstranit"
 
 # dialog title
 #: ../src/gui/presets.c:159 ../src/gui/presets.c:471 ../src/libs/lib.c:237
@@ -18151,14 +18141,14 @@ msgid "_select as output destination"
 msgstr "_vybrat cíl výstupu"
 
 #: ../src/gui/presets.c:439
-#, fuzzy, c-format
+#, c-format
 msgid "preset %s was successfully exported"
 msgstr "preset %s byl úspěšně exportován"
 
 #: ../src/gui/presets.c:568
-#, fuzzy, c-format
+#, c-format
 msgid "edit `%s' for module `%s'"
-msgstr "upravit `%s' pro modul `%s'"
+msgstr "upravit \"%s\" pro modul \"%s\""
 
 #: ../src/gui/presets.c:573
 msgid "_export..."
@@ -18714,7 +18704,6 @@ msgstr ""
 "níže uvedené globální možnosti se neaplikují!"
 
 #: ../src/imageio/format/exr.cc:246
-#, fuzzy
 msgid "the selected output profile doesn't work well with EXR"
 msgstr "vybraný výstupní profil nefunguje dobře s EXR"
 
@@ -23685,9 +23674,8 @@ msgid "mandatory"
 msgstr "povinné"
 
 #: ../src/iop/colorin.c:129 ../src/iop/colorout.c:88
-#, fuzzy
 msgid "defined by profile"
-msgstr "definovaný profilem"
+msgstr "definováno profilem"
 
 #: ../src/iop/colorin.c:566
 #, fuzzy, c-format
@@ -23870,12 +23858,10 @@ msgid "unsupported output profile has been replaced by sRGB!"
 msgstr "nepodporovaný výstupní profil byl nahrazen sRGB!"
 
 #: ../src/iop/colorout.c:837
-#, fuzzy
 msgid "output intent"
 msgstr "výstupní záměr"
 
 #: ../src/iop/colorout.c:838
-#, fuzzy
 msgid "rendering intent"
 msgstr "vykreslovací záměr"
 
@@ -23888,9 +23874,8 @@ msgstr "percepční"
 #: ../src/iop/colorout.c:841 ../src/libs/export.c:1637
 #: ../src/libs/print_settings.c:2576 ../src/libs/print_settings.c:2925
 #: ../src/views/darkroom.c:3141 ../src/views/lighttable.c:1347
-#, fuzzy
 msgid "relative colorimetric"
-msgstr "relativní kolorimetrické"
+msgstr "relativní kolorimetrický"
 
 #: ../src/iop/colorout.c:842 ../src/libs/export.c:1638
 #: ../src/libs/print_settings.c:2577 ../src/libs/print_settings.c:2926
@@ -23902,9 +23887,8 @@ msgstr "sytost"
 #: ../src/iop/colorout.c:843 ../src/libs/export.c:1639
 #: ../src/libs/print_settings.c:2578 ../src/libs/print_settings.c:2927
 #: ../src/views/darkroom.c:3143 ../src/views/lighttable.c:1349
-#, fuzzy
 msgid "absolute colorimetric"
-msgstr "absolutní kolorimetrické"
+msgstr "absolutní kolorimetrický"
 
 #: ../src/iop/colorout.c:859
 msgid "export ICC profiles"
@@ -23924,14 +23908,12 @@ msgstr "obnovit oříznutá světla šířením okolních barev"
 #: ../src/iop/hazeremoval.c:631 ../src/iop/hazeremoval.c:643
 #: ../src/iop/hazeremoval.c:899 ../src/iop/hazeremoval.c:913
 #: ../src/iop/levels.c:354
-#, fuzzy
 msgid "inconsistent output"
 msgstr "nekonzistentní výstup"
 
 #: ../src/iop/colorreconstruction.c:670
-#, fuzzy
 msgid "module `color reconstruction' failed"
-msgstr "modul `rekonstrukce barev' selhal"
+msgstr "modul \"rekonstrukce barev\" selhal"
 
 #: ../src/iop/colorreconstruction.c:1223
 msgid "spatial"
@@ -24425,15 +24407,15 @@ msgid "denoise using noise statistics profiled on sensors"
 msgstr "potlačení šumu pomocí statistik šumu profilovaných na senzorech"
 
 #: ../src/iop/denoiseprofile.c:2853
-#, fuzzy, c-format
+#, c-format
 msgid "found ISO %d (ISO %d %+d EV)"
 msgstr "nalezeno ISO %d (ISO %d %+d EV)"
 
 # dropdown item (I guess)
 #: ../src/iop/denoiseprofile.c:2857
-#, fuzzy, c-format
+#, c-format
 msgid "found ISO %d"
-msgstr "nalezena shoda pro ISO %d"
+msgstr "nalezeno ISO %d"
 
 #: ../src/iop/denoiseprofile.c:2874
 #, fuzzy, c-format
@@ -24480,17 +24462,14 @@ msgid "variance computed on the blue channel"
 msgstr "rozptyl vypočítaný na modrém kanálu"
 
 #: ../src/iop/denoiseprofile.c:3671
-#, fuzzy
 msgid "variance red: "
 msgstr "rozptyl červené: "
 
 #: ../src/iop/denoiseprofile.c:3672
-#, fuzzy
 msgid "variance green: "
 msgstr "rozptyl zelené: "
 
 #: ../src/iop/denoiseprofile.c:3673
-#, fuzzy
 msgid "variance blue: "
 msgstr "rozptyl modré: "
 
@@ -26192,12 +26171,10 @@ msgid "rotation of filter -180 to 180 degrees"
 msgstr "otočení filtru -180° až 180°"
 
 #: ../src/iop/graduatednd.c:1083
-#, fuzzy
 msgid "select the hue tone of filter"
 msgstr "vyberte barevný tón filtru"
 
 #: ../src/iop/graduatednd.c:1089
-#, fuzzy
 msgid "select the saturation of filter"
 msgstr "vyberte sytost filtru"
 
@@ -27684,7 +27661,7 @@ msgstr ""
 "'%s'"
 
 #: ../src/iop/overlay.c:333
-#, fuzzy, c-format
+#, c-format
 msgid "image %d does not exist"
 msgstr "obrázek %d neexistuje"
 
@@ -31364,11 +31341,10 @@ msgstr ""
 
 # module description
 #: ../src/libs/geotagging.c:148
-#, fuzzy
 msgid ""
 "set geolocation information for\n"
 "the currently selected images"
-msgstr "přiřadí geolokační data k aktuálně vybraným obrázkům"
+msgstr "přiřadit geolokační data k aktuálně vybraným obrázkům"
 
 #: ../src/libs/geotagging.c:378
 #, fuzzy
@@ -31892,7 +31868,6 @@ msgid "select darktable metadata (from metadata editor module)"
 msgstr "vybrat metadata darktable (z modulu editoru metadat)"
 
 #: ../src/libs/image.c:629
-#, fuzzy
 msgid "set the selected image as source of metadata"
 msgstr "nastavit vybraný obrázek jako zdroj metadat"
 
@@ -33508,7 +33483,7 @@ msgid "cannot open printer profile `%s'"
 msgstr "nelze otevřít profil tiskárny `%s'"
 
 #: ../src/libs/print_settings.c:410
-#, fuzzy, c-format
+#, c-format
 msgid "error getting output profile for image %d"
 msgstr "chyba při získávání výstupního profilu pro obrázek %d"
 
@@ -34131,32 +34106,26 @@ msgid "edit..."
 msgstr "editovat…"
 
 #: ../src/libs/styles.c:926
-#, fuzzy
 msgid "edit the selected styles in list above"
 msgstr "upravit vybrané styly v seznamu výše"
 
 #: ../src/libs/styles.c:932
-#, fuzzy
 msgid "removes the selected styles in list above"
 msgstr "odstranit vybrané styly v seznamu výše"
 
 #: ../src/libs/styles.c:938
-#, fuzzy
 msgid "import styles from a style files"
 msgstr "importovat styly ze souborů stylů"
 
 #: ../src/libs/styles.c:944
-#, fuzzy
 msgid "export the selected styles into a style files"
 msgstr "exportovat vybrané styly do souborů stylů"
 
 #: ../src/libs/styles.c:950
-#, fuzzy
 msgid "apply the selected styles in list above to selected images"
-msgstr "použít vybrané styly v seznamu výše na vybrané obrázky"
+msgstr "aplikovat vybrané styly v seznamu výše na vybrané obrázky"
 
 #: ../src/libs/styles.c:1017
-#, fuzzy
 msgid "style preview settings"
 msgstr "nastavení náhledu stylu"
 
@@ -34165,7 +34134,6 @@ msgid "preview size"
 msgstr "velikost náhledu"
 
 #: ../src/libs/styles.c:1026
-#, fuzzy
 msgid "change size of preview on tooltip of style"
 msgstr "změnit velikost náhledu v popisku stylu"
 
@@ -35891,9 +35859,8 @@ msgid "zoom to 100% 200% and back"
 msgstr "zvětšit na 100 %, 200 % a zpět"
 
 #: ../src/views/darkroom.c:4266 ../src/views/lighttable.c:1020
-#, fuzzy
 msgid "pan a zoomed image"
-msgstr "posuňte zvětšený obrázek"
+msgstr "posunout zvětšený obrázek"
 
 #: ../src/views/darkroom.c:4269 ../src/views/lighttable.c:1073
 #, fuzzy
@@ -35974,7 +35941,6 @@ msgid "pan inside all the images"
 msgstr "posun uvnitř všech obrázků"
 
 #: ../src/views/lighttable.c:1053
-#, fuzzy
 msgid "zoom current image"
 msgstr "přiblížit aktuální obrázek"
 
@@ -35984,7 +35950,7 @@ msgid "pan inside current image"
 msgstr "posun uvnitř aktuálního obrázku"
 
 #: ../src/views/lighttable.c:1061
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "zoom current image to 100% and back"
 msgstr "zvětšit aktuální obrázek na 100 % a zpět"
 
@@ -36028,7 +35994,6 @@ msgid "select toggle image"
 msgstr "přepnout výběr obrázku"
 
 #: ../src/views/lighttable.c:1468
-#, fuzzy
 msgid "select single image"
 msgstr "vybrat jeden obrázek"
 
