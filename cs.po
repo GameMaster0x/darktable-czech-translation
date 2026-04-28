@@ -7873,11 +7873,12 @@ msgstr ""
 "\n"
 
 #: ../src/common/darktable.c:2602
-#, fuzzy
 msgid ""
 "OpenCL mandatory timeout has been updated to 1000.\n"
 "\n"
-msgstr "Nezbytný timeout OpenCL byl aktualizován na 1000.\n"
+msgstr ""
+"Nezbytný OpenCL timeout byl aktualizován na 1000.\n"
+"\n"
 
 #: ../src/common/darktable.c:2608
 #, fuzzy
@@ -8664,14 +8665,13 @@ msgstr ""
 "prozatím vypínám OpenCL"
 
 #: ../src/common/opencl.c:1509
-#, fuzzy
 msgid "OpenCL scheduling profile set to default, setup has changed"
-msgstr "Plánovací profil OpenCL nastaven na výchozí, nastavení se změnilo"
+msgstr "plánovací profil OpenCL nastaven na výchozí, nastavení se změnilo"
 
 #: ../src/common/opencl.c:2358
-#, fuzzy, c-format
+#, c-format
 msgid "building OpenCL program %s for %s"
-msgstr "vytváření OpenCL programu %s pro %s"
+msgstr "sestavuji OpenCL program %s pro %s"
 
 #: ../src/common/pdf.h:89 ../src/iop/lens.cc:4054 ../src/libs/filters/focal.c:74
 #: ../src/libs/print_settings.c:84
@@ -16432,7 +16432,6 @@ msgid "ctrl+v"
 msgstr "Ctrl+v"
 
 #: ../src/gui/accelerators.c:1191
-#, fuzzy
 msgid "right long click"
 msgstr "dlouhé kliknutí pravým tlačítkem"
 
@@ -17680,7 +17679,7 @@ msgstr "_vybrat"
 
 #: ../src/gui/preferences_ai.c:1112
 msgid "multiple ONNX Runtime libraries found:"
-msgstr ""
+msgstr "nalezeno více ONNX Runtime knihoven:"
 
 #: ../src/gui/preferences_ai.c:1197
 msgid "ONNX Runtime (onnxruntime*.dll)"
@@ -17711,7 +17710,7 @@ msgstr "pořadí výběru"
 #. populate from central provider table, skipping unavailable providers
 #: ../src/gui/preferences_ai.c:1310
 msgid "select hardware acceleration for AI inference:"
-msgstr ""
+msgstr "vybrat harwarovou akceleraci pro AI interface:"
 
 #: ../src/gui/preferences_ai.c:1354
 msgid "ONNX Runtime library"
@@ -17734,7 +17733,7 @@ msgstr ""
 
 #: ../src/gui/preferences_ai.c:1383
 msgid "select a custom ONNX Runtime shared library"
-msgstr ""
+msgstr "vybrat vlastní ONNX Runtime shared sdílenou knihovnu"
 
 #: ../src/gui/preferences_ai.c:1385
 msgid "detect"
@@ -17942,9 +17941,8 @@ msgstr "CHYBA při načítání user.css"
 
 #. load default text
 #: ../src/gui/preferences.c:570
-#, fuzzy
 msgid "Enter CSS theme tweaks here"
-msgstr "Sem zadejte úpravy vzhledu rozhraní ve formátu CSS "
+msgstr "zde zadejte úpravy vzhledu rozhraní ve formátu CSS"
 
 #: ../src/gui/preferences.c:585
 msgid "darktable preferences"
@@ -18159,7 +18157,6 @@ msgid "minimum ISO value"
 msgstr "minimální hodnota ISO"
 
 #: ../src/gui/presets.c:688
-#, fuzzy
 msgid ""
 "maximum ISO value\n"
 "if left blank, it is equivalent to no upper limit"
@@ -18197,7 +18194,6 @@ msgid "format"
 msgstr "formát"
 
 #: ../src/gui/presets.c:751
-#, fuzzy
 msgid "select image types you want this preset to be available for"
 msgstr "vyberte typy obrázků, pro které má být tento preset dostupný"
 
@@ -18383,14 +18379,13 @@ msgid "<b>You are all set!</b>"
 msgstr "<b>Vše je připraveno!</b>"
 
 #: ../src/gui/welcome.c:839
-#, fuzzy
 msgid ""
 "darktable is extremely configurable and has a wealth of options. Here we "
 "covered just the most essential ones — make sure to explore the "
 "<b>preferences</b> to get the full picture."
 msgstr ""
-"Darktable je velmi flexibilně a nabízí celou řadu možností. Zde jsme se "
-"zaměřili pouze na ty nejdůležitější – nezapomeňte prozkoumat <b>nastavení</"
+"Darktable je extrémně flexibilně a nabízí celou řadu možností. Zde jsme se "
+"zaměřili pouze na ty nejdůležitější – nezapomeňte prozkoumat <b>předvolby</"
 "b>, abyste získali ucelený přehled."
 
 #. xgettext: %s is a URL; keep <a href="%s"> and </a> unchanged
@@ -18404,13 +18399,12 @@ msgstr ""
 "více a mohli darktable využívat na maximum."
 
 #: ../src/gui/welcome.c:856
-#, fuzzy
 msgid ""
 "And remember that you can always click on the <b>?</b> on the top toolbar to "
 "get help right where you need it."
 msgstr ""
 "A nezapomeňte, že kdykoli můžete kliknout na <b>?</b> v horní liště nástrojů "
-"a získat tak pomoc přesně tam, kde ji potřebujete."
+"a získat tak pomoc přesně kde ji potřebujete."
 
 #: ../src/gui/welcome.c:861
 msgid "Happy editing with darktable!"
@@ -18768,12 +18762,10 @@ msgid "pixel type"
 msgstr "typ pixelu"
 
 #: ../src/imageio/format/jxl.c:595 ../src/imageio/format/tiff.c:888
-#, fuzzy
 msgid "unsigned integer"
 msgstr "celé číslo bez znaménka"
 
 #: ../src/imageio/format/jxl.c:595 ../src/imageio/format/tiff.c:888
-#, fuzzy
 msgid "floating point"
 msgstr "desetinné číslo"
 
@@ -18806,15 +18798,13 @@ msgstr ""
 "úkor delší doby kódování"
 
 #: ../src/imageio/format/jxl.c:661
-#, fuzzy
 msgid "decoding speed"
 msgstr "rychlost dekódování"
 
 # tooltip
 #: ../src/imageio/format/jxl.c:663
-#, fuzzy
 msgid "the preferred decoding speed with some sacrifice of quality"
-msgstr "Preferovaná rychlost dekódování s trošku horší kvalitou výstupu"
+msgstr "preferovaná rychlost dekódování s trochu nižší kvalitou"
 
 #: ../src/imageio/format/pdf.c:200 ../src/imageio/format/pdf.c:497
 msgid "invalid paper size"
@@ -28896,7 +28886,6 @@ msgid "emerald"
 msgstr "smaragdová"
 
 #: ../src/iop/temperature.c:2002
-#, fuzzy
 msgid "emerald channel coefficient"
 msgstr "koeficient smaragdového kanálu"
 
@@ -28907,15 +28896,13 @@ msgstr "jako snímek"
 #: ../src/iop/temperature.c:2080
 #, fuzzy
 msgid "set white balance to as shot"
-msgstr "nastavte vyvážení bílé podle snímku"
+msgstr "nastavit vyvážení bílé podle snímku"
 
 #: ../src/iop/temperature.c:2090
-#, fuzzy
 msgid "from image area"
 msgstr "z oblasti obrázku"
 
 #: ../src/iop/temperature.c:2097
-#, fuzzy
 msgid "user modified"
 msgstr "uživatelsky definovaný"
 
@@ -28939,7 +28926,6 @@ msgstr ""
 "ve většině případů by to mělo být D65"
 
 #: ../src/iop/temperature.c:2112
-#, fuzzy
 msgid "as shot to reference"
 msgstr "jako snímek podle fotoaparátu"
 
@@ -28980,7 +28966,6 @@ msgid "click to cycle color mode on sliders"
 msgstr "kliknutím přepnete barevný režim na posuvnících"
 
 #: ../src/iop/temperature.c:2157
-#, fuzzy
 msgid "color temperature (in Kelvin)"
 msgstr "barevná teplota (v Kelvinech)"
 
@@ -28995,7 +28980,6 @@ msgstr ""
 "barevný odstín obrázku, od purpurové (hodnota < 1) po zelenou (hodnota > 1)"
 
 #: ../src/iop/temperature.c:2176
-#, fuzzy
 msgid "channel coefficients"
 msgstr "koeficienty kanálů"
 
@@ -29005,7 +28989,6 @@ msgid "various"
 msgstr "různý"
 
 #: ../src/iop/temperature.c:2210
-#, fuzzy
 msgid "white balance disabled for camera"
 msgstr "vyvážení bílé je pro fotoaparát zakázáno"
 
@@ -29014,21 +28997,18 @@ msgid "tone curve"
 msgstr "tónová křivka"
 
 #: ../src/iop/tonecurve.c:178
-#, fuzzy
 msgid "alter an image’s tones using curves"
-msgstr "změnit tóny obrázku pomocí křivek"
+msgstr "upravit tóny obrázku pomocí křivek"
 
 #: ../src/iop/tonecurve.c:583
 msgid "gamma 1.0 (linear)"
 msgstr "gama 1.0 (lineární)"
 
 #: ../src/iop/tonecurve.c:594
-#, fuzzy
 msgid "contrast - med (linear)"
 msgstr "kontrast - střední (lineární)"
 
 #: ../src/iop/tonecurve.c:607
-#, fuzzy
 msgid "contrast - high (linear)"
 msgstr "kontrast - vysoký (lineární)"
 
@@ -29053,7 +29033,6 @@ msgid "logarithm (base 2)"
 msgstr "logaritmus (základ 2)"
 
 #: ../src/iop/tonecurve.c:682
-#, fuzzy
 msgid "exponential (base 2)"
 msgstr "exponenciální (základ 2)"
 
@@ -29069,17 +29048,14 @@ msgstr ""
 "křivky. auto XYZ je podobné, ale aplikuje změny sytosti v prostoru XYZ."
 
 #: ../src/iop/tonecurve.c:1270
-#, fuzzy
 msgid "tonecurve for L channel"
 msgstr "tónová křivka pro kanál L"
 
 #: ../src/iop/tonecurve.c:1271
-#, fuzzy
 msgid "tonecurve for a channel"
 msgstr "tónová křivka pro kanál a"
 
 #: ../src/iop/tonecurve.c:1272
-#, fuzzy
 msgid "tonecurve for b channel"
 msgstr "tónová křivka pro kanál b"
 
@@ -29103,7 +29079,6 @@ msgid "relight the scene as if the lighting was done directly on the scene"
 msgstr "znovu nasvítit scénu, jako by bylo osvětlení provedeno přímo na scéně"
 
 #: ../src/iop/toneequal.c:484
-#, fuzzy
 msgid "simple tone curve"
 msgstr "jednoduchá tónová křivka"
 
@@ -29951,27 +29926,22 @@ msgstr "použijte `%' jako zástupný znak"
 
 #: ../src/libs/collect.c:2742 ../src/libs/collect.c:2763
 #: ../src/libs/collect.c:3398
-#, fuzzy
 msgid "clear this rule"
 msgstr "vymazat toto pravidlo"
 
 #: ../src/libs/collect.c:2747
-#, fuzzy
 msgid "clear this rule or add new rules"
 msgstr "vymazat toto pravidlo nebo přidat nová pravidla"
 
 #: ../src/libs/collect.c:3404
-#, fuzzy
 msgid "narrow down search"
 msgstr "zúžit vyhledávání"
 
 #: ../src/libs/collect.c:3411
-#, fuzzy
 msgid "add more images"
 msgstr "přidat další obrázky"
 
 #: ../src/libs/collect.c:3418
-#, fuzzy
 msgid "exclude images"
 msgstr "vyloučit obrázky"
 
@@ -30756,12 +30726,10 @@ msgstr ""
 "se nepoužívají kategorie."
 
 #: ../src/libs/export_metadata.c:210
-#, fuzzy
 msgid "hierarchical tags"
 msgstr "hierarchické tagy"
 
 #: ../src/libs/export_metadata.c:211
-#, fuzzy
 msgid "export hierarchical tags (to Xmp.lr.Hierarchical Subject)"
 msgstr "exportovat hierarchické tagy (do Xmp.lr.Hierarchical Subject)"
 
@@ -31006,7 +30974,7 @@ msgstr "způsob řazení"
 #: ../src/libs/filtering.c:1976
 #, fuzzy
 msgid "remove this sort order"
-msgstr "odstranit tento směr třídění"
+msgstr "odstranit tento směr řazení"
 
 #: ../src/libs/filtering.c:2060
 #, fuzzy, c-format
@@ -33645,15 +33613,13 @@ msgstr "y oblasti obrázku (v aktuální jednotce)"
 
 #. d->b_width = gtk_spin_button_new_with_range(0, 1000, 1);
 #: ../src/libs/print_settings.c:2837
-#, fuzzy
 msgid "image area width (in current unit)"
-msgstr "šířka oblasti obrázku (v aktuální jednotce)"
+msgstr "šířka oblasti obrázku (v aktuálních jednotkách)"
 
 #. d->b_height = gtk_spin_button_new_with_range(0, 1000, 1);
 #: ../src/libs/print_settings.c:2841
-#, fuzzy
 msgid "image area height (in current unit)"
-msgstr "výška oblasti obrázku (v aktuální jednotce)"
+msgstr "výška oblasti obrázku (v aktuálních jednotkách)"
 
 #. //////////////////////// PRINT SETTINGS
 #: ../src/libs/print_settings.c:2867
@@ -33673,7 +33639,6 @@ msgid "temporary style to use while printing"
 msgstr "dočasný styl pro použití při tisku"
 
 #: ../src/libs/print_settings.c:2971
-#, fuzzy
 msgid "print with current settings"
 msgstr "tisk s aktuálním nastavením"
 
@@ -33703,25 +33668,20 @@ msgid " but not "
 msgstr " ale ne "
 
 #: ../src/libs/recentcollect.c:230
-#, fuzzy
 msgid "recent collections settings"
-msgstr "nastavení posledních kolekcí"
+msgstr "nastavení nedávných sbírek"
 
 #: ../src/libs/scopes/histogram.c:207 ../src/libs/scopes/vectorscope.c:1023
-#, fuzzy
 msgid "set scale to linear"
 msgstr "nastavit měřítko na lineární"
 
 #: ../src/libs/scopes/histogram.c:212 ../src/libs/scopes/vectorscope.c:1028
-#, fuzzy
 msgid "set scale to logarithmic"
 msgstr "nastavit měřítko na logaritmické"
 
 #: ../src/libs/scopes/histogram.c:244
-#, fuzzy
-#| msgid "switch histogram view"
 msgid "switch histogram scale"
-msgstr "přepnout režim histogramu"
+msgstr "přepnout měřítko histogramu"
 
 #. FIXME: this could depend on values of left/right scopes
 #: ../src/libs/scopes/split.c:30
@@ -33819,31 +33779,27 @@ msgid ""
 msgstr "upravuje, které ze zobrazených obrázků budou vybrány"
 
 #: ../src/libs/select.c:143
-#, fuzzy
 msgid "select all images in current collection"
-msgstr "vybrat všechny obrázky v aktuální kolekci"
+msgstr "vybrat všechny obrázky v aktuální sbírce"
 
 #: ../src/libs/select.c:147
-#, fuzzy
 msgid "clear selection"
-msgstr "vymazat výběr"
+msgstr "zrušit výběr"
 
 #: ../src/libs/select.c:151
-#, fuzzy
 msgid ""
 "select unselected images\n"
 "in current collection"
 msgstr ""
 "vybrat nevybrané obrázky\n"
-"v aktuální kolekci"
+"v aktuální sbírce"
 
 #: ../src/libs/select.c:155
-#, fuzzy
 msgid ""
 "select all images which are in the same\n"
 "film roll as the selected images"
 msgstr ""
-"vyberte všechny obrázky, které jsou ve stejném\n"
+"vybrat všechny obrázky, které jsou na stejném\n"
 "filmovém pásu jako vybrané obrázky"
 
 #: ../src/libs/select.c:159
@@ -33886,49 +33842,44 @@ msgid "S"
 msgstr "S"
 
 #: ../src/libs/snapshots.c:604
-#, fuzzy
 msgid "restore snapshot into current history"
-msgstr "obnovit snímek do aktuální historie"
+msgstr "obnovit snapshot do aktuální historie"
 
 #: ../src/libs/snapshots.c:719
-#, fuzzy
 msgid "snapshots for removed image have been deleted"
-msgstr "uložené stavy pro odstraněný obrázek byly smazány"
+msgstr "snapshoty pro odstraněný obrázek byly odebrány"
 
 #: ../src/libs/snapshots.c:760
 #, c-format
 msgid "↗ %s '%s'"
-msgstr "↗ %s '%s'"
+msgstr "↗ %s “%s”"
 
 #: ../src/libs/snapshots.c:760
-#, fuzzy
 msgid "this snapshot was taken from"
-msgstr "tento snímek byl pořízen z"
+msgstr "tento snapshot byl pořízen z"
 
 #: ../src/libs/snapshots.c:810
-#, fuzzy
 msgid "take snapshot"
-msgstr "vytvoř variantu"
+msgstr "pořídit snapshot"
 
 #: ../src/libs/snapshots.c:812
-#, fuzzy
 msgid ""
 "take snapshot to compare with another image or the same image at another "
 "stage of development"
 msgstr ""
-"vytvořte variantu pro porovnání s jiným snímkem nebo stejným snímkem v jiné "
+"pořiďte snapshot pro porovnání s jiným snímkem nebo stejným snímkem v jiné "
 "fázi vývoje"
 
 #: ../src/libs/snapshots.c:867
 msgid "side-by-side"
-msgstr ""
+msgstr "vedle sebe"
 
 #: ../src/libs/snapshots.c:873
 #, fuzzy
 msgid ""
 "place the snapshot side-by-side / above-below the current image instead of "
 "overlaying"
-msgstr "Umístí náhled vedle nebo nad/pod aktuální obrázek namísto překryvu."
+msgstr "umístitz snapshot vedle nebo nad/pod aktuální obrázek namísto překryvu."
 
 #: ../src/libs/snapshots.c:877
 #, fuzzy
@@ -33955,25 +33906,24 @@ msgstr[1] "odstranit styly?"
 msgstr[2] "odstranit styly?"
 
 #: ../src/libs/styles.c:402
-#, fuzzy, c-format
+#, c-format
 msgid "do you really want to remove %d style?"
 msgid_plural "do you really want to remove %d styles?"
-msgstr[0] "opravdu vymazat styl %d?"
-msgstr[1] "opravdu vymazat %d styly?"
-msgstr[2] "opravdu vymazat %d stylů?"
+msgstr[0] "opravdu chcete odebrat %d styl?"
+msgstr[1] "opravdu chcete odebrat %d styly?"
+msgstr[2] "opravdu chcete odebrat %d stylů?"
 
 #. contents for dialog
 #: ../src/libs/styles.c:510 ../src/libs/styles.c:662
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "style `%s' already exists.\n"
 "do you want to overwrite existing style?\n"
 msgstr ""
-"styl `%s' již existuje.\n"
-"chcete přepsat existuící styl? \n"
+"styl “%s” již existuje\n"
+"chcete přepsat existuící styl?\n"
 
 #: ../src/libs/styles.c:512 ../src/libs/styles.c:663
-#, fuzzy
 msgid "apply this option to all existing styles"
 msgstr "použít tuto volbu na všechny existující styly"
 
@@ -34081,11 +34031,12 @@ msgstr "tagování"
 
 # module description
 #: ../src/libs/tagging.c:115
-#, fuzzy
 msgid ""
 "add or remove keywords for\n"
 "the currently selected images"
-msgstr "přidá nebo odebere klíčová slova aktuálně vybraným obrázkům"
+msgstr ""
+"přidat nebo odebrat klíčová slova\n"
+"aktuálně vybraným obrázkům"
 
 #: ../src/libs/tagging.c:1415
 msgid "attach tag to all"
