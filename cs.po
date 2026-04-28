@@ -18305,7 +18305,6 @@ msgstr "žádné presety"
 
 #: ../src/gui/presets.c:1427 ../src/libs/modulegroups.c:4052
 #: ../src/libs/modulegroups.c:4060
-#, fuzzy
 msgid "manage module layouts"
 msgstr "spravovat rozložení modulů"
 
@@ -18458,13 +18457,13 @@ msgstr ""
 
 #. xgettext: %s is a URL; keep <a href="%s"> and </a> unchanged
 #: ../src/gui/welcome.c:846
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Read the <a href=\"%s\">user manual</a> to learn more and make the most of "
 "darktable."
 msgstr ""
 "Přečtěte si <a href=\"%s\">uživatelskou příručku</a>, abyste se dozvěděli "
-"více a mohli tak darktable využívat na maximum."
+"více a mohli darktable využívat na maximum."
 
 #: ../src/gui/welcome.c:856
 #, fuzzy
@@ -18594,9 +18593,8 @@ msgstr "informace o barvě uložené v obrázku, čím vyšší, tím lepší"
 #.
 #. shortfile option combo box
 #: ../src/imageio/format/avif.c:958 ../src/imageio/format/tiff.c:919
-#, fuzzy
 msgid "B&W as grayscale"
-msgstr "černobíle jako odstíny šedi"
+msgstr "ČB jako odstíny šedi"
 
 #: ../src/imageio/format/avif.c:959 ../src/imageio/format/tiff.c:920
 #, fuzzy
@@ -28570,7 +28568,7 @@ msgstr "upravit sytost světel"
 #: ../src/iop/sharpen.c:70
 msgctxt "modulename"
 msgid "sharpen"
-msgstr "zostřední"
+msgstr "zostření"
 
 #: ../src/iop/sharpen.c:92
 #, fuzzy
