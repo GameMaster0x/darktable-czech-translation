@@ -34561,14 +34561,12 @@ msgid "button start"
 msgstr "tlačítko start"
 
 #: ../src/libs/tools/gamepad.c:62
-#, fuzzy
 msgid "left stick"
-msgstr "levá páka"
+msgstr "levá páčka"
 
 #: ../src/libs/tools/gamepad.c:62
-#, fuzzy
 msgid "right stick"
-msgstr "pravá páka"
+msgstr "pravá páčka"
 
 #: ../src/libs/tools/gamepad.c:62
 #, fuzzy
@@ -34581,62 +34579,50 @@ msgid "right shoulder"
 msgstr "pravé rameno"
 
 #: ../src/libs/tools/gamepad.c:63
-#, fuzzy
 msgid "dpad up"
 msgstr "dpad nahoru"
 
 #: ../src/libs/tools/gamepad.c:63
-#, fuzzy
 msgid "dpad down"
 msgstr "dpad dolů"
 
 #: ../src/libs/tools/gamepad.c:63
-#, fuzzy
 msgid "dpad left"
 msgstr "dpad vlevo"
 
 #: ../src/libs/tools/gamepad.c:63
-#, fuzzy
 msgid "dpad right"
 msgstr "dpad vpravo"
 
 #: ../src/libs/tools/gamepad.c:64
-#, fuzzy
 msgid "button misc1"
 msgstr "tlačítko různé1"
 
 #: ../src/libs/tools/gamepad.c:64
-#, fuzzy
 msgid "paddle1"
 msgstr "pádlo1"
 
 #: ../src/libs/tools/gamepad.c:64
-#, fuzzy
 msgid "paddle2"
 msgstr "pádlo2"
 
 #: ../src/libs/tools/gamepad.c:64
-#, fuzzy
 msgid "paddle3"
 msgstr "pádlo3"
 
 #: ../src/libs/tools/gamepad.c:64
-#, fuzzy
 msgid "paddle4"
 msgstr "pádlo4"
 
 #: ../src/libs/tools/gamepad.c:64
-#, fuzzy
 msgid "touchpad"
-msgstr "touchpad"
+msgstr "dotykový panel"
 
 #: ../src/libs/tools/gamepad.c:65
-#, fuzzy
 msgid "left trigger"
 msgstr "pravý trigger"
 
 #: ../src/libs/tools/gamepad.c:65
-#, fuzzy
 msgid "right trigger"
 msgstr "levý trigger"
 
