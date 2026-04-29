@@ -3403,7 +3403,7 @@ msgstr "žádný"
 #: ../build/lib/darktable/plugins/introspection_tonecurve.c:271
 #: ../src/develop/blend_gui.c:2416 ../src/develop/blend_gui.c:2450
 msgid "luminance"
-msgstr "jas"
+msgstr "luminance"
 
 #: ../build/lib/darktable/plugins/introspection_basecurve.c:264
 #: ../build/lib/darktable/plugins/introspection_basicadj.c:251
@@ -3709,7 +3709,7 @@ msgstr "pětkrát"
 #: ../build/lib/darktable/plugins/introspection_cacorrectrgb.c:61
 #: ../build/lib/darktable/plugins/introspection_cacorrectrgb.c:128
 msgid "guide"
-msgstr "průvodce"
+msgstr "referenční kanál"
 
 #: ../build/lib/darktable/plugins/introspection_cacorrectrgb.c:67
 #: ../build/lib/darktable/plugins/introspection_cacorrectrgb.c:132
@@ -3742,22 +3742,18 @@ msgstr "režim korekce"
 
 #: ../build/lib/darktable/plugins/introspection_cacorrectrgb.c:85
 #: ../build/lib/darktable/plugins/introspection_cacorrectrgb.c:144
-#, fuzzy
 msgid "very large chromatic aberration"
 msgstr "velmi výrazná chromatická aberace"
 
 #: ../build/lib/darktable/plugins/introspection_cacorrectrgb.c:164
-#, fuzzy
 msgid "standard"
-msgstr "standard"
+msgstr "standardní"
 
 #: ../build/lib/darktable/plugins/introspection_cacorrectrgb.c:165
-#, fuzzy
 msgid "darken only"
 msgstr "pouze ztmavit"
 
 #: ../build/lib/darktable/plugins/introspection_cacorrectrgb.c:166
-#, fuzzy
 msgid "brighten only"
 msgstr "pouze zesvětlit"
 
@@ -5091,9 +5087,8 @@ msgstr "tvrdost"
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:302
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:483
 #: ../src/iop/filmic.c:1568 ../src/iop/filmicrgb.c:4684
-#, fuzzy
 msgid "extreme luminance saturation"
-msgstr "extrémní nasycení jasu"
+msgstr "extrémní sytost jasu"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:308
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:487
@@ -5182,7 +5177,6 @@ msgid "no"
 msgstr "ne"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:551
-#, fuzzy
 msgid "luminance Y"
 msgstr "jas Y"
 
@@ -6277,7 +6271,6 @@ msgstr "zachovat detaily"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:241
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:354
-#, fuzzy
 msgid "luminance estimator"
 msgstr "odhad jasu"
 
@@ -10573,7 +10566,6 @@ msgstr "přidat kruh"
 
 #: ../src/develop/blend_gui.c:2832 ../src/iop/retouch.c:2461
 #: ../src/iop/spots.c:887
-#, fuzzy
 msgid "add multiple circles"
 msgstr "přidat více kruhů"
 
@@ -10864,9 +10856,9 @@ msgstr ""
 "rozsáhlé historie nebo pomalého disku"
 
 #: ../src/develop/develop.c:2608
-#, fuzzy, c-format
+#, c-format
 msgid "%s: module `%s' version mismatch: %d != %d"
-msgstr "%s: Neshoda verze modulu `%s': %d <> %d"
+msgstr "%s: neshoda verze modulu “%s”: verze %d != %d"
 
 #: ../src/develop/develop.c:3521
 #, fuzzy
@@ -10954,13 +10946,12 @@ msgid "process"
 msgstr "proces"
 
 #: ../src/develop/imageop.c:3046
-#, fuzzy
 msgid ""
 "reset parameters\n"
 "ctrl+click to reapply any automatic presets"
 msgstr ""
 "resetovat parametry\n"
-"Ctrl+klik pro opětovné použití všech automatických presetů"
+"Ctrl+klik pro opětovné použití automatických presetů"
 
 #: ../src/develop/imageop.c:3253
 #, fuzzy
@@ -19600,6 +19591,7 @@ msgid "pick the black point"
 msgstr "vybrat černý bod"
 
 #: ../src/iop/agx.c:2065 ../src/iop/filmicrgb.c:4412
+#, fuzzy
 msgid ""
 "symmetrically increase or decrease the computed dynamic range.\n"
 "useful to give a safety margin to extreme luminances."
@@ -20110,7 +20102,7 @@ msgstr "ekvalizér kontrastu"
 #: ../src/iop/atrous.c:127
 #, fuzzy
 msgid "sharpness|acutance|local contrast|clarity"
-msgstr "ostrost|akutnost|lokální kontrast|jasnost"
+msgstr "ostrost|akutnost|lokální kontrast|zřetelnost"
 
 #: ../src/iop/atrous.c:132
 #, fuzzy
@@ -20157,9 +20149,8 @@ msgid "bloom"
 msgstr "zasněný vzhled"
 
 #: ../src/iop/atrous.c:841 ../src/iop/bilat.c:79 ../src/iop/bilat.c:186
-#, fuzzy
 msgid "clarity"
-msgstr "jasnost"
+msgstr "zřetelnost"
 
 #: ../src/iop/atrous.c:862
 #, fuzzy
@@ -21473,7 +21464,6 @@ msgstr ""
 "nepoužíváte s maskami, nebo víte co děláte."
 
 #: ../src/iop/channelmixerrgb.c:2067
-#, fuzzy
 msgid "white balance applied twice"
 msgstr "vyvážení bílé použito dvakrát"
 
@@ -21491,7 +21481,6 @@ msgstr ""
 "nebo deaktivujte chromatickou adaptaci v kalibraci barev."
 
 #: ../src/iop/channelmixerrgb.c:2076
-#, fuzzy
 msgid "white balance module error"
 msgstr "chyba modulu vyvážení bílé"
 
@@ -21509,7 +21498,6 @@ msgstr ""
 "nebo deaktivujte chromatickou adaptaci."
 
 #: ../src/iop/channelmixerrgb.c:2089 ../src/iop/channelmixerrgb.c:2098
-#, fuzzy
 msgid "white balance missing"
 msgstr "chybí vyvážení bílé"
 
@@ -22068,9 +22056,8 @@ msgid "main"
 msgstr "hlavní"
 
 #: ../src/iop/clipping.c:2104
-#, fuzzy
 msgid "mirror image horizontally and/or vertically"
-msgstr "zrcadlový obraz vodorovně a/nebo svisle"
+msgstr "zrcadlit obraz vodorovně a/nebo svisle"
 
 #: ../src/iop/clipping.c:2107
 msgid "angle"
@@ -22087,14 +22074,12 @@ msgid "keystone"
 msgstr "základní kámen"
 
 #: ../src/iop/clipping.c:2118
-#, fuzzy
 msgid "set perspective correction for your image"
 msgstr "nastavte korekci perspektivy pro váš obrázek"
 
 #: ../src/iop/clipping.c:2125 ../src/iop/crop.c:1270
-#, fuzzy
 msgid "freehand"
-msgstr "volná ruka"
+msgstr "volný"
 
 #: ../src/iop/clipping.c:2128 ../src/iop/crop.c:1273
 msgid "10:8 in print"
@@ -22162,12 +22147,13 @@ msgstr "3:1, panoramatický"
 
 #: ../src/iop/clipping.c:2176 ../src/iop/clipping.c:2188 ../src/iop/crop.c:1327
 #: ../src/iop/crop.c:1344
-#, fuzzy, c-format
+#, c-format
 msgid "invalid ratio format for `%s'. it should be \"number:number\""
-msgstr "neplatný formát poměru pro „%s“. mělo by to být \"číslo:číslo\""
+msgstr ""
+"neplatný formát poměru pro “%s”\n"
+"správný formát: “číslo:číslo\""
 
 #: ../src/iop/clipping.c:2235 ../src/iop/crop.c:1395
-#, fuzzy
 msgid ""
 "set the aspect ratio\n"
 "the list is sorted: from most square to least square\n"
@@ -22175,9 +22161,9 @@ msgid ""
 "decimal format"
 msgstr ""
 "nastavit poměr stran\n"
-"seznam je seřazen: od nejvíce čtveratých po nejméně\n"
+"seznam je seřazen dle širokoúhlosti\n"
 "pro zadání vlastního poměru stran otevřete rozbalovací seznam a zadejte poměr "
-"ve formátu x:y nebo v desítkové soustavě"
+"ve formátu x:y nebo v desetinném formátu"
 
 #: ../src/iop/clipping.c:2242 ../src/iop/crop.c:1407
 msgid "margins"
@@ -22367,10 +22353,9 @@ msgid "gamma"
 msgstr "gama"
 
 #: ../src/iop/colorbalance.c:1728
-#, fuzzy
 msgctxt "color"
 msgid "gain"
-msgstr "zesílení"
+msgstr "zisk"
 
 #: ../src/iop/colorbalance.c:1731
 #, fuzzy
@@ -22413,7 +22398,6 @@ msgid "RGBL"
 msgstr "RGBL"
 
 #: ../src/iop/colorbalance.c:1870
-#, fuzzy
 msgctxt "section"
 msgid "master"
 msgstr "hlavní"
@@ -22801,7 +22785,6 @@ msgid "choose in which uniform color space the saturation is computed"
 msgstr "Vyberte, ve kterém jednotném barevném prostoru se saturace vypočítá."
 
 #: ../src/iop/colorbalancergb.c:1968
-#, fuzzy
 msgctxt "section"
 msgid "luminance ranges"
 msgstr "rozsahy jasu"
@@ -24506,8 +24489,8 @@ msgid ""
 "diffusion|deconvolution|blur|sharpening|bloom|clarity|dehaze|denoise|inpaint|"
 "watercolor"
 msgstr ""
-"diffusion|deconvolution|blur|sharpening|bloom|clarity|dehaze|inpaint|"
-"watercolor|difuze|dekonvoluce|rozmazání|ostření|záře|odmlžení|odšumění|vodovky"
+"diffusion|deconvolution|blur|sharpening|bloom|zřetelnost|dehaze|denoise|"
+"inpaint|watercolor"
 
 # module description
 #: ../src/iop/diffuse.c:136
@@ -24893,7 +24876,6 @@ msgstr ""
 "JPEG přidáním náhodného šumu nebo snížením bitové hloubky"
 
 #: ../src/iop/dither.c:116
-#, fuzzy
 msgid "corrective, artistic"
 msgstr "korektivní, umělecké"
 
@@ -26063,9 +26045,8 @@ msgstr "opar|odmlžovat|kouř|smog"
 
 # module description
 #: ../src/iop/hazeremoval.c:109
-#, fuzzy
 msgid "remove fog and atmospheric hazing from images"
-msgstr "odstraní mlhu a kouřmo z obrázku"
+msgstr "odstranit mlhu a opar z obrázku"
 
 #: ../src/iop/hazeremoval.c:273
 #, fuzzy
@@ -26265,7 +26246,6 @@ msgid "frequential, Lab"
 msgstr "frekvenční, Lab"
 
 #: ../src/iop/highpass.c:78 ../src/iop/lowpass.c:106
-#, fuzzy
 msgid "special, Lab, scene-referred"
 msgstr "speciální, Lab, scene-referred"
 
@@ -26313,7 +26293,7 @@ msgid ""
 "hot pixel correction\n"
 "only works for raw images."
 msgstr ""
-"Korekce horkých pixelů.\n"
+"korekce horkých pixelů.\n"
 "Funguje pouze pro RAW obrázky."
 
 #: ../src/iop/invert.c:101 ../src/iop/invert.c:425
@@ -26384,7 +26364,7 @@ msgstr ""
 "výrobce: \t\t%s\n"
 "model: \t\t%s%s\n"
 "bajonet: \t\t%s\n"
-"crop factor: \t%.1f"
+"crop faktor: \t%.1f"
 
 #: ../src/iop/lens.cc:4003
 #, c-format
@@ -26401,9 +26381,9 @@ msgstr ""
 "model: \t\t%s\n"
 "ohniskový rozsah: \t%s\n"
 "clona: \t\t%s\n"
-"crop factor: \t%.1f\n"
+"crop faktor: \t%.1f\n"
 "typ: \t\t%s\n"
-"montáž: \t%s"
+"bajonet: \t%s"
 
 #: ../src/iop/lens.cc:4076
 msgid "f/"
@@ -26716,9 +26696,8 @@ msgstr ""
 "<b>odstranění deformace</b>: klik pravým tlačítkem"
 
 #: ../src/iop/liquify.c:3628
-#, fuzzy
 msgid "edit, add and delete nodes"
-msgstr "upravovat, přidávat a mazat uzly"
+msgstr "upravit, přidat a odstranit uzly"
 
 #: ../src/iop/liquify.c:3633 ../src/iop/liquify.c:3639 ../src/iop/liquify.c:3645
 #: ../src/iop/retouch.c:2445 ../src/iop/retouch.c:2451 ../src/iop/retouch.c:2456
@@ -26750,7 +26729,6 @@ msgid "draw points"
 msgstr "kreslit body"
 
 #: ../src/iop/liquify.c:3646
-#, fuzzy
 msgid "draw multiple points"
 msgstr "nakreslit více bodů"
 
@@ -26933,49 +26911,45 @@ msgid "defined by profile, RGB"
 msgstr "definováno profilem, RGB"
 
 #: ../src/iop/lut3d.c:489
-#, fuzzy
 msgid "error allocating buffer for gmz LUT"
-msgstr "chyba při přidělování vyrovnávací paměti pro gmz LUT"
+msgstr "chyba alokace vyrovnávací paměti pro gmz LUT"
 
 #: ../src/iop/lut3d.c:517
-#, fuzzy, c-format
+#, c-format
 msgid "invalid png file %s"
-msgstr "neplatný soubor png %s"
+msgstr "neplatný soubor PNG %s"
 
 #: ../src/iop/lut3d.c:525
-#, fuzzy, c-format
+#, c-format
 msgid "png bit depth %d is not supported"
-msgstr "bitová hloubka png %d není podporována"
+msgstr "bitová hloubka PNG %d není podporována"
 
 #: ../src/iop/lut3d.c:539 ../src/iop/lut3d.c:549
-#, fuzzy, c-format
+#, c-format
 msgid "invalid level in png file %d %d"
-msgstr "neplatná úroveň v souboru png %d %d"
+msgstr "neplatná úroveň v PNG souboru %d %d"
 
 #: ../src/iop/lut3d.c:544
-#, fuzzy
 msgid "this darktable build is not compatible with compressed CLUT"
-msgstr "toto sestavení darktable není kompatibilní s komprimovaným CLUT"
+msgstr "toto sestavení darktable není kompatibilní s komprimovanou CLUT"
 
 #: ../src/iop/lut3d.c:561 ../src/iop/lut3d.c:816
-#, fuzzy, c-format
+#, c-format
 msgid "error - LUT 3D size %d exceeds the maximum supported"
 msgstr "chyba - velikost LUT 3D %d překračuje maximální podporovanou velikost"
 
 #: ../src/iop/lut3d.c:573
-#, fuzzy
 msgid "error allocating buffer for png LUT"
-msgstr "chyba při přidělování vyrovnávací paměti pro png LUT"
+msgstr "chyba alokace vyrovnávací paměti pro PNG LUT"
 
 #: ../src/iop/lut3d.c:581
-#, fuzzy, c-format
+#, c-format
 msgid "error - could not read png image %s"
-msgstr "chyba - nelze přečíst obrázek png %s"
+msgstr "chyba - nelze číst PNG obrázek %s"
 
 #: ../src/iop/lut3d.c:593
-#, fuzzy
 msgid "error - allocating buffer for png LUT"
-msgstr "chyba - přidělování vyrovnávací paměti pro png LUT"
+msgstr "chyba alokace vyrovnávací paměti pro PNG LUT"
 
 #: ../src/iop/lut3d.c:769
 #, c-format
@@ -27028,24 +27002,20 @@ msgid "error - the maximum shaper LUT value %d is too low"
 msgstr "chyba - maximální hodnota LUT tvarovače %d je příliš nízká"
 
 #: ../src/iop/lut3d.c:932
-#, fuzzy
 msgid "error - allocating buffer for 3dl LUT"
-msgstr "chyba - alokace bufferu pro 3dl LUT"
+msgstr "chyba - alokace vyrovnávací paměti pro 3dl LUT"
 
 #: ../src/iop/lut3d.c:945
-#, fuzzy
 msgid "error - 3dl LUT size is not defined"
 msgstr "chyba - 3dl velikost LUT není definována"
 
 #: ../src/iop/lut3d.c:973
-#, fuzzy
 msgid "error - 3dl LUT lines number is not correct"
 msgstr "chyba - počet řádků 3dl LUT není správný"
 
 #: ../src/iop/lut3d.c:989
-#, fuzzy
 msgid "error - the maximum LUT value does not match any valid bit depth"
-msgstr "chyba - maximální hodnota LUT neodpovídá žádné platné bitové hloubce"
+msgstr "chyba - maximální hodnota LUT neodpovídá žádné validní bitové hloubce"
 
 #: ../src/iop/lut3d.c:1568
 msgid "LUT root folder not defined"
@@ -27125,7 +27095,6 @@ msgid "interpolation"
 msgstr "interpolace"
 
 #: ../src/iop/lut3d.c:1749
-#, fuzzy
 msgid "select the interpolation method"
 msgstr "vyberte metodu interpolace"
 
@@ -27996,7 +27965,7 @@ msgstr "léčení"
 
 #: ../src/iop/retouch.c:2431
 msgid "shapes:"
-msgstr "tvary:"
+msgstr "tvary: "
 
 #: ../src/iop/retouch.c:2434
 #, fuzzy
@@ -28065,11 +28034,11 @@ msgstr "měřítka:"
 
 #: ../src/iop/retouch.c:2509
 msgid "current:"
-msgstr "aktuální:"
+msgstr "aktuální: "
 
 #: ../src/iop/retouch.c:2516
 msgid "merge from:"
-msgstr "sloučit z:"
+msgstr "sloučit z: "
 
 #: ../src/iop/retouch.c:2527
 #, fuzzy
@@ -28129,7 +28098,7 @@ msgstr "náhled jedné stupnice"
 #. shapes selected (label)
 #: ../src/iop/retouch.c:2621
 msgid "shape selected:"
-msgstr "vybraný tvar:"
+msgstr "vybraný tvar: "
 
 #: ../src/iop/retouch.c:2627
 #, fuzzy
@@ -35407,7 +35376,6 @@ msgid "any RGB channel"
 msgstr "jakýkoli RGB kanál"
 
 #: ../src/views/darkroom.c:3051
-#, fuzzy
 msgid "luminance only"
 msgstr "pouze jas"
 
