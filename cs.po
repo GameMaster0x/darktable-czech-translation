@@ -6974,7 +6974,7 @@ msgstr "historie"
 #: ../src/libs/filtering.c:59 ../src/libs/filters/colors.c:301
 #: ../src/libs/filters/colors.c:312 ../src/libs/tools/colorlabels.c:146
 msgid "color label"
-msgstr "barevná značka"
+msgstr "barevné značky"
 
 #. iso
 #: ../src/common/collection.c:642 ../src/gui/preferences.c:973
@@ -10884,21 +10884,19 @@ msgstr "duplikovat instanci"
 
 #: ../src/develop/imageop.c:1018 ../src/develop/imageop.c:4137
 #: ../src/libs/masks.c:1154
-#, fuzzy
 msgid "move up"
-msgstr "přesun výš"
+msgstr "posunout výš"
 
 #: ../src/develop/imageop.c:1025 ../src/develop/imageop.c:4138
 #: ../src/libs/masks.c:1159
-#, fuzzy
 msgid "move down"
-msgstr "přesun níž"
+msgstr "posunout níž"
 
 #. delete button label and tooltip will be updated based on trash pref
 #: ../src/develop/imageop.c:1032 ../src/develop/imageop.c:4140
 #: ../src/gui/accelerators.c:178 ../src/libs/image.c:307 ../src/libs/image.c:522
 msgid "delete"
-msgstr "vymazat"
+msgstr "odstranit"
 
 #: ../src/develop/imageop.c:1040 ../src/develop/imageop.c:4141
 #: ../src/libs/modulegroups.c:4088
@@ -10975,13 +10973,12 @@ msgstr ""
 "kliknutím pravým tlačítkem vytvoříte novou instanci"
 
 #: ../src/develop/imageop.c:3257
-#, fuzzy
 msgid ""
 "presets\n"
 "right-click to apply on new instance"
 msgstr ""
 "presety\n"
-"klik pravým tlačítkem pro použití na novou instanci"
+"klikněte pravým tlačítkem pro použití na novou instanci"
 
 #: ../src/develop/imageop.c:3469 ../src/develop/imageop.c:3491
 msgid "ERROR"
@@ -11085,18 +11082,17 @@ msgid "interpolation method"
 msgstr "metoda interpolace"
 
 #: ../src/develop/lightroom.c:1137
-#, fuzzy
 msgid "cannot find Lightroom XMP!"
-msgstr "nemohu najít Lightroom XMP!"
+msgstr "nelze najít Lightroom XMP!"
 
 #: ../src/develop/lightroom.c:1169 ../src/develop/lightroom.c:1191
 #: ../src/develop/lightroom.c:1211
-#, fuzzy, c-format
+#, c-format
 msgid "`%s' is not a Lightroom XMP!"
-msgstr "`%s' není lightroom XMP!"
+msgstr "\"%s\" není Lightroom XMP!"
 
 #: ../src/develop/lightroom.c:1613
-#, fuzzy, c-format
+#, c-format
 msgid "%s has been imported"
 msgid_plural "%s have been imported"
 msgstr[0] "%s byl importován"
@@ -21555,7 +21551,7 @@ msgid "channelmixerrgb works only on RGB input"
 msgstr "kanálový směšovač rgb funguje pouze na vstupu RGB"
 
 #: ../src/iop/channelmixerrgb.c:3675
-#, fuzzy, c-format
+#, c-format
 msgid "CCT: %.0f K (daylight)"
 msgstr "CCT: %.0f K (denní světlo)"
 
@@ -21587,9 +21583,9 @@ msgstr ""
 "takže jeho teplota je relevantní a smysluplná s Planckovským osvětlovačem."
 
 #: ../src/iop/channelmixerrgb.c:3693
-#, fuzzy, c-format
+#, c-format
 msgid "CCT: %.0f K (invalid)"
-msgstr "CCT: %.0f K (neplatný)"
+msgstr "CCT: %.0f K (neplatné)"
 
 #: ../src/iop/channelmixerrgb.c:3696
 #, fuzzy
@@ -21607,9 +21603,9 @@ msgstr ""
 "osvětlení."
 
 #: ../src/iop/channelmixerrgb.c:3705
-#, fuzzy, c-format
+#, c-format
 msgid "CCT: undefined"
-msgstr "CCT: nedefinovaný"
+msgstr "CCT: nedefinováno"
 
 #: ../src/iop/channelmixerrgb.c:3708
 #, fuzzy
@@ -22874,7 +22870,6 @@ msgid "color look up table"
 msgstr "barevná vyhledávací tabulka"
 
 #: ../src/iop/colorchecker.c:123
-#, fuzzy
 msgid "profile|lut|color grading"
 msgstr "profil|lut|korekce barev"
 
@@ -30562,9 +30557,8 @@ msgid "export EXIF metadata"
 msgstr "exportovat EXIF metadata"
 
 #: ../src/libs/export_metadata.c:179
-#, fuzzy
 msgid "export darktable XMP metadata (from metadata editor module)"
-msgstr "export darktable XMP metadat (z modulu editor metadat)"
+msgstr "export darktable XMP metadat (z modulu editoru metadat)"
 
 #: ../src/libs/export_metadata.c:184
 #, fuzzy
@@ -31334,9 +31328,8 @@ msgid "select images"
 msgstr "vybráno"
 
 #: ../src/libs/geotagging.c:1964
-#, fuzzy
 msgid "select matching images"
-msgstr "vybrat shodné obrázky"
+msgstr "vybrat odpovídající obrázky"
 
 #: ../src/libs/geotagging.c:1972
 #, fuzzy
@@ -31362,9 +31355,8 @@ msgid "use buttons at top of graph to change type"
 msgstr "Pro změnu zobrazení použijte tlačítka nad grafem."
 
 #: ../src/libs/histogram.c:294
-#, fuzzy
 msgid "click on ❓ and then graph for documentation"
-msgstr "Pro zobrazení nápovědy klikněte na ❓ a následně na graf."
+msgstr "pro zobrazení nápovědy klikněte na ❓ a následně na graf"
 
 #: ../src/libs/histogram.c:295
 #, fuzzy
@@ -31372,16 +31364,14 @@ msgid "use color picker module to restrict area"
 msgstr "K zúžení rozsahu použijte modul pro výběr barvy (kapátko)."
 
 #: ../src/libs/histogram.c:298
-#, fuzzy
 msgid "drag to change black point"
-msgstr "přetažením změníte černý bod"
+msgstr "tažením změníte černý bod"
 
 #: ../src/libs/histogram.c:299 ../src/libs/histogram.c:303
 msgid "double-click resets"
 msgstr "dvojklikem resetujete"
 
 #: ../src/libs/histogram.c:302
-#, fuzzy
 msgid "drag to change exposure"
 msgstr "tažením změníte expozici"
 
@@ -31485,7 +31475,6 @@ msgid "mask blur"
 msgstr "maskovat rozostření"
 
 #: ../src/libs/history.c:960
-#, fuzzy
 msgid "raster mask instance"
 msgstr "instance rastrové masky"
 
@@ -34041,7 +34030,7 @@ msgid "selected: %s"
 msgstr "vybráno: %s"
 
 #: ../src/libs/tagging.c:1679
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "do you really want to delete the tag `%s'?\n"
 "<u>%d</u> image is assigned this tag!"
@@ -34049,14 +34038,14 @@ msgid_plural ""
 "do you really want to delete the tag `%s'?\n"
 "<u>%d</u> images are assigned this tag!"
 msgstr[0] ""
-"Opravdu chcete smazat tag `%s'?\n"
-"<u>%d</u> obrázek je tímto tagem označen!"
+"opravdu chcete smazat tag \"%s\"?\n"
+"<u>%d</u> obrázek je tímto tagem označen"
 msgstr[1] ""
-"Opravdu chcete smazat tag `%s'?\n"
-"<u>%d</u> obrázky jsou tímto tagem označeny!"
+"opravdu chcete smazat tag \"%s\"?\n"
+"<u>%d</u> obrázky jsou tímto tagem označeny"
 msgstr[2] ""
-"Opravdu chcete smazat tag `%s'?\n"
-"<u>%d</u> obrázků je tímto tagem označeno!"
+"opravdu chcete smazat tag \"%s\"?\n"
+"<u>%d</u> obrázků je tímto tagem označeno"
 
 #: ../src/libs/tagging.c:1717
 #, c-format
@@ -35169,20 +35158,19 @@ msgid "enabled instance '%s' of '%s'"
 msgstr "preferovat zapnutou instanci"
 
 #: ../src/views/darkroom.c:2636
-#, c-format
+#, fuzzy, c-format
 msgid "disabled instance '%s' of '%s'"
-msgstr ""
+msgstr "zakázaná instance '%s'"
 
 #: ../src/views/darkroom.c:2641
-#, fuzzy, c-format
+#, c-format
 msgid "enabled module '%s'"
-msgstr "výchozí povolený modul"
+msgstr "povolený modul \"%s\""
 
 #: ../src/views/darkroom.c:2643
-#, fuzzy, c-format
-#| msgid "disabled defaults"
+#, c-format
 msgid "disabled module '%s'"
-msgstr "zakázané výchozí hodnoty"
+msgstr "zakázaný modul \"%s\""
 
 #: ../src/views/darkroom.c:2663 ../src/views/darkroom.c:2687
 #, fuzzy, c-format
@@ -35203,13 +35191,12 @@ msgstr ""
 #: ../src/views/darkroom.c:2695
 #, c-format
 msgid "deleted instance '%s' of '%s'"
-msgstr ""
+msgstr "odstraněná instance \"%s\" \"%s\""
 
 #: ../src/views/darkroom.c:2697
-#, fuzzy, c-format
-#| msgid "relative instance"
+#, c-format
 msgid "deleted instance of '%s'"
-msgstr "relativní instance"
+msgstr "odstraněná instance \"%s\""
 
 #: ../src/views/darkroom.c:2744
 #, fuzzy, c-format
@@ -35253,10 +35240,8 @@ msgid "toggle pinned state in second window"
 msgstr ""
 
 #: ../src/views/darkroom.c:2879
-#, fuzzy
-#| msgid "relative instance"
 msgid "delete instance"
-msgstr "relativní instance"
+msgstr "odstranit instanci"
 
 # white frame around the image
 #: ../src/views/darkroom.c:2888
@@ -35737,9 +35722,8 @@ msgid "middle"
 msgstr "střed"
 
 #: ../src/views/lighttable.c:1008
-#, fuzzy
 msgid "open image in darkroom"
-msgstr "otevřít obrázek v editoru"
+msgstr "otevřít obrázek v darkroomu"
 
 #: ../src/views/lighttable.c:1013
 #, fuzzy
