@@ -3125,7 +3125,7 @@ msgstr "vypnout úpravy"
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:152
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:261
 msgid "red attenuation"
-msgstr "utlumení červené"
+msgstr "útlum červené"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:377
 #: ../build/lib/darktable/plugins/introspection_agx.c:586
@@ -3139,7 +3139,7 @@ msgstr "rotace červené"
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:164
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:269
 msgid "green attenuation"
-msgstr "utlumení zelené"
+msgstr "útlum zelené"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:389
 #: ../build/lib/darktable/plugins/introspection_agx.c:594
@@ -3153,7 +3153,7 @@ msgstr "rotace zelené"
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:176
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:277
 msgid "blue attenuation"
-msgstr "utlumení modré"
+msgstr "útlum modré"
 
 #: ../build/lib/darktable/plugins/introspection_agx.c:401
 #: ../build/lib/darktable/plugins/introspection_agx.c:602
@@ -6179,7 +6179,6 @@ msgstr "obnovit čistotu"
 
 # dropdown
 #: ../build/lib/darktable/plugins/introspection_sigmoid.c:303
-#, fuzzy
 msgid "per channel"
 msgstr "kanál po kanálu"
 

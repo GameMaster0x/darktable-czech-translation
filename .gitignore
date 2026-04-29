@@ -2,3 +2,4 @@ darktable.pot
 darktable.mo
 .DS_Store
 run.sh
+*.sh
