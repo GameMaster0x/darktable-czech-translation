@@ -3488,7 +3488,6 @@ msgstr "místní lalacian filtr"
 #: ../build/lib/darktable/plugins/introspection_blurs.c:174
 #: ../build/lib/darktable/plugins/introspection_retouch.c:255
 #: ../build/lib/darktable/plugins/introspection_retouch.c:406
-#, fuzzy
 msgid "blur type"
 msgstr "typ rozostření"
 
@@ -3496,19 +3495,16 @@ msgstr "typ rozostření"
 #: ../build/lib/darktable/plugins/introspection_blurs.c:178
 #: ../build/lib/darktable/plugins/introspection_retouch.c:261
 #: ../build/lib/darktable/plugins/introspection_retouch.c:410
-#, fuzzy
 msgid "blur radius"
-msgstr "rádius rozostření"
+msgstr "poloměr rozostření"
 
 #: ../build/lib/darktable/plugins/introspection_blurs.c:95
 #: ../build/lib/darktable/plugins/introspection_blurs.c:182
-#, fuzzy
 msgid "diaphragm blades"
 msgstr "počet lamel"
 
 #: ../build/lib/darktable/plugins/introspection_blurs.c:101
 #: ../build/lib/darktable/plugins/introspection_blurs.c:186
-#, fuzzy
 msgid "concavity"
 msgstr "vydutost"
 
@@ -3564,9 +3560,8 @@ msgstr "pohyb"
 #: ../build/lib/darktable/plugins/introspection_lowpass.c:189
 #: ../build/lib/darktable/plugins/introspection_retouch.c:452
 #: ../build/lib/darktable/plugins/introspection_shadhi.c:267
-#, fuzzy
 msgid "gaussian"
-msgstr "gaussian"
+msgstr "gaussovské"
 
 #: ../build/lib/darktable/plugins/introspection_borders.c:112
 #: ../build/lib/darktable/plugins/introspection_borders.c:118
@@ -3742,7 +3737,6 @@ msgstr "síla"
 
 #: ../build/lib/darktable/plugins/introspection_cacorrectrgb.c:79
 #: ../build/lib/darktable/plugins/introspection_cacorrectrgb.c:140
-#, fuzzy
 msgid "correction mode"
 msgstr "režim korekce"
 
@@ -6105,7 +6099,6 @@ msgstr "vyléčit"
 
 #: ../build/lib/darktable/plugins/introspection_retouch.c:447
 #: ../src/iop/retouch.c:2038
-#, fuzzy
 msgid "blur"
 msgstr "rozostřit"
 
@@ -10159,17 +10152,14 @@ msgid "inclusive & inverted"
 msgstr "inkluzivně a invertovat"
 
 #: ../src/develop/blend_gui.c:175
-#, fuzzy
 msgid "output before blur"
 msgstr "výstup před rozostřením"
 
 #: ../src/develop/blend_gui.c:176
-#, fuzzy
 msgid "input before blur"
 msgstr "vstup před rozostřením"
 
 #: ../src/develop/blend_gui.c:177
-#, fuzzy
 msgid "output after blur"
 msgstr "výstup po rozostření"
 
@@ -10789,7 +10779,6 @@ msgid "spatial radius of feathering"
 msgstr "poloměr prolnutí masky"
 
 #: ../src/develop/blend_gui.c:3617
-#, fuzzy
 msgid "blurring radius"
 msgstr "poloměr rozostření"
 
@@ -20670,7 +20659,6 @@ msgstr ""
 "místní kontrast"
 
 #: ../src/iop/bilateral.cc:72 ../src/iop/diffuse.c:442
-#, fuzzy
 msgid "surface blur"
 msgstr "povrchové rozostření"
 
@@ -20703,15 +20691,14 @@ msgid "image too large"
 msgstr "obrázek je příliš velký"
 
 #: ../src/iop/bilateral.cc:142
-#, fuzzy
 msgid ""
 "this module is unable to process\n"
 "images with more than 2 gigapixels.\n"
 "processing has been skipped."
 msgstr ""
-"Tento modul není schopen zpracovat\n"
-"obrázky s více než 2 gigapixely.\n"
-"Zpracování bylo přeskočeno."
+"tento modul není schopen zpracovat\n"
+"obrázky s více než 2 gigapixely\n"
+"zpracování bylo přeskočeno"
 
 #: ../src/iop/bilateral.cc:368
 #, fuzzy
@@ -20719,19 +20706,16 @@ msgid "spatial extent of the gaussian"
 msgstr "gaussuv prostorový rozsah"
 
 #: ../src/iop/bilateral.cc:372
-#, fuzzy
 msgid "how much to blur red"
-msgstr "jak moc rozmazat červenou"
+msgstr "míra rozostření červené"
 
 #: ../src/iop/bilateral.cc:377
-#, fuzzy
 msgid "how much to blur green"
-msgstr "jak moc rozmazat zelenou"
+msgstr "míra rozostření zelené"
 
 #: ../src/iop/bilateral.cc:382
-#, fuzzy
 msgid "how much to blur blue"
-msgstr "jak moc rozmazat modrou"
+msgstr "míra rozostření modré"
 
 #: ../src/iop/bloom.c:80
 #, fuzzy
@@ -20759,17 +20743,14 @@ msgid "the strength of bloom"
 msgstr "síla zasnění"
 
 #: ../src/iop/blurs.c:78
-#, fuzzy
 msgid "blurs"
 msgstr "rozostření"
 
 #: ../src/iop/blurs.c:83
-#, fuzzy
 msgid "blur|lens|motion"
 msgstr "rozostření|objektiv|pohyb"
 
 #: ../src/iop/blurs.c:89
-#, fuzzy
 msgid "simulate physically-accurate lens and motion blurs"
 msgstr "simulovat fyzikálně přesné rozmazání objektivu a pohybu"
 
@@ -21089,7 +21070,6 @@ msgstr ""
 "pro RAW soubory s tříkanálovou Bayerovou maskou"
 
 #: ../src/iop/cacorrectrgb.c:160 ../src/iop/defringe.c:74
-#, fuzzy
 msgid "chromatic aberrations"
 msgstr "chromatické aberace"
 
@@ -21209,9 +21189,8 @@ msgid "radius of the intermediate pixelization"
 msgstr "poloměr mezilehlé pixelizace"
 
 #: ../src/iop/censorize.c:427
-#, fuzzy
 msgid "amount of noise to add at the end"
-msgstr "množství šumu, které je třeba přidat na konci"
+msgstr "množství šumu k přidání na konci"
 
 #: ../src/iop/channelmixer.c:123
 msgid "channel mixer"
@@ -21243,17 +21222,14 @@ msgid "gray"
 msgstr "šedá"
 
 #: ../src/iop/channelmixer.c:619
-#, fuzzy
 msgid "amount of red channel in the output channel"
 msgstr "množství červeného kanálu ve výstupním kanálu"
 
 #: ../src/iop/channelmixer.c:625
-#, fuzzy
 msgid "amount of green channel in the output channel"
 msgstr "množství zeleného kanálu ve výstupním kanálu"
 
 #: ../src/iop/channelmixer.c:631
-#, fuzzy
 msgid "amount of blue channel in the output channel"
 msgstr "množství modrého kanálu ve výstupním kanálu"
 
