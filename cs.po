@@ -2147,7 +2147,6 @@ msgstr ""
 "potřebujete pouze tu nejnovější"
 
 #: ../build/bin/preferences_gen.h:4171 ../src/libs/copy_history.c:148
-#, fuzzy
 msgid "XMP sidecar files"
 msgstr "XMP pomocné soubory"
 
@@ -6597,7 +6596,7 @@ msgstr "_uložit"
 
 #. TODO: is the rank interesting, too?
 #: ../src/chart/main.c:1064
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "average dE: %.02f\n"
 "max dE: %.02f"
@@ -6661,18 +6660,19 @@ msgstr "varování: neznámá možnost '%s'\n"
 msgid ""
 "error: output file or directory must be specified\n"
 "\n"
-msgstr ""
+msgstr "chyba: výstupní soubor nebo složka musí být specifikovány\n"
 
 #: ../src/cli/main.c:474
-#, fuzzy, c-format
-#| msgid "error: input file and import opts specified! that's not supported!\n"
+#, c-format
 msgid ""
 "error: input file and output file must be specified\n"
 "\n"
-msgstr "chyba: zadány vstupní soubor a možnosti importu! to není podporováno!\n"
+msgstr ""
+"chyba: vstupní a výstupní soubor musí být specifikovány\n"
+"\n"
 
 #: ../src/cli/main.c:481
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "error: too many positional arguments\n"
 "\n"
@@ -6690,6 +6690,8 @@ msgid ""
 "notice: no XMP sidecar file nor library path provided, using default settings "
 "for export"
 msgstr ""
+"upozornění: není k dispozici žádný pomocný XMP soubor ani cesta ke knihovně, "
+"pro export se použijí výchozí nastavení"
 
 #: ../src/cli/main.c:545
 #, fuzzy, c-format
@@ -6707,22 +6709,22 @@ msgid "output file already exists, it will get renamed"
 msgstr "výstupní soubor již existuje, bude přejmenován"
 
 #: ../src/cli/main.c:592
-#, fuzzy, c-format
+#, c-format
 msgid "error: can't open folder %s"
 msgstr "chyba: nelze otevřít složku %s"
 
 #: ../src/cli/main.c:615
-#, fuzzy, c-format
+#, c-format
 msgid "error: can't import file %s"
 msgstr "chyba: nelze importovat soubor %s"
 
 #: ../src/cli/main.c:625
-#, fuzzy, c-format
+#, c-format
 msgid "error: can't read directory %s"
-msgstr "chyba: nelze přečíst složku %s"
+msgstr "chyba: nelze číst složku %s"
 
 #: ../src/cli/main.c:641
-#, fuzzy, c-format
+#, c-format
 msgid "error: can't open file %s"
 msgstr "chyba: nelze otevřít soubor %s"
 
@@ -6732,7 +6734,7 @@ msgid "no images to export, aborting\n"
 msgstr "žádné obrázky k exportu, konec\n"
 
 #: ../src/cli/main.c:675
-#, fuzzy, c-format
+#, c-format
 msgid "error: can't open XMP file %s"
 msgstr "chyba: nelze otevřít XMP soubor %s"
 
@@ -9084,9 +9086,9 @@ msgid "working..."
 msgstr "načítám…"
 
 #: ../src/control/crawler.c:168
-#, fuzzy, c-format
+#, c-format
 msgid "checking for updated sidecar files (%d%%)"
-msgstr "hledám aktualizované XMP soubory … %d%%"
+msgstr "kontroluji aktualizované pomocné XMP soubory (%d%%)"
 
 #: ../src/control/crawler.c:454
 #, fuzzy, c-format
@@ -9205,9 +9207,8 @@ msgid "time difference"
 msgstr "časový rozdíl"
 
 #: ../src/control/crawler.c:800
-#, fuzzy
 msgid "updated XMP sidecar files found"
-msgstr "byly nalezeny aktualizované soubory XMP"
+msgstr "byly nalezeny aktualizované pomocné XMP soubory"
 
 #: ../src/control/crawler.c:801 ../src/gui/welcome.c:744
 msgid "_close"
@@ -9303,12 +9304,12 @@ msgstr ""
 "nepodařilo se vytvořit filmový pás pro cílový adresář, přesunutí se ruší.."
 
 #: ../src/control/jobs/control_jobs.c:363
-#, fuzzy, c-format
+#, c-format
 msgid "writing sidecar file"
 msgid_plural "writing %zu sidecar files"
-msgstr[0] "zapisuji XMP soubor"
-msgstr[1] "zapisuji %zu XMP soubory"
-msgstr[2] "zapsat %zu XMP souborů"
+msgstr[0] "zapisuji pomocný soubor"
+msgstr[1] "zapisuji %zu pomocné XMP soubory"
+msgstr[2] "zapisuji %zu pomocných XMP souborů"
 
 #: ../src/control/jobs/control_jobs.c:530
 #, fuzzy
@@ -9855,7 +9856,6 @@ msgid "time offset"
 msgstr "časový posun"
 
 #: ../src/control/jobs/control_jobs.c:2797 ../src/libs/copy_history.c:339
-#, fuzzy
 msgid "write sidecar files"
 msgstr "zapsat pomocné soubory"
 
@@ -9902,9 +9902,8 @@ msgid "import image"
 msgstr "import obrázku"
 
 #: ../src/control/jobs/sidecar_jobs.c:170
-#, fuzzy
 msgid "synchronize sidecars"
-msgstr "synchronizovat XMP soubory"
+msgstr "synchronizovat pomocné soubory"
 
 #: ../src/develop/blend.c:302
 #, fuzzy
@@ -12768,9 +12767,8 @@ msgstr "$(CATEGORY[n,kategorie]) - subtag úrovně n v hierarchii tagů"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1018
 #: ../src/gui/gtkentry.c:121
-#, fuzzy
 msgid "$(SIDECAR_TXT) - contents of .txt sidecar file, if present"
-msgstr "$(SIDECAR_TXT) - obsah doprovodného souboru (pokud existuje)"
+msgstr "$(SIDECAR_TXT) - obsah pomocného .txt souboru (pokud existuje)"
 
 #: ../src/external/lua-scripts/lib/dtutils/string.lua:1019
 #: ../src/gui/gtkentry.c:113
@@ -13764,7 +13762,7 @@ msgstr "Do vybraných obrázků vykreslí text s metadaty."
 #: ../src/external/lua-scripts/official/generate_image_txt.lua:68
 #, fuzzy
 msgid "create txt sidecars to display with images"
-msgstr "vytvářet doprovodné txt soubory k zobrazení u obrázků"
+msgstr "vytvořit pomocné txt soubory k zobrazení u obrázků"
 
 #: ../src/external/lua-scripts/official/generate_image_txt.lua:69
 #, fuzzy
@@ -13777,9 +13775,8 @@ msgstr ""
 "Navíc je potřeba povolit zobrazení textového překryvu v záložce nastavení GUI."
 
 #: ../src/external/lua-scripts/official/generate_image_txt.lua:75
-#, fuzzy
 msgid "command to generate the txt sidecar"
-msgstr "příkaz pro vytvoření doprovodného textového souboru"
+msgstr "příkaz pro vytvoření pomocného textového souboru"
 
 #: ../src/external/lua-scripts/official/generate_image_txt.lua:76
 #, fuzzy
@@ -15746,10 +15743,9 @@ msgstr "aktualizovat Lua skripty z repozitáře"
 
 #. add additional scripts
 #: ../src/external/lua-scripts/tools/script_manager.lua:1430
-#, fuzzy
 msgid ""
 "enter the URL of the git repository containing the scripts you wish to add"
-msgstr "Zadejte URL Git repozitáře se skripty, které chcete přidat."
+msgstr "zadejte URL adresu git repozitáře obsahujícího skripty k přidání"
 
 # placeholder
 #: ../src/external/lua-scripts/tools/script_manager.lua:1435
@@ -15772,12 +15768,10 @@ msgstr "nová složka, kam budou skripty staženy"
 
 # label
 #: ../src/external/lua-scripts/tools/script_manager.lua:1446
-#, fuzzy
 msgid "install additional scripts"
 msgstr "instalovat další skripty"
 
 #: ../src/external/lua-scripts/tools/script_manager.lua:1454
-#, fuzzy
 msgid "enable \"disable scripts\" button"
 msgstr "povolit tlačítko \"zakázat skripty\""
 
@@ -15787,9 +15781,8 @@ msgid "disable scripts"
 msgstr "zakázat skripty"
 
 #: ../src/external/lua-scripts/tools/script_manager.lua:1472
-#, fuzzy
 msgid "lua scripts will not run the next time darktable is started"
-msgstr "Při příštím startu darktable nebudou Lua skripty aktivovány."
+msgstr "Lua skripty se nespustí při příštím spuštění darktable"
 
 # label
 #: ../src/external/lua-scripts/tools/script_manager.lua:1486
@@ -15908,7 +15901,7 @@ msgstr ""
 "Žádné plné náhledy k vygenerování, hotovo.\n"
 
 #: ../src/generate-cache/main.c:247
-#, fuzzy, c-format
+#, c-format
 msgid "error: ensure that min_mip <= max_mip\n"
 msgstr "chyba: ujistěte se, že min_mip <= max_mip\n"
 
@@ -30194,7 +30187,6 @@ msgid ""
 msgstr "provádí změny v historii úprav aktuálně vybraných obrázků"
 
 #: ../src/libs/copy_history.c:113
-#, fuzzy
 msgid "open sidecar file"
 msgstr "otevřít pomocný soubor"
 
@@ -30267,21 +30259,18 @@ msgid ""
 msgstr "zahodit historii úprav všech vybraných obrázků"
 
 #: ../src/libs/copy_history.c:334
-#, fuzzy
 msgid "load sidecar file..."
 msgstr "načíst pomocný soubor..."
 
 #: ../src/libs/copy_history.c:335
-#, fuzzy
 msgid ""
 "open an XMP sidecar file\n"
 "and apply it to selected images"
-msgstr "Otevřít doprovodný XMP soubor a použít jej na vybrané snímky"
+msgstr "otevřít pomocný XMP soubor a použít jej na vybrané snímky"
 
 #: ../src/libs/copy_history.c:340
-#, fuzzy
 msgid "write history stack and tags to XMP sidecar files"
-msgstr "zapsat historii úprav a tagy do doprovodných souborů XMP"
+msgstr "zapsat historii úprav a tagy do pomocný XMP souborů"
 
 #: ../src/libs/duplicate.c:59
 msgid "duplicate manager"
