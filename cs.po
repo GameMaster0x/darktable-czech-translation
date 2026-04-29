@@ -891,9 +891,8 @@ msgid "session options"
 msgstr "nastavení sekce"
 
 #: ../build/bin/preferences_gen.h:2569
-#, fuzzy
 msgid "base filmroll's directory"
-msgstr "kořenová složka filmového pásu"
+msgstr "výchozí adresář filmového pásu"
 
 #: ../build/bin/preferences_gen.h:2580 ../build/bin/preferences_gen.h:2602
 #: ../build/bin/preferences_gen.h:2619 ../build/bin/preferences_gen.h:2641
@@ -949,7 +948,7 @@ msgstr "kořenová složka filmového pásu"
 #: ../build/bin/preferences_gen.h:4769 ../build/bin/preferences_gen.h:4843
 #, c-format
 msgid "double click to reset to `%s'"
-msgstr "dvojitým kliknutím resetujete na `%s'"
+msgstr "dvojitým kliknutím resetujete na \"%s\""
 
 #: ../build/bin/preferences_gen.h:2582
 #, fuzzy
@@ -3354,9 +3353,8 @@ msgstr "posun expozice"
 #: ../build/lib/darktable/plugins/introspection_basecurve.c:146
 #: ../build/lib/darktable/plugins/introspection_basecurve.c:239
 #: ../src/common/collection.c:648 ../src/libs/metadata_view.c:152
-#, fuzzy
 msgid "exposure bias"
-msgstr "zkreslení expozice"
+msgstr "posun expozice"
 
 #: ../build/lib/darktable/plugins/introspection_basecurve.c:152
 #: ../build/lib/darktable/plugins/introspection_basecurve.c:243
@@ -5024,9 +5022,8 @@ msgstr "cílová úroveň"
 
 #: ../build/lib/darktable/plugins/introspection_exposure.c:96
 #: ../build/lib/darktable/plugins/introspection_exposure.c:165
-#, fuzzy
 msgid "compensate exposure bias"
-msgstr "kompenzace zkreslení expozice"
+msgstr "kompenzace posunu expozice"
 
 #: ../build/lib/darktable/plugins/introspection_exposure.c:183
 #: ../build/lib/darktable/plugins/introspection_levels.c:160
@@ -5307,7 +5304,6 @@ msgstr "překlopit diagonálně a otočit"
 
 #: ../build/lib/darktable/plugins/introspection_globaltonemap.c:60
 #: ../build/lib/darktable/plugins/introspection_globaltonemap.c:125
-#, fuzzy
 msgid "bias"
 msgstr "posun"
 
@@ -5378,7 +5374,6 @@ msgstr "kombinovat"
 
 #: ../build/lib/darktable/plugins/introspection_highlights.c:179
 #: ../build/lib/darktable/plugins/introspection_highlights.c:268
-#, fuzzy
 msgid "rebuild"
 msgstr "znovu sestavit"
 
@@ -5404,7 +5399,6 @@ msgid "clip highlights"
 msgstr "vystřihnout světla"
 
 #: ../build/lib/darktable/plugins/introspection_highlights.c:289
-#, fuzzy
 msgid "segmentation based"
 msgstr "na základě segmentace"
 
@@ -5792,9 +5786,8 @@ msgstr "filmová surovina"
 
 #: ../build/lib/darktable/plugins/introspection_negadoctor.c:132
 #: ../build/lib/darktable/plugins/introspection_negadoctor.c:231
-#, fuzzy
 msgid "scan exposure bias"
-msgstr "posunutí expozice skenu"
+msgstr "posun expozice skenu"
 
 #: ../build/lib/darktable/plugins/introspection_negadoctor.c:138
 #: ../build/lib/darktable/plugins/introspection_negadoctor.c:235
@@ -6148,7 +6141,6 @@ msgstr "RGB, propojené kanály"
 
 #: ../build/lib/darktable/plugins/introspection_rgbcurve.c:247
 #: ../build/lib/darktable/plugins/introspection_rgblevels.c:149
-#, fuzzy
 msgid "RGB, independent channels"
 msgstr "RGB, nezávislé kanály"
 
@@ -6214,7 +6206,6 @@ msgid "Lab, linked channels"
 msgstr "Lab, propojené kanály"
 
 #: ../build/lib/darktable/plugins/introspection_tonecurve.c:264
-#, fuzzy
 msgid "Lab, independent channels"
 msgstr "Lab, nezávislé kanály"
 
@@ -6461,14 +6452,12 @@ msgid "Virtual dark room, sharpening an image"
 msgstr "Virtuální editor, zaostření obrázku"
 
 #: ../data/org.darktable.darktable.appdata.xml.in.h:8
-#, fuzzy
 msgid "Show images on a map"
-msgstr "Zobrazit obrázky na mapě"
+msgstr "zobrazit obrázky na mapě"
 
 #: ../data/org.darktable.darktable.appdata.xml.in.h:9
-#, fuzzy
 msgid "Print your images"
-msgstr "Tisk vašich obrázků"
+msgstr "tisk vašich obrázků"
 
 #: ../src/bauhaus/bauhaus.c:927 ../src/bauhaus/bauhaus.c:4087
 #: ../src/iop/colorequal.c:3016
@@ -6496,21 +6485,19 @@ msgstr ""
 "nebo při tažení podržte Ctrl+Shift, abyste ignorovali jemné limity."
 
 #: ../src/bauhaus/bauhaus.c:3755
-#, fuzzy
 msgid "button on"
 msgstr "tlačítko zapnout"
 
 #: ../src/bauhaus/bauhaus.c:3755
-#, fuzzy
 msgid "button off"
 msgstr "tlačítko vypnout"
 
 #: ../src/bauhaus/bauhaus.c:3756
-#, fuzzy
 msgid "button pressed"
 msgstr "stisknuté tlačítko"
 
 #: ../src/bauhaus/bauhaus.c:3992
+#, fuzzy
 msgid "not that many sliders"
 msgstr "ne tolik posuvníků"
 
@@ -6605,7 +6592,6 @@ msgstr ""
 "max dE: %.02f"
 
 #: ../src/cli/main.c:284
-#, fuzzy
 msgid "TODO: sorry, due to API restrictions we currently cannot set the BPP to"
 msgstr ""
 "TODO: omlouváme se, kvůli omezením API aktuálně nemůžeme nastavit BPP na"
@@ -6704,7 +6690,6 @@ msgstr ""
 
 #. output file exists or there's output ext specified and it's same as file...
 #: ../src/cli/main.c:560
-#, fuzzy
 msgid "output file already exists, it will get renamed"
 msgstr "výstupní soubor již existuje, bude přejmenován"
 
@@ -6729,9 +6714,9 @@ msgid "error: can't open file %s"
 msgstr "chyba: nelze otevřít soubor %s"
 
 #: ../src/cli/main.c:658
-#, fuzzy, c-format
+#, c-format
 msgid "no images to export, aborting\n"
-msgstr "žádné obrázky k exportu, konec\n"
+msgstr "žádné obrázky k exportu, přerušeno\n"
 
 #: ../src/cli/main.c:675
 #, c-format
@@ -6744,13 +6729,13 @@ msgstr "vymazat historii úprav"
 
 #. too long ext, no point in wasting time
 #: ../src/cli/main.c:708
-#, fuzzy, c-format
+#, c-format
 msgid "too long output file extension: %s\n"
 msgstr "příliš dlouhá přípona výstupního souboru: %s\n"
 
 #. no ext or empty ext, no point in wasting time
 #: ../src/cli/main.c:716
-#, fuzzy, c-format
+#, c-format
 msgid "no output file extension given\n"
 msgstr "není uvedena přípona výstupního souboru\n"
 
@@ -6808,7 +6793,7 @@ msgstr "soubor nenalezen: %s"
 
 #: ../src/common/ai_models.c:1254
 msgid "failed to extract model archive"
-msgstr ""
+msgstr "nepodařilo se rozbalit archiv modelu"
 
 #: ../src/common/ai_models.c:1285
 msgid "model not found in registry"
@@ -6825,7 +6810,6 @@ msgid "invalid asset filename"
 msgstr "neplatná velikost papíru"
 
 #: ../src/common/ai_models.c:1308
-#, fuzzy
 msgid "model is already downloading"
 msgstr "model se již stahuje"
 
@@ -6836,7 +6820,7 @@ msgstr "neplatný formát repozitáře"
 #: ../src/common/ai_models.c:1364
 #, c-format
 msgid "no compatible ai model release found for darktable %s"
-msgstr ""
+msgstr "nebylo nalezeno žádné kompatibilní vydání AI modelu pro darktable %s"
 
 #: ../src/common/ai_models.c:1380
 #, c-format
@@ -6844,12 +6828,12 @@ msgid ""
 "could not obtain checksum for %s — refusing to download without integrity "
 "verification"
 msgstr ""
+"nepodařilo se získat kontrolní součet pro %s – stahovat bez ověření integrity "
+"není možné"
 
 #: ../src/common/ai_models.c:1398
-#, fuzzy
-#| msgid "failed to download scripts"
 msgid "failed to build download url"
-msgstr "Nezdařilo se stáhnout skripty."
+msgstr "chyba sestavení URL adresy stažení"
 
 #: ../src/common/ai_models.c:1409
 #, c-format
@@ -8277,20 +8261,18 @@ msgstr ""
 "rychle vedený filtr nedokázal přidělit paměť, zkontrolujte nastavení RAM"
 
 #: ../src/common/film.c:341
-#, fuzzy
 msgid "do you want to delete this empty directory?"
 msgid_plural "do you want to delete these empty directories?"
 msgstr[0] "chcete odstranit tuto prázdnou složku?"
 msgstr[1] "chcete odstranit tyto prázdné složky?"
-msgstr[2] "chcete odstranit tyto prázdných složek?"
+msgstr[2] "chcete odstranit tyto prázdné složek?"
 
 #: ../src/common/film.c:348
-#, fuzzy
 msgid "delete empty directory?"
 msgid_plural "delete empty directories?"
 msgstr[0] "odstranit prázdnou složku?"
 msgstr[1] "odstranit prázdné složky?"
-msgstr[2] "odstranit prázdných složek?"
+msgstr[2] "odstranit prázdné složky?"
 
 #: ../src/common/film.c:361 ../src/gui/preferences.c:949
 #: ../src/gui/preferences_ai.c:1493 ../src/gui/styles_dialog.c:571
@@ -8357,14 +8339,14 @@ msgid "can't create a duplicate in GIMP mode"
 msgstr "nemohu vytvořit duplikát v režimu GIMPu"
 
 #: ../src/common/image.c:2442
-#, fuzzy, c-format
+#, c-format
 msgid "cannot access local copy `%s'"
-msgstr "nelze získat přístup k lokální kopii `%s'"
+msgstr "nelze získat přístup k lokální kopii \"%s\""
 
 #: ../src/common/image.c:2449
-#, fuzzy, c-format
+#, c-format
 msgid "cannot write local copy `%s'"
-msgstr "nelze zapsat lokální kopii `%s'"
+msgstr "nelze zapsat lokální kopii \"%s\""
 
 #: ../src/common/image.c:2456
 #, fuzzy, c-format
@@ -8657,7 +8639,7 @@ msgid "no suitable OpenCL devices found"
 msgstr "nenalezena žádná vhodná zařízení OpenCL"
 
 #: ../src/common/opencl.c:1473
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "OpenCL initializing problem:\n"
 "%s\n"
@@ -8731,9 +8713,8 @@ msgstr[1] "aplikuji hodnocení %d na %d obrázky"
 msgstr[2] "aplikuji hodnocení %d na %d obrázků"
 
 #: ../src/common/ratings.c:249
-#, fuzzy
 msgid "no images selected to apply rating"
-msgstr "nejsou vybrány obrázky pro přiřazení hodnocení"
+msgstr "žádné vybrány obrázky pro přiřazení hodnocení"
 
 #: ../src/common/ratings.c:313 ../src/libs/metadata_view.c:396
 msgid "image rejected"
@@ -25034,7 +25015,6 @@ msgstr ""
 "použití barevně bezpečného zjasnění podobné zvýšení nastavení ISO"
 
 #: ../src/iop/exposure.c:315
-#, fuzzy
 msgid "magic lantern defaults"
 msgstr "výchozí nastavení magic lantern"
 
@@ -25067,13 +25047,12 @@ msgid "%.2f EV"
 msgstr "%.2f EV"
 
 #: ../src/iop/exposure.c:1199
-#, fuzzy
 msgid ""
 "automatically remove the camera exposure bias\n"
 "this is useful if you exposed the image to the right."
 msgstr ""
-"automaticky odstraní zkreslení expozice fotoaparátu\n"
-"to je užitečné, pokud exponujete obrázek vpravo."
+"automaticky odstranit posun expozice fotoaparátu\n"
+"to je užitečné, pokud exponujete obrázek doprava"
 
 # tooltip
 #: ../src/iop/exposure.c:1205
