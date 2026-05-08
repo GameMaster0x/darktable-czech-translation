@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: darktable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-28 23:07+0200\n"
+"POT-Creation-Date: 2026-04-29 21:40+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: František Ferenz <ferenz@pm.me>\n"
 "Language-Team: \n"
@@ -4488,9 +4488,8 @@ msgstr "silný"
 
 #: ../build/lib/darktable/plugins/introspection_defringe.c:47
 #: ../build/lib/darktable/plugins/introspection_defringe.c:102
-#, fuzzy
 msgid "edge detection radius"
-msgstr "rádius detekce hran"
+msgstr "poloměr detekce hran"
 
 #: ../build/lib/darktable/plugins/introspection_defringe.c:53
 #: ../build/lib/darktable/plugins/introspection_defringe.c:106
@@ -4499,7 +4498,6 @@ msgstr "rádius detekce hran"
 #: ../src/iop/atrous.c:1638 ../src/iop/bloom.c:386
 #: ../src/iop/colorreconstruction.c:1222 ../src/iop/hotpixels.c:445
 #: ../src/iop/sharpen.c:427
-#, fuzzy
 msgid "threshold"
 msgstr "práh"
 
@@ -5065,16 +5063,14 @@ msgstr "cíl středně šedá"
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:272
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:463
 #: ../src/iop/filmic.c:1603
-#, fuzzy
 msgid "target black luminance"
-msgstr "cílový černý jas"
+msgstr "cílový jas černé"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:278
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:467
 #: ../src/iop/filmic.c:1621
-#, fuzzy
 msgid "target white luminance"
-msgstr "cílová bílá svítivost"
+msgstr "cílová jas bílé"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:284
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:471
@@ -5092,13 +5088,11 @@ msgstr "extrémní sytost jasu"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:308
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:487
-#, fuzzy
 msgid "shadows ↔ highlights balance"
 msgstr "vyvážení stíny ↔ světla"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:314
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:491
-#, fuzzy
 msgid "add noise in highlights"
 msgstr "přidat šum ve světlech"
 
@@ -5115,13 +5109,11 @@ msgstr "color science"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:332
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:503
-#, fuzzy
 msgid "auto adjust hardness"
 msgstr "automatické nastavení tvrdosti"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:338
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:507
-#, fuzzy
 msgid "use custom middle-gray values"
 msgstr "použijte vlastní hodnoty střední šedé"
 
@@ -5133,7 +5125,6 @@ msgstr "iterace vysoce kvalitní rekonstrukce"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:350
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:515
-#, fuzzy
 msgid "type of noise"
 msgstr "druh šumu"
 
@@ -6460,14 +6451,14 @@ msgid "buttons"
 msgstr "tlačítka"
 
 #: ../src/bauhaus/bauhaus.c:1169
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%sright-click to type a specific value between <b>%s</b> and <b>%s</b>\n"
 "or hold ctrl+shift while dragging to ignore soft limits."
 msgstr ""
-"%s kliknutím pravým tlačítkem myši zadejte konkrétní hodnotu mezi <b>%s</b> a "
+"%s kliknutím pravým tlačítkem pro zadání konkrétní hodnoty mezi <b>%s</b> a "
 "<b>%s</b>\n"
-"nebo při tažení podržte Ctrl+Shift, abyste ignorovali jemné limity."
+"nebo při tažení podržte Ctrl+Shift pro ignoraci limitů"
 
 #: ../src/bauhaus/bauhaus.c:3755
 msgid "button on"
@@ -10897,12 +10888,12 @@ msgstr "přejmenovat"
 #: ../src/develop/imageop.c:1152 ../src/develop/imageop.c:3030
 #, c-format
 msgid "'%s' is switched on"
-msgstr "'%s' je zapnutý"
+msgstr "“%s” je aktivní"
 
 #: ../src/develop/imageop.c:1152 ../src/develop/imageop.c:3030
 #, c-format
 msgid "'%s' is switched off"
-msgstr "'%s' je vypnutý"
+msgstr "“%s” je neaktivní"
 
 #: ../src/develop/imageop.c:1718 ../src/libs/lib.c:885
 #, c-format
@@ -10910,9 +10901,9 @@ msgid "%s: %s"
 msgstr "%s: %s"
 
 #: ../src/develop/imageop.c:2210
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' has an introspection error"
-msgstr "V modulu '%s' došlo k vnitřní chybě."
+msgstr "v modulu '%s' došlo k vnitřní chybě"
 
 #: ../src/develop/imageop.c:2848
 msgid "unknown mask"
@@ -13846,6 +13837,12 @@ msgstr ""
 #. set to hide for libs since we can't destroy them commpletely yet
 #. how to restart the (lib) script after it's been hidden - i.e. make it visible again
 #. only required for libs since the destroy_method only hides them
+#: ../src/external/lua-scripts/official/group_persistence.lua:120
+#, fuzzy
+#| msgid "group leaders"
+msgid "group persistence"
+msgstr "vedoucí skupin"
+
 #. name of script
 #: ../src/external/lua-scripts/official/group_persistence.lua:121
 #, fuzzy
@@ -14274,10 +14271,17 @@ msgstr "soubor nenalezen"
 #. set to hide for libs since we can't destroy them commpletely yet
 #. how to restart the (lib) script after it's been hidden - i.e. make it visible again
 #. only required for libs since the destroy_method only hides them
+#. - - - - - - - - - - - - - - - - - - - - - - -
+#. D A R K T A B L E  I N T E G R A T I O N
+#. - - - - - - - - - - - - - - - - - - - - - - -
+#. - - - - - - - - - - - - - - - - - - - - - - -
+#. E V E N T S
+#. - - - - - - - - - - - - - - - - - - - - - - -
 #: ../src/external/lua-scripts/official/regenerate_thumbnails.lua:79
+#: ../src/external/lua-scripts/official/regenerate_thumbnails.lua:246
 #, fuzzy
 #| msgid "reset cached thumbnails"
-msgid "regenerate_thumbnails"
+msgid "regenerate thumbnails"
 msgstr "resetovat miniatury uložené v mezipaměti"
 
 #. visible name of script
@@ -14316,6 +14320,12 @@ msgstr "vytvořit soubor PDF z vybraných obrázků"
 #. -----------------
 #. helper functions
 #. -----------------
+#: ../src/external/lua-scripts/official/regenerate_thumbnails.lua:176
+#, fuzzy
+#| msgid "reset cached thumbnails"
+msgid "regenerating thumbnails"
+msgstr "resetovat miniatury uložené v mezipaměti"
+
 #. - - - - - - - - - - - - - - - - - - - - - - -
 #. M A I N  P R O G R A M
 #. - - - - - - - - - - - - - - - - - - - - - - -
@@ -14329,12 +14339,6 @@ msgstr "vytvořit soubor PDF z vybraných obrázků"
 msgid "generate thumbnails"
 msgstr "generovat miniatury na pozadí"
 
-#. - - - - - - - - - - - - - - - - - - - - - - -
-#. D A R K T A B L E  I N T E G R A T I O N
-#. - - - - - - - - - - - - - - - - - - - - - - -
-#. - - - - - - - - - - - - - - - - - - - - - - -
-#. E V E N T S
-#. - - - - - - - - - - - - - - - - - - - - - - -
 #.
 #. This file is part of darktable,
 #. copyright (c) 2014 Jérémy Rosen
@@ -14464,6 +14468,12 @@ msgstr "prohodit výběr s dočasným bufferem"
 #. set to hide for libs since we can't destroy them commpletely yet
 #. how to restart the (lib) script after it's been hidden - i.e. make it visible again
 #. only required for libs since the destroy_method only hides them
+#: ../src/external/lua-scripts/official/scheduler.lua:98
+#, fuzzy
+#| msgid "search modules"
+msgid "scheduler"
+msgstr "hledat moduly"
+
 #. name of script
 #: ../src/external/lua-scripts/official/scheduler.lua:99
 msgid "provide scheduler services for multitasking"
@@ -14484,6 +14494,17 @@ msgstr ""
 #. - - - - - - - - - - - - - - - - - - - - - - -
 #. P R E F E R E N C E S
 #. - - - - - - - - - - - - - - - - - - - - - - -
+#: ../src/external/lua-scripts/official/scheduler.lua:130
+#, fuzzy
+#| msgctxt "preferences"
+#| msgid "scene-referred (filmic)"
+msgid "scheduler preferred time slice"
+msgstr "scene-referred (filmic)"
+
+#: ../src/external/lua-scripts/official/scheduler.lua:130
+msgid "target time slice before interrupt"
+msgstr ""
+
 #. - - - - - - - - - - - - - - - - - - - - - - -
 #. A L I A S E S
 #. - - - - - - - - - - - - - - - - - - - - - - -
@@ -14634,7 +14655,6 @@ msgstr "odebrat barevné značky z vybraných obrázků"
 msgid "select duplicated images"
 msgstr "vybrat duplicitní obrázky"
 
-# tooltip
 #.
 #.
 #. select_raw_non_raw.lua - select raw or non raw files from a collection
@@ -14694,6 +14714,13 @@ msgstr "vybrat duplicitní obrázky"
 #. set to hide for libs since we can't destroy them commpletely yet
 #. how to restart the (lib) script after it's been hidden - i.e. make it visible again
 #. only required for libs since the destroy_method only hides them
+#: ../src/external/lua-scripts/official/select_raw_non_raw.lua:91
+#, fuzzy
+#| msgid "select non raw"
+msgid "select raw/non-raw"
+msgstr "Vybrat ne-RAW"
+
+# tooltip
 #. name of script
 #: ../src/external/lua-scripts/official/select_raw_non_raw.lua:92
 msgid "select raw or non raw files from collection"
@@ -14735,11 +14762,15 @@ msgid "select raw files"
 msgstr "vybrat RAW soubory"
 
 #: ../src/external/lua-scripts/official/select_raw_non_raw.lua:161
-msgid "select non raw"
+#, fuzzy
+#| msgid "select non raw"
+msgid "select non-raw"
 msgstr "Vybrat ne-RAW"
 
 #: ../src/external/lua-scripts/official/select_raw_non_raw.lua:162
-msgid "select non raw files"
+#, fuzzy
+#| msgid "select non raw files"
+msgid "select non-raw files"
 msgstr "nebrat ne-RAW soubory"
 
 #. - - - - - - - - - - - - - - - - - - - - - - -
@@ -14804,15 +14835,6 @@ msgstr "nebrat ne-RAW soubory"
 #. set to hide for libs since we can't destroy them commpletely yet
 #. how to restart the (lib) script after it's been hidden - i.e. make it visible again
 #. only required for libs since the destroy_method only hides them
-#: ../src/external/lua-scripts/official/select_unaltered.lua:78
-msgid "select_unaltered"
-msgstr "vybrat needitované"
-
-#. visible name of script
-#: ../src/external/lua-scripts/official/select_unaltered.lua:79
-msgid "select images that have not been altered in any way"
-msgstr "vybrat pouze obrázky, které ještě nebyly editovány/modifikovány"
-
 #. purpose of script
 #. your name and optionally e-mail address
 #. URL to help/documentation
@@ -14845,9 +14867,15 @@ msgstr "vybrat pouze obrázky, které ještě nebyly editovány/modifikovány"
 #. - - - - - - - - - - - - - - - - - - - - - - -
 #. U S E R  I N T E R F A C E
 #. - - - - - - - - - - - - - - - - - - - - - - -
+#: ../src/external/lua-scripts/official/select_unaltered.lua:78
 #: ../src/external/lua-scripts/official/select_unaltered.lua:151
 msgid "select unaltered"
 msgstr "vybrat needitované"
+
+#. visible name of script
+#: ../src/external/lua-scripts/official/select_unaltered.lua:79
+msgid "select images that have not been altered in any way"
+msgstr "vybrat pouze obrázky, které ještě nebyly editovány/modifikovány"
 
 #: ../src/external/lua-scripts/official/select_unaltered.lua:152
 msgid "select unaltered files"
@@ -14933,7 +14961,7 @@ msgstr "vyberte needitované/nemodifikované soubory"
 #: ../src/external/lua-scripts/official/selection2collection.lua:94
 #, fuzzy
 #| msgid "actions on selection"
-msgid "selection2collection"
+msgid "selection to collection"
 msgstr "akce nad výběrem"
 
 #. visible name of script
@@ -15053,7 +15081,9 @@ msgid "selection to PDF"
 msgstr "výběr do PDF"
 
 #: ../src/external/lua-scripts/official/selection_to_pdf.lua:57
-msgid "generate a pdf file of selected images"
+#, fuzzy
+#| msgid "generate a pdf file of selected images"
+msgid "generate a PDF file of selected images"
 msgstr "vytvořit soubor PDF z vybraných obrázků"
 
 #. function to destory the script
@@ -15061,14 +15091,16 @@ msgstr "vytvořit soubor PDF z vybraných obrázků"
 #. how to restart the (lib) script after it's been hidden - i.e. make it visible again
 #. only required for libs since the destroy_method only hides them
 #: ../src/external/lua-scripts/official/selection_to_pdf.lua:69
-msgid "a pdf viewer"
+#, fuzzy
+#| msgid "a pdf viewer"
+msgid "a PDF viewer"
 msgstr "prohlížeč PDF"
 
 #: ../src/external/lua-scripts/official/selection_to_pdf.lua:70
 #, fuzzy
 msgid ""
 "can be an absolute pathname or the tool may be in the PATH\n"
-"if not specified the system default will be used to open the pdf"
+"if not specified the system default will be used to open the PDF"
 msgstr "Může být buďto absolutní cesta nebo příkaz dostupný na PATH."
 
 #: ../src/external/lua-scripts/official/selection_to_pdf.lua:78
@@ -15092,7 +15124,9 @@ msgstr "počet náhledů na řádek:"
 #. so \includegraphics{file.01.jpg} wont work. We need to output the filename
 #. and extention separated, e.g: \includegraphics{{file.01}.jpg}
 #: ../src/external/lua-scripts/official/selection_to_pdf.lua:137
-msgid "export thumbnails to pdf"
+#, fuzzy
+#| msgid "export thumbnails to pdf"
+msgid "export thumbnails to PDF"
 msgstr "export náhledů do PDF"
 
 #. convert to PDF
@@ -15103,7 +15137,9 @@ msgstr "Došlo k problému se spuštěním pdflatex."
 #. this one is probably usefull to the user
 #. open the PDF
 #: ../src/external/lua-scripts/official/selection_to_pdf.lua:203
-msgid "problem running pdf viewer"
+#, fuzzy
+#| msgid "problem running pdf viewer"
+msgid "problem running PDF viewer"
 msgstr "Došlo k problému se spuštěním PDF prohlížeče."
 
 #. this one is probably usefull to the user
@@ -22268,6 +22304,7 @@ msgid "color balance"
 msgstr "vyvážení barev"
 
 #: ../src/iop/colorbalance.c:154
+#, fuzzy
 msgid "lift gamma gain|cdl|color grading|contrast|saturation|hue"
 msgstr "zvýšit gamu zisk|cdl|barevné korekce|kontrast|sytost|odstín"
 
@@ -22504,7 +22541,6 @@ msgid "optimize the RGB curves to remove color casts"
 msgstr "optimalizujte křivky RGB pro odstranění barevných nádechů"
 
 #: ../src/iop/colorbalance.c:2009
-#, fuzzy
 msgctxt "section"
 msgid "auto optimizers"
 msgstr "automatické optimalizace"
@@ -22532,24 +22568,20 @@ msgstr ""
 "stíny, střední tóny a zvýraznění"
 
 #: ../src/iop/colorbalancergb.c:524
-#, fuzzy
 msgid "basic colorfulness | legacy"
 msgstr "základní barevnost | starší metoda"
 
 #: ../src/iop/colorbalancergb.c:533
-#, fuzzy
 msgid "basic colorfulness | natural skin"
-msgstr "základní barevnost | přírodní pokožka"
+msgstr "základní barevnost | přirozená pokožka"
 
 #: ../src/iop/colorbalancergb.c:539
-#, fuzzy
 msgid "basic colorfulness | vibrant colors"
 msgstr "základní barevnost | živé barvy"
 
 #: ../src/iop/colorbalancergb.c:545
-#, fuzzy
 msgid "basic colorfulness | standard"
-msgstr "základní barevnost | standard"
+msgstr "základní barevnost | standardní"
 
 #: ../src/iop/colorbalancergb.c:962
 #, fuzzy
@@ -23047,7 +23079,7 @@ msgstr ""
 
 #: ../src/iop/colorcorrection.c:68
 msgid "color correction"
-msgstr "barevné korekce"
+msgstr "korekce barev"
 
 #: ../src/iop/colorcorrection.c:73
 #, fuzzy
@@ -23483,7 +23515,7 @@ msgstr ""
 #: ../src/iop/colorin.c:127 ../src/iop/colorout.c:86 ../src/iop/demosaic.c:317
 #: ../src/iop/rawprepare.c:170
 msgid "mandatory"
-msgstr "povinné"
+msgstr "mandatorní"
 
 #: ../src/iop/colorin.c:129 ../src/iop/colorout.c:88
 msgid "defined by profile"
@@ -27700,17 +27732,15 @@ msgstr[2] ""
 #: ../src/iop/rasterfile.c:206 ../src/iop/rasterfile.c:217
 #: ../src/iop/rasterfile.c:225 ../src/iop/rasterfile.c:236
 #: ../src/iop/rasterfile.c:285
-#, fuzzy, c-format
+#, c-format
 msgid "can't read raster mask file '%s'"
-msgstr "Soubor s rastrovou maskou nelze načíst: %s"
+msgstr "soubor s rastrovou maskou nelze načíst: ‘%s’"
 
 #: ../src/iop/rasterfile.c:371
-#, fuzzy
 msgid "raster mask files root folder not defined"
-msgstr "Kořenový adresář rastrových masek není definován."
+msgstr "kořenový adresář rastrových masek není definován"
 
 #: ../src/iop/rasterfile.c:378
-#, fuzzy
 msgid "select raster mask file"
 msgstr "vyberte soubor s rastrovou maskou"
 
@@ -27746,7 +27776,6 @@ msgstr "Cesta k souboru s maskou je uložena spolu s historií úprav obrázku."
 
 #. Vectorize button
 #: ../src/iop/rasterfile.c:761
-#, fuzzy
 msgid "vectorize"
 msgstr "vektorizovat"
 
@@ -27783,9 +27812,8 @@ msgstr ""
 #: ../src/iop/rawoverexposed.c:65 ../src/views/darkroom.c:2952
 #: ../src/views/darkroom.c:2975 ../src/views/darkroom.c:2985
 #: ../src/views/darkroom.c:3001
-#, fuzzy
 msgid "raw overexposed"
-msgstr "přeexponovaný raw"
+msgstr "raw je přeexponovaný"
 
 #: ../src/iop/rawprepare.c:96
 msgctxt "modulename"
@@ -27794,22 +27822,20 @@ msgstr "RAW černý/bílý bod"
 
 # module description
 #: ../src/iop/rawprepare.c:168
-#, fuzzy
 msgid ""
 "sets technical specificities of the raw sensor\n"
 "\n"
 "touch with great care!"
 msgstr ""
-"Umožňuje úpravy interpretace hrubých dat ze snímače.\n"
+"nastavit technické specifikace RAW senzoru\n"
 "\n"
-"Opatrně s tím!"
+"nastavujte s velkou opatrností"
 
 #: ../src/iop/rawprepare.c:180
 msgid "passthrough"
 msgstr "průchod"
 
 #: ../src/iop/rawprepare.c:607
-#, fuzzy
 msgid "invalid crop parameters"
 msgstr "neplatné parametry ořezu"
 
@@ -28279,15 +28305,14 @@ msgstr "rotace bodů"
 
 # module description
 #: ../src/iop/rotatepixels.c:96
-#, fuzzy
 msgid ""
 "internal module to setup technical specificities of raw sensor\n"
 "\n"
 "you should not touch values here!"
 msgstr ""
-"Interní modul pro úpravy interpretace hrubých dat ze snímače.\n"
+"interní modul pro nastavení technických specifik RAW senzoru\n"
 "\n"
-"Zde byste neměli nic měnit."
+"zde byste neměli nic měnit"
 
 #: ../src/iop/scalepixels.c:53
 #, fuzzy
@@ -28769,7 +28794,6 @@ msgid "as shot"
 msgstr "jako snímek"
 
 #: ../src/iop/temperature.c:2080
-#, fuzzy
 msgid "set white balance to as shot"
 msgstr "nastavit vyvážení bílé podle snímku"
 
@@ -35994,6 +36018,9 @@ msgstr "přepnout na klasické okno, které po uvolnění klíče zůstane otev�
 msgid "mouse actions"
 msgstr "akce myši"
 
+#~ msgid "select_unaltered"
+#~ msgstr "vybrat needitované"
+
 #~ msgid "detail recovery"
 #~ msgstr "obnovení detailů"
 
@@ -36443,9 +36470,6 @@ msgstr "akce myši"
 
 #~ msgid "(AI) detect from image edges..."
 #~ msgstr "(UI) detekce z okrajů obrazu..."
-
-#~ msgid "group leaders"
-#~ msgstr "vedoucí skupin"
 
 #~ msgid "group followers"
 #~ msgstr "následovníci skupin"
