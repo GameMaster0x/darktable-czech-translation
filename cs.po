@@ -8771,19 +8771,16 @@ msgstr "obrázek hodnocen %s"
 #: ../src/common/ratings.c:346
 #: ../src/external/lua-scripts/tools/executable_manager.lua:220
 #: ../src/views/lighttable.c:1030
-#, fuzzy
 msgid "select"
-msgstr "výběr"
+msgstr "vybrat"
 
 #: ../src/common/ratings.c:347
-#, fuzzy
 msgid "upgrade"
-msgstr "povýšit"
+msgstr "upgrade"
 
 #: ../src/common/ratings.c:348
-#, fuzzy
 msgid "downgrade"
-msgstr "ponížit"
+msgstr "downgrade"
 
 #: ../src/common/ratings.c:352
 msgid "zero"
@@ -8814,7 +8811,7 @@ msgid "reject"
 msgstr "odmítnout"
 
 #: ../src/common/styles.c:255
-#, fuzzy, c-format
+#, c-format
 msgid "style with name '%s' already exists"
 msgstr "styl s názvem '%s' již existuje"
 
@@ -8824,7 +8821,7 @@ msgid "styles"
 msgstr "styly"
 
 #: ../src/common/styles.c:560 ../src/gui/styles_dialog.c:252
-#, fuzzy, c-format
+#, c-format
 msgid "style named '%s' successfully created"
 msgstr "styl s názvem '%s' byl úspěšně vytvořen"
 
@@ -8833,32 +8830,31 @@ msgid "no image selected!"
 msgstr "není vybrán žádný obrázek!"
 
 #: ../src/common/styles.c:744
-#, fuzzy, c-format
+#, c-format
 msgid "module `%s' version mismatch: %d != %d"
 msgstr "neshoda verze modulu `%s': %d <> %d"
 
 #: ../src/common/styles.c:1036
-#, fuzzy, c-format
+#, c-format
 msgid "applied style `%s' on current image"
 msgstr "styl `%s' byl použit na aktuální obrázek"
 
 #: ../src/common/styles.c:1300
-#, fuzzy, c-format
+#, c-format
 msgid "failed to overwrite style file for %s"
 msgstr "nepodařilo se přepsat soubor stylu pro %s"
 
 #: ../src/common/styles.c:1306
-#, fuzzy, c-format
+#, c-format
 msgid "style file for %s exists"
 msgstr "soubor stylu pro %s existuje"
 
 #: ../src/common/styles.c:1481 ../src/common/styles.c:1805
-#, fuzzy
 msgid "imported-style"
-msgstr "importováno-styl"
+msgstr "importován-styl"
 
 #: ../src/common/styles.c:1614
-#, fuzzy, c-format
+#, c-format
 msgid "style %s was successfully imported"
 msgstr "styl %s byl úspěšně importován"
 
@@ -9284,7 +9280,6 @@ msgstr[1] "zachycuji %d obrázky"
 msgstr[2] "zachycuji %d obrázků"
 
 #: ../src/control/jobs/camera_jobs.c:122
-#, fuzzy
 msgid "please set your camera to manual mode first!"
 msgstr "nejprve nastavte fotoaparát do manuálního režimu!"
 
@@ -9347,7 +9342,7 @@ msgid "images have to be of same size and orientation!"
 msgstr "obrázky musí mít stejnou velikost a orientaci!"
 
 #: ../src/control/jobs/control_jobs.c:640
-#, fuzzy, c-format
+#, c-format
 msgid "merging %d image"
 msgid_plural "merging %d images"
 msgstr[0] "slučuji %d obrázek"
@@ -9376,7 +9371,7 @@ msgstr[1] "převracím %d obrázky"
 msgstr[2] "převracím %d obrázků"
 
 #: ../src/control/jobs/control_jobs.c:818
-#, fuzzy, c-format
+#, c-format
 msgid "set %d color image"
 msgid_plural "setting %d color images"
 msgstr[0] "nastavuji barvu %d obrázku"
@@ -9384,7 +9379,7 @@ msgstr[1] "nastavuji barvu %d obrázků"
 msgstr[2] "nastavuji barvu %d obrázků"
 
 #: ../src/control/jobs/control_jobs.c:820
-#, fuzzy, c-format
+#, c-format
 msgid "set %d monochrome image"
 msgid_plural "setting %d monochrome images"
 msgstr[0] "nastavuji %d černobílý obrázek"
@@ -9409,7 +9404,7 @@ msgstr[1] "neodstranění obrázku '%s' použitého jako překrytí v %d obrázc
 msgstr[2] "neodstranění obrázku '%s' použitého jako překrytí v %d obrázcích"
 
 #: ../src/control/jobs/control_jobs.c:1055
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "could not send %s to trash%s\n"
 "%s\n"
@@ -9419,10 +9414,10 @@ msgstr ""
 "nelze přesunout %s do koše %s\n"
 "%s\n"
 "\n"
-"  chcete smazat soubor z disku bez použití koše?"
+" chcete odstranit soubor z disku bez použití koše?"
 
 #: ../src/control/jobs/control_jobs.c:1057
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "could not delete from disk %s%s\n"
 "%s"
@@ -9637,7 +9632,6 @@ msgid "flip images"
 msgstr "převrátit obrázky"
 
 #: ../src/control/jobs/control_jobs.c:2084
-#, fuzzy
 msgid "set monochrome images"
 msgstr "nastavit monochromatické obrázky"
 
@@ -18395,9 +18389,8 @@ msgstr "paměť"
 
 # dialog title
 #: ../src/gui/workspace.c:297
-#, fuzzy
 msgid "delete workspace"
-msgstr "Vymazat pracovní prostor"
+msgstr "odstranit pracovní prostor"
 
 #: ../src/gui/workspace.c:298
 #, fuzzy, c-format
@@ -18416,9 +18409,8 @@ msgstr ""
 
 # dialog title
 #: ../src/gui/workspace.c:409 ../src/gui/workspace.c:422
-#, fuzzy
 msgid "create workspace"
-msgstr "Vymazat pracovní prostor"
+msgstr "vytvořit pracovní prostor"
 
 #: ../src/gui/workspace.c:410
 msgid ""
@@ -18440,18 +18432,16 @@ msgid ""
 msgstr ""
 
 #: ../src/gui/workspace.c:569
-#, fuzzy
 msgid "darktable - select a workspace"
-msgstr "darktable - výběr pracovního prostoru"
+msgstr "darktable – výběr pracovního prostoru"
 
 #: ../src/gui/workspace.c:581
-#, fuzzy
 msgid "select an existing workspace"
-msgstr "Vyberte existující pracovní prostor"
+msgstr "vybrat existující pracovní prostor"
 
 #: ../src/gui/workspace.c:617
 msgid "remember selection and don't ask again"
-msgstr ""
+msgstr "zapamatovat výběr a již se neptat"
 
 #: ../src/gui/workspace.c:632
 msgid "or create a new one"
@@ -18462,9 +18452,8 @@ msgid "create"
 msgstr "vytvořit"
 
 #: ../src/gui/workspace.c:655
-#, fuzzy
 msgid "copy settings from existing workspace"
-msgstr "Vyberte existující pracovní prostor"
+msgstr "kopírovat nastavení z existujícího pracovního prostoru"
 
 #: ../src/imageio/format/avif.c:95 ../src/imageio/format/heif.c:644
 #: ../src/imageio/format/jxl.c:587 ../src/imageio/format/pdf.c:80
@@ -18515,7 +18504,6 @@ msgid "B&W as grayscale"
 msgstr "ČB jako odstíny šedi"
 
 #: ../src/imageio/format/avif.c:959 ../src/imageio/format/tiff.c:920
-#, fuzzy
 msgid "saving as grayscale will reduce the size for black & white images"
 msgstr "uložením ve stupních šedi se zmenší velikost černobílých obrázků"
 
@@ -18523,22 +18511,20 @@ msgstr "uložením ve stupních šedi se zmenší velikost černobílých obráz
 #. * Tiling combo box
 #.
 #: ../src/imageio/format/avif.c:968
-#, fuzzy
 msgid "tiling"
 msgstr "dlaždicování"
 
 #: ../src/imageio/format/avif.c:969
-#, fuzzy
 msgid ""
 "tile an image into segments.\n"
 "\n"
 "makes encoding faster, but increases the file size. the loss of image quality "
 "is negligible."
 msgstr ""
-"rozdělit obrázek na segmenty.\n"
+"rozdělit obrázek na segmenty\n"
 "\n"
-"zrychluje kódování, ale zvětšuje velikost souboru. ztráta kvality obrazu je "
-"zanedbatelná."
+"zrychluje kódování, ale zvětšuje velikost souboru\n"
+"ztráta kvality obrazu je zanedbatelná"
 
 #. compression
 #. Compression method combo box
@@ -18701,7 +18687,7 @@ msgid ""
 "4:2:2 - color sampling rate halved horizontally\n"
 "4:2:0 - color sampling rate halved horizontally and vertically"
 msgstr ""
-"nastavení podvzorkování barev pro kodér JPEG.\n"
+"nastavení subsamplingu barev pro HEIF enkodér.\n"
 "auto - použití dílčího vzorkování určeného hodnotou kvality\n"
 "4:4:4 - žádné podvzorkování barev\n"
 "4:4:0 - vzorkovací frekvence barev vertikálně poloviční\n"
@@ -18738,7 +18724,6 @@ msgid "JPEG (8-bit)"
 msgstr "JPEG (8-bitů)"
 
 #: ../src/imageio/format/jpeg.c:588
-#, fuzzy
 msgid ""
 "chroma subsampling setting for JPEG encoder.\n"
 "auto - use subsampling determined by the quality value\n"
@@ -18747,7 +18732,7 @@ msgid ""
 "4:2:2 - color sampling rate halved horizontally\n"
 "4:2:0 - color sampling rate halved horizontally and vertically"
 msgstr ""
-"nastavení podvzorkování barev pro kodér JPEG.\n"
+"nastavení subsamplingu barev pro JPEG enkodér.\n"
 "auto - použití dílčího vzorkování určeného hodnotou kvality\n"
 "4:4:4 - žádné podvzorkování barev\n"
 "4:4:0 - vzorkovací frekvence barev vertikálně poloviční\n"
@@ -18870,7 +18855,6 @@ msgid "border"
 msgstr "okraj"
 
 #: ../src/imageio/format/pdf.c:629
-#, fuzzy
 msgid ""
 "empty space around the PDF\n"
 "format: size + unit\n"
@@ -18884,20 +18868,18 @@ msgstr ""
 #: ../src/imageio/format/pdf.c:638 ../src/libs/export.c:1512
 #: ../src/libs/export.c:1540
 msgid "dpi"
-msgstr "dpi"
+msgstr "DPI"
 
 #: ../src/imageio/format/pdf.c:642
 msgid "dpi of the images inside the PDF"
-msgstr "dpi obrázků uvnitř PDF"
+msgstr "DPI obrázků v PDF"
 
 #. rotate images yes|no
 #: ../src/imageio/format/pdf.c:648
-#, fuzzy
 msgid "rotate images"
 msgstr "otáčet obrázky"
 
 #: ../src/imageio/format/pdf.c:649
-#, fuzzy
 msgid ""
 "images can be rotated to match the PDF orientation to waste less space when "
 "printing"
@@ -18911,23 +18893,20 @@ msgid "TODO: pages"
 msgstr "TODO: stránky"
 
 #: ../src/imageio/format/pdf.c:659
-#, fuzzy
 msgid "what pages should be added to the PDF"
-msgstr "jaké stránky by měly být přidány do PDF"
+msgstr "které stránky by měly být přidány do PDF"
 
 #: ../src/imageio/format/pdf.c:662
 msgid "single images"
 msgstr "jednotlivé obrázky"
 
 #: ../src/imageio/format/pdf.c:662
-#, fuzzy
 msgid "contact sheet"
 msgstr "kontaktní list"
 
 #. TODO
 #. embedded icc profile yes|no
 #: ../src/imageio/format/pdf.c:668
-#, fuzzy
 msgid "embed ICC profiles"
 msgstr "vestavěné ICC profily"
 
@@ -18990,7 +18969,6 @@ msgid "PPM (16-bit)"
 msgstr "PPM (16-bitů)"
 
 #: ../src/imageio/format/tiff.c:902
-#, fuzzy
 msgid "deflate with predictor"
 msgstr "deflate s predikcí"
 
@@ -19329,7 +19307,6 @@ msgid "parent album"
 msgstr "nadřazené album"
 
 #: ../src/imageio/storage/piwigo.c:1154
-#, fuzzy
 msgid "click login button to start"
 msgstr "začněte kliknutím na tlačítko přihlášení"
 
@@ -19359,9 +19336,8 @@ msgid "update metadata"
 msgstr "aktualizovat metadata"
 
 #: ../src/imageio/storage/piwigo.c:1289
-#, fuzzy
 msgid "not logged in to Piwigo server!"
-msgstr "Přihlášení na Piwigo se nezdařilo!"
+msgstr "přihlášení do služby Piwigo se nezdařilo!"
 
 #: ../src/imageio/storage/piwigo.c:1384
 msgid "cannot create a new Piwigo album!"
@@ -19565,14 +19541,13 @@ msgstr "sníží nebo zvýší kontrast a jas"
 
 # tooltip
 #: ../src/iop/agx.c:1900
-#, fuzzy
 msgid "deepen or lift shadows"
-msgstr "Prohloubí nebo prosvětlí stíny."
+msgstr "ztmaví nebo zesvětlí stíny"
 
 # tooltip
 #: ../src/iop/agx.c:1904
 msgid "increase or decrease brightness"
-msgstr "sníží nebo zvýší jas."
+msgstr "sníží nebo zvýší jas"
 
 # tooltip
 #: ../src/iop/agx.c:1911
@@ -19612,7 +19587,6 @@ msgstr "rozšířené parametry křivky"
 
 # tooltip
 #: ../src/iop/agx.c:1987
-#, fuzzy
 msgid ""
 "length to keep curve linear above the pivot.\n"
 "may clip highlights"
@@ -19622,7 +19596,6 @@ msgstr ""
 
 # tooltip
 #: ../src/iop/agx.c:1996
-#, fuzzy
 msgid "max linear output power"
 msgstr "Maximální hodnota lineárního výstupu"
 
@@ -28101,24 +28074,20 @@ msgid "algorithms:"
 msgstr "algoritmy:"
 
 #: ../src/iop/retouch.c:2464 ../src/iop/retouch.c:2487
-#, fuzzy
 msgid "activate blur tool"
 msgstr "aktivovat nástroj rozostření"
 
 #: ../src/iop/retouch.c:2469 ../src/iop/retouch.c:2488
-#, fuzzy
 msgid "activate fill tool"
 msgstr "aktivovat nástroj výplně"
 
 #: ../src/iop/retouch.c:2474 ../src/iop/retouch.c:2489
-#, fuzzy
 msgid "activate cloning tool"
 msgstr "aktivovat klonovací nástroj"
 
 #: ../src/iop/retouch.c:2479 ../src/iop/retouch.c:2490
-#, fuzzy
 msgid "activate healing tool"
-msgstr "aktivovat léčebný nástroj"
+msgstr "aktivovat retušovací nástroj"
 
 #: ../src/iop/retouch.c:2485
 #, fuzzy
@@ -28131,7 +28100,6 @@ msgid "shift+click to set the tool as default"
 msgstr "Shift+klik nastavíte nástroj jako výchozí"
 
 #: ../src/iop/retouch.c:2497
-#, fuzzy
 msgid "scales:"
 msgstr "měřítka:"
 
@@ -28179,12 +28147,10 @@ msgid "cut shapes from current scale"
 msgstr "vyjmout tvary z aktuálního měřítka"
 
 #: ../src/iop/retouch.c:2577
-#, fuzzy
 msgid "display wavelet scale"
-msgstr "zobrazení vlnkové stupnice"
+msgstr "zobrazit vlnkovou stupnici"
 
 #: ../src/iop/retouch.c:2591
-#, fuzzy
 msgid "adjust preview levels"
 msgstr "upravit úrovně náhledu"
 
@@ -28218,22 +28184,18 @@ msgid "erase the detail or fills with chosen color"
 msgstr "vymazat detail nebo výplně zvolenou barvou"
 
 #: ../src/iop/retouch.c:2640 ../src/iop/retouch.c:2641
-#, fuzzy
 msgid "select fill color"
 msgstr "vybrat barvu výplně"
 
 #: ../src/iop/retouch.c:2649
-#, fuzzy
 msgid "pick fill color from image"
 msgstr "vybrat barvu výplně z obrázku"
 
 #: ../src/iop/retouch.c:2650
-#, fuzzy
 msgid "pick fill color"
 msgstr "vybrat barvu výplně"
 
 #: ../src/iop/retouch.c:2653
-#, fuzzy
 msgid "fill color: "
 msgstr "barva výplně: "
 
@@ -28248,14 +28210,12 @@ msgid "type for the blur algorithm"
 msgstr "zadejte pro algoritmus rozostření"
 
 #: ../src/iop/retouch.c:2672
-#, fuzzy
 msgid "radius of the selected blur type"
 msgstr "poloměr vybraného typu rozostření"
 
 #: ../src/iop/retouch.c:2679
-#, fuzzy
 msgid "set the opacity on the selected shape"
-msgstr "nastavte neprůhlednost na vybraném tvaru"
+msgstr "nastavit krytí na vybraném tvaru"
 
 #: ../src/iop/retouch.c:2685
 msgctxt "section"
@@ -28274,9 +28234,9 @@ msgid "shapes"
 msgstr "tvary"
 
 #: ../src/iop/retouch.c:3834 ../src/iop/retouch.c:4650
-#, fuzzy, c-format
+#, c-format
 msgid "max scale is %i for this image size"
-msgstr "maximální měřítko je %i pro tuto velikost obrázku"
+msgstr "maximální měřítko pro tuto velikost obrázku je %i"
 
 #: ../src/iop/rgbcurve.c:118
 msgid "rgb curve"
@@ -28288,7 +28248,6 @@ msgid "alter an image’s tones using curves in RGB color space"
 msgstr "změnit tóny obrázku pomocí křivek v barevném prostoru RGB"
 
 #: ../src/iop/rgbcurve.c:183
-#, fuzzy
 msgid "contrast | compression"
 msgstr "kontrast | komprese"
 
@@ -28433,14 +28392,12 @@ msgid "compress"
 msgstr "komprimovat"
 
 #: ../src/iop/shadhi.c:691
-#, fuzzy
 msgid "correct shadows"
-msgstr "opravit stíny"
+msgstr "korekce stínů"
 
 #: ../src/iop/shadhi.c:692
-#, fuzzy
 msgid "correct highlights"
-msgstr "opravit světla"
+msgstr "korekce světel"
 
 #: ../src/iop/shadhi.c:693
 msgid "shift white point"
@@ -28461,12 +28418,10 @@ msgstr ""
 "zachovat střední tóny"
 
 #: ../src/iop/shadhi.c:697
-#, fuzzy
 msgid "adjust saturation of shadows"
 msgstr "upravit sytost stínů"
 
 #: ../src/iop/shadhi.c:698
-#, fuzzy
 msgid "adjust saturation of highlights"
 msgstr "upravit sytost světel"
 
@@ -28521,7 +28476,6 @@ msgstr ""
 "workflow s možností zachovat barevnost obrázku."
 
 #: ../src/iop/sigmoid.c:258
-#, fuzzy
 msgid "neutral gray"
 msgstr "neutrální šedá"
 
@@ -28646,22 +28600,18 @@ msgid "soften"
 msgstr "změkčení"
 
 #: ../src/iop/soften.c:98
-#, fuzzy
 msgid "create a softened image using the Orton effect"
-msgstr "vytvořte změkčený obraz pomocí Ortonova efektu"
+msgstr "vytvořit změkčený obraz pomocí Ortonova efektu"
 
 #: ../src/iop/soften.c:374
-#, fuzzy
 msgid "the size of blur"
 msgstr "velikost rozostření"
 
 #: ../src/iop/soften.c:378
-#, fuzzy
 msgid "the saturation of blur"
 msgstr "sytost rozostření"
 
 #: ../src/iop/soften.c:382
-#, fuzzy
 msgid "the brightness of blur"
 msgstr "jas rozostření"
 
@@ -28671,7 +28621,6 @@ msgid "the mix of effect"
 msgstr "mix efektů"
 
 #: ../src/iop/splittoning.c:78
-#, fuzzy
 msgid "split-toning"
 msgstr "dělené tónování"
 
@@ -28688,12 +28637,10 @@ msgid "authentic sepia"
 msgstr "autentická sépie"
 
 #: ../src/iop/splittoning.c:126
-#, fuzzy
 msgid "authentic cyanotype"
 msgstr "autentická kyanotypie"
 
 #: ../src/iop/splittoning.c:135
-#, fuzzy
 msgid "authentic platinotype"
 msgstr "autentická platinotypie"
 
@@ -28702,14 +28649,12 @@ msgid "chocolate brown"
 msgstr "čokoládově hnědá"
 
 #: ../src/iop/splittoning.c:473
-#, fuzzy
 msgid "select the saturation tone"
-msgstr "vyberte tón sytosti"
+msgstr "vybrat tón sytosti"
 
 #: ../src/iop/splittoning.c:477
-#, fuzzy
 msgid "select tone color"
-msgstr "vyberte barvu tónu"
+msgstr "vybrat barvu tónu"
 
 #: ../src/iop/splittoning.c:503
 msgctxt "section"
