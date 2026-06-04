@@ -108,19 +108,16 @@ msgid "always"
 msgstr "vždy"
 
 #: ../build/bin/conf_gen.h:455 ../build/bin/preferences_gen.h:4223
-#, fuzzy
 msgctxt "preferences"
 msgid "only large entries"
 msgstr "pouze velké položky"
 
 #: ../build/bin/conf_gen.h:492
-#, fuzzy
 msgctxt "preferences"
 msgid "sensitive"
 msgstr "citlivý"
 
 #: ../build/bin/conf_gen.h:493 ../build/bin/preferences_gen.h:4838
-#, fuzzy
 msgctxt "preferences"
 msgid "insensitive"
 msgstr "necitlivý"
@@ -136,7 +133,6 @@ msgid "very fast GPU"
 msgstr "velmi rychlé GPU"
 
 #: ../build/bin/conf_gen.h:1064 ../build/bin/preferences_gen.h:4912
-#, fuzzy
 msgctxt "preferences"
 msgid "import time"
 msgstr "čas importu"
@@ -147,11 +143,9 @@ msgid "folder name"
 msgstr "název složky"
 
 #: ../build/bin/conf_gen.h:1066
-#, fuzzy
-#| msgid "display name"
 msgctxt "preferences"
 msgid "display name"
-msgstr "název"
+msgstr "zobrazit název"
 
 #: ../build/bin/conf_gen.h:1085
 msgctxt "preferences"
@@ -630,7 +624,6 @@ msgid "vertical"
 msgstr "vertikální"
 
 #: ../build/bin/conf_gen.h:4206
-#, fuzzy
 msgctxt "preferences"
 msgid "overlaid"
 msgstr "překrytý"
@@ -661,16 +654,14 @@ msgid "monochromatic"
 msgstr "černobílý"
 
 #: ../build/bin/conf_gen.h:4278
-#, fuzzy
 msgctxt "preferences"
 msgid "analogous"
 msgstr "analogový"
 
 #: ../build/bin/conf_gen.h:4279
-#, fuzzy
 msgctxt "preferences"
 msgid "analogous complementary"
-msgstr "analogicky komplementární"
+msgstr "analogový komplementární"
 
 #: ../build/bin/conf_gen.h:4280
 msgctxt "preferences"
@@ -678,7 +669,6 @@ msgid "complementary"
 msgstr "komplementární"
 
 #: ../build/bin/conf_gen.h:4281
-#, fuzzy
 msgctxt "preferences"
 msgid "split complementary"
 msgstr "rozdělit komplementární"
@@ -10047,7 +10037,6 @@ msgid "lightness"
 msgstr "světlost"
 
 #: ../src/develop/blend_gui.c:91
-#, fuzzy
 msgctxt "blendmode"
 msgid "chromaticity"
 msgstr "chromatičnost"
@@ -16469,7 +16458,6 @@ msgstr ""
 "(přiřadit %s k %s)"
 
 #: ../src/gui/accelerators.c:1464
-#, fuzzy
 msgid "create separate shortcuts for up and down move?"
 msgstr "vytvořit samostatné zkratky pro pohyb nahoru a dolů?"
 
@@ -16479,9 +16467,8 @@ msgid "%s, speed reset"
 msgstr "%s, reset rychlosti"
 
 #: ../src/gui/accelerators.c:1509
-#, fuzzy
 msgid "shortcut exists with different settings"
-msgstr "zkratka existuje s jinými nastaveními"
+msgstr "zkratka již existuje s jinými nastaveními"
 
 #: ../src/gui/accelerators.c:1510
 msgid "reset the settings of the shortcut?"
@@ -16653,7 +16640,6 @@ msgid "import shortcuts"
 msgstr "importovat zkratky"
 
 #: ../src/gui/accelerators.c:2693
-#, fuzzy
 msgid ""
 "import all shortcuts from a file\n"
 "or just for one selected device\n"
@@ -16670,7 +16656,6 @@ msgid "id when loaded"
 msgstr "id při načtení"
 
 #: ../src/gui/accelerators.c:2719
-#, fuzzy
 msgid "clear device first"
 msgstr "nejprve vyčistěte zařízení"
 
@@ -16684,9 +16669,8 @@ msgstr "_import"
 
 # dialog title
 #: ../src/gui/accelerators.c:2795
-#, fuzzy
 msgid "import sample shortcuts"
-msgstr "Import ukázkových zkratek"
+msgstr "import ukázkových zkratek"
 
 #: ../src/gui/accelerators.c:2801
 #, fuzzy
@@ -16712,7 +16696,6 @@ msgstr ""
 "\n"
 
 #: ../src/gui/accelerators.c:2897
-#, fuzzy
 msgid "search shortcuts list"
 msgstr "prohledávat seznam zkratek"
 
@@ -16731,14 +16714,13 @@ msgstr "zkratka"
 
 #: ../src/gui/accelerators.c:2932
 msgid "element"
-msgstr "element"
+msgstr "prvek"
 
 #: ../src/gui/accelerators.c:2940
 msgid "effect"
 msgstr "efekt"
 
 #: ../src/gui/accelerators.c:2998
-#, fuzzy
 msgid "search actions list"
 msgstr "prohledat seznam akcí"
 
@@ -16860,7 +16842,6 @@ msgid "fallback to earlier move"
 msgstr "návrat k předchozímu gestu"
 
 #: ../src/gui/accelerators.c:3696
-#, fuzzy
 msgid "down move"
 msgstr "pohyb dolů"
 
@@ -16887,7 +16868,7 @@ msgstr ""
 #. TODO
 #: ../src/gui/accelerators.c:3997
 msgid "ignoring shortcuts while blocking jobs running"
-msgstr ""
+msgstr "ignorování klávesových zkratek při blokování běžících úloh"
 
 #: ../src/gui/accelerators.c:4031
 #, c-format
@@ -16900,16 +16881,14 @@ msgid "%s assigned to %s"
 msgstr "%s přiřazeno k %s"
 
 #: ../src/gui/accelerators.c:4424
-#, fuzzy
 msgid "short key press resets stuck keys"
-msgstr "krátké stisknutí tlačítka resetuje zaseknuté klávesy"
+msgstr "krátké stisknutí  resetuje zaseknuté klávesy"
 
 #: ../src/gui/color_picker_proxy.c:415 ../src/iop/watermark.c:1462
 msgid "pick color from image"
 msgstr "vybrat barvu z obrázku"
 
 #: ../src/gui/gtk.c:195 ../src/views/darkroom.c:4964
-#, fuzzy
 msgid "darktable - darkroom preview"
 msgstr "darktable - náhled v editoru"
 
@@ -17005,7 +16984,6 @@ msgid "panels"
 msgstr "panely"
 
 #: ../src/gui/gtk.c:1698
-#, fuzzy
 msgid "switch views"
 msgstr "přepnout pohledy"
 
@@ -17218,22 +17196,18 @@ msgid "$(EXIF.HOUR.AMPM) - EXIF hour, 12-hour clock"
 msgstr "$(EXIF.HOUR.AMPM) - hodina (12cti hodinový formát) z EXIF"
 
 #: ../src/gui/gtkentry.c:82
-#, fuzzy
 msgid "$(EXIF.EXPOSURE.PROGRAM) - EXIF exposure program"
 msgstr "$(EXIF.EXPOSURE.PROGRAM) - program expozice z EXIF"
 
 #: ../src/gui/gtkentry.c:94
-#, fuzzy
 msgid "$(EXIF.FLASH.ICON) - icon indicating whether flash was used"
 msgstr "$(EXIF.FLASH.ICON) - ikona signalizující, zda byl použit blesk"
 
 #: ../src/gui/gtkentry.c:96
-#, fuzzy
 msgid "$(GPS.LONGITUDE) - longitude"
 msgstr "$(GPS.LONGITUDE) - zeměpisná délka"
 
 #: ../src/gui/gtkentry.c:97
-#, fuzzy
 msgid "$(GPS.LATITUDE) - latitude"
 msgstr "$(GPS.LATITUDE) - zeměpisná šířka"
 
@@ -17273,22 +17247,18 @@ msgstr ""
 "hierarchie"
 
 #: ../src/gui/gtkentry.c:116
-#, fuzzy
 msgid "$(OPENCL.ACTIVATED) - whether OpenCL is activated"
-msgstr "$(OPENCL.ACTIVATED) - je aktivováno OpenCL"
+msgstr "$(OPENCL.ACTIVATED) - zdali je aktivováno OpenCL"
 
 #: ../src/gui/gtkentry.c:118
-#, fuzzy
 msgid "$(TAGS) - tags as set in metadata settings"
-msgstr "$(TAGS) - tagy podle nastavení v nastavení metadat"
+msgstr "$(TAGS) - tagy dle nastavení metadat"
 
 #: ../src/gui/gtkentry.c:119
-#, fuzzy
 msgid "$(DARKTABLE.NAME) - darktable name"
-msgstr "$(DARKTABLE.NAME) - jméno darktable"
+msgstr "$(DARKTABLE.NAME) - název darktable"
 
 #: ../src/gui/gtkentry.c:122
-#, fuzzy
 msgid "$(WORKSPACE.LABEL) - label of the current workspace"
 msgstr "$(WORKSPACE.LABEL) - název aktuálního pracovního prostoru"
 
@@ -17322,24 +17292,20 @@ msgid "harmonious triangles"
 msgstr "trojúhelníková kompozice"
 
 #: ../src/gui/guides.c:36
-#, fuzzy
 msgid "golden sections"
 msgstr "zlaté řezy"
 
 #: ../src/gui/guides.c:37
-#, fuzzy
 msgid "golden spiral"
 msgstr "zlatá spirála"
 
 #: ../src/gui/guides.c:38
-#, fuzzy
 msgid "golden spiral sections"
-msgstr "sekce spirálové zlaté řezy"
+msgstr "sekce zlaté spirály"
 
 #: ../src/gui/guides.c:39
-#, fuzzy
 msgid "golden mean (all guides)"
-msgstr "zlatá střední cesta (všichni průvodci)"
+msgstr "zlatý řez (všechna vodítka)"
 
 #: ../src/gui/guides.c:233
 msgid "horizontal lines"
@@ -17358,20 +17324,17 @@ msgid "number of vertical guide lines"
 msgstr "počet vertikálních vodících čar"
 
 #: ../src/gui/guides.c:254
-#, fuzzy
 msgid "subdivisions"
-msgstr "pododdělení"
+msgstr "dělení"
 
 #: ../src/gui/guides.c:255
-#, fuzzy
 msgid "number of subdivisions per grid rectangle"
 msgstr "počet dělení na obdélník mřížky"
 
 #. title
 #: ../src/gui/guides.c:822
-#, fuzzy
 msgid "global guide overlay settings"
-msgstr "globální průvodce nastavením překrytí"
+msgstr "globální nastavení překrytí vodítek"
 
 #: ../src/gui/guides.c:831 ../src/gui/guides.c:840 ../src/gui/guides.c:847
 #: ../src/gui/guides.c:862 ../src/views/darkroom.c:3333
@@ -17400,25 +17363,21 @@ msgid "both"
 msgstr "oba"
 
 #: ../src/gui/guides.c:841
-#, fuzzy
 msgid "setup guide lines"
 msgstr "nastavit vodící čáry"
 
 #: ../src/gui/guides.c:847
-#, fuzzy
 msgid "overlay color"
 msgstr "barva překrytí"
 
 #: ../src/gui/guides.c:848
-#, fuzzy
 msgid "set overlay color"
 msgstr "nastavit barvu překrytí"
 
 #: ../src/gui/guides.c:865
-#, fuzzy
 msgid ""
 "set the contrast between the lightest and darkest part of the guide overlays"
-msgstr "nastavit kontrast mezi nejsvětlejší a nejtmavší částí vodítka překryvů"
+msgstr "nastavit kontrast mezi nejsvětlejší a nejtmavší částí překryvu vodítek"
 
 #: ../src/gui/guides.c:983 ../src/gui/guides.c:1032
 msgid "show guides"
@@ -17440,7 +17399,6 @@ msgstr ""
 "modul, který zobrazuje překryvy vodítek"
 
 #: ../src/gui/hist_dialog.c:232
-#, fuzzy
 msgid "select parts to copy"
 msgstr "vyberte části ke kopírování"
 
@@ -17546,32 +17504,29 @@ msgid "list filter"
 msgstr "seznam filtrů"
 
 #: ../src/gui/metadata_tags.c:111
-#, fuzzy
 msgid ""
 "list of available tags. click 'add' button or double-click on tag to add the "
 "selected one"
 msgstr ""
-"Seznam dostupných tagů. Klikněte na tlačítko 'přidat' nebo dvakrát klikněte "
-"na vybraný tag a přidejte jej."
+"Seznam dostupných tagů. Klikněte na tlačítko \"přidat\" nebo dvakrát klikněte "
+"na vybraný tag."
 
 # dialog title
 #: ../src/gui/preferences.c:314
-#, fuzzy
 msgid "reset panels in all views"
-msgstr "Obnovit panely na všech obrazovkách"
+msgstr "resetovat panely ve všech zobrazeních"
 
 # dialog text
 #: ../src/gui/preferences.c:315
-#, fuzzy
 msgid ""
 "are you sure?\n"
 "\n"
 "you will not be able to restore your current panel layout and module "
 "selection."
 msgstr ""
-"Jste si jisti?\n"
+"opravdu?\n"
 "\n"
-"Aktuální rozvržení a výběr modulů budou ztraceny."
+"Aktuální rozvržení panelů a výběr modulů bude ztraceno."
 
 #. language
 #: ../src/gui/preferences.c:348
@@ -17594,11 +17549,11 @@ msgstr ""
 
 #: ../src/gui/preferences.c:383
 msgid "theme"
-msgstr "téma"
+msgstr "motiv"
 
 #: ../src/gui/preferences.c:414
 msgid "set the theme for the user interface"
-msgstr "nastavit téma uživatelského rozhraní (UI)"
+msgstr "nastavit motiv uživatelského rozhraní (UI)"
 
 #: ../src/gui/preferences.c:429 ../src/gui/preferences.c:436
 msgid "use system font size"
@@ -17630,29 +17585,25 @@ msgstr ""
 
 # button
 #: ../src/gui/preferences.c:485
-#, fuzzy
 msgid "reset view panels"
-msgstr "vrátit zobrazení panelů"
+msgstr "obnovit  zobrazení panelů"
 
 # tooltip
 #: ../src/gui/preferences.c:487
-#, fuzzy
 msgid "reset hidden panels, their sizes and selected modules in all views"
 msgstr ""
-"Obnovit skryté panely, jejich velikosti a výběr modulů na všech obrazovkách."
+"obnovit skryté panely, jejich velikosti a výběr modulů ve všech zobrazeních"
 
 # label
 #. checkbox to allow user to modify theme with user.css
 #: ../src/gui/preferences.c:494
-#, fuzzy
 msgid "modify selected theme with CSS tweaks below"
-msgstr "upravit vybrané téma pomocí CSS níže"
+msgstr "upravit vybraný motiv pomocí CSS níže"
 
 # tooltip
 #: ../src/gui/preferences.c:504
-#, fuzzy
 msgid "modify theme with CSS keyed below (saved to user.css)"
-msgstr "Upravit motiv pomocí kódu CSS níže (uloženo do user.css)."
+msgstr "upravit motiv pomocí kódu CSS níže (uloženo do user.css)"
 
 #: ../src/gui/preferences.c:528
 msgctxt "usercss"
@@ -17661,14 +17612,12 @@ msgstr "uložit CSS a použít"
 
 # tooltip
 #: ../src/gui/preferences.c:536
-#, fuzzy
 msgid "click to save and apply the CSS tweaks entered in this editor"
-msgstr "Klikněte pro uložení a použití úprav CSS zapsaných v tomto editoru."
+msgstr "kliknutím uložíte a použijete CSS úpravy zadané v tomto editoru"
 
 #: ../src/gui/preferences.c:539
-#, fuzzy
 msgid "open help page for CSS tweaks"
-msgstr "otevřít stránku nápovědy pro úpravy CSS"
+msgstr "otevřít nápovědu pro úpravy CSS"
 
 #. load default text with some pointers
 #: ../src/gui/preferences.c:561
@@ -17777,7 +17726,7 @@ msgstr "vybrat harwarovou akceleraci pro AI interface:"
 
 #: ../src/gui/preferences_ai.c:569
 msgid "<i>restart to apply</i>"
-msgstr ""
+msgstr "<i>restartujte pro použítí změn</i>"
 
 #: ../src/gui/preferences_ai.c:581
 msgid "<i>not available, will fall back to CPU</i>"
@@ -17793,29 +17742,23 @@ msgid "downloading: %s"
 msgstr "stahuji: %s"
 
 #: ../src/gui/preferences_ai.c:919
-#, fuzzy
-#| msgid "download failed: %s"
 msgid "model download failed"
-msgstr "stahování selhalo: %s"
+msgstr "stahování modelu selhalo"
 
 #: ../src/gui/preferences_ai.c:994
-#, fuzzy
-#| msgid "install AI model"
 msgid "install AI models"
-msgstr "instalovat AI model"
+msgstr "instalovat AI modely"
 
 #: ../src/gui/preferences_ai.c:1002
 msgid "AI model packages (*.dtmodel)"
 msgstr "balíček AI modelu (*.dtmodel)"
 
 #: ../src/gui/preferences_ai.c:1093
-#, fuzzy
-#| msgid "delete node?"
 msgid "delete model?"
 msgid_plural "delete models?"
-msgstr[0] "Odstranit uzel?"
-msgstr[1] "Odstranit uzel?"
-msgstr[2] "Odstranit uzel?"
+msgstr[0] "odstranit model?"
+msgstr[1] "odstranit modely?"
+msgstr[2] "odstranit modely?"
 
 #: ../src/gui/preferences_ai.c:1095
 #, c-format
@@ -17826,9 +17769,8 @@ msgstr[1] "opravdu odstranit historii %d vybraných obrázků?"
 msgstr[2] "opravdu odstranit historii %d vybraných obrázků?"
 
 #: ../src/gui/preferences_ai.c:1156
-#, fuzzy
 msgid "scope"
-msgstr "rozsahy"
+msgstr "rozsah"
 
 #: ../src/gui/preferences_ai.c:1156
 msgid "author"
@@ -17864,6 +17806,8 @@ msgid ""
 "ONNX Runtime %s detected.\n"
 "Restart darktable to apply."
 msgstr ""
+"Byl detekován ONNX Runtime %s.\n"
+"Restartujte darktable pro aplikování změn."
 
 #: ../src/gui/preferences_ai.c:1330
 #, c-format
@@ -17871,6 +17815,8 @@ msgid ""
 "not a valid ONNX Runtime library:\n"
 "%s"
 msgstr ""
+"není platná knihovna ONNX Runtime:\n"
+"%s"
 
 #: ../src/gui/preferences_ai.c:1358
 msgid ""
@@ -17879,6 +17825,10 @@ msgid ""
 "install one via your package manager or use\n"
 "the browse button to select a custom build."
 msgstr ""
+"nenalezena žádná systémová knihovna ONNX Runtime\n"
+"\n"
+"nainstalujte ji pomocí správce balíčků nebo použijte tlačítko pro procházení "
+"a vyberte vlastní build"
 
 #: ../src/gui/preferences_ai.c:1373
 #, c-format
@@ -17888,10 +17838,14 @@ msgid ""
 "\n"
 "Restart darktable to apply."
 msgstr ""
+"ONNX Runtime %s [%s]\n"
+"%s\n"
+"\n"
+"Restartujte darktable pro použití změn."
 
 #: ../src/gui/preferences_ai.c:1381 ../src/gui/preferences_ai.c:1464
 msgid "select ONNX Runtime library"
-msgstr ""
+msgstr "vybrat ONNX Runtime knihovnu"
 
 #: ../src/gui/preferences_ai.c:1385 ../src/iop/lut3d.c:1576
 #: ../src/iop/rasterfile.c:383 ../src/libs/neural_restore.c:4120
@@ -17917,14 +17871,14 @@ msgstr "povolit AI funkce"
 
 #. provider dropdown
 #: ../src/gui/preferences_ai.c:1573
-#, fuzzy
-#| msgid "OpenCL GPU acceleration"
 msgid "AI acceleration"
-msgstr "OpenCL GPU akcelerace"
+msgstr "AI akcelerace"
 
 #: ../src/gui/preferences_ai.c:1584
 msgid "select which GPU to use when the active provider supports more than one"
 msgstr ""
+"vyberte GPU, které se má použít, pokud aktivní poskytovatel podporuje více "
+"než jednu"
 
 #: ../src/gui/preferences_ai.c:1630
 msgid "ONNX Runtime library"
@@ -17944,6 +17898,9 @@ msgid ""
 "leave empty to use the bundled library.\n"
 "requires restart to take effect."
 msgstr ""
+"cesta k ONNX Runtime knihovně s podporou GPU.\n"
+"ponechte prázdné pro použití vestavěné knihovny.\n"
+"vyžaduje restart pro projevení změn."
 
 #: ../src/gui/preferences_ai.c:1659
 msgid "select a custom ONNX Runtime shared library"
@@ -17982,20 +17939,16 @@ msgid "status"
 msgstr "stav"
 
 #: ../src/gui/preferences_ai.c:1872
-#, fuzzy
-#| msgid "download default"
 msgid "download / update default"
-msgstr "stáhnout výchozí"
+msgstr "stáhnout/aktualizova výchozí"
 
 #: ../src/gui/preferences_ai.c:1874
 msgid "download or update all default models"
 msgstr "stáhnout či aktualizovat všechny výchozí modely"
 
 #: ../src/gui/preferences_ai.c:1884
-#, fuzzy
-#| msgid "download selected"
 msgid "download / update selected"
-msgstr "stáhnout vybrané"
+msgstr "stáhnout/aktualizovat vybrané"
 
 #: ../src/gui/preferences_ai.c:1886
 msgid "download or update the selected models"
@@ -18003,9 +17956,8 @@ msgstr "stáhnout či aktializovat vybrané modely"
 
 #. import from file button
 #: ../src/gui/preferences_ai.c:1896
-#, fuzzy
 msgid "import from file…"
-msgstr "filtr importu"
+msgstr "importovat ze souboru..."
 
 #: ../src/gui/preferences_ai.c:1898
 msgid "install a model from a local .dtmodel file"
@@ -18022,9 +17974,8 @@ msgid "remove the selected models from disk"
 msgstr "odstranit vybrané modely z disku"
 
 #: ../src/gui/preferences_ai.c:1917
-#, fuzzy
 msgid "open help page for AI settings"
-msgstr "otevřít stránku nápovědy pro zkratky"
+msgstr "otevřít nápovědu pro nastavení AI"
 
 #. add to stack
 #: ../src/gui/preferences_ai.c:1929
@@ -18130,12 +18081,10 @@ msgid "name of the preset"
 msgstr "název presetu"
 
 #: ../src/gui/presets.c:598
-#, fuzzy
 msgid "description or further information"
-msgstr "popis, nebo další informace"
+msgstr "popis nebo další informace"
 
 #: ../src/gui/presets.c:602
-#, fuzzy
 msgid "reset all module parameters to their default values"
 msgstr "resetovat všechny parametry modulu na výchozí hodnoty"
 
@@ -18154,7 +18103,6 @@ msgid "auto apply this preset to matching images"
 msgstr "automaticky použít tento preset na odpovídající snímky"
 
 #: ../src/gui/presets.c:613
-#, fuzzy
 msgid "only show this preset for matching images"
 msgstr "zobrazit tento preset pouze pro odpovídající obrázky"
 
@@ -18506,7 +18454,6 @@ msgid "remember selection and don't ask again"
 msgstr ""
 
 #: ../src/gui/workspace.c:632
-#, fuzzy
 msgid "or create a new one"
 msgstr "nebo vytvořte nový"
 
@@ -18627,12 +18574,10 @@ msgstr ""
 
 #: ../src/imageio/format/avif.c:1018 ../src/imageio/format/heif.c:677
 #: ../src/imageio/format/jpeg.c:587
-#, fuzzy
 msgid "chroma subsampling"
 msgstr "chroma subsampling"
 
 #: ../src/imageio/format/avif.c:1019
-#, fuzzy
 msgid ""
 "chroma subsampling setting for AVIF encoder.\n"
 "auto - use subsampling determined by the quality value\n"
@@ -18641,7 +18586,7 @@ msgid ""
 "4:2:2 - color sampling rate halved horizontally\n"
 "4:2:0 - color sampling rate halved horizontally and vertically"
 msgstr ""
-"Nastavení subsamplingu pro enkodér AVIF.\n"
+"Nastavení chroma subsamplingu pro enkodér AVIF.\n"
 "auto - použije se metoda odvozená od přednastavené kvality výstupu\n"
 "      (5-80: YUV420, 81-90: YUV422, 91-100: YUV444)\n"
 "4:4:4 - žádný subsampling\n"
@@ -18669,19 +18614,20 @@ msgid "copy"
 msgstr "kopírovat"
 
 #: ../src/imageio/format/copy.c:124
-#, fuzzy
 msgid ""
 "do a 1:1 copy of the selected files.\n"
 "the global options below do not apply!"
 msgstr ""
 "vytvořte kopii 1:1 vybraných souborů.\n"
-"níže uvedené globální možnosti se neaplikují!"
+"níže uvedené globální předvolby se neaplikují!"
 
 #: ../src/imageio/format/exr.cc:246
 msgid ""
 "the selected output profile isn't linear, expect incorrect display by image "
 "viewers"
 msgstr ""
+"vybraný výstupní profil není lineární – očekávejte nesprávné zobrazení v "
+"prohlížečích obrázků"
 
 #: ../src/imageio/format/exr.cc:596
 msgid "OpenEXR"
@@ -19829,7 +19775,6 @@ msgid "reset primaries"
 msgstr "reset primárních barev"
 
 #: ../src/iop/agx.c:2292
-#, fuzzy
 msgctxt "section"
 msgid "before tone mapping"
 msgstr "před mapováním tónů"
@@ -19865,7 +19810,6 @@ msgid "shift the blue primary towards magenta (+) or cyan (-)"
 msgstr "posun modré směrem k purpurové (+) nebo azurové (-)"
 
 #: ../src/iop/agx.c:2341
-#, fuzzy
 msgctxt "section"
 msgid "after tone mapping"
 msgstr "po mapování tónů"
@@ -22526,16 +22470,14 @@ msgid "shadows: lift / offset"
 msgstr "stíny: zvýšení / posun"
 
 #: ../src/iop/colorbalance.c:1732
-#, fuzzy
 msgctxt "section"
 msgid "mid-tones: gamma / power"
 msgstr "střední tóny: gama / výkon"
 
 #: ../src/iop/colorbalance.c:1733
-#, fuzzy
 msgctxt "section"
 msgid "highlights: gain / slope"
-msgstr "zdůraznění: zisk / sklon"
+msgstr "světla: gain / sklon"
 
 #: ../src/iop/colorbalance.c:1757
 msgid "shadows / mid-tones / highlights"
@@ -22745,7 +22687,6 @@ msgid "increase the contrast at constant chromaticity"
 msgstr "Ovlivňuje kontrast při zachování chromy."
 
 #: ../src/iop/colorbalancergb.c:1802
-#, fuzzy
 msgctxt "section"
 msgid "linear chroma grading"
 msgstr "lineární grading chromy"
@@ -22771,7 +22712,6 @@ msgid "increase colorfulness at same luminance mostly in highlights"
 msgstr "Ovlivňuje barevnost světel při zachování jasu."
 
 #: ../src/iop/colorbalancergb.c:1826
-#, fuzzy
 msgctxt "section"
 msgid "perceptual saturation grading"
 msgstr "percepční grading sytosti"
@@ -22790,7 +22730,6 @@ msgid ""
 msgstr "Ovlivňuje sytost úměrně originálu."
 
 #: ../src/iop/colorbalancergb.c:1849
-#, fuzzy
 msgctxt "section"
 msgid "perceptual brilliance grading"
 msgstr "percepční grading jasu"
@@ -22854,7 +22793,6 @@ msgid "chroma of the global color offset"
 msgstr "Chroma globální korekce odstínu"
 
 #: ../src/iop/colorbalancergb.c:1898
-#, fuzzy
 msgctxt "section"
 msgid "shadows lift"
 msgstr "stíny"
@@ -22875,7 +22813,6 @@ msgid "chroma of the color gain in shadows"
 msgstr "Chroma korekce stínů"
 
 #: ../src/iop/colorbalancergb.c:1919
-#, fuzzy
 msgctxt "section"
 msgid "highlights gain"
 msgstr "světla"
@@ -22901,7 +22838,6 @@ msgid "chroma of the color gain in highlights"
 msgstr "Chroma korekce světel"
 
 #: ../src/iop/colorbalancergb.c:1940
-#, fuzzy
 msgctxt "section"
 msgid "power"
 msgstr "střední tóny"
@@ -25023,10 +24959,9 @@ msgstr ""
 "pokud se tmavé oblasti zdají přeostřené ve srovnání se světlými oblastmi."
 
 #: ../src/iop/diffuse.c:1900
-#, fuzzy
 msgctxt "section"
 msgid "diffusion spatiality"
-msgstr "difúzní prostorovost"
+msgstr "prostorovost difuze"
 
 #: ../src/iop/diffuse.c:1906
 #, fuzzy
@@ -25540,7 +25475,6 @@ msgstr ""
 "nikdy byste se toho neměli dotýkat, pokud nevíte, co děláte."
 
 #: ../src/iop/filmic.c:1640
-#, fuzzy
 msgctxt "section"
 msgid "destination/display"
 msgstr "cíl/zobrazení"
@@ -25717,10 +25651,9 @@ msgid "reconstruct"
 msgstr "rekonstruovat"
 
 #: ../src/iop/filmicrgb.c:4427
-#, fuzzy
 msgctxt "section"
 msgid "highlights clipping"
-msgstr "ořez zvýraznění"
+msgstr "zvýraznit přepaly"
 
 #: ../src/iop/filmicrgb.c:4434
 #, fuzzy
@@ -30251,7 +30184,6 @@ msgid "restrict scope"
 msgstr "omezit rozsah"
 
 #: ../src/libs/colorpicker.c:859
-#, fuzzy
 msgctxt "section"
 msgid "live samples"
 msgstr "živé vzorky"
